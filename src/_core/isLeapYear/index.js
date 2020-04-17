@@ -3,7 +3,10 @@
  * @param cleanDate {Date}
  * @returns {boolean}
  */
+import { isLeapJalaaliYear } from '../../_jalaali'
+import getFullYear from '../getFullYear'
+
 export default function isLeapYear(cleanDate) {
-  var year = cleanDate.getFullYear()
-  return year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)
+  var year = getFullYear(cleanDate)
+  return isLeapJalaaliYear(year)
 }
