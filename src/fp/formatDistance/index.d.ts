@@ -1,4 +1,4 @@
 // This file is generated automatically by `scripts/build/typings.js`. Please, don't change it.
 
-import { formatDistance } from 'date-fns/fp'
+import { formatDistance } from 'date-fns-jalaali/fp'
 export default formatDistance

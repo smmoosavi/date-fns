@@ -1,4 +1,4 @@
 // This file is generated automatically by `scripts/build/typings.js`. Please, don't change it.
 
-import { sub } from 'date-fns/fp'
+import { sub } from 'date-fns-jalaali/fp'
 export default sub

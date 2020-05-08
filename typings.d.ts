@@ -77,7 +77,7 @@ type DurationAliased = Duration
 
 // Exported Type Aliases
 
-declare module 'date-fns' {
+declare module 'date-fns-jalaali' {
   export type Interval = IntervalAliased
 
   export type Locale = LocaleAliased
@@ -87,7 +87,7 @@ declare module 'date-fns' {
 
 // Regular Functions
 
-declare module 'date-fns' {
+declare module 'date-fns-jalaali' {
   function add(date: Date | number, duration: Duration): Date
   namespace add {}
 
@@ -975,2889 +975,2889 @@ declare module 'date-fns' {
   const minTime: number
 }
 
-declare module 'date-fns/add' {
-  import { add } from 'date-fns'
+declare module 'date-fns-jalaali/add' {
+  import { add } from 'date-fns-jalaali'
   export default add
 }
 
-declare module 'date-fns/addBusinessDays' {
-  import { addBusinessDays } from 'date-fns'
+declare module 'date-fns-jalaali/addBusinessDays' {
+  import { addBusinessDays } from 'date-fns-jalaali'
   export default addBusinessDays
 }
 
-declare module 'date-fns/addDays' {
-  import { addDays } from 'date-fns'
+declare module 'date-fns-jalaali/addDays' {
+  import { addDays } from 'date-fns-jalaali'
   export default addDays
 }
 
-declare module 'date-fns/addHours' {
-  import { addHours } from 'date-fns'
+declare module 'date-fns-jalaali/addHours' {
+  import { addHours } from 'date-fns-jalaali'
   export default addHours
 }
 
-declare module 'date-fns/addISOWeekYears' {
-  import { addISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/addISOWeekYears' {
+  import { addISOWeekYears } from 'date-fns-jalaali'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/addMilliseconds' {
-  import { addMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/addMilliseconds' {
+  import { addMilliseconds } from 'date-fns-jalaali'
   export default addMilliseconds
 }
 
-declare module 'date-fns/addMinutes' {
-  import { addMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/addMinutes' {
+  import { addMinutes } from 'date-fns-jalaali'
   export default addMinutes
 }
 
-declare module 'date-fns/addMonths' {
-  import { addMonths } from 'date-fns'
+declare module 'date-fns-jalaali/addMonths' {
+  import { addMonths } from 'date-fns-jalaali'
   export default addMonths
 }
 
-declare module 'date-fns/addQuarters' {
-  import { addQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/addQuarters' {
+  import { addQuarters } from 'date-fns-jalaali'
   export default addQuarters
 }
 
-declare module 'date-fns/addSeconds' {
-  import { addSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/addSeconds' {
+  import { addSeconds } from 'date-fns-jalaali'
   export default addSeconds
 }
 
-declare module 'date-fns/addWeeks' {
-  import { addWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/addWeeks' {
+  import { addWeeks } from 'date-fns-jalaali'
   export default addWeeks
 }
 
-declare module 'date-fns/addYears' {
-  import { addYears } from 'date-fns'
+declare module 'date-fns-jalaali/addYears' {
+  import { addYears } from 'date-fns-jalaali'
   export default addYears
 }
 
-declare module 'date-fns/areIntervalsOverlapping' {
-  import { areIntervalsOverlapping } from 'date-fns'
+declare module 'date-fns-jalaali/areIntervalsOverlapping' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/closestIndexTo' {
-  import { closestIndexTo } from 'date-fns'
+declare module 'date-fns-jalaali/closestIndexTo' {
+  import { closestIndexTo } from 'date-fns-jalaali'
   export default closestIndexTo
 }
 
-declare module 'date-fns/closestTo' {
-  import { closestTo } from 'date-fns'
+declare module 'date-fns-jalaali/closestTo' {
+  import { closestTo } from 'date-fns-jalaali'
   export default closestTo
 }
 
-declare module 'date-fns/compareAsc' {
-  import { compareAsc } from 'date-fns'
+declare module 'date-fns-jalaali/compareAsc' {
+  import { compareAsc } from 'date-fns-jalaali'
   export default compareAsc
 }
 
-declare module 'date-fns/compareDesc' {
-  import { compareDesc } from 'date-fns'
+declare module 'date-fns-jalaali/compareDesc' {
+  import { compareDesc } from 'date-fns-jalaali'
   export default compareDesc
 }
 
-declare module 'date-fns/differenceInBusinessDays' {
-  import { differenceInBusinessDays } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInBusinessDays' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/differenceInCalendarDays' {
-  import { differenceInCalendarDays } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarDays' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/differenceInCalendarISOWeeks' {
-  import { differenceInCalendarISOWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarISOWeeks' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/differenceInCalendarISOWeekYears' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarISOWeekYears' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/differenceInCalendarMonths' {
-  import { differenceInCalendarMonths } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarMonths' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/differenceInCalendarQuarters' {
-  import { differenceInCalendarQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarQuarters' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/differenceInCalendarWeeks' {
-  import { differenceInCalendarWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarWeeks' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/differenceInCalendarYears' {
-  import { differenceInCalendarYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarYears' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/differenceInDays' {
-  import { differenceInDays } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInDays' {
+  import { differenceInDays } from 'date-fns-jalaali'
   export default differenceInDays
 }
 
-declare module 'date-fns/differenceInHours' {
-  import { differenceInHours } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInHours' {
+  import { differenceInHours } from 'date-fns-jalaali'
   export default differenceInHours
 }
 
-declare module 'date-fns/differenceInISOWeekYears' {
-  import { differenceInISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInISOWeekYears' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/differenceInMilliseconds' {
-  import { differenceInMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInMilliseconds' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/differenceInMinutes' {
-  import { differenceInMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInMinutes' {
+  import { differenceInMinutes } from 'date-fns-jalaali'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/differenceInMonths' {
-  import { differenceInMonths } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInMonths' {
+  import { differenceInMonths } from 'date-fns-jalaali'
   export default differenceInMonths
 }
 
-declare module 'date-fns/differenceInQuarters' {
-  import { differenceInQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInQuarters' {
+  import { differenceInQuarters } from 'date-fns-jalaali'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/differenceInSeconds' {
-  import { differenceInSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInSeconds' {
+  import { differenceInSeconds } from 'date-fns-jalaali'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/differenceInWeeks' {
-  import { differenceInWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInWeeks' {
+  import { differenceInWeeks } from 'date-fns-jalaali'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/differenceInYears' {
-  import { differenceInYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInYears' {
+  import { differenceInYears } from 'date-fns-jalaali'
   export default differenceInYears
 }
 
-declare module 'date-fns/eachDayOfInterval' {
-  import { eachDayOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachDayOfInterval' {
+  import { eachDayOfInterval } from 'date-fns-jalaali'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/eachMonthOfInterval' {
-  import { eachMonthOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachMonthOfInterval' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/eachWeekendOfInterval' {
-  import { eachWeekendOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekendOfInterval' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/eachWeekendOfMonth' {
-  import { eachWeekendOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekendOfMonth' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/eachWeekendOfYear' {
-  import { eachWeekendOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekendOfYear' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/eachWeekOfInterval' {
-  import { eachWeekOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekOfInterval' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/eachYearOfInterval' {
-  import { eachYearOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachYearOfInterval' {
+  import { eachYearOfInterval } from 'date-fns-jalaali'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/endOfDay' {
-  import { endOfDay } from 'date-fns'
+declare module 'date-fns-jalaali/endOfDay' {
+  import { endOfDay } from 'date-fns-jalaali'
   export default endOfDay
 }
 
-declare module 'date-fns/endOfDecade' {
-  import { endOfDecade } from 'date-fns'
+declare module 'date-fns-jalaali/endOfDecade' {
+  import { endOfDecade } from 'date-fns-jalaali'
   export default endOfDecade
 }
 
-declare module 'date-fns/endOfHour' {
-  import { endOfHour } from 'date-fns'
+declare module 'date-fns-jalaali/endOfHour' {
+  import { endOfHour } from 'date-fns-jalaali'
   export default endOfHour
 }
 
-declare module 'date-fns/endOfISOWeek' {
-  import { endOfISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/endOfISOWeek' {
+  import { endOfISOWeek } from 'date-fns-jalaali'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/endOfISOWeekYear' {
-  import { endOfISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/endOfISOWeekYear' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/endOfMinute' {
-  import { endOfMinute } from 'date-fns'
+declare module 'date-fns-jalaali/endOfMinute' {
+  import { endOfMinute } from 'date-fns-jalaali'
   export default endOfMinute
 }
 
-declare module 'date-fns/endOfMonth' {
-  import { endOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/endOfMonth' {
+  import { endOfMonth } from 'date-fns-jalaali'
   export default endOfMonth
 }
 
-declare module 'date-fns/endOfQuarter' {
-  import { endOfQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/endOfQuarter' {
+  import { endOfQuarter } from 'date-fns-jalaali'
   export default endOfQuarter
 }
 
-declare module 'date-fns/endOfSecond' {
-  import { endOfSecond } from 'date-fns'
+declare module 'date-fns-jalaali/endOfSecond' {
+  import { endOfSecond } from 'date-fns-jalaali'
   export default endOfSecond
 }
 
-declare module 'date-fns/endOfToday' {
-  import { endOfToday } from 'date-fns'
+declare module 'date-fns-jalaali/endOfToday' {
+  import { endOfToday } from 'date-fns-jalaali'
   export default endOfToday
 }
 
-declare module 'date-fns/endOfTomorrow' {
-  import { endOfTomorrow } from 'date-fns'
+declare module 'date-fns-jalaali/endOfTomorrow' {
+  import { endOfTomorrow } from 'date-fns-jalaali'
   export default endOfTomorrow
 }
 
-declare module 'date-fns/endOfWeek' {
-  import { endOfWeek } from 'date-fns'
+declare module 'date-fns-jalaali/endOfWeek' {
+  import { endOfWeek } from 'date-fns-jalaali'
   export default endOfWeek
 }
 
-declare module 'date-fns/endOfYear' {
-  import { endOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/endOfYear' {
+  import { endOfYear } from 'date-fns-jalaali'
   export default endOfYear
 }
 
-declare module 'date-fns/endOfYesterday' {
-  import { endOfYesterday } from 'date-fns'
+declare module 'date-fns-jalaali/endOfYesterday' {
+  import { endOfYesterday } from 'date-fns-jalaali'
   export default endOfYesterday
 }
 
-declare module 'date-fns/format' {
-  import { format } from 'date-fns'
+declare module 'date-fns-jalaali/format' {
+  import { format } from 'date-fns-jalaali'
   export default format
 }
 
-declare module 'date-fns/formatDistance' {
-  import { formatDistance } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistance' {
+  import { formatDistance } from 'date-fns-jalaali'
   export default formatDistance
 }
 
-declare module 'date-fns/formatDistanceStrict' {
-  import { formatDistanceStrict } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistanceStrict' {
+  import { formatDistanceStrict } from 'date-fns-jalaali'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/formatDistanceToNow' {
-  import { formatDistanceToNow } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistanceToNow' {
+  import { formatDistanceToNow } from 'date-fns-jalaali'
   export default formatDistanceToNow
 }
 
-declare module 'date-fns/formatDistanceToNowStrict' {
-  import { formatDistanceToNowStrict } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistanceToNowStrict' {
+  import { formatDistanceToNowStrict } from 'date-fns-jalaali'
   export default formatDistanceToNowStrict
 }
 
-declare module 'date-fns/formatISO' {
-  import { formatISO } from 'date-fns'
+declare module 'date-fns-jalaali/formatISO' {
+  import { formatISO } from 'date-fns-jalaali'
   export default formatISO
 }
 
-declare module 'date-fns/formatISO9075' {
-  import { formatISO9075 } from 'date-fns'
+declare module 'date-fns-jalaali/formatISO9075' {
+  import { formatISO9075 } from 'date-fns-jalaali'
   export default formatISO9075
 }
 
-declare module 'date-fns/formatISODuration' {
-  import { formatISODuration } from 'date-fns'
+declare module 'date-fns-jalaali/formatISODuration' {
+  import { formatISODuration } from 'date-fns-jalaali'
   export default formatISODuration
 }
 
-declare module 'date-fns/formatRelative' {
-  import { formatRelative } from 'date-fns'
+declare module 'date-fns-jalaali/formatRelative' {
+  import { formatRelative } from 'date-fns-jalaali'
   export default formatRelative
 }
 
-declare module 'date-fns/formatRFC3339' {
-  import { formatRFC3339 } from 'date-fns'
+declare module 'date-fns-jalaali/formatRFC3339' {
+  import { formatRFC3339 } from 'date-fns-jalaali'
   export default formatRFC3339
 }
 
-declare module 'date-fns/formatRFC7231' {
-  import { formatRFC7231 } from 'date-fns'
+declare module 'date-fns-jalaali/formatRFC7231' {
+  import { formatRFC7231 } from 'date-fns-jalaali'
   export default formatRFC7231
 }
 
-declare module 'date-fns/fromUnixTime' {
-  import { fromUnixTime } from 'date-fns'
+declare module 'date-fns-jalaali/fromUnixTime' {
+  import { fromUnixTime } from 'date-fns-jalaali'
   export default fromUnixTime
 }
 
-declare module 'date-fns/getDate' {
-  import { getDate } from 'date-fns'
+declare module 'date-fns-jalaali/getDate' {
+  import { getDate } from 'date-fns-jalaali'
   export default getDate
 }
 
-declare module 'date-fns/getDay' {
-  import { getDay } from 'date-fns'
+declare module 'date-fns-jalaali/getDay' {
+  import { getDay } from 'date-fns-jalaali'
   export default getDay
 }
 
-declare module 'date-fns/getDayOfYear' {
-  import { getDayOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/getDayOfYear' {
+  import { getDayOfYear } from 'date-fns-jalaali'
   export default getDayOfYear
 }
 
-declare module 'date-fns/getDaysInMonth' {
-  import { getDaysInMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getDaysInMonth' {
+  import { getDaysInMonth } from 'date-fns-jalaali'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/getDaysInYear' {
-  import { getDaysInYear } from 'date-fns'
+declare module 'date-fns-jalaali/getDaysInYear' {
+  import { getDaysInYear } from 'date-fns-jalaali'
   export default getDaysInYear
 }
 
-declare module 'date-fns/getDecade' {
-  import { getDecade } from 'date-fns'
+declare module 'date-fns-jalaali/getDecade' {
+  import { getDecade } from 'date-fns-jalaali'
   export default getDecade
 }
 
-declare module 'date-fns/getHours' {
-  import { getHours } from 'date-fns'
+declare module 'date-fns-jalaali/getHours' {
+  import { getHours } from 'date-fns-jalaali'
   export default getHours
 }
 
-declare module 'date-fns/getISODay' {
-  import { getISODay } from 'date-fns'
+declare module 'date-fns-jalaali/getISODay' {
+  import { getISODay } from 'date-fns-jalaali'
   export default getISODay
 }
 
-declare module 'date-fns/getISOWeek' {
-  import { getISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/getISOWeek' {
+  import { getISOWeek } from 'date-fns-jalaali'
   export default getISOWeek
 }
 
-declare module 'date-fns/getISOWeeksInYear' {
-  import { getISOWeeksInYear } from 'date-fns'
+declare module 'date-fns-jalaali/getISOWeeksInYear' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/getISOWeekYear' {
-  import { getISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/getISOWeekYear' {
+  import { getISOWeekYear } from 'date-fns-jalaali'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/getMilliseconds' {
-  import { getMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/getMilliseconds' {
+  import { getMilliseconds } from 'date-fns-jalaali'
   export default getMilliseconds
 }
 
-declare module 'date-fns/getMinutes' {
-  import { getMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/getMinutes' {
+  import { getMinutes } from 'date-fns-jalaali'
   export default getMinutes
 }
 
-declare module 'date-fns/getMonth' {
-  import { getMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getMonth' {
+  import { getMonth } from 'date-fns-jalaali'
   export default getMonth
 }
 
-declare module 'date-fns/getOverlappingDaysInIntervals' {
-  import { getOverlappingDaysInIntervals } from 'date-fns'
+declare module 'date-fns-jalaali/getOverlappingDaysInIntervals' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/getQuarter' {
-  import { getQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/getQuarter' {
+  import { getQuarter } from 'date-fns-jalaali'
   export default getQuarter
 }
 
-declare module 'date-fns/getSeconds' {
-  import { getSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/getSeconds' {
+  import { getSeconds } from 'date-fns-jalaali'
   export default getSeconds
 }
 
-declare module 'date-fns/getTime' {
-  import { getTime } from 'date-fns'
+declare module 'date-fns-jalaali/getTime' {
+  import { getTime } from 'date-fns-jalaali'
   export default getTime
 }
 
-declare module 'date-fns/getUnixTime' {
-  import { getUnixTime } from 'date-fns'
+declare module 'date-fns-jalaali/getUnixTime' {
+  import { getUnixTime } from 'date-fns-jalaali'
   export default getUnixTime
 }
 
-declare module 'date-fns/getWeek' {
-  import { getWeek } from 'date-fns'
+declare module 'date-fns-jalaali/getWeek' {
+  import { getWeek } from 'date-fns-jalaali'
   export default getWeek
 }
 
-declare module 'date-fns/getWeekOfMonth' {
-  import { getWeekOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getWeekOfMonth' {
+  import { getWeekOfMonth } from 'date-fns-jalaali'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/getWeeksInMonth' {
-  import { getWeeksInMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getWeeksInMonth' {
+  import { getWeeksInMonth } from 'date-fns-jalaali'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/getWeekYear' {
-  import { getWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/getWeekYear' {
+  import { getWeekYear } from 'date-fns-jalaali'
   export default getWeekYear
 }
 
-declare module 'date-fns/getYear' {
-  import { getYear } from 'date-fns'
+declare module 'date-fns-jalaali/getYear' {
+  import { getYear } from 'date-fns-jalaali'
   export default getYear
 }
 
-declare module 'date-fns/intervalToDuration' {
-  import { intervalToDuration } from 'date-fns'
+declare module 'date-fns-jalaali/intervalToDuration' {
+  import { intervalToDuration } from 'date-fns-jalaali'
   export default intervalToDuration
 }
 
-declare module 'date-fns/isAfter' {
-  import { isAfter } from 'date-fns'
+declare module 'date-fns-jalaali/isAfter' {
+  import { isAfter } from 'date-fns-jalaali'
   export default isAfter
 }
 
-declare module 'date-fns/isBefore' {
-  import { isBefore } from 'date-fns'
+declare module 'date-fns-jalaali/isBefore' {
+  import { isBefore } from 'date-fns-jalaali'
   export default isBefore
 }
 
-declare module 'date-fns/isDate' {
-  import { isDate } from 'date-fns'
+declare module 'date-fns-jalaali/isDate' {
+  import { isDate } from 'date-fns-jalaali'
   export default isDate
 }
 
-declare module 'date-fns/isEqual' {
-  import { isEqual } from 'date-fns'
+declare module 'date-fns-jalaali/isEqual' {
+  import { isEqual } from 'date-fns-jalaali'
   export default isEqual
 }
 
-declare module 'date-fns/isExists' {
-  import { isExists } from 'date-fns'
+declare module 'date-fns-jalaali/isExists' {
+  import { isExists } from 'date-fns-jalaali'
   export default isExists
 }
 
-declare module 'date-fns/isFirstDayOfMonth' {
-  import { isFirstDayOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isFirstDayOfMonth' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/isFriday' {
-  import { isFriday } from 'date-fns'
+declare module 'date-fns-jalaali/isFriday' {
+  import { isFriday } from 'date-fns-jalaali'
   export default isFriday
 }
 
-declare module 'date-fns/isFuture' {
-  import { isFuture } from 'date-fns'
+declare module 'date-fns-jalaali/isFuture' {
+  import { isFuture } from 'date-fns-jalaali'
   export default isFuture
 }
 
-declare module 'date-fns/isLastDayOfMonth' {
-  import { isLastDayOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isLastDayOfMonth' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/isLeapYear' {
-  import { isLeapYear } from 'date-fns'
+declare module 'date-fns-jalaali/isLeapYear' {
+  import { isLeapYear } from 'date-fns-jalaali'
   export default isLeapYear
 }
 
-declare module 'date-fns/isMonday' {
-  import { isMonday } from 'date-fns'
+declare module 'date-fns-jalaali/isMonday' {
+  import { isMonday } from 'date-fns-jalaali'
   export default isMonday
 }
 
-declare module 'date-fns/isPast' {
-  import { isPast } from 'date-fns'
+declare module 'date-fns-jalaali/isPast' {
+  import { isPast } from 'date-fns-jalaali'
   export default isPast
 }
 
-declare module 'date-fns/isSameDay' {
-  import { isSameDay } from 'date-fns'
+declare module 'date-fns-jalaali/isSameDay' {
+  import { isSameDay } from 'date-fns-jalaali'
   export default isSameDay
 }
 
-declare module 'date-fns/isSameHour' {
-  import { isSameHour } from 'date-fns'
+declare module 'date-fns-jalaali/isSameHour' {
+  import { isSameHour } from 'date-fns-jalaali'
   export default isSameHour
 }
 
-declare module 'date-fns/isSameISOWeek' {
-  import { isSameISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isSameISOWeek' {
+  import { isSameISOWeek } from 'date-fns-jalaali'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/isSameISOWeekYear' {
-  import { isSameISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/isSameISOWeekYear' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/isSameMinute' {
-  import { isSameMinute } from 'date-fns'
+declare module 'date-fns-jalaali/isSameMinute' {
+  import { isSameMinute } from 'date-fns-jalaali'
   export default isSameMinute
 }
 
-declare module 'date-fns/isSameMonth' {
-  import { isSameMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isSameMonth' {
+  import { isSameMonth } from 'date-fns-jalaali'
   export default isSameMonth
 }
 
-declare module 'date-fns/isSameQuarter' {
-  import { isSameQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/isSameQuarter' {
+  import { isSameQuarter } from 'date-fns-jalaali'
   export default isSameQuarter
 }
 
-declare module 'date-fns/isSameSecond' {
-  import { isSameSecond } from 'date-fns'
+declare module 'date-fns-jalaali/isSameSecond' {
+  import { isSameSecond } from 'date-fns-jalaali'
   export default isSameSecond
 }
 
-declare module 'date-fns/isSameWeek' {
-  import { isSameWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isSameWeek' {
+  import { isSameWeek } from 'date-fns-jalaali'
   export default isSameWeek
 }
 
-declare module 'date-fns/isSameYear' {
-  import { isSameYear } from 'date-fns'
+declare module 'date-fns-jalaali/isSameYear' {
+  import { isSameYear } from 'date-fns-jalaali'
   export default isSameYear
 }
 
-declare module 'date-fns/isSaturday' {
-  import { isSaturday } from 'date-fns'
+declare module 'date-fns-jalaali/isSaturday' {
+  import { isSaturday } from 'date-fns-jalaali'
   export default isSaturday
 }
 
-declare module 'date-fns/isSunday' {
-  import { isSunday } from 'date-fns'
+declare module 'date-fns-jalaali/isSunday' {
+  import { isSunday } from 'date-fns-jalaali'
   export default isSunday
 }
 
-declare module 'date-fns/isThisHour' {
-  import { isThisHour } from 'date-fns'
+declare module 'date-fns-jalaali/isThisHour' {
+  import { isThisHour } from 'date-fns-jalaali'
   export default isThisHour
 }
 
-declare module 'date-fns/isThisISOWeek' {
-  import { isThisISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isThisISOWeek' {
+  import { isThisISOWeek } from 'date-fns-jalaali'
   export default isThisISOWeek
 }
 
-declare module 'date-fns/isThisMinute' {
-  import { isThisMinute } from 'date-fns'
+declare module 'date-fns-jalaali/isThisMinute' {
+  import { isThisMinute } from 'date-fns-jalaali'
   export default isThisMinute
 }
 
-declare module 'date-fns/isThisMonth' {
-  import { isThisMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isThisMonth' {
+  import { isThisMonth } from 'date-fns-jalaali'
   export default isThisMonth
 }
 
-declare module 'date-fns/isThisQuarter' {
-  import { isThisQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/isThisQuarter' {
+  import { isThisQuarter } from 'date-fns-jalaali'
   export default isThisQuarter
 }
 
-declare module 'date-fns/isThisSecond' {
-  import { isThisSecond } from 'date-fns'
+declare module 'date-fns-jalaali/isThisSecond' {
+  import { isThisSecond } from 'date-fns-jalaali'
   export default isThisSecond
 }
 
-declare module 'date-fns/isThisWeek' {
-  import { isThisWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isThisWeek' {
+  import { isThisWeek } from 'date-fns-jalaali'
   export default isThisWeek
 }
 
-declare module 'date-fns/isThisYear' {
-  import { isThisYear } from 'date-fns'
+declare module 'date-fns-jalaali/isThisYear' {
+  import { isThisYear } from 'date-fns-jalaali'
   export default isThisYear
 }
 
-declare module 'date-fns/isThursday' {
-  import { isThursday } from 'date-fns'
+declare module 'date-fns-jalaali/isThursday' {
+  import { isThursday } from 'date-fns-jalaali'
   export default isThursday
 }
 
-declare module 'date-fns/isToday' {
-  import { isToday } from 'date-fns'
+declare module 'date-fns-jalaali/isToday' {
+  import { isToday } from 'date-fns-jalaali'
   export default isToday
 }
 
-declare module 'date-fns/isTomorrow' {
-  import { isTomorrow } from 'date-fns'
+declare module 'date-fns-jalaali/isTomorrow' {
+  import { isTomorrow } from 'date-fns-jalaali'
   export default isTomorrow
 }
 
-declare module 'date-fns/isTuesday' {
-  import { isTuesday } from 'date-fns'
+declare module 'date-fns-jalaali/isTuesday' {
+  import { isTuesday } from 'date-fns-jalaali'
   export default isTuesday
 }
 
-declare module 'date-fns/isValid' {
-  import { isValid } from 'date-fns'
+declare module 'date-fns-jalaali/isValid' {
+  import { isValid } from 'date-fns-jalaali'
   export default isValid
 }
 
-declare module 'date-fns/isWednesday' {
-  import { isWednesday } from 'date-fns'
+declare module 'date-fns-jalaali/isWednesday' {
+  import { isWednesday } from 'date-fns-jalaali'
   export default isWednesday
 }
 
-declare module 'date-fns/isWeekend' {
-  import { isWeekend } from 'date-fns'
+declare module 'date-fns-jalaali/isWeekend' {
+  import { isWeekend } from 'date-fns-jalaali'
   export default isWeekend
 }
 
-declare module 'date-fns/isWithinInterval' {
-  import { isWithinInterval } from 'date-fns'
+declare module 'date-fns-jalaali/isWithinInterval' {
+  import { isWithinInterval } from 'date-fns-jalaali'
   export default isWithinInterval
 }
 
-declare module 'date-fns/isYesterday' {
-  import { isYesterday } from 'date-fns'
+declare module 'date-fns-jalaali/isYesterday' {
+  import { isYesterday } from 'date-fns-jalaali'
   export default isYesterday
 }
 
-declare module 'date-fns/lastDayOfDecade' {
-  import { lastDayOfDecade } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfDecade' {
+  import { lastDayOfDecade } from 'date-fns-jalaali'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/lastDayOfISOWeek' {
-  import { lastDayOfISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfISOWeek' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/lastDayOfISOWeekYear' {
-  import { lastDayOfISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfISOWeekYear' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/lastDayOfMonth' {
-  import { lastDayOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfMonth' {
+  import { lastDayOfMonth } from 'date-fns-jalaali'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/lastDayOfQuarter' {
-  import { lastDayOfQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfQuarter' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/lastDayOfWeek' {
-  import { lastDayOfWeek } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfWeek' {
+  import { lastDayOfWeek } from 'date-fns-jalaali'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/lastDayOfYear' {
-  import { lastDayOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfYear' {
+  import { lastDayOfYear } from 'date-fns-jalaali'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/lightFormat' {
-  import { lightFormat } from 'date-fns'
+declare module 'date-fns-jalaali/lightFormat' {
+  import { lightFormat } from 'date-fns-jalaali'
   export default lightFormat
 }
 
-declare module 'date-fns/max' {
-  import { max } from 'date-fns'
+declare module 'date-fns-jalaali/max' {
+  import { max } from 'date-fns-jalaali'
   export default max
 }
 
-declare module 'date-fns/min' {
-  import { min } from 'date-fns'
+declare module 'date-fns-jalaali/min' {
+  import { min } from 'date-fns-jalaali'
   export default min
 }
 
-declare module 'date-fns/parse' {
-  import { parse } from 'date-fns'
+declare module 'date-fns-jalaali/parse' {
+  import { parse } from 'date-fns-jalaali'
   export default parse
 }
 
-declare module 'date-fns/parseISO' {
-  import { parseISO } from 'date-fns'
+declare module 'date-fns-jalaali/parseISO' {
+  import { parseISO } from 'date-fns-jalaali'
   export default parseISO
 }
 
-declare module 'date-fns/parseJSON' {
-  import { parseJSON } from 'date-fns'
+declare module 'date-fns-jalaali/parseJSON' {
+  import { parseJSON } from 'date-fns-jalaali'
   export default parseJSON
 }
 
-declare module 'date-fns/roundToNearestMinutes' {
-  import { roundToNearestMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/roundToNearestMinutes' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/set' {
-  import { set } from 'date-fns'
+declare module 'date-fns-jalaali/set' {
+  import { set } from 'date-fns-jalaali'
   export default set
 }
 
-declare module 'date-fns/setDate' {
-  import { setDate } from 'date-fns'
+declare module 'date-fns-jalaali/setDate' {
+  import { setDate } from 'date-fns-jalaali'
   export default setDate
 }
 
-declare module 'date-fns/setDay' {
-  import { setDay } from 'date-fns'
+declare module 'date-fns-jalaali/setDay' {
+  import { setDay } from 'date-fns-jalaali'
   export default setDay
 }
 
-declare module 'date-fns/setDayOfYear' {
-  import { setDayOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/setDayOfYear' {
+  import { setDayOfYear } from 'date-fns-jalaali'
   export default setDayOfYear
 }
 
-declare module 'date-fns/setHours' {
-  import { setHours } from 'date-fns'
+declare module 'date-fns-jalaali/setHours' {
+  import { setHours } from 'date-fns-jalaali'
   export default setHours
 }
 
-declare module 'date-fns/setISODay' {
-  import { setISODay } from 'date-fns'
+declare module 'date-fns-jalaali/setISODay' {
+  import { setISODay } from 'date-fns-jalaali'
   export default setISODay
 }
 
-declare module 'date-fns/setISOWeek' {
-  import { setISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/setISOWeek' {
+  import { setISOWeek } from 'date-fns-jalaali'
   export default setISOWeek
 }
 
-declare module 'date-fns/setISOWeekYear' {
-  import { setISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/setISOWeekYear' {
+  import { setISOWeekYear } from 'date-fns-jalaali'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/setMilliseconds' {
-  import { setMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/setMilliseconds' {
+  import { setMilliseconds } from 'date-fns-jalaali'
   export default setMilliseconds
 }
 
-declare module 'date-fns/setMinutes' {
-  import { setMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/setMinutes' {
+  import { setMinutes } from 'date-fns-jalaali'
   export default setMinutes
 }
 
-declare module 'date-fns/setMonth' {
-  import { setMonth } from 'date-fns'
+declare module 'date-fns-jalaali/setMonth' {
+  import { setMonth } from 'date-fns-jalaali'
   export default setMonth
 }
 
-declare module 'date-fns/setQuarter' {
-  import { setQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/setQuarter' {
+  import { setQuarter } from 'date-fns-jalaali'
   export default setQuarter
 }
 
-declare module 'date-fns/setSeconds' {
-  import { setSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/setSeconds' {
+  import { setSeconds } from 'date-fns-jalaali'
   export default setSeconds
 }
 
-declare module 'date-fns/setWeek' {
-  import { setWeek } from 'date-fns'
+declare module 'date-fns-jalaali/setWeek' {
+  import { setWeek } from 'date-fns-jalaali'
   export default setWeek
 }
 
-declare module 'date-fns/setWeekYear' {
-  import { setWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/setWeekYear' {
+  import { setWeekYear } from 'date-fns-jalaali'
   export default setWeekYear
 }
 
-declare module 'date-fns/setYear' {
-  import { setYear } from 'date-fns'
+declare module 'date-fns-jalaali/setYear' {
+  import { setYear } from 'date-fns-jalaali'
   export default setYear
 }
 
-declare module 'date-fns/startOfDay' {
-  import { startOfDay } from 'date-fns'
+declare module 'date-fns-jalaali/startOfDay' {
+  import { startOfDay } from 'date-fns-jalaali'
   export default startOfDay
 }
 
-declare module 'date-fns/startOfDecade' {
-  import { startOfDecade } from 'date-fns'
+declare module 'date-fns-jalaali/startOfDecade' {
+  import { startOfDecade } from 'date-fns-jalaali'
   export default startOfDecade
 }
 
-declare module 'date-fns/startOfHour' {
-  import { startOfHour } from 'date-fns'
+declare module 'date-fns-jalaali/startOfHour' {
+  import { startOfHour } from 'date-fns-jalaali'
   export default startOfHour
 }
 
-declare module 'date-fns/startOfISOWeek' {
-  import { startOfISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/startOfISOWeek' {
+  import { startOfISOWeek } from 'date-fns-jalaali'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/startOfISOWeekYear' {
-  import { startOfISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/startOfISOWeekYear' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/startOfMinute' {
-  import { startOfMinute } from 'date-fns'
+declare module 'date-fns-jalaali/startOfMinute' {
+  import { startOfMinute } from 'date-fns-jalaali'
   export default startOfMinute
 }
 
-declare module 'date-fns/startOfMonth' {
-  import { startOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/startOfMonth' {
+  import { startOfMonth } from 'date-fns-jalaali'
   export default startOfMonth
 }
 
-declare module 'date-fns/startOfQuarter' {
-  import { startOfQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/startOfQuarter' {
+  import { startOfQuarter } from 'date-fns-jalaali'
   export default startOfQuarter
 }
 
-declare module 'date-fns/startOfSecond' {
-  import { startOfSecond } from 'date-fns'
+declare module 'date-fns-jalaali/startOfSecond' {
+  import { startOfSecond } from 'date-fns-jalaali'
   export default startOfSecond
 }
 
-declare module 'date-fns/startOfToday' {
-  import { startOfToday } from 'date-fns'
+declare module 'date-fns-jalaali/startOfToday' {
+  import { startOfToday } from 'date-fns-jalaali'
   export default startOfToday
 }
 
-declare module 'date-fns/startOfTomorrow' {
-  import { startOfTomorrow } from 'date-fns'
+declare module 'date-fns-jalaali/startOfTomorrow' {
+  import { startOfTomorrow } from 'date-fns-jalaali'
   export default startOfTomorrow
 }
 
-declare module 'date-fns/startOfWeek' {
-  import { startOfWeek } from 'date-fns'
+declare module 'date-fns-jalaali/startOfWeek' {
+  import { startOfWeek } from 'date-fns-jalaali'
   export default startOfWeek
 }
 
-declare module 'date-fns/startOfWeekYear' {
-  import { startOfWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/startOfWeekYear' {
+  import { startOfWeekYear } from 'date-fns-jalaali'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/startOfYear' {
-  import { startOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/startOfYear' {
+  import { startOfYear } from 'date-fns-jalaali'
   export default startOfYear
 }
 
-declare module 'date-fns/startOfYesterday' {
-  import { startOfYesterday } from 'date-fns'
+declare module 'date-fns-jalaali/startOfYesterday' {
+  import { startOfYesterday } from 'date-fns-jalaali'
   export default startOfYesterday
 }
 
-declare module 'date-fns/sub' {
-  import { sub } from 'date-fns'
+declare module 'date-fns-jalaali/sub' {
+  import { sub } from 'date-fns-jalaali'
   export default sub
 }
 
-declare module 'date-fns/subBusinessDays' {
-  import { subBusinessDays } from 'date-fns'
+declare module 'date-fns-jalaali/subBusinessDays' {
+  import { subBusinessDays } from 'date-fns-jalaali'
   export default subBusinessDays
 }
 
-declare module 'date-fns/subDays' {
-  import { subDays } from 'date-fns'
+declare module 'date-fns-jalaali/subDays' {
+  import { subDays } from 'date-fns-jalaali'
   export default subDays
 }
 
-declare module 'date-fns/subHours' {
-  import { subHours } from 'date-fns'
+declare module 'date-fns-jalaali/subHours' {
+  import { subHours } from 'date-fns-jalaali'
   export default subHours
 }
 
-declare module 'date-fns/subISOWeekYears' {
-  import { subISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/subISOWeekYears' {
+  import { subISOWeekYears } from 'date-fns-jalaali'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/subMilliseconds' {
-  import { subMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/subMilliseconds' {
+  import { subMilliseconds } from 'date-fns-jalaali'
   export default subMilliseconds
 }
 
-declare module 'date-fns/subMinutes' {
-  import { subMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/subMinutes' {
+  import { subMinutes } from 'date-fns-jalaali'
   export default subMinutes
 }
 
-declare module 'date-fns/subMonths' {
-  import { subMonths } from 'date-fns'
+declare module 'date-fns-jalaali/subMonths' {
+  import { subMonths } from 'date-fns-jalaali'
   export default subMonths
 }
 
-declare module 'date-fns/subQuarters' {
-  import { subQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/subQuarters' {
+  import { subQuarters } from 'date-fns-jalaali'
   export default subQuarters
 }
 
-declare module 'date-fns/subSeconds' {
-  import { subSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/subSeconds' {
+  import { subSeconds } from 'date-fns-jalaali'
   export default subSeconds
 }
 
-declare module 'date-fns/subWeeks' {
-  import { subWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/subWeeks' {
+  import { subWeeks } from 'date-fns-jalaali'
   export default subWeeks
 }
 
-declare module 'date-fns/subYears' {
-  import { subYears } from 'date-fns'
+declare module 'date-fns-jalaali/subYears' {
+  import { subYears } from 'date-fns-jalaali'
   export default subYears
 }
 
-declare module 'date-fns/toDate' {
-  import { toDate } from 'date-fns'
+declare module 'date-fns-jalaali/toDate' {
+  import { toDate } from 'date-fns-jalaali'
   export default toDate
 }
 
-declare module 'date-fns/add/index' {
-  import { add } from 'date-fns'
+declare module 'date-fns-jalaali/add/index' {
+  import { add } from 'date-fns-jalaali'
   export default add
 }
 
-declare module 'date-fns/addBusinessDays/index' {
-  import { addBusinessDays } from 'date-fns'
+declare module 'date-fns-jalaali/addBusinessDays/index' {
+  import { addBusinessDays } from 'date-fns-jalaali'
   export default addBusinessDays
 }
 
-declare module 'date-fns/addDays/index' {
-  import { addDays } from 'date-fns'
+declare module 'date-fns-jalaali/addDays/index' {
+  import { addDays } from 'date-fns-jalaali'
   export default addDays
 }
 
-declare module 'date-fns/addHours/index' {
-  import { addHours } from 'date-fns'
+declare module 'date-fns-jalaali/addHours/index' {
+  import { addHours } from 'date-fns-jalaali'
   export default addHours
 }
 
-declare module 'date-fns/addISOWeekYears/index' {
-  import { addISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/addISOWeekYears/index' {
+  import { addISOWeekYears } from 'date-fns-jalaali'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/addMilliseconds/index' {
-  import { addMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/addMilliseconds/index' {
+  import { addMilliseconds } from 'date-fns-jalaali'
   export default addMilliseconds
 }
 
-declare module 'date-fns/addMinutes/index' {
-  import { addMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/addMinutes/index' {
+  import { addMinutes } from 'date-fns-jalaali'
   export default addMinutes
 }
 
-declare module 'date-fns/addMonths/index' {
-  import { addMonths } from 'date-fns'
+declare module 'date-fns-jalaali/addMonths/index' {
+  import { addMonths } from 'date-fns-jalaali'
   export default addMonths
 }
 
-declare module 'date-fns/addQuarters/index' {
-  import { addQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/addQuarters/index' {
+  import { addQuarters } from 'date-fns-jalaali'
   export default addQuarters
 }
 
-declare module 'date-fns/addSeconds/index' {
-  import { addSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/addSeconds/index' {
+  import { addSeconds } from 'date-fns-jalaali'
   export default addSeconds
 }
 
-declare module 'date-fns/addWeeks/index' {
-  import { addWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/addWeeks/index' {
+  import { addWeeks } from 'date-fns-jalaali'
   export default addWeeks
 }
 
-declare module 'date-fns/addYears/index' {
-  import { addYears } from 'date-fns'
+declare module 'date-fns-jalaali/addYears/index' {
+  import { addYears } from 'date-fns-jalaali'
   export default addYears
 }
 
-declare module 'date-fns/areIntervalsOverlapping/index' {
-  import { areIntervalsOverlapping } from 'date-fns'
+declare module 'date-fns-jalaali/areIntervalsOverlapping/index' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/closestIndexTo/index' {
-  import { closestIndexTo } from 'date-fns'
+declare module 'date-fns-jalaali/closestIndexTo/index' {
+  import { closestIndexTo } from 'date-fns-jalaali'
   export default closestIndexTo
 }
 
-declare module 'date-fns/closestTo/index' {
-  import { closestTo } from 'date-fns'
+declare module 'date-fns-jalaali/closestTo/index' {
+  import { closestTo } from 'date-fns-jalaali'
   export default closestTo
 }
 
-declare module 'date-fns/compareAsc/index' {
-  import { compareAsc } from 'date-fns'
+declare module 'date-fns-jalaali/compareAsc/index' {
+  import { compareAsc } from 'date-fns-jalaali'
   export default compareAsc
 }
 
-declare module 'date-fns/compareDesc/index' {
-  import { compareDesc } from 'date-fns'
+declare module 'date-fns-jalaali/compareDesc/index' {
+  import { compareDesc } from 'date-fns-jalaali'
   export default compareDesc
 }
 
-declare module 'date-fns/differenceInBusinessDays/index' {
-  import { differenceInBusinessDays } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInBusinessDays/index' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/differenceInCalendarDays/index' {
-  import { differenceInCalendarDays } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarDays/index' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/differenceInCalendarISOWeeks/index' {
-  import { differenceInCalendarISOWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarISOWeeks/index' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/differenceInCalendarISOWeekYears/index' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarISOWeekYears/index' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/differenceInCalendarMonths/index' {
-  import { differenceInCalendarMonths } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarMonths/index' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/differenceInCalendarQuarters/index' {
-  import { differenceInCalendarQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarQuarters/index' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/differenceInCalendarWeeks/index' {
-  import { differenceInCalendarWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarWeeks/index' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/differenceInCalendarYears/index' {
-  import { differenceInCalendarYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarYears/index' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/differenceInDays/index' {
-  import { differenceInDays } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInDays/index' {
+  import { differenceInDays } from 'date-fns-jalaali'
   export default differenceInDays
 }
 
-declare module 'date-fns/differenceInHours/index' {
-  import { differenceInHours } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInHours/index' {
+  import { differenceInHours } from 'date-fns-jalaali'
   export default differenceInHours
 }
 
-declare module 'date-fns/differenceInISOWeekYears/index' {
-  import { differenceInISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInISOWeekYears/index' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/differenceInMilliseconds/index' {
-  import { differenceInMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInMilliseconds/index' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/differenceInMinutes/index' {
-  import { differenceInMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInMinutes/index' {
+  import { differenceInMinutes } from 'date-fns-jalaali'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/differenceInMonths/index' {
-  import { differenceInMonths } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInMonths/index' {
+  import { differenceInMonths } from 'date-fns-jalaali'
   export default differenceInMonths
 }
 
-declare module 'date-fns/differenceInQuarters/index' {
-  import { differenceInQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInQuarters/index' {
+  import { differenceInQuarters } from 'date-fns-jalaali'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/differenceInSeconds/index' {
-  import { differenceInSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInSeconds/index' {
+  import { differenceInSeconds } from 'date-fns-jalaali'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/differenceInWeeks/index' {
-  import { differenceInWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInWeeks/index' {
+  import { differenceInWeeks } from 'date-fns-jalaali'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/differenceInYears/index' {
-  import { differenceInYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInYears/index' {
+  import { differenceInYears } from 'date-fns-jalaali'
   export default differenceInYears
 }
 
-declare module 'date-fns/eachDayOfInterval/index' {
-  import { eachDayOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachDayOfInterval/index' {
+  import { eachDayOfInterval } from 'date-fns-jalaali'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/eachMonthOfInterval/index' {
-  import { eachMonthOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachMonthOfInterval/index' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/eachWeekendOfInterval/index' {
-  import { eachWeekendOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekendOfInterval/index' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/eachWeekendOfMonth/index' {
-  import { eachWeekendOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekendOfMonth/index' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/eachWeekendOfYear/index' {
-  import { eachWeekendOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekendOfYear/index' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/eachWeekOfInterval/index' {
-  import { eachWeekOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekOfInterval/index' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/eachYearOfInterval/index' {
-  import { eachYearOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachYearOfInterval/index' {
+  import { eachYearOfInterval } from 'date-fns-jalaali'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/endOfDay/index' {
-  import { endOfDay } from 'date-fns'
+declare module 'date-fns-jalaali/endOfDay/index' {
+  import { endOfDay } from 'date-fns-jalaali'
   export default endOfDay
 }
 
-declare module 'date-fns/endOfDecade/index' {
-  import { endOfDecade } from 'date-fns'
+declare module 'date-fns-jalaali/endOfDecade/index' {
+  import { endOfDecade } from 'date-fns-jalaali'
   export default endOfDecade
 }
 
-declare module 'date-fns/endOfHour/index' {
-  import { endOfHour } from 'date-fns'
+declare module 'date-fns-jalaali/endOfHour/index' {
+  import { endOfHour } from 'date-fns-jalaali'
   export default endOfHour
 }
 
-declare module 'date-fns/endOfISOWeek/index' {
-  import { endOfISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/endOfISOWeek/index' {
+  import { endOfISOWeek } from 'date-fns-jalaali'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/endOfISOWeekYear/index' {
-  import { endOfISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/endOfISOWeekYear/index' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/endOfMinute/index' {
-  import { endOfMinute } from 'date-fns'
+declare module 'date-fns-jalaali/endOfMinute/index' {
+  import { endOfMinute } from 'date-fns-jalaali'
   export default endOfMinute
 }
 
-declare module 'date-fns/endOfMonth/index' {
-  import { endOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/endOfMonth/index' {
+  import { endOfMonth } from 'date-fns-jalaali'
   export default endOfMonth
 }
 
-declare module 'date-fns/endOfQuarter/index' {
-  import { endOfQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/endOfQuarter/index' {
+  import { endOfQuarter } from 'date-fns-jalaali'
   export default endOfQuarter
 }
 
-declare module 'date-fns/endOfSecond/index' {
-  import { endOfSecond } from 'date-fns'
+declare module 'date-fns-jalaali/endOfSecond/index' {
+  import { endOfSecond } from 'date-fns-jalaali'
   export default endOfSecond
 }
 
-declare module 'date-fns/endOfToday/index' {
-  import { endOfToday } from 'date-fns'
+declare module 'date-fns-jalaali/endOfToday/index' {
+  import { endOfToday } from 'date-fns-jalaali'
   export default endOfToday
 }
 
-declare module 'date-fns/endOfTomorrow/index' {
-  import { endOfTomorrow } from 'date-fns'
+declare module 'date-fns-jalaali/endOfTomorrow/index' {
+  import { endOfTomorrow } from 'date-fns-jalaali'
   export default endOfTomorrow
 }
 
-declare module 'date-fns/endOfWeek/index' {
-  import { endOfWeek } from 'date-fns'
+declare module 'date-fns-jalaali/endOfWeek/index' {
+  import { endOfWeek } from 'date-fns-jalaali'
   export default endOfWeek
 }
 
-declare module 'date-fns/endOfYear/index' {
-  import { endOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/endOfYear/index' {
+  import { endOfYear } from 'date-fns-jalaali'
   export default endOfYear
 }
 
-declare module 'date-fns/endOfYesterday/index' {
-  import { endOfYesterday } from 'date-fns'
+declare module 'date-fns-jalaali/endOfYesterday/index' {
+  import { endOfYesterday } from 'date-fns-jalaali'
   export default endOfYesterday
 }
 
-declare module 'date-fns/format/index' {
-  import { format } from 'date-fns'
+declare module 'date-fns-jalaali/format/index' {
+  import { format } from 'date-fns-jalaali'
   export default format
 }
 
-declare module 'date-fns/formatDistance/index' {
-  import { formatDistance } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistance/index' {
+  import { formatDistance } from 'date-fns-jalaali'
   export default formatDistance
 }
 
-declare module 'date-fns/formatDistanceStrict/index' {
-  import { formatDistanceStrict } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistanceStrict/index' {
+  import { formatDistanceStrict } from 'date-fns-jalaali'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/formatDistanceToNow/index' {
-  import { formatDistanceToNow } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistanceToNow/index' {
+  import { formatDistanceToNow } from 'date-fns-jalaali'
   export default formatDistanceToNow
 }
 
-declare module 'date-fns/formatDistanceToNowStrict/index' {
-  import { formatDistanceToNowStrict } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistanceToNowStrict/index' {
+  import { formatDistanceToNowStrict } from 'date-fns-jalaali'
   export default formatDistanceToNowStrict
 }
 
-declare module 'date-fns/formatISO/index' {
-  import { formatISO } from 'date-fns'
+declare module 'date-fns-jalaali/formatISO/index' {
+  import { formatISO } from 'date-fns-jalaali'
   export default formatISO
 }
 
-declare module 'date-fns/formatISO9075/index' {
-  import { formatISO9075 } from 'date-fns'
+declare module 'date-fns-jalaali/formatISO9075/index' {
+  import { formatISO9075 } from 'date-fns-jalaali'
   export default formatISO9075
 }
 
-declare module 'date-fns/formatISODuration/index' {
-  import { formatISODuration } from 'date-fns'
+declare module 'date-fns-jalaali/formatISODuration/index' {
+  import { formatISODuration } from 'date-fns-jalaali'
   export default formatISODuration
 }
 
-declare module 'date-fns/formatRelative/index' {
-  import { formatRelative } from 'date-fns'
+declare module 'date-fns-jalaali/formatRelative/index' {
+  import { formatRelative } from 'date-fns-jalaali'
   export default formatRelative
 }
 
-declare module 'date-fns/formatRFC3339/index' {
-  import { formatRFC3339 } from 'date-fns'
+declare module 'date-fns-jalaali/formatRFC3339/index' {
+  import { formatRFC3339 } from 'date-fns-jalaali'
   export default formatRFC3339
 }
 
-declare module 'date-fns/formatRFC7231/index' {
-  import { formatRFC7231 } from 'date-fns'
+declare module 'date-fns-jalaali/formatRFC7231/index' {
+  import { formatRFC7231 } from 'date-fns-jalaali'
   export default formatRFC7231
 }
 
-declare module 'date-fns/fromUnixTime/index' {
-  import { fromUnixTime } from 'date-fns'
+declare module 'date-fns-jalaali/fromUnixTime/index' {
+  import { fromUnixTime } from 'date-fns-jalaali'
   export default fromUnixTime
 }
 
-declare module 'date-fns/getDate/index' {
-  import { getDate } from 'date-fns'
+declare module 'date-fns-jalaali/getDate/index' {
+  import { getDate } from 'date-fns-jalaali'
   export default getDate
 }
 
-declare module 'date-fns/getDay/index' {
-  import { getDay } from 'date-fns'
+declare module 'date-fns-jalaali/getDay/index' {
+  import { getDay } from 'date-fns-jalaali'
   export default getDay
 }
 
-declare module 'date-fns/getDayOfYear/index' {
-  import { getDayOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/getDayOfYear/index' {
+  import { getDayOfYear } from 'date-fns-jalaali'
   export default getDayOfYear
 }
 
-declare module 'date-fns/getDaysInMonth/index' {
-  import { getDaysInMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getDaysInMonth/index' {
+  import { getDaysInMonth } from 'date-fns-jalaali'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/getDaysInYear/index' {
-  import { getDaysInYear } from 'date-fns'
+declare module 'date-fns-jalaali/getDaysInYear/index' {
+  import { getDaysInYear } from 'date-fns-jalaali'
   export default getDaysInYear
 }
 
-declare module 'date-fns/getDecade/index' {
-  import { getDecade } from 'date-fns'
+declare module 'date-fns-jalaali/getDecade/index' {
+  import { getDecade } from 'date-fns-jalaali'
   export default getDecade
 }
 
-declare module 'date-fns/getHours/index' {
-  import { getHours } from 'date-fns'
+declare module 'date-fns-jalaali/getHours/index' {
+  import { getHours } from 'date-fns-jalaali'
   export default getHours
 }
 
-declare module 'date-fns/getISODay/index' {
-  import { getISODay } from 'date-fns'
+declare module 'date-fns-jalaali/getISODay/index' {
+  import { getISODay } from 'date-fns-jalaali'
   export default getISODay
 }
 
-declare module 'date-fns/getISOWeek/index' {
-  import { getISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/getISOWeek/index' {
+  import { getISOWeek } from 'date-fns-jalaali'
   export default getISOWeek
 }
 
-declare module 'date-fns/getISOWeeksInYear/index' {
-  import { getISOWeeksInYear } from 'date-fns'
+declare module 'date-fns-jalaali/getISOWeeksInYear/index' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/getISOWeekYear/index' {
-  import { getISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/getISOWeekYear/index' {
+  import { getISOWeekYear } from 'date-fns-jalaali'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/getMilliseconds/index' {
-  import { getMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/getMilliseconds/index' {
+  import { getMilliseconds } from 'date-fns-jalaali'
   export default getMilliseconds
 }
 
-declare module 'date-fns/getMinutes/index' {
-  import { getMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/getMinutes/index' {
+  import { getMinutes } from 'date-fns-jalaali'
   export default getMinutes
 }
 
-declare module 'date-fns/getMonth/index' {
-  import { getMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getMonth/index' {
+  import { getMonth } from 'date-fns-jalaali'
   export default getMonth
 }
 
-declare module 'date-fns/getOverlappingDaysInIntervals/index' {
-  import { getOverlappingDaysInIntervals } from 'date-fns'
+declare module 'date-fns-jalaali/getOverlappingDaysInIntervals/index' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/getQuarter/index' {
-  import { getQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/getQuarter/index' {
+  import { getQuarter } from 'date-fns-jalaali'
   export default getQuarter
 }
 
-declare module 'date-fns/getSeconds/index' {
-  import { getSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/getSeconds/index' {
+  import { getSeconds } from 'date-fns-jalaali'
   export default getSeconds
 }
 
-declare module 'date-fns/getTime/index' {
-  import { getTime } from 'date-fns'
+declare module 'date-fns-jalaali/getTime/index' {
+  import { getTime } from 'date-fns-jalaali'
   export default getTime
 }
 
-declare module 'date-fns/getUnixTime/index' {
-  import { getUnixTime } from 'date-fns'
+declare module 'date-fns-jalaali/getUnixTime/index' {
+  import { getUnixTime } from 'date-fns-jalaali'
   export default getUnixTime
 }
 
-declare module 'date-fns/getWeek/index' {
-  import { getWeek } from 'date-fns'
+declare module 'date-fns-jalaali/getWeek/index' {
+  import { getWeek } from 'date-fns-jalaali'
   export default getWeek
 }
 
-declare module 'date-fns/getWeekOfMonth/index' {
-  import { getWeekOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getWeekOfMonth/index' {
+  import { getWeekOfMonth } from 'date-fns-jalaali'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/getWeeksInMonth/index' {
-  import { getWeeksInMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getWeeksInMonth/index' {
+  import { getWeeksInMonth } from 'date-fns-jalaali'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/getWeekYear/index' {
-  import { getWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/getWeekYear/index' {
+  import { getWeekYear } from 'date-fns-jalaali'
   export default getWeekYear
 }
 
-declare module 'date-fns/getYear/index' {
-  import { getYear } from 'date-fns'
+declare module 'date-fns-jalaali/getYear/index' {
+  import { getYear } from 'date-fns-jalaali'
   export default getYear
 }
 
-declare module 'date-fns/intervalToDuration/index' {
-  import { intervalToDuration } from 'date-fns'
+declare module 'date-fns-jalaali/intervalToDuration/index' {
+  import { intervalToDuration } from 'date-fns-jalaali'
   export default intervalToDuration
 }
 
-declare module 'date-fns/isAfter/index' {
-  import { isAfter } from 'date-fns'
+declare module 'date-fns-jalaali/isAfter/index' {
+  import { isAfter } from 'date-fns-jalaali'
   export default isAfter
 }
 
-declare module 'date-fns/isBefore/index' {
-  import { isBefore } from 'date-fns'
+declare module 'date-fns-jalaali/isBefore/index' {
+  import { isBefore } from 'date-fns-jalaali'
   export default isBefore
 }
 
-declare module 'date-fns/isDate/index' {
-  import { isDate } from 'date-fns'
+declare module 'date-fns-jalaali/isDate/index' {
+  import { isDate } from 'date-fns-jalaali'
   export default isDate
 }
 
-declare module 'date-fns/isEqual/index' {
-  import { isEqual } from 'date-fns'
+declare module 'date-fns-jalaali/isEqual/index' {
+  import { isEqual } from 'date-fns-jalaali'
   export default isEqual
 }
 
-declare module 'date-fns/isExists/index' {
-  import { isExists } from 'date-fns'
+declare module 'date-fns-jalaali/isExists/index' {
+  import { isExists } from 'date-fns-jalaali'
   export default isExists
 }
 
-declare module 'date-fns/isFirstDayOfMonth/index' {
-  import { isFirstDayOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isFirstDayOfMonth/index' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/isFriday/index' {
-  import { isFriday } from 'date-fns'
+declare module 'date-fns-jalaali/isFriday/index' {
+  import { isFriday } from 'date-fns-jalaali'
   export default isFriday
 }
 
-declare module 'date-fns/isFuture/index' {
-  import { isFuture } from 'date-fns'
+declare module 'date-fns-jalaali/isFuture/index' {
+  import { isFuture } from 'date-fns-jalaali'
   export default isFuture
 }
 
-declare module 'date-fns/isLastDayOfMonth/index' {
-  import { isLastDayOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isLastDayOfMonth/index' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/isLeapYear/index' {
-  import { isLeapYear } from 'date-fns'
+declare module 'date-fns-jalaali/isLeapYear/index' {
+  import { isLeapYear } from 'date-fns-jalaali'
   export default isLeapYear
 }
 
-declare module 'date-fns/isMonday/index' {
-  import { isMonday } from 'date-fns'
+declare module 'date-fns-jalaali/isMonday/index' {
+  import { isMonday } from 'date-fns-jalaali'
   export default isMonday
 }
 
-declare module 'date-fns/isPast/index' {
-  import { isPast } from 'date-fns'
+declare module 'date-fns-jalaali/isPast/index' {
+  import { isPast } from 'date-fns-jalaali'
   export default isPast
 }
 
-declare module 'date-fns/isSameDay/index' {
-  import { isSameDay } from 'date-fns'
+declare module 'date-fns-jalaali/isSameDay/index' {
+  import { isSameDay } from 'date-fns-jalaali'
   export default isSameDay
 }
 
-declare module 'date-fns/isSameHour/index' {
-  import { isSameHour } from 'date-fns'
+declare module 'date-fns-jalaali/isSameHour/index' {
+  import { isSameHour } from 'date-fns-jalaali'
   export default isSameHour
 }
 
-declare module 'date-fns/isSameISOWeek/index' {
-  import { isSameISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isSameISOWeek/index' {
+  import { isSameISOWeek } from 'date-fns-jalaali'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/isSameISOWeekYear/index' {
-  import { isSameISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/isSameISOWeekYear/index' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/isSameMinute/index' {
-  import { isSameMinute } from 'date-fns'
+declare module 'date-fns-jalaali/isSameMinute/index' {
+  import { isSameMinute } from 'date-fns-jalaali'
   export default isSameMinute
 }
 
-declare module 'date-fns/isSameMonth/index' {
-  import { isSameMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isSameMonth/index' {
+  import { isSameMonth } from 'date-fns-jalaali'
   export default isSameMonth
 }
 
-declare module 'date-fns/isSameQuarter/index' {
-  import { isSameQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/isSameQuarter/index' {
+  import { isSameQuarter } from 'date-fns-jalaali'
   export default isSameQuarter
 }
 
-declare module 'date-fns/isSameSecond/index' {
-  import { isSameSecond } from 'date-fns'
+declare module 'date-fns-jalaali/isSameSecond/index' {
+  import { isSameSecond } from 'date-fns-jalaali'
   export default isSameSecond
 }
 
-declare module 'date-fns/isSameWeek/index' {
-  import { isSameWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isSameWeek/index' {
+  import { isSameWeek } from 'date-fns-jalaali'
   export default isSameWeek
 }
 
-declare module 'date-fns/isSameYear/index' {
-  import { isSameYear } from 'date-fns'
+declare module 'date-fns-jalaali/isSameYear/index' {
+  import { isSameYear } from 'date-fns-jalaali'
   export default isSameYear
 }
 
-declare module 'date-fns/isSaturday/index' {
-  import { isSaturday } from 'date-fns'
+declare module 'date-fns-jalaali/isSaturday/index' {
+  import { isSaturday } from 'date-fns-jalaali'
   export default isSaturday
 }
 
-declare module 'date-fns/isSunday/index' {
-  import { isSunday } from 'date-fns'
+declare module 'date-fns-jalaali/isSunday/index' {
+  import { isSunday } from 'date-fns-jalaali'
   export default isSunday
 }
 
-declare module 'date-fns/isThisHour/index' {
-  import { isThisHour } from 'date-fns'
+declare module 'date-fns-jalaali/isThisHour/index' {
+  import { isThisHour } from 'date-fns-jalaali'
   export default isThisHour
 }
 
-declare module 'date-fns/isThisISOWeek/index' {
-  import { isThisISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isThisISOWeek/index' {
+  import { isThisISOWeek } from 'date-fns-jalaali'
   export default isThisISOWeek
 }
 
-declare module 'date-fns/isThisMinute/index' {
-  import { isThisMinute } from 'date-fns'
+declare module 'date-fns-jalaali/isThisMinute/index' {
+  import { isThisMinute } from 'date-fns-jalaali'
   export default isThisMinute
 }
 
-declare module 'date-fns/isThisMonth/index' {
-  import { isThisMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isThisMonth/index' {
+  import { isThisMonth } from 'date-fns-jalaali'
   export default isThisMonth
 }
 
-declare module 'date-fns/isThisQuarter/index' {
-  import { isThisQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/isThisQuarter/index' {
+  import { isThisQuarter } from 'date-fns-jalaali'
   export default isThisQuarter
 }
 
-declare module 'date-fns/isThisSecond/index' {
-  import { isThisSecond } from 'date-fns'
+declare module 'date-fns-jalaali/isThisSecond/index' {
+  import { isThisSecond } from 'date-fns-jalaali'
   export default isThisSecond
 }
 
-declare module 'date-fns/isThisWeek/index' {
-  import { isThisWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isThisWeek/index' {
+  import { isThisWeek } from 'date-fns-jalaali'
   export default isThisWeek
 }
 
-declare module 'date-fns/isThisYear/index' {
-  import { isThisYear } from 'date-fns'
+declare module 'date-fns-jalaali/isThisYear/index' {
+  import { isThisYear } from 'date-fns-jalaali'
   export default isThisYear
 }
 
-declare module 'date-fns/isThursday/index' {
-  import { isThursday } from 'date-fns'
+declare module 'date-fns-jalaali/isThursday/index' {
+  import { isThursday } from 'date-fns-jalaali'
   export default isThursday
 }
 
-declare module 'date-fns/isToday/index' {
-  import { isToday } from 'date-fns'
+declare module 'date-fns-jalaali/isToday/index' {
+  import { isToday } from 'date-fns-jalaali'
   export default isToday
 }
 
-declare module 'date-fns/isTomorrow/index' {
-  import { isTomorrow } from 'date-fns'
+declare module 'date-fns-jalaali/isTomorrow/index' {
+  import { isTomorrow } from 'date-fns-jalaali'
   export default isTomorrow
 }
 
-declare module 'date-fns/isTuesday/index' {
-  import { isTuesday } from 'date-fns'
+declare module 'date-fns-jalaali/isTuesday/index' {
+  import { isTuesday } from 'date-fns-jalaali'
   export default isTuesday
 }
 
-declare module 'date-fns/isValid/index' {
-  import { isValid } from 'date-fns'
+declare module 'date-fns-jalaali/isValid/index' {
+  import { isValid } from 'date-fns-jalaali'
   export default isValid
 }
 
-declare module 'date-fns/isWednesday/index' {
-  import { isWednesday } from 'date-fns'
+declare module 'date-fns-jalaali/isWednesday/index' {
+  import { isWednesday } from 'date-fns-jalaali'
   export default isWednesday
 }
 
-declare module 'date-fns/isWeekend/index' {
-  import { isWeekend } from 'date-fns'
+declare module 'date-fns-jalaali/isWeekend/index' {
+  import { isWeekend } from 'date-fns-jalaali'
   export default isWeekend
 }
 
-declare module 'date-fns/isWithinInterval/index' {
-  import { isWithinInterval } from 'date-fns'
+declare module 'date-fns-jalaali/isWithinInterval/index' {
+  import { isWithinInterval } from 'date-fns-jalaali'
   export default isWithinInterval
 }
 
-declare module 'date-fns/isYesterday/index' {
-  import { isYesterday } from 'date-fns'
+declare module 'date-fns-jalaali/isYesterday/index' {
+  import { isYesterday } from 'date-fns-jalaali'
   export default isYesterday
 }
 
-declare module 'date-fns/lastDayOfDecade/index' {
-  import { lastDayOfDecade } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfDecade/index' {
+  import { lastDayOfDecade } from 'date-fns-jalaali'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/lastDayOfISOWeek/index' {
-  import { lastDayOfISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfISOWeek/index' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/lastDayOfISOWeekYear/index' {
-  import { lastDayOfISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfISOWeekYear/index' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/lastDayOfMonth/index' {
-  import { lastDayOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfMonth/index' {
+  import { lastDayOfMonth } from 'date-fns-jalaali'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/lastDayOfQuarter/index' {
-  import { lastDayOfQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfQuarter/index' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/lastDayOfWeek/index' {
-  import { lastDayOfWeek } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfWeek/index' {
+  import { lastDayOfWeek } from 'date-fns-jalaali'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/lastDayOfYear/index' {
-  import { lastDayOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfYear/index' {
+  import { lastDayOfYear } from 'date-fns-jalaali'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/lightFormat/index' {
-  import { lightFormat } from 'date-fns'
+declare module 'date-fns-jalaali/lightFormat/index' {
+  import { lightFormat } from 'date-fns-jalaali'
   export default lightFormat
 }
 
-declare module 'date-fns/max/index' {
-  import { max } from 'date-fns'
+declare module 'date-fns-jalaali/max/index' {
+  import { max } from 'date-fns-jalaali'
   export default max
 }
 
-declare module 'date-fns/min/index' {
-  import { min } from 'date-fns'
+declare module 'date-fns-jalaali/min/index' {
+  import { min } from 'date-fns-jalaali'
   export default min
 }
 
-declare module 'date-fns/parse/index' {
-  import { parse } from 'date-fns'
+declare module 'date-fns-jalaali/parse/index' {
+  import { parse } from 'date-fns-jalaali'
   export default parse
 }
 
-declare module 'date-fns/parseISO/index' {
-  import { parseISO } from 'date-fns'
+declare module 'date-fns-jalaali/parseISO/index' {
+  import { parseISO } from 'date-fns-jalaali'
   export default parseISO
 }
 
-declare module 'date-fns/parseJSON/index' {
-  import { parseJSON } from 'date-fns'
+declare module 'date-fns-jalaali/parseJSON/index' {
+  import { parseJSON } from 'date-fns-jalaali'
   export default parseJSON
 }
 
-declare module 'date-fns/roundToNearestMinutes/index' {
-  import { roundToNearestMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/roundToNearestMinutes/index' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/set/index' {
-  import { set } from 'date-fns'
+declare module 'date-fns-jalaali/set/index' {
+  import { set } from 'date-fns-jalaali'
   export default set
 }
 
-declare module 'date-fns/setDate/index' {
-  import { setDate } from 'date-fns'
+declare module 'date-fns-jalaali/setDate/index' {
+  import { setDate } from 'date-fns-jalaali'
   export default setDate
 }
 
-declare module 'date-fns/setDay/index' {
-  import { setDay } from 'date-fns'
+declare module 'date-fns-jalaali/setDay/index' {
+  import { setDay } from 'date-fns-jalaali'
   export default setDay
 }
 
-declare module 'date-fns/setDayOfYear/index' {
-  import { setDayOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/setDayOfYear/index' {
+  import { setDayOfYear } from 'date-fns-jalaali'
   export default setDayOfYear
 }
 
-declare module 'date-fns/setHours/index' {
-  import { setHours } from 'date-fns'
+declare module 'date-fns-jalaali/setHours/index' {
+  import { setHours } from 'date-fns-jalaali'
   export default setHours
 }
 
-declare module 'date-fns/setISODay/index' {
-  import { setISODay } from 'date-fns'
+declare module 'date-fns-jalaali/setISODay/index' {
+  import { setISODay } from 'date-fns-jalaali'
   export default setISODay
 }
 
-declare module 'date-fns/setISOWeek/index' {
-  import { setISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/setISOWeek/index' {
+  import { setISOWeek } from 'date-fns-jalaali'
   export default setISOWeek
 }
 
-declare module 'date-fns/setISOWeekYear/index' {
-  import { setISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/setISOWeekYear/index' {
+  import { setISOWeekYear } from 'date-fns-jalaali'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/setMilliseconds/index' {
-  import { setMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/setMilliseconds/index' {
+  import { setMilliseconds } from 'date-fns-jalaali'
   export default setMilliseconds
 }
 
-declare module 'date-fns/setMinutes/index' {
-  import { setMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/setMinutes/index' {
+  import { setMinutes } from 'date-fns-jalaali'
   export default setMinutes
 }
 
-declare module 'date-fns/setMonth/index' {
-  import { setMonth } from 'date-fns'
+declare module 'date-fns-jalaali/setMonth/index' {
+  import { setMonth } from 'date-fns-jalaali'
   export default setMonth
 }
 
-declare module 'date-fns/setQuarter/index' {
-  import { setQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/setQuarter/index' {
+  import { setQuarter } from 'date-fns-jalaali'
   export default setQuarter
 }
 
-declare module 'date-fns/setSeconds/index' {
-  import { setSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/setSeconds/index' {
+  import { setSeconds } from 'date-fns-jalaali'
   export default setSeconds
 }
 
-declare module 'date-fns/setWeek/index' {
-  import { setWeek } from 'date-fns'
+declare module 'date-fns-jalaali/setWeek/index' {
+  import { setWeek } from 'date-fns-jalaali'
   export default setWeek
 }
 
-declare module 'date-fns/setWeekYear/index' {
-  import { setWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/setWeekYear/index' {
+  import { setWeekYear } from 'date-fns-jalaali'
   export default setWeekYear
 }
 
-declare module 'date-fns/setYear/index' {
-  import { setYear } from 'date-fns'
+declare module 'date-fns-jalaali/setYear/index' {
+  import { setYear } from 'date-fns-jalaali'
   export default setYear
 }
 
-declare module 'date-fns/startOfDay/index' {
-  import { startOfDay } from 'date-fns'
+declare module 'date-fns-jalaali/startOfDay/index' {
+  import { startOfDay } from 'date-fns-jalaali'
   export default startOfDay
 }
 
-declare module 'date-fns/startOfDecade/index' {
-  import { startOfDecade } from 'date-fns'
+declare module 'date-fns-jalaali/startOfDecade/index' {
+  import { startOfDecade } from 'date-fns-jalaali'
   export default startOfDecade
 }
 
-declare module 'date-fns/startOfHour/index' {
-  import { startOfHour } from 'date-fns'
+declare module 'date-fns-jalaali/startOfHour/index' {
+  import { startOfHour } from 'date-fns-jalaali'
   export default startOfHour
 }
 
-declare module 'date-fns/startOfISOWeek/index' {
-  import { startOfISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/startOfISOWeek/index' {
+  import { startOfISOWeek } from 'date-fns-jalaali'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/startOfISOWeekYear/index' {
-  import { startOfISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/startOfISOWeekYear/index' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/startOfMinute/index' {
-  import { startOfMinute } from 'date-fns'
+declare module 'date-fns-jalaali/startOfMinute/index' {
+  import { startOfMinute } from 'date-fns-jalaali'
   export default startOfMinute
 }
 
-declare module 'date-fns/startOfMonth/index' {
-  import { startOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/startOfMonth/index' {
+  import { startOfMonth } from 'date-fns-jalaali'
   export default startOfMonth
 }
 
-declare module 'date-fns/startOfQuarter/index' {
-  import { startOfQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/startOfQuarter/index' {
+  import { startOfQuarter } from 'date-fns-jalaali'
   export default startOfQuarter
 }
 
-declare module 'date-fns/startOfSecond/index' {
-  import { startOfSecond } from 'date-fns'
+declare module 'date-fns-jalaali/startOfSecond/index' {
+  import { startOfSecond } from 'date-fns-jalaali'
   export default startOfSecond
 }
 
-declare module 'date-fns/startOfToday/index' {
-  import { startOfToday } from 'date-fns'
+declare module 'date-fns-jalaali/startOfToday/index' {
+  import { startOfToday } from 'date-fns-jalaali'
   export default startOfToday
 }
 
-declare module 'date-fns/startOfTomorrow/index' {
-  import { startOfTomorrow } from 'date-fns'
+declare module 'date-fns-jalaali/startOfTomorrow/index' {
+  import { startOfTomorrow } from 'date-fns-jalaali'
   export default startOfTomorrow
 }
 
-declare module 'date-fns/startOfWeek/index' {
-  import { startOfWeek } from 'date-fns'
+declare module 'date-fns-jalaali/startOfWeek/index' {
+  import { startOfWeek } from 'date-fns-jalaali'
   export default startOfWeek
 }
 
-declare module 'date-fns/startOfWeekYear/index' {
-  import { startOfWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/startOfWeekYear/index' {
+  import { startOfWeekYear } from 'date-fns-jalaali'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/startOfYear/index' {
-  import { startOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/startOfYear/index' {
+  import { startOfYear } from 'date-fns-jalaali'
   export default startOfYear
 }
 
-declare module 'date-fns/startOfYesterday/index' {
-  import { startOfYesterday } from 'date-fns'
+declare module 'date-fns-jalaali/startOfYesterday/index' {
+  import { startOfYesterday } from 'date-fns-jalaali'
   export default startOfYesterday
 }
 
-declare module 'date-fns/sub/index' {
-  import { sub } from 'date-fns'
+declare module 'date-fns-jalaali/sub/index' {
+  import { sub } from 'date-fns-jalaali'
   export default sub
 }
 
-declare module 'date-fns/subBusinessDays/index' {
-  import { subBusinessDays } from 'date-fns'
+declare module 'date-fns-jalaali/subBusinessDays/index' {
+  import { subBusinessDays } from 'date-fns-jalaali'
   export default subBusinessDays
 }
 
-declare module 'date-fns/subDays/index' {
-  import { subDays } from 'date-fns'
+declare module 'date-fns-jalaali/subDays/index' {
+  import { subDays } from 'date-fns-jalaali'
   export default subDays
 }
 
-declare module 'date-fns/subHours/index' {
-  import { subHours } from 'date-fns'
+declare module 'date-fns-jalaali/subHours/index' {
+  import { subHours } from 'date-fns-jalaali'
   export default subHours
 }
 
-declare module 'date-fns/subISOWeekYears/index' {
-  import { subISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/subISOWeekYears/index' {
+  import { subISOWeekYears } from 'date-fns-jalaali'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/subMilliseconds/index' {
-  import { subMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/subMilliseconds/index' {
+  import { subMilliseconds } from 'date-fns-jalaali'
   export default subMilliseconds
 }
 
-declare module 'date-fns/subMinutes/index' {
-  import { subMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/subMinutes/index' {
+  import { subMinutes } from 'date-fns-jalaali'
   export default subMinutes
 }
 
-declare module 'date-fns/subMonths/index' {
-  import { subMonths } from 'date-fns'
+declare module 'date-fns-jalaali/subMonths/index' {
+  import { subMonths } from 'date-fns-jalaali'
   export default subMonths
 }
 
-declare module 'date-fns/subQuarters/index' {
-  import { subQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/subQuarters/index' {
+  import { subQuarters } from 'date-fns-jalaali'
   export default subQuarters
 }
 
-declare module 'date-fns/subSeconds/index' {
-  import { subSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/subSeconds/index' {
+  import { subSeconds } from 'date-fns-jalaali'
   export default subSeconds
 }
 
-declare module 'date-fns/subWeeks/index' {
-  import { subWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/subWeeks/index' {
+  import { subWeeks } from 'date-fns-jalaali'
   export default subWeeks
 }
 
-declare module 'date-fns/subYears/index' {
-  import { subYears } from 'date-fns'
+declare module 'date-fns-jalaali/subYears/index' {
+  import { subYears } from 'date-fns-jalaali'
   export default subYears
 }
 
-declare module 'date-fns/toDate/index' {
-  import { toDate } from 'date-fns'
+declare module 'date-fns-jalaali/toDate/index' {
+  import { toDate } from 'date-fns-jalaali'
   export default toDate
 }
 
-declare module 'date-fns/add/index.js' {
-  import { add } from 'date-fns'
+declare module 'date-fns-jalaali/add/index.js' {
+  import { add } from 'date-fns-jalaali'
   export default add
 }
 
-declare module 'date-fns/addBusinessDays/index.js' {
-  import { addBusinessDays } from 'date-fns'
+declare module 'date-fns-jalaali/addBusinessDays/index.js' {
+  import { addBusinessDays } from 'date-fns-jalaali'
   export default addBusinessDays
 }
 
-declare module 'date-fns/addDays/index.js' {
-  import { addDays } from 'date-fns'
+declare module 'date-fns-jalaali/addDays/index.js' {
+  import { addDays } from 'date-fns-jalaali'
   export default addDays
 }
 
-declare module 'date-fns/addHours/index.js' {
-  import { addHours } from 'date-fns'
+declare module 'date-fns-jalaali/addHours/index.js' {
+  import { addHours } from 'date-fns-jalaali'
   export default addHours
 }
 
-declare module 'date-fns/addISOWeekYears/index.js' {
-  import { addISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/addISOWeekYears/index.js' {
+  import { addISOWeekYears } from 'date-fns-jalaali'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/addMilliseconds/index.js' {
-  import { addMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/addMilliseconds/index.js' {
+  import { addMilliseconds } from 'date-fns-jalaali'
   export default addMilliseconds
 }
 
-declare module 'date-fns/addMinutes/index.js' {
-  import { addMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/addMinutes/index.js' {
+  import { addMinutes } from 'date-fns-jalaali'
   export default addMinutes
 }
 
-declare module 'date-fns/addMonths/index.js' {
-  import { addMonths } from 'date-fns'
+declare module 'date-fns-jalaali/addMonths/index.js' {
+  import { addMonths } from 'date-fns-jalaali'
   export default addMonths
 }
 
-declare module 'date-fns/addQuarters/index.js' {
-  import { addQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/addQuarters/index.js' {
+  import { addQuarters } from 'date-fns-jalaali'
   export default addQuarters
 }
 
-declare module 'date-fns/addSeconds/index.js' {
-  import { addSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/addSeconds/index.js' {
+  import { addSeconds } from 'date-fns-jalaali'
   export default addSeconds
 }
 
-declare module 'date-fns/addWeeks/index.js' {
-  import { addWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/addWeeks/index.js' {
+  import { addWeeks } from 'date-fns-jalaali'
   export default addWeeks
 }
 
-declare module 'date-fns/addYears/index.js' {
-  import { addYears } from 'date-fns'
+declare module 'date-fns-jalaali/addYears/index.js' {
+  import { addYears } from 'date-fns-jalaali'
   export default addYears
 }
 
-declare module 'date-fns/areIntervalsOverlapping/index.js' {
-  import { areIntervalsOverlapping } from 'date-fns'
+declare module 'date-fns-jalaali/areIntervalsOverlapping/index.js' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/closestIndexTo/index.js' {
-  import { closestIndexTo } from 'date-fns'
+declare module 'date-fns-jalaali/closestIndexTo/index.js' {
+  import { closestIndexTo } from 'date-fns-jalaali'
   export default closestIndexTo
 }
 
-declare module 'date-fns/closestTo/index.js' {
-  import { closestTo } from 'date-fns'
+declare module 'date-fns-jalaali/closestTo/index.js' {
+  import { closestTo } from 'date-fns-jalaali'
   export default closestTo
 }
 
-declare module 'date-fns/compareAsc/index.js' {
-  import { compareAsc } from 'date-fns'
+declare module 'date-fns-jalaali/compareAsc/index.js' {
+  import { compareAsc } from 'date-fns-jalaali'
   export default compareAsc
 }
 
-declare module 'date-fns/compareDesc/index.js' {
-  import { compareDesc } from 'date-fns'
+declare module 'date-fns-jalaali/compareDesc/index.js' {
+  import { compareDesc } from 'date-fns-jalaali'
   export default compareDesc
 }
 
-declare module 'date-fns/differenceInBusinessDays/index.js' {
-  import { differenceInBusinessDays } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInBusinessDays/index.js' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/differenceInCalendarDays/index.js' {
-  import { differenceInCalendarDays } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarDays/index.js' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/differenceInCalendarISOWeeks/index.js' {
-  import { differenceInCalendarISOWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarISOWeeks/index.js' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/differenceInCalendarISOWeekYears/index.js' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarISOWeekYears/index.js' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/differenceInCalendarMonths/index.js' {
-  import { differenceInCalendarMonths } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarMonths/index.js' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/differenceInCalendarQuarters/index.js' {
-  import { differenceInCalendarQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarQuarters/index.js' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/differenceInCalendarWeeks/index.js' {
-  import { differenceInCalendarWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarWeeks/index.js' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/differenceInCalendarYears/index.js' {
-  import { differenceInCalendarYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInCalendarYears/index.js' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/differenceInDays/index.js' {
-  import { differenceInDays } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInDays/index.js' {
+  import { differenceInDays } from 'date-fns-jalaali'
   export default differenceInDays
 }
 
-declare module 'date-fns/differenceInHours/index.js' {
-  import { differenceInHours } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInHours/index.js' {
+  import { differenceInHours } from 'date-fns-jalaali'
   export default differenceInHours
 }
 
-declare module 'date-fns/differenceInISOWeekYears/index.js' {
-  import { differenceInISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInISOWeekYears/index.js' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/differenceInMilliseconds/index.js' {
-  import { differenceInMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInMilliseconds/index.js' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/differenceInMinutes/index.js' {
-  import { differenceInMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInMinutes/index.js' {
+  import { differenceInMinutes } from 'date-fns-jalaali'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/differenceInMonths/index.js' {
-  import { differenceInMonths } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInMonths/index.js' {
+  import { differenceInMonths } from 'date-fns-jalaali'
   export default differenceInMonths
 }
 
-declare module 'date-fns/differenceInQuarters/index.js' {
-  import { differenceInQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInQuarters/index.js' {
+  import { differenceInQuarters } from 'date-fns-jalaali'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/differenceInSeconds/index.js' {
-  import { differenceInSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInSeconds/index.js' {
+  import { differenceInSeconds } from 'date-fns-jalaali'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/differenceInWeeks/index.js' {
-  import { differenceInWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInWeeks/index.js' {
+  import { differenceInWeeks } from 'date-fns-jalaali'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/differenceInYears/index.js' {
-  import { differenceInYears } from 'date-fns'
+declare module 'date-fns-jalaali/differenceInYears/index.js' {
+  import { differenceInYears } from 'date-fns-jalaali'
   export default differenceInYears
 }
 
-declare module 'date-fns/eachDayOfInterval/index.js' {
-  import { eachDayOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachDayOfInterval/index.js' {
+  import { eachDayOfInterval } from 'date-fns-jalaali'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/eachMonthOfInterval/index.js' {
-  import { eachMonthOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachMonthOfInterval/index.js' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/eachWeekendOfInterval/index.js' {
-  import { eachWeekendOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekendOfInterval/index.js' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/eachWeekendOfMonth/index.js' {
-  import { eachWeekendOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekendOfMonth/index.js' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/eachWeekendOfYear/index.js' {
-  import { eachWeekendOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekendOfYear/index.js' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/eachWeekOfInterval/index.js' {
-  import { eachWeekOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachWeekOfInterval/index.js' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/eachYearOfInterval/index.js' {
-  import { eachYearOfInterval } from 'date-fns'
+declare module 'date-fns-jalaali/eachYearOfInterval/index.js' {
+  import { eachYearOfInterval } from 'date-fns-jalaali'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/endOfDay/index.js' {
-  import { endOfDay } from 'date-fns'
+declare module 'date-fns-jalaali/endOfDay/index.js' {
+  import { endOfDay } from 'date-fns-jalaali'
   export default endOfDay
 }
 
-declare module 'date-fns/endOfDecade/index.js' {
-  import { endOfDecade } from 'date-fns'
+declare module 'date-fns-jalaali/endOfDecade/index.js' {
+  import { endOfDecade } from 'date-fns-jalaali'
   export default endOfDecade
 }
 
-declare module 'date-fns/endOfHour/index.js' {
-  import { endOfHour } from 'date-fns'
+declare module 'date-fns-jalaali/endOfHour/index.js' {
+  import { endOfHour } from 'date-fns-jalaali'
   export default endOfHour
 }
 
-declare module 'date-fns/endOfISOWeek/index.js' {
-  import { endOfISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/endOfISOWeek/index.js' {
+  import { endOfISOWeek } from 'date-fns-jalaali'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/endOfISOWeekYear/index.js' {
-  import { endOfISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/endOfISOWeekYear/index.js' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/endOfMinute/index.js' {
-  import { endOfMinute } from 'date-fns'
+declare module 'date-fns-jalaali/endOfMinute/index.js' {
+  import { endOfMinute } from 'date-fns-jalaali'
   export default endOfMinute
 }
 
-declare module 'date-fns/endOfMonth/index.js' {
-  import { endOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/endOfMonth/index.js' {
+  import { endOfMonth } from 'date-fns-jalaali'
   export default endOfMonth
 }
 
-declare module 'date-fns/endOfQuarter/index.js' {
-  import { endOfQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/endOfQuarter/index.js' {
+  import { endOfQuarter } from 'date-fns-jalaali'
   export default endOfQuarter
 }
 
-declare module 'date-fns/endOfSecond/index.js' {
-  import { endOfSecond } from 'date-fns'
+declare module 'date-fns-jalaali/endOfSecond/index.js' {
+  import { endOfSecond } from 'date-fns-jalaali'
   export default endOfSecond
 }
 
-declare module 'date-fns/endOfToday/index.js' {
-  import { endOfToday } from 'date-fns'
+declare module 'date-fns-jalaali/endOfToday/index.js' {
+  import { endOfToday } from 'date-fns-jalaali'
   export default endOfToday
 }
 
-declare module 'date-fns/endOfTomorrow/index.js' {
-  import { endOfTomorrow } from 'date-fns'
+declare module 'date-fns-jalaali/endOfTomorrow/index.js' {
+  import { endOfTomorrow } from 'date-fns-jalaali'
   export default endOfTomorrow
 }
 
-declare module 'date-fns/endOfWeek/index.js' {
-  import { endOfWeek } from 'date-fns'
+declare module 'date-fns-jalaali/endOfWeek/index.js' {
+  import { endOfWeek } from 'date-fns-jalaali'
   export default endOfWeek
 }
 
-declare module 'date-fns/endOfYear/index.js' {
-  import { endOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/endOfYear/index.js' {
+  import { endOfYear } from 'date-fns-jalaali'
   export default endOfYear
 }
 
-declare module 'date-fns/endOfYesterday/index.js' {
-  import { endOfYesterday } from 'date-fns'
+declare module 'date-fns-jalaali/endOfYesterday/index.js' {
+  import { endOfYesterday } from 'date-fns-jalaali'
   export default endOfYesterday
 }
 
-declare module 'date-fns/format/index.js' {
-  import { format } from 'date-fns'
+declare module 'date-fns-jalaali/format/index.js' {
+  import { format } from 'date-fns-jalaali'
   export default format
 }
 
-declare module 'date-fns/formatDistance/index.js' {
-  import { formatDistance } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistance/index.js' {
+  import { formatDistance } from 'date-fns-jalaali'
   export default formatDistance
 }
 
-declare module 'date-fns/formatDistanceStrict/index.js' {
-  import { formatDistanceStrict } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistanceStrict/index.js' {
+  import { formatDistanceStrict } from 'date-fns-jalaali'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/formatDistanceToNow/index.js' {
-  import { formatDistanceToNow } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistanceToNow/index.js' {
+  import { formatDistanceToNow } from 'date-fns-jalaali'
   export default formatDistanceToNow
 }
 
-declare module 'date-fns/formatDistanceToNowStrict/index.js' {
-  import { formatDistanceToNowStrict } from 'date-fns'
+declare module 'date-fns-jalaali/formatDistanceToNowStrict/index.js' {
+  import { formatDistanceToNowStrict } from 'date-fns-jalaali'
   export default formatDistanceToNowStrict
 }
 
-declare module 'date-fns/formatISO/index.js' {
-  import { formatISO } from 'date-fns'
+declare module 'date-fns-jalaali/formatISO/index.js' {
+  import { formatISO } from 'date-fns-jalaali'
   export default formatISO
 }
 
-declare module 'date-fns/formatISO9075/index.js' {
-  import { formatISO9075 } from 'date-fns'
+declare module 'date-fns-jalaali/formatISO9075/index.js' {
+  import { formatISO9075 } from 'date-fns-jalaali'
   export default formatISO9075
 }
 
-declare module 'date-fns/formatISODuration/index.js' {
-  import { formatISODuration } from 'date-fns'
+declare module 'date-fns-jalaali/formatISODuration/index.js' {
+  import { formatISODuration } from 'date-fns-jalaali'
   export default formatISODuration
 }
 
-declare module 'date-fns/formatRelative/index.js' {
-  import { formatRelative } from 'date-fns'
+declare module 'date-fns-jalaali/formatRelative/index.js' {
+  import { formatRelative } from 'date-fns-jalaali'
   export default formatRelative
 }
 
-declare module 'date-fns/formatRFC3339/index.js' {
-  import { formatRFC3339 } from 'date-fns'
+declare module 'date-fns-jalaali/formatRFC3339/index.js' {
+  import { formatRFC3339 } from 'date-fns-jalaali'
   export default formatRFC3339
 }
 
-declare module 'date-fns/formatRFC7231/index.js' {
-  import { formatRFC7231 } from 'date-fns'
+declare module 'date-fns-jalaali/formatRFC7231/index.js' {
+  import { formatRFC7231 } from 'date-fns-jalaali'
   export default formatRFC7231
 }
 
-declare module 'date-fns/fromUnixTime/index.js' {
-  import { fromUnixTime } from 'date-fns'
+declare module 'date-fns-jalaali/fromUnixTime/index.js' {
+  import { fromUnixTime } from 'date-fns-jalaali'
   export default fromUnixTime
 }
 
-declare module 'date-fns/getDate/index.js' {
-  import { getDate } from 'date-fns'
+declare module 'date-fns-jalaali/getDate/index.js' {
+  import { getDate } from 'date-fns-jalaali'
   export default getDate
 }
 
-declare module 'date-fns/getDay/index.js' {
-  import { getDay } from 'date-fns'
+declare module 'date-fns-jalaali/getDay/index.js' {
+  import { getDay } from 'date-fns-jalaali'
   export default getDay
 }
 
-declare module 'date-fns/getDayOfYear/index.js' {
-  import { getDayOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/getDayOfYear/index.js' {
+  import { getDayOfYear } from 'date-fns-jalaali'
   export default getDayOfYear
 }
 
-declare module 'date-fns/getDaysInMonth/index.js' {
-  import { getDaysInMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getDaysInMonth/index.js' {
+  import { getDaysInMonth } from 'date-fns-jalaali'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/getDaysInYear/index.js' {
-  import { getDaysInYear } from 'date-fns'
+declare module 'date-fns-jalaali/getDaysInYear/index.js' {
+  import { getDaysInYear } from 'date-fns-jalaali'
   export default getDaysInYear
 }
 
-declare module 'date-fns/getDecade/index.js' {
-  import { getDecade } from 'date-fns'
+declare module 'date-fns-jalaali/getDecade/index.js' {
+  import { getDecade } from 'date-fns-jalaali'
   export default getDecade
 }
 
-declare module 'date-fns/getHours/index.js' {
-  import { getHours } from 'date-fns'
+declare module 'date-fns-jalaali/getHours/index.js' {
+  import { getHours } from 'date-fns-jalaali'
   export default getHours
 }
 
-declare module 'date-fns/getISODay/index.js' {
-  import { getISODay } from 'date-fns'
+declare module 'date-fns-jalaali/getISODay/index.js' {
+  import { getISODay } from 'date-fns-jalaali'
   export default getISODay
 }
 
-declare module 'date-fns/getISOWeek/index.js' {
-  import { getISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/getISOWeek/index.js' {
+  import { getISOWeek } from 'date-fns-jalaali'
   export default getISOWeek
 }
 
-declare module 'date-fns/getISOWeeksInYear/index.js' {
-  import { getISOWeeksInYear } from 'date-fns'
+declare module 'date-fns-jalaali/getISOWeeksInYear/index.js' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/getISOWeekYear/index.js' {
-  import { getISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/getISOWeekYear/index.js' {
+  import { getISOWeekYear } from 'date-fns-jalaali'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/getMilliseconds/index.js' {
-  import { getMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/getMilliseconds/index.js' {
+  import { getMilliseconds } from 'date-fns-jalaali'
   export default getMilliseconds
 }
 
-declare module 'date-fns/getMinutes/index.js' {
-  import { getMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/getMinutes/index.js' {
+  import { getMinutes } from 'date-fns-jalaali'
   export default getMinutes
 }
 
-declare module 'date-fns/getMonth/index.js' {
-  import { getMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getMonth/index.js' {
+  import { getMonth } from 'date-fns-jalaali'
   export default getMonth
 }
 
-declare module 'date-fns/getOverlappingDaysInIntervals/index.js' {
-  import { getOverlappingDaysInIntervals } from 'date-fns'
+declare module 'date-fns-jalaali/getOverlappingDaysInIntervals/index.js' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/getQuarter/index.js' {
-  import { getQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/getQuarter/index.js' {
+  import { getQuarter } from 'date-fns-jalaali'
   export default getQuarter
 }
 
-declare module 'date-fns/getSeconds/index.js' {
-  import { getSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/getSeconds/index.js' {
+  import { getSeconds } from 'date-fns-jalaali'
   export default getSeconds
 }
 
-declare module 'date-fns/getTime/index.js' {
-  import { getTime } from 'date-fns'
+declare module 'date-fns-jalaali/getTime/index.js' {
+  import { getTime } from 'date-fns-jalaali'
   export default getTime
 }
 
-declare module 'date-fns/getUnixTime/index.js' {
-  import { getUnixTime } from 'date-fns'
+declare module 'date-fns-jalaali/getUnixTime/index.js' {
+  import { getUnixTime } from 'date-fns-jalaali'
   export default getUnixTime
 }
 
-declare module 'date-fns/getWeek/index.js' {
-  import { getWeek } from 'date-fns'
+declare module 'date-fns-jalaali/getWeek/index.js' {
+  import { getWeek } from 'date-fns-jalaali'
   export default getWeek
 }
 
-declare module 'date-fns/getWeekOfMonth/index.js' {
-  import { getWeekOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getWeekOfMonth/index.js' {
+  import { getWeekOfMonth } from 'date-fns-jalaali'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/getWeeksInMonth/index.js' {
-  import { getWeeksInMonth } from 'date-fns'
+declare module 'date-fns-jalaali/getWeeksInMonth/index.js' {
+  import { getWeeksInMonth } from 'date-fns-jalaali'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/getWeekYear/index.js' {
-  import { getWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/getWeekYear/index.js' {
+  import { getWeekYear } from 'date-fns-jalaali'
   export default getWeekYear
 }
 
-declare module 'date-fns/getYear/index.js' {
-  import { getYear } from 'date-fns'
+declare module 'date-fns-jalaali/getYear/index.js' {
+  import { getYear } from 'date-fns-jalaali'
   export default getYear
 }
 
-declare module 'date-fns/intervalToDuration/index.js' {
-  import { intervalToDuration } from 'date-fns'
+declare module 'date-fns-jalaali/intervalToDuration/index.js' {
+  import { intervalToDuration } from 'date-fns-jalaali'
   export default intervalToDuration
 }
 
-declare module 'date-fns/isAfter/index.js' {
-  import { isAfter } from 'date-fns'
+declare module 'date-fns-jalaali/isAfter/index.js' {
+  import { isAfter } from 'date-fns-jalaali'
   export default isAfter
 }
 
-declare module 'date-fns/isBefore/index.js' {
-  import { isBefore } from 'date-fns'
+declare module 'date-fns-jalaali/isBefore/index.js' {
+  import { isBefore } from 'date-fns-jalaali'
   export default isBefore
 }
 
-declare module 'date-fns/isDate/index.js' {
-  import { isDate } from 'date-fns'
+declare module 'date-fns-jalaali/isDate/index.js' {
+  import { isDate } from 'date-fns-jalaali'
   export default isDate
 }
 
-declare module 'date-fns/isEqual/index.js' {
-  import { isEqual } from 'date-fns'
+declare module 'date-fns-jalaali/isEqual/index.js' {
+  import { isEqual } from 'date-fns-jalaali'
   export default isEqual
 }
 
-declare module 'date-fns/isExists/index.js' {
-  import { isExists } from 'date-fns'
+declare module 'date-fns-jalaali/isExists/index.js' {
+  import { isExists } from 'date-fns-jalaali'
   export default isExists
 }
 
-declare module 'date-fns/isFirstDayOfMonth/index.js' {
-  import { isFirstDayOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isFirstDayOfMonth/index.js' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/isFriday/index.js' {
-  import { isFriday } from 'date-fns'
+declare module 'date-fns-jalaali/isFriday/index.js' {
+  import { isFriday } from 'date-fns-jalaali'
   export default isFriday
 }
 
-declare module 'date-fns/isFuture/index.js' {
-  import { isFuture } from 'date-fns'
+declare module 'date-fns-jalaali/isFuture/index.js' {
+  import { isFuture } from 'date-fns-jalaali'
   export default isFuture
 }
 
-declare module 'date-fns/isLastDayOfMonth/index.js' {
-  import { isLastDayOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isLastDayOfMonth/index.js' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/isLeapYear/index.js' {
-  import { isLeapYear } from 'date-fns'
+declare module 'date-fns-jalaali/isLeapYear/index.js' {
+  import { isLeapYear } from 'date-fns-jalaali'
   export default isLeapYear
 }
 
-declare module 'date-fns/isMonday/index.js' {
-  import { isMonday } from 'date-fns'
+declare module 'date-fns-jalaali/isMonday/index.js' {
+  import { isMonday } from 'date-fns-jalaali'
   export default isMonday
 }
 
-declare module 'date-fns/isPast/index.js' {
-  import { isPast } from 'date-fns'
+declare module 'date-fns-jalaali/isPast/index.js' {
+  import { isPast } from 'date-fns-jalaali'
   export default isPast
 }
 
-declare module 'date-fns/isSameDay/index.js' {
-  import { isSameDay } from 'date-fns'
+declare module 'date-fns-jalaali/isSameDay/index.js' {
+  import { isSameDay } from 'date-fns-jalaali'
   export default isSameDay
 }
 
-declare module 'date-fns/isSameHour/index.js' {
-  import { isSameHour } from 'date-fns'
+declare module 'date-fns-jalaali/isSameHour/index.js' {
+  import { isSameHour } from 'date-fns-jalaali'
   export default isSameHour
 }
 
-declare module 'date-fns/isSameISOWeek/index.js' {
-  import { isSameISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isSameISOWeek/index.js' {
+  import { isSameISOWeek } from 'date-fns-jalaali'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/isSameISOWeekYear/index.js' {
-  import { isSameISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/isSameISOWeekYear/index.js' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/isSameMinute/index.js' {
-  import { isSameMinute } from 'date-fns'
+declare module 'date-fns-jalaali/isSameMinute/index.js' {
+  import { isSameMinute } from 'date-fns-jalaali'
   export default isSameMinute
 }
 
-declare module 'date-fns/isSameMonth/index.js' {
-  import { isSameMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isSameMonth/index.js' {
+  import { isSameMonth } from 'date-fns-jalaali'
   export default isSameMonth
 }
 
-declare module 'date-fns/isSameQuarter/index.js' {
-  import { isSameQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/isSameQuarter/index.js' {
+  import { isSameQuarter } from 'date-fns-jalaali'
   export default isSameQuarter
 }
 
-declare module 'date-fns/isSameSecond/index.js' {
-  import { isSameSecond } from 'date-fns'
+declare module 'date-fns-jalaali/isSameSecond/index.js' {
+  import { isSameSecond } from 'date-fns-jalaali'
   export default isSameSecond
 }
 
-declare module 'date-fns/isSameWeek/index.js' {
-  import { isSameWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isSameWeek/index.js' {
+  import { isSameWeek } from 'date-fns-jalaali'
   export default isSameWeek
 }
 
-declare module 'date-fns/isSameYear/index.js' {
-  import { isSameYear } from 'date-fns'
+declare module 'date-fns-jalaali/isSameYear/index.js' {
+  import { isSameYear } from 'date-fns-jalaali'
   export default isSameYear
 }
 
-declare module 'date-fns/isSaturday/index.js' {
-  import { isSaturday } from 'date-fns'
+declare module 'date-fns-jalaali/isSaturday/index.js' {
+  import { isSaturday } from 'date-fns-jalaali'
   export default isSaturday
 }
 
-declare module 'date-fns/isSunday/index.js' {
-  import { isSunday } from 'date-fns'
+declare module 'date-fns-jalaali/isSunday/index.js' {
+  import { isSunday } from 'date-fns-jalaali'
   export default isSunday
 }
 
-declare module 'date-fns/isThisHour/index.js' {
-  import { isThisHour } from 'date-fns'
+declare module 'date-fns-jalaali/isThisHour/index.js' {
+  import { isThisHour } from 'date-fns-jalaali'
   export default isThisHour
 }
 
-declare module 'date-fns/isThisISOWeek/index.js' {
-  import { isThisISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isThisISOWeek/index.js' {
+  import { isThisISOWeek } from 'date-fns-jalaali'
   export default isThisISOWeek
 }
 
-declare module 'date-fns/isThisMinute/index.js' {
-  import { isThisMinute } from 'date-fns'
+declare module 'date-fns-jalaali/isThisMinute/index.js' {
+  import { isThisMinute } from 'date-fns-jalaali'
   export default isThisMinute
 }
 
-declare module 'date-fns/isThisMonth/index.js' {
-  import { isThisMonth } from 'date-fns'
+declare module 'date-fns-jalaali/isThisMonth/index.js' {
+  import { isThisMonth } from 'date-fns-jalaali'
   export default isThisMonth
 }
 
-declare module 'date-fns/isThisQuarter/index.js' {
-  import { isThisQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/isThisQuarter/index.js' {
+  import { isThisQuarter } from 'date-fns-jalaali'
   export default isThisQuarter
 }
 
-declare module 'date-fns/isThisSecond/index.js' {
-  import { isThisSecond } from 'date-fns'
+declare module 'date-fns-jalaali/isThisSecond/index.js' {
+  import { isThisSecond } from 'date-fns-jalaali'
   export default isThisSecond
 }
 
-declare module 'date-fns/isThisWeek/index.js' {
-  import { isThisWeek } from 'date-fns'
+declare module 'date-fns-jalaali/isThisWeek/index.js' {
+  import { isThisWeek } from 'date-fns-jalaali'
   export default isThisWeek
 }
 
-declare module 'date-fns/isThisYear/index.js' {
-  import { isThisYear } from 'date-fns'
+declare module 'date-fns-jalaali/isThisYear/index.js' {
+  import { isThisYear } from 'date-fns-jalaali'
   export default isThisYear
 }
 
-declare module 'date-fns/isThursday/index.js' {
-  import { isThursday } from 'date-fns'
+declare module 'date-fns-jalaali/isThursday/index.js' {
+  import { isThursday } from 'date-fns-jalaali'
   export default isThursday
 }
 
-declare module 'date-fns/isToday/index.js' {
-  import { isToday } from 'date-fns'
+declare module 'date-fns-jalaali/isToday/index.js' {
+  import { isToday } from 'date-fns-jalaali'
   export default isToday
 }
 
-declare module 'date-fns/isTomorrow/index.js' {
-  import { isTomorrow } from 'date-fns'
+declare module 'date-fns-jalaali/isTomorrow/index.js' {
+  import { isTomorrow } from 'date-fns-jalaali'
   export default isTomorrow
 }
 
-declare module 'date-fns/isTuesday/index.js' {
-  import { isTuesday } from 'date-fns'
+declare module 'date-fns-jalaali/isTuesday/index.js' {
+  import { isTuesday } from 'date-fns-jalaali'
   export default isTuesday
 }
 
-declare module 'date-fns/isValid/index.js' {
-  import { isValid } from 'date-fns'
+declare module 'date-fns-jalaali/isValid/index.js' {
+  import { isValid } from 'date-fns-jalaali'
   export default isValid
 }
 
-declare module 'date-fns/isWednesday/index.js' {
-  import { isWednesday } from 'date-fns'
+declare module 'date-fns-jalaali/isWednesday/index.js' {
+  import { isWednesday } from 'date-fns-jalaali'
   export default isWednesday
 }
 
-declare module 'date-fns/isWeekend/index.js' {
-  import { isWeekend } from 'date-fns'
+declare module 'date-fns-jalaali/isWeekend/index.js' {
+  import { isWeekend } from 'date-fns-jalaali'
   export default isWeekend
 }
 
-declare module 'date-fns/isWithinInterval/index.js' {
-  import { isWithinInterval } from 'date-fns'
+declare module 'date-fns-jalaali/isWithinInterval/index.js' {
+  import { isWithinInterval } from 'date-fns-jalaali'
   export default isWithinInterval
 }
 
-declare module 'date-fns/isYesterday/index.js' {
-  import { isYesterday } from 'date-fns'
+declare module 'date-fns-jalaali/isYesterday/index.js' {
+  import { isYesterday } from 'date-fns-jalaali'
   export default isYesterday
 }
 
-declare module 'date-fns/lastDayOfDecade/index.js' {
-  import { lastDayOfDecade } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfDecade/index.js' {
+  import { lastDayOfDecade } from 'date-fns-jalaali'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/lastDayOfISOWeek/index.js' {
-  import { lastDayOfISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfISOWeek/index.js' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/lastDayOfISOWeekYear/index.js' {
-  import { lastDayOfISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfISOWeekYear/index.js' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/lastDayOfMonth/index.js' {
-  import { lastDayOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfMonth/index.js' {
+  import { lastDayOfMonth } from 'date-fns-jalaali'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/lastDayOfQuarter/index.js' {
-  import { lastDayOfQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfQuarter/index.js' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/lastDayOfWeek/index.js' {
-  import { lastDayOfWeek } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfWeek/index.js' {
+  import { lastDayOfWeek } from 'date-fns-jalaali'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/lastDayOfYear/index.js' {
-  import { lastDayOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/lastDayOfYear/index.js' {
+  import { lastDayOfYear } from 'date-fns-jalaali'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/lightFormat/index.js' {
-  import { lightFormat } from 'date-fns'
+declare module 'date-fns-jalaali/lightFormat/index.js' {
+  import { lightFormat } from 'date-fns-jalaali'
   export default lightFormat
 }
 
-declare module 'date-fns/max/index.js' {
-  import { max } from 'date-fns'
+declare module 'date-fns-jalaali/max/index.js' {
+  import { max } from 'date-fns-jalaali'
   export default max
 }
 
-declare module 'date-fns/min/index.js' {
-  import { min } from 'date-fns'
+declare module 'date-fns-jalaali/min/index.js' {
+  import { min } from 'date-fns-jalaali'
   export default min
 }
 
-declare module 'date-fns/parse/index.js' {
-  import { parse } from 'date-fns'
+declare module 'date-fns-jalaali/parse/index.js' {
+  import { parse } from 'date-fns-jalaali'
   export default parse
 }
 
-declare module 'date-fns/parseISO/index.js' {
-  import { parseISO } from 'date-fns'
+declare module 'date-fns-jalaali/parseISO/index.js' {
+  import { parseISO } from 'date-fns-jalaali'
   export default parseISO
 }
 
-declare module 'date-fns/parseJSON/index.js' {
-  import { parseJSON } from 'date-fns'
+declare module 'date-fns-jalaali/parseJSON/index.js' {
+  import { parseJSON } from 'date-fns-jalaali'
   export default parseJSON
 }
 
-declare module 'date-fns/roundToNearestMinutes/index.js' {
-  import { roundToNearestMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/roundToNearestMinutes/index.js' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/set/index.js' {
-  import { set } from 'date-fns'
+declare module 'date-fns-jalaali/set/index.js' {
+  import { set } from 'date-fns-jalaali'
   export default set
 }
 
-declare module 'date-fns/setDate/index.js' {
-  import { setDate } from 'date-fns'
+declare module 'date-fns-jalaali/setDate/index.js' {
+  import { setDate } from 'date-fns-jalaali'
   export default setDate
 }
 
-declare module 'date-fns/setDay/index.js' {
-  import { setDay } from 'date-fns'
+declare module 'date-fns-jalaali/setDay/index.js' {
+  import { setDay } from 'date-fns-jalaali'
   export default setDay
 }
 
-declare module 'date-fns/setDayOfYear/index.js' {
-  import { setDayOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/setDayOfYear/index.js' {
+  import { setDayOfYear } from 'date-fns-jalaali'
   export default setDayOfYear
 }
 
-declare module 'date-fns/setHours/index.js' {
-  import { setHours } from 'date-fns'
+declare module 'date-fns-jalaali/setHours/index.js' {
+  import { setHours } from 'date-fns-jalaali'
   export default setHours
 }
 
-declare module 'date-fns/setISODay/index.js' {
-  import { setISODay } from 'date-fns'
+declare module 'date-fns-jalaali/setISODay/index.js' {
+  import { setISODay } from 'date-fns-jalaali'
   export default setISODay
 }
 
-declare module 'date-fns/setISOWeek/index.js' {
-  import { setISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/setISOWeek/index.js' {
+  import { setISOWeek } from 'date-fns-jalaali'
   export default setISOWeek
 }
 
-declare module 'date-fns/setISOWeekYear/index.js' {
-  import { setISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/setISOWeekYear/index.js' {
+  import { setISOWeekYear } from 'date-fns-jalaali'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/setMilliseconds/index.js' {
-  import { setMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/setMilliseconds/index.js' {
+  import { setMilliseconds } from 'date-fns-jalaali'
   export default setMilliseconds
 }
 
-declare module 'date-fns/setMinutes/index.js' {
-  import { setMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/setMinutes/index.js' {
+  import { setMinutes } from 'date-fns-jalaali'
   export default setMinutes
 }
 
-declare module 'date-fns/setMonth/index.js' {
-  import { setMonth } from 'date-fns'
+declare module 'date-fns-jalaali/setMonth/index.js' {
+  import { setMonth } from 'date-fns-jalaali'
   export default setMonth
 }
 
-declare module 'date-fns/setQuarter/index.js' {
-  import { setQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/setQuarter/index.js' {
+  import { setQuarter } from 'date-fns-jalaali'
   export default setQuarter
 }
 
-declare module 'date-fns/setSeconds/index.js' {
-  import { setSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/setSeconds/index.js' {
+  import { setSeconds } from 'date-fns-jalaali'
   export default setSeconds
 }
 
-declare module 'date-fns/setWeek/index.js' {
-  import { setWeek } from 'date-fns'
+declare module 'date-fns-jalaali/setWeek/index.js' {
+  import { setWeek } from 'date-fns-jalaali'
   export default setWeek
 }
 
-declare module 'date-fns/setWeekYear/index.js' {
-  import { setWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/setWeekYear/index.js' {
+  import { setWeekYear } from 'date-fns-jalaali'
   export default setWeekYear
 }
 
-declare module 'date-fns/setYear/index.js' {
-  import { setYear } from 'date-fns'
+declare module 'date-fns-jalaali/setYear/index.js' {
+  import { setYear } from 'date-fns-jalaali'
   export default setYear
 }
 
-declare module 'date-fns/startOfDay/index.js' {
-  import { startOfDay } from 'date-fns'
+declare module 'date-fns-jalaali/startOfDay/index.js' {
+  import { startOfDay } from 'date-fns-jalaali'
   export default startOfDay
 }
 
-declare module 'date-fns/startOfDecade/index.js' {
-  import { startOfDecade } from 'date-fns'
+declare module 'date-fns-jalaali/startOfDecade/index.js' {
+  import { startOfDecade } from 'date-fns-jalaali'
   export default startOfDecade
 }
 
-declare module 'date-fns/startOfHour/index.js' {
-  import { startOfHour } from 'date-fns'
+declare module 'date-fns-jalaali/startOfHour/index.js' {
+  import { startOfHour } from 'date-fns-jalaali'
   export default startOfHour
 }
 
-declare module 'date-fns/startOfISOWeek/index.js' {
-  import { startOfISOWeek } from 'date-fns'
+declare module 'date-fns-jalaali/startOfISOWeek/index.js' {
+  import { startOfISOWeek } from 'date-fns-jalaali'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/startOfISOWeekYear/index.js' {
-  import { startOfISOWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/startOfISOWeekYear/index.js' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/startOfMinute/index.js' {
-  import { startOfMinute } from 'date-fns'
+declare module 'date-fns-jalaali/startOfMinute/index.js' {
+  import { startOfMinute } from 'date-fns-jalaali'
   export default startOfMinute
 }
 
-declare module 'date-fns/startOfMonth/index.js' {
-  import { startOfMonth } from 'date-fns'
+declare module 'date-fns-jalaali/startOfMonth/index.js' {
+  import { startOfMonth } from 'date-fns-jalaali'
   export default startOfMonth
 }
 
-declare module 'date-fns/startOfQuarter/index.js' {
-  import { startOfQuarter } from 'date-fns'
+declare module 'date-fns-jalaali/startOfQuarter/index.js' {
+  import { startOfQuarter } from 'date-fns-jalaali'
   export default startOfQuarter
 }
 
-declare module 'date-fns/startOfSecond/index.js' {
-  import { startOfSecond } from 'date-fns'
+declare module 'date-fns-jalaali/startOfSecond/index.js' {
+  import { startOfSecond } from 'date-fns-jalaali'
   export default startOfSecond
 }
 
-declare module 'date-fns/startOfToday/index.js' {
-  import { startOfToday } from 'date-fns'
+declare module 'date-fns-jalaali/startOfToday/index.js' {
+  import { startOfToday } from 'date-fns-jalaali'
   export default startOfToday
 }
 
-declare module 'date-fns/startOfTomorrow/index.js' {
-  import { startOfTomorrow } from 'date-fns'
+declare module 'date-fns-jalaali/startOfTomorrow/index.js' {
+  import { startOfTomorrow } from 'date-fns-jalaali'
   export default startOfTomorrow
 }
 
-declare module 'date-fns/startOfWeek/index.js' {
-  import { startOfWeek } from 'date-fns'
+declare module 'date-fns-jalaali/startOfWeek/index.js' {
+  import { startOfWeek } from 'date-fns-jalaali'
   export default startOfWeek
 }
 
-declare module 'date-fns/startOfWeekYear/index.js' {
-  import { startOfWeekYear } from 'date-fns'
+declare module 'date-fns-jalaali/startOfWeekYear/index.js' {
+  import { startOfWeekYear } from 'date-fns-jalaali'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/startOfYear/index.js' {
-  import { startOfYear } from 'date-fns'
+declare module 'date-fns-jalaali/startOfYear/index.js' {
+  import { startOfYear } from 'date-fns-jalaali'
   export default startOfYear
 }
 
-declare module 'date-fns/startOfYesterday/index.js' {
-  import { startOfYesterday } from 'date-fns'
+declare module 'date-fns-jalaali/startOfYesterday/index.js' {
+  import { startOfYesterday } from 'date-fns-jalaali'
   export default startOfYesterday
 }
 
-declare module 'date-fns/sub/index.js' {
-  import { sub } from 'date-fns'
+declare module 'date-fns-jalaali/sub/index.js' {
+  import { sub } from 'date-fns-jalaali'
   export default sub
 }
 
-declare module 'date-fns/subBusinessDays/index.js' {
-  import { subBusinessDays } from 'date-fns'
+declare module 'date-fns-jalaali/subBusinessDays/index.js' {
+  import { subBusinessDays } from 'date-fns-jalaali'
   export default subBusinessDays
 }
 
-declare module 'date-fns/subDays/index.js' {
-  import { subDays } from 'date-fns'
+declare module 'date-fns-jalaali/subDays/index.js' {
+  import { subDays } from 'date-fns-jalaali'
   export default subDays
 }
 
-declare module 'date-fns/subHours/index.js' {
-  import { subHours } from 'date-fns'
+declare module 'date-fns-jalaali/subHours/index.js' {
+  import { subHours } from 'date-fns-jalaali'
   export default subHours
 }
 
-declare module 'date-fns/subISOWeekYears/index.js' {
-  import { subISOWeekYears } from 'date-fns'
+declare module 'date-fns-jalaali/subISOWeekYears/index.js' {
+  import { subISOWeekYears } from 'date-fns-jalaali'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/subMilliseconds/index.js' {
-  import { subMilliseconds } from 'date-fns'
+declare module 'date-fns-jalaali/subMilliseconds/index.js' {
+  import { subMilliseconds } from 'date-fns-jalaali'
   export default subMilliseconds
 }
 
-declare module 'date-fns/subMinutes/index.js' {
-  import { subMinutes } from 'date-fns'
+declare module 'date-fns-jalaali/subMinutes/index.js' {
+  import { subMinutes } from 'date-fns-jalaali'
   export default subMinutes
 }
 
-declare module 'date-fns/subMonths/index.js' {
-  import { subMonths } from 'date-fns'
+declare module 'date-fns-jalaali/subMonths/index.js' {
+  import { subMonths } from 'date-fns-jalaali'
   export default subMonths
 }
 
-declare module 'date-fns/subQuarters/index.js' {
-  import { subQuarters } from 'date-fns'
+declare module 'date-fns-jalaali/subQuarters/index.js' {
+  import { subQuarters } from 'date-fns-jalaali'
   export default subQuarters
 }
 
-declare module 'date-fns/subSeconds/index.js' {
-  import { subSeconds } from 'date-fns'
+declare module 'date-fns-jalaali/subSeconds/index.js' {
+  import { subSeconds } from 'date-fns-jalaali'
   export default subSeconds
 }
 
-declare module 'date-fns/subWeeks/index.js' {
-  import { subWeeks } from 'date-fns'
+declare module 'date-fns-jalaali/subWeeks/index.js' {
+  import { subWeeks } from 'date-fns-jalaali'
   export default subWeeks
 }
 
-declare module 'date-fns/subYears/index.js' {
-  import { subYears } from 'date-fns'
+declare module 'date-fns-jalaali/subYears/index.js' {
+  import { subYears } from 'date-fns-jalaali'
   export default subYears
 }
 
-declare module 'date-fns/toDate/index.js' {
-  import { toDate } from 'date-fns'
+declare module 'date-fns-jalaali/toDate/index.js' {
+  import { toDate } from 'date-fns-jalaali'
   export default toDate
 }
 
 // FP Functions
 
-declare module 'date-fns/fp' {
+declare module 'date-fns-jalaali/fp' {
   const add: CurriedFn2<Duration, Date | number, Date>
   namespace add {}
 
@@ -4727,2994 +4727,2994 @@ declare module 'date-fns/fp' {
   const minTime: number
 }
 
-declare module 'date-fns/fp/add' {
-  import { add } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/add' {
+  import { add } from 'date-fns-jalaali/fp'
   export default add
 }
 
-declare module 'date-fns/fp/addBusinessDays' {
-  import { addBusinessDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addBusinessDays' {
+  import { addBusinessDays } from 'date-fns-jalaali/fp'
   export default addBusinessDays
 }
 
-declare module 'date-fns/fp/addDays' {
-  import { addDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addDays' {
+  import { addDays } from 'date-fns-jalaali/fp'
   export default addDays
 }
 
-declare module 'date-fns/fp/addHours' {
-  import { addHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addHours' {
+  import { addHours } from 'date-fns-jalaali/fp'
   export default addHours
 }
 
-declare module 'date-fns/fp/addISOWeekYears' {
-  import { addISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addISOWeekYears' {
+  import { addISOWeekYears } from 'date-fns-jalaali/fp'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/fp/addMilliseconds' {
-  import { addMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addMilliseconds' {
+  import { addMilliseconds } from 'date-fns-jalaali/fp'
   export default addMilliseconds
 }
 
-declare module 'date-fns/fp/addMinutes' {
-  import { addMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addMinutes' {
+  import { addMinutes } from 'date-fns-jalaali/fp'
   export default addMinutes
 }
 
-declare module 'date-fns/fp/addMonths' {
-  import { addMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addMonths' {
+  import { addMonths } from 'date-fns-jalaali/fp'
   export default addMonths
 }
 
-declare module 'date-fns/fp/addQuarters' {
-  import { addQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addQuarters' {
+  import { addQuarters } from 'date-fns-jalaali/fp'
   export default addQuarters
 }
 
-declare module 'date-fns/fp/addSeconds' {
-  import { addSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addSeconds' {
+  import { addSeconds } from 'date-fns-jalaali/fp'
   export default addSeconds
 }
 
-declare module 'date-fns/fp/addWeeks' {
-  import { addWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addWeeks' {
+  import { addWeeks } from 'date-fns-jalaali/fp'
   export default addWeeks
 }
 
-declare module 'date-fns/fp/addYears' {
-  import { addYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addYears' {
+  import { addYears } from 'date-fns-jalaali/fp'
   export default addYears
 }
 
-declare module 'date-fns/fp/areIntervalsOverlapping' {
-  import { areIntervalsOverlapping } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/areIntervalsOverlapping' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali/fp'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/fp/areIntervalsOverlappingWithOptions' {
-  import { areIntervalsOverlappingWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/areIntervalsOverlappingWithOptions' {
+  import { areIntervalsOverlappingWithOptions } from 'date-fns-jalaali/fp'
   export default areIntervalsOverlappingWithOptions
 }
 
-declare module 'date-fns/fp/closestIndexTo' {
-  import { closestIndexTo } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/closestIndexTo' {
+  import { closestIndexTo } from 'date-fns-jalaali/fp'
   export default closestIndexTo
 }
 
-declare module 'date-fns/fp/closestTo' {
-  import { closestTo } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/closestTo' {
+  import { closestTo } from 'date-fns-jalaali/fp'
   export default closestTo
 }
 
-declare module 'date-fns/fp/compareAsc' {
-  import { compareAsc } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/compareAsc' {
+  import { compareAsc } from 'date-fns-jalaali/fp'
   export default compareAsc
 }
 
-declare module 'date-fns/fp/compareDesc' {
-  import { compareDesc } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/compareDesc' {
+  import { compareDesc } from 'date-fns-jalaali/fp'
   export default compareDesc
 }
 
-declare module 'date-fns/fp/differenceInBusinessDays' {
-  import { differenceInBusinessDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInBusinessDays' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali/fp'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/fp/differenceInCalendarDays' {
-  import { differenceInCalendarDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarDays' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali/fp'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/fp/differenceInCalendarISOWeeks' {
-  import { differenceInCalendarISOWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarISOWeeks' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali/fp'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/fp/differenceInCalendarISOWeekYears' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarISOWeekYears' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali/fp'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/fp/differenceInCalendarMonths' {
-  import { differenceInCalendarMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarMonths' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali/fp'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/fp/differenceInCalendarQuarters' {
-  import { differenceInCalendarQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarQuarters' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali/fp'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/fp/differenceInCalendarWeeks' {
-  import { differenceInCalendarWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarWeeks' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali/fp'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/fp/differenceInCalendarWeeksWithOptions' {
-  import { differenceInCalendarWeeksWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarWeeksWithOptions' {
+  import { differenceInCalendarWeeksWithOptions } from 'date-fns-jalaali/fp'
   export default differenceInCalendarWeeksWithOptions
 }
 
-declare module 'date-fns/fp/differenceInCalendarYears' {
-  import { differenceInCalendarYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarYears' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali/fp'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/fp/differenceInDays' {
-  import { differenceInDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInDays' {
+  import { differenceInDays } from 'date-fns-jalaali/fp'
   export default differenceInDays
 }
 
-declare module 'date-fns/fp/differenceInHours' {
-  import { differenceInHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInHours' {
+  import { differenceInHours } from 'date-fns-jalaali/fp'
   export default differenceInHours
 }
 
-declare module 'date-fns/fp/differenceInISOWeekYears' {
-  import { differenceInISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInISOWeekYears' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali/fp'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/fp/differenceInMilliseconds' {
-  import { differenceInMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInMilliseconds' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali/fp'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/fp/differenceInMinutes' {
-  import { differenceInMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInMinutes' {
+  import { differenceInMinutes } from 'date-fns-jalaali/fp'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/fp/differenceInMonths' {
-  import { differenceInMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInMonths' {
+  import { differenceInMonths } from 'date-fns-jalaali/fp'
   export default differenceInMonths
 }
 
-declare module 'date-fns/fp/differenceInQuarters' {
-  import { differenceInQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInQuarters' {
+  import { differenceInQuarters } from 'date-fns-jalaali/fp'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/fp/differenceInSeconds' {
-  import { differenceInSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInSeconds' {
+  import { differenceInSeconds } from 'date-fns-jalaali/fp'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/fp/differenceInWeeks' {
-  import { differenceInWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInWeeks' {
+  import { differenceInWeeks } from 'date-fns-jalaali/fp'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/fp/differenceInYears' {
-  import { differenceInYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInYears' {
+  import { differenceInYears } from 'date-fns-jalaali/fp'
   export default differenceInYears
 }
 
-declare module 'date-fns/fp/eachDayOfInterval' {
-  import { eachDayOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachDayOfInterval' {
+  import { eachDayOfInterval } from 'date-fns-jalaali/fp'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/fp/eachDayOfIntervalWithOptions' {
-  import { eachDayOfIntervalWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachDayOfIntervalWithOptions' {
+  import { eachDayOfIntervalWithOptions } from 'date-fns-jalaali/fp'
   export default eachDayOfIntervalWithOptions
 }
 
-declare module 'date-fns/fp/eachMonthOfInterval' {
-  import { eachMonthOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachMonthOfInterval' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali/fp'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/fp/eachWeekendOfInterval' {
-  import { eachWeekendOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekendOfInterval' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali/fp'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/fp/eachWeekendOfMonth' {
-  import { eachWeekendOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekendOfMonth' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali/fp'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/fp/eachWeekendOfYear' {
-  import { eachWeekendOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekendOfYear' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali/fp'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/fp/eachWeekOfInterval' {
-  import { eachWeekOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekOfInterval' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali/fp'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/fp/eachWeekOfIntervalWithOptions' {
-  import { eachWeekOfIntervalWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekOfIntervalWithOptions' {
+  import { eachWeekOfIntervalWithOptions } from 'date-fns-jalaali/fp'
   export default eachWeekOfIntervalWithOptions
 }
 
-declare module 'date-fns/fp/eachYearOfInterval' {
-  import { eachYearOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachYearOfInterval' {
+  import { eachYearOfInterval } from 'date-fns-jalaali/fp'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/fp/endOfDay' {
-  import { endOfDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfDay' {
+  import { endOfDay } from 'date-fns-jalaali/fp'
   export default endOfDay
 }
 
-declare module 'date-fns/fp/endOfDecade' {
-  import { endOfDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfDecade' {
+  import { endOfDecade } from 'date-fns-jalaali/fp'
   export default endOfDecade
 }
 
-declare module 'date-fns/fp/endOfDecadeWithOptions' {
-  import { endOfDecadeWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfDecadeWithOptions' {
+  import { endOfDecadeWithOptions } from 'date-fns-jalaali/fp'
   export default endOfDecadeWithOptions
 }
 
-declare module 'date-fns/fp/endOfHour' {
-  import { endOfHour } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfHour' {
+  import { endOfHour } from 'date-fns-jalaali/fp'
   export default endOfHour
 }
 
-declare module 'date-fns/fp/endOfISOWeek' {
-  import { endOfISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfISOWeek' {
+  import { endOfISOWeek } from 'date-fns-jalaali/fp'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/fp/endOfISOWeekYear' {
-  import { endOfISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfISOWeekYear' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali/fp'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/fp/endOfMinute' {
-  import { endOfMinute } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfMinute' {
+  import { endOfMinute } from 'date-fns-jalaali/fp'
   export default endOfMinute
 }
 
-declare module 'date-fns/fp/endOfMonth' {
-  import { endOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfMonth' {
+  import { endOfMonth } from 'date-fns-jalaali/fp'
   export default endOfMonth
 }
 
-declare module 'date-fns/fp/endOfQuarter' {
-  import { endOfQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfQuarter' {
+  import { endOfQuarter } from 'date-fns-jalaali/fp'
   export default endOfQuarter
 }
 
-declare module 'date-fns/fp/endOfSecond' {
-  import { endOfSecond } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfSecond' {
+  import { endOfSecond } from 'date-fns-jalaali/fp'
   export default endOfSecond
 }
 
-declare module 'date-fns/fp/endOfWeek' {
-  import { endOfWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfWeek' {
+  import { endOfWeek } from 'date-fns-jalaali/fp'
   export default endOfWeek
 }
 
-declare module 'date-fns/fp/endOfWeekWithOptions' {
-  import { endOfWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfWeekWithOptions' {
+  import { endOfWeekWithOptions } from 'date-fns-jalaali/fp'
   export default endOfWeekWithOptions
 }
 
-declare module 'date-fns/fp/endOfYear' {
-  import { endOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfYear' {
+  import { endOfYear } from 'date-fns-jalaali/fp'
   export default endOfYear
 }
 
-declare module 'date-fns/fp/format' {
-  import { format } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/format' {
+  import { format } from 'date-fns-jalaali/fp'
   export default format
 }
 
-declare module 'date-fns/fp/formatDistance' {
-  import { formatDistance } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistance' {
+  import { formatDistance } from 'date-fns-jalaali/fp'
   export default formatDistance
 }
 
-declare module 'date-fns/fp/formatDistanceStrict' {
-  import { formatDistanceStrict } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistanceStrict' {
+  import { formatDistanceStrict } from 'date-fns-jalaali/fp'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/fp/formatDistanceStrictWithOptions' {
-  import { formatDistanceStrictWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistanceStrictWithOptions' {
+  import { formatDistanceStrictWithOptions } from 'date-fns-jalaali/fp'
   export default formatDistanceStrictWithOptions
 }
 
-declare module 'date-fns/fp/formatDistanceWithOptions' {
-  import { formatDistanceWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistanceWithOptions' {
+  import { formatDistanceWithOptions } from 'date-fns-jalaali/fp'
   export default formatDistanceWithOptions
 }
 
-declare module 'date-fns/fp/formatISO' {
-  import { formatISO } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISO' {
+  import { formatISO } from 'date-fns-jalaali/fp'
   export default formatISO
 }
 
-declare module 'date-fns/fp/formatISO9075' {
-  import { formatISO9075 } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISO9075' {
+  import { formatISO9075 } from 'date-fns-jalaali/fp'
   export default formatISO9075
 }
 
-declare module 'date-fns/fp/formatISO9075WithOptions' {
-  import { formatISO9075WithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISO9075WithOptions' {
+  import { formatISO9075WithOptions } from 'date-fns-jalaali/fp'
   export default formatISO9075WithOptions
 }
 
-declare module 'date-fns/fp/formatISODuration' {
-  import { formatISODuration } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISODuration' {
+  import { formatISODuration } from 'date-fns-jalaali/fp'
   export default formatISODuration
 }
 
-declare module 'date-fns/fp/formatISOWithOptions' {
-  import { formatISOWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISOWithOptions' {
+  import { formatISOWithOptions } from 'date-fns-jalaali/fp'
   export default formatISOWithOptions
 }
 
-declare module 'date-fns/fp/formatRelative' {
-  import { formatRelative } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRelative' {
+  import { formatRelative } from 'date-fns-jalaali/fp'
   export default formatRelative
 }
 
-declare module 'date-fns/fp/formatRelativeWithOptions' {
-  import { formatRelativeWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRelativeWithOptions' {
+  import { formatRelativeWithOptions } from 'date-fns-jalaali/fp'
   export default formatRelativeWithOptions
 }
 
-declare module 'date-fns/fp/formatRFC3339' {
-  import { formatRFC3339 } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRFC3339' {
+  import { formatRFC3339 } from 'date-fns-jalaali/fp'
   export default formatRFC3339
 }
 
-declare module 'date-fns/fp/formatRFC3339WithOptions' {
-  import { formatRFC3339WithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRFC3339WithOptions' {
+  import { formatRFC3339WithOptions } from 'date-fns-jalaali/fp'
   export default formatRFC3339WithOptions
 }
 
-declare module 'date-fns/fp/formatRFC7231' {
-  import { formatRFC7231 } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRFC7231' {
+  import { formatRFC7231 } from 'date-fns-jalaali/fp'
   export default formatRFC7231
 }
 
-declare module 'date-fns/fp/formatWithOptions' {
-  import { formatWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatWithOptions' {
+  import { formatWithOptions } from 'date-fns-jalaali/fp'
   export default formatWithOptions
 }
 
-declare module 'date-fns/fp/fromUnixTime' {
-  import { fromUnixTime } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/fromUnixTime' {
+  import { fromUnixTime } from 'date-fns-jalaali/fp'
   export default fromUnixTime
 }
 
-declare module 'date-fns/fp/getDate' {
-  import { getDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDate' {
+  import { getDate } from 'date-fns-jalaali/fp'
   export default getDate
 }
 
-declare module 'date-fns/fp/getDay' {
-  import { getDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDay' {
+  import { getDay } from 'date-fns-jalaali/fp'
   export default getDay
 }
 
-declare module 'date-fns/fp/getDayOfYear' {
-  import { getDayOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDayOfYear' {
+  import { getDayOfYear } from 'date-fns-jalaali/fp'
   export default getDayOfYear
 }
 
-declare module 'date-fns/fp/getDaysInMonth' {
-  import { getDaysInMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDaysInMonth' {
+  import { getDaysInMonth } from 'date-fns-jalaali/fp'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/fp/getDaysInYear' {
-  import { getDaysInYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDaysInYear' {
+  import { getDaysInYear } from 'date-fns-jalaali/fp'
   export default getDaysInYear
 }
 
-declare module 'date-fns/fp/getDecade' {
-  import { getDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDecade' {
+  import { getDecade } from 'date-fns-jalaali/fp'
   export default getDecade
 }
 
-declare module 'date-fns/fp/getHours' {
-  import { getHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getHours' {
+  import { getHours } from 'date-fns-jalaali/fp'
   export default getHours
 }
 
-declare module 'date-fns/fp/getISODay' {
-  import { getISODay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISODay' {
+  import { getISODay } from 'date-fns-jalaali/fp'
   export default getISODay
 }
 
-declare module 'date-fns/fp/getISOWeek' {
-  import { getISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISOWeek' {
+  import { getISOWeek } from 'date-fns-jalaali/fp'
   export default getISOWeek
 }
 
-declare module 'date-fns/fp/getISOWeeksInYear' {
-  import { getISOWeeksInYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISOWeeksInYear' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali/fp'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/fp/getISOWeekYear' {
-  import { getISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISOWeekYear' {
+  import { getISOWeekYear } from 'date-fns-jalaali/fp'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/fp/getMilliseconds' {
-  import { getMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getMilliseconds' {
+  import { getMilliseconds } from 'date-fns-jalaali/fp'
   export default getMilliseconds
 }
 
-declare module 'date-fns/fp/getMinutes' {
-  import { getMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getMinutes' {
+  import { getMinutes } from 'date-fns-jalaali/fp'
   export default getMinutes
 }
 
-declare module 'date-fns/fp/getMonth' {
-  import { getMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getMonth' {
+  import { getMonth } from 'date-fns-jalaali/fp'
   export default getMonth
 }
 
-declare module 'date-fns/fp/getOverlappingDaysInIntervals' {
-  import { getOverlappingDaysInIntervals } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getOverlappingDaysInIntervals' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali/fp'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/fp/getQuarter' {
-  import { getQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getQuarter' {
+  import { getQuarter } from 'date-fns-jalaali/fp'
   export default getQuarter
 }
 
-declare module 'date-fns/fp/getSeconds' {
-  import { getSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getSeconds' {
+  import { getSeconds } from 'date-fns-jalaali/fp'
   export default getSeconds
 }
 
-declare module 'date-fns/fp/getTime' {
-  import { getTime } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getTime' {
+  import { getTime } from 'date-fns-jalaali/fp'
   export default getTime
 }
 
-declare module 'date-fns/fp/getUnixTime' {
-  import { getUnixTime } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getUnixTime' {
+  import { getUnixTime } from 'date-fns-jalaali/fp'
   export default getUnixTime
 }
 
-declare module 'date-fns/fp/getWeek' {
-  import { getWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeek' {
+  import { getWeek } from 'date-fns-jalaali/fp'
   export default getWeek
 }
 
-declare module 'date-fns/fp/getWeekOfMonth' {
-  import { getWeekOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekOfMonth' {
+  import { getWeekOfMonth } from 'date-fns-jalaali/fp'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/fp/getWeekOfMonthWithOptions' {
-  import { getWeekOfMonthWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekOfMonthWithOptions' {
+  import { getWeekOfMonthWithOptions } from 'date-fns-jalaali/fp'
   export default getWeekOfMonthWithOptions
 }
 
-declare module 'date-fns/fp/getWeeksInMonth' {
-  import { getWeeksInMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeeksInMonth' {
+  import { getWeeksInMonth } from 'date-fns-jalaali/fp'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/fp/getWeeksInMonthWithOptions' {
-  import { getWeeksInMonthWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeeksInMonthWithOptions' {
+  import { getWeeksInMonthWithOptions } from 'date-fns-jalaali/fp'
   export default getWeeksInMonthWithOptions
 }
 
-declare module 'date-fns/fp/getWeekWithOptions' {
-  import { getWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekWithOptions' {
+  import { getWeekWithOptions } from 'date-fns-jalaali/fp'
   export default getWeekWithOptions
 }
 
-declare module 'date-fns/fp/getWeekYear' {
-  import { getWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekYear' {
+  import { getWeekYear } from 'date-fns-jalaali/fp'
   export default getWeekYear
 }
 
-declare module 'date-fns/fp/getWeekYearWithOptions' {
-  import { getWeekYearWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekYearWithOptions' {
+  import { getWeekYearWithOptions } from 'date-fns-jalaali/fp'
   export default getWeekYearWithOptions
 }
 
-declare module 'date-fns/fp/getYear' {
-  import { getYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getYear' {
+  import { getYear } from 'date-fns-jalaali/fp'
   export default getYear
 }
 
-declare module 'date-fns/fp/intervalToDuration' {
-  import { intervalToDuration } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/intervalToDuration' {
+  import { intervalToDuration } from 'date-fns-jalaali/fp'
   export default intervalToDuration
 }
 
-declare module 'date-fns/fp/isAfter' {
-  import { isAfter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isAfter' {
+  import { isAfter } from 'date-fns-jalaali/fp'
   export default isAfter
 }
 
-declare module 'date-fns/fp/isBefore' {
-  import { isBefore } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isBefore' {
+  import { isBefore } from 'date-fns-jalaali/fp'
   export default isBefore
 }
 
-declare module 'date-fns/fp/isDate' {
-  import { isDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isDate' {
+  import { isDate } from 'date-fns-jalaali/fp'
   export default isDate
 }
 
-declare module 'date-fns/fp/isEqual' {
-  import { isEqual } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isEqual' {
+  import { isEqual } from 'date-fns-jalaali/fp'
   export default isEqual
 }
 
-declare module 'date-fns/fp/isExists' {
-  import { isExists } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isExists' {
+  import { isExists } from 'date-fns-jalaali/fp'
   export default isExists
 }
 
-declare module 'date-fns/fp/isFirstDayOfMonth' {
-  import { isFirstDayOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isFirstDayOfMonth' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali/fp'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/fp/isFriday' {
-  import { isFriday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isFriday' {
+  import { isFriday } from 'date-fns-jalaali/fp'
   export default isFriday
 }
 
-declare module 'date-fns/fp/isLastDayOfMonth' {
-  import { isLastDayOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isLastDayOfMonth' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali/fp'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/fp/isLeapYear' {
-  import { isLeapYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isLeapYear' {
+  import { isLeapYear } from 'date-fns-jalaali/fp'
   export default isLeapYear
 }
 
-declare module 'date-fns/fp/isMonday' {
-  import { isMonday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isMonday' {
+  import { isMonday } from 'date-fns-jalaali/fp'
   export default isMonday
 }
 
-declare module 'date-fns/fp/isSameDay' {
-  import { isSameDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameDay' {
+  import { isSameDay } from 'date-fns-jalaali/fp'
   export default isSameDay
 }
 
-declare module 'date-fns/fp/isSameHour' {
-  import { isSameHour } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameHour' {
+  import { isSameHour } from 'date-fns-jalaali/fp'
   export default isSameHour
 }
 
-declare module 'date-fns/fp/isSameISOWeek' {
-  import { isSameISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameISOWeek' {
+  import { isSameISOWeek } from 'date-fns-jalaali/fp'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/fp/isSameISOWeekYear' {
-  import { isSameISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameISOWeekYear' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali/fp'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/fp/isSameMinute' {
-  import { isSameMinute } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameMinute' {
+  import { isSameMinute } from 'date-fns-jalaali/fp'
   export default isSameMinute
 }
 
-declare module 'date-fns/fp/isSameMonth' {
-  import { isSameMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameMonth' {
+  import { isSameMonth } from 'date-fns-jalaali/fp'
   export default isSameMonth
 }
 
-declare module 'date-fns/fp/isSameQuarter' {
-  import { isSameQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameQuarter' {
+  import { isSameQuarter } from 'date-fns-jalaali/fp'
   export default isSameQuarter
 }
 
-declare module 'date-fns/fp/isSameSecond' {
-  import { isSameSecond } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameSecond' {
+  import { isSameSecond } from 'date-fns-jalaali/fp'
   export default isSameSecond
 }
 
-declare module 'date-fns/fp/isSameWeek' {
-  import { isSameWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameWeek' {
+  import { isSameWeek } from 'date-fns-jalaali/fp'
   export default isSameWeek
 }
 
-declare module 'date-fns/fp/isSameWeekWithOptions' {
-  import { isSameWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameWeekWithOptions' {
+  import { isSameWeekWithOptions } from 'date-fns-jalaali/fp'
   export default isSameWeekWithOptions
 }
 
-declare module 'date-fns/fp/isSameYear' {
-  import { isSameYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameYear' {
+  import { isSameYear } from 'date-fns-jalaali/fp'
   export default isSameYear
 }
 
-declare module 'date-fns/fp/isSaturday' {
-  import { isSaturday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSaturday' {
+  import { isSaturday } from 'date-fns-jalaali/fp'
   export default isSaturday
 }
 
-declare module 'date-fns/fp/isSunday' {
-  import { isSunday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSunday' {
+  import { isSunday } from 'date-fns-jalaali/fp'
   export default isSunday
 }
 
-declare module 'date-fns/fp/isThursday' {
-  import { isThursday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isThursday' {
+  import { isThursday } from 'date-fns-jalaali/fp'
   export default isThursday
 }
 
-declare module 'date-fns/fp/isTuesday' {
-  import { isTuesday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isTuesday' {
+  import { isTuesday } from 'date-fns-jalaali/fp'
   export default isTuesday
 }
 
-declare module 'date-fns/fp/isValid' {
-  import { isValid } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isValid' {
+  import { isValid } from 'date-fns-jalaali/fp'
   export default isValid
 }
 
-declare module 'date-fns/fp/isWednesday' {
-  import { isWednesday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isWednesday' {
+  import { isWednesday } from 'date-fns-jalaali/fp'
   export default isWednesday
 }
 
-declare module 'date-fns/fp/isWeekend' {
-  import { isWeekend } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isWeekend' {
+  import { isWeekend } from 'date-fns-jalaali/fp'
   export default isWeekend
 }
 
-declare module 'date-fns/fp/isWithinInterval' {
-  import { isWithinInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isWithinInterval' {
+  import { isWithinInterval } from 'date-fns-jalaali/fp'
   export default isWithinInterval
 }
 
-declare module 'date-fns/fp/lastDayOfDecade' {
-  import { lastDayOfDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfDecade' {
+  import { lastDayOfDecade } from 'date-fns-jalaali/fp'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/fp/lastDayOfISOWeek' {
-  import { lastDayOfISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfISOWeek' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali/fp'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/fp/lastDayOfISOWeekYear' {
-  import { lastDayOfISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfISOWeekYear' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali/fp'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/fp/lastDayOfMonth' {
-  import { lastDayOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfMonth' {
+  import { lastDayOfMonth } from 'date-fns-jalaali/fp'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/fp/lastDayOfQuarter' {
-  import { lastDayOfQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfQuarter' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali/fp'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/fp/lastDayOfQuarterWithOptions' {
-  import { lastDayOfQuarterWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfQuarterWithOptions' {
+  import { lastDayOfQuarterWithOptions } from 'date-fns-jalaali/fp'
   export default lastDayOfQuarterWithOptions
 }
 
-declare module 'date-fns/fp/lastDayOfWeek' {
-  import { lastDayOfWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfWeek' {
+  import { lastDayOfWeek } from 'date-fns-jalaali/fp'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/fp/lastDayOfWeekWithOptions' {
-  import { lastDayOfWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfWeekWithOptions' {
+  import { lastDayOfWeekWithOptions } from 'date-fns-jalaali/fp'
   export default lastDayOfWeekWithOptions
 }
 
-declare module 'date-fns/fp/lastDayOfYear' {
-  import { lastDayOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfYear' {
+  import { lastDayOfYear } from 'date-fns-jalaali/fp'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/fp/lightFormat' {
-  import { lightFormat } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lightFormat' {
+  import { lightFormat } from 'date-fns-jalaali/fp'
   export default lightFormat
 }
 
-declare module 'date-fns/fp/max' {
-  import { max } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/max' {
+  import { max } from 'date-fns-jalaali/fp'
   export default max
 }
 
-declare module 'date-fns/fp/min' {
-  import { min } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/min' {
+  import { min } from 'date-fns-jalaali/fp'
   export default min
 }
 
-declare module 'date-fns/fp/parse' {
-  import { parse } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parse' {
+  import { parse } from 'date-fns-jalaali/fp'
   export default parse
 }
 
-declare module 'date-fns/fp/parseISO' {
-  import { parseISO } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseISO' {
+  import { parseISO } from 'date-fns-jalaali/fp'
   export default parseISO
 }
 
-declare module 'date-fns/fp/parseISOWithOptions' {
-  import { parseISOWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseISOWithOptions' {
+  import { parseISOWithOptions } from 'date-fns-jalaali/fp'
   export default parseISOWithOptions
 }
 
-declare module 'date-fns/fp/parseJSON' {
-  import { parseJSON } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseJSON' {
+  import { parseJSON } from 'date-fns-jalaali/fp'
   export default parseJSON
 }
 
-declare module 'date-fns/fp/parseWithOptions' {
-  import { parseWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseWithOptions' {
+  import { parseWithOptions } from 'date-fns-jalaali/fp'
   export default parseWithOptions
 }
 
-declare module 'date-fns/fp/roundToNearestMinutes' {
-  import { roundToNearestMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/roundToNearestMinutes' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali/fp'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/fp/roundToNearestMinutesWithOptions' {
-  import { roundToNearestMinutesWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/roundToNearestMinutesWithOptions' {
+  import { roundToNearestMinutesWithOptions } from 'date-fns-jalaali/fp'
   export default roundToNearestMinutesWithOptions
 }
 
-declare module 'date-fns/fp/set' {
-  import { set } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/set' {
+  import { set } from 'date-fns-jalaali/fp'
   export default set
 }
 
-declare module 'date-fns/fp/setDate' {
-  import { setDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDate' {
+  import { setDate } from 'date-fns-jalaali/fp'
   export default setDate
 }
 
-declare module 'date-fns/fp/setDay' {
-  import { setDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDay' {
+  import { setDay } from 'date-fns-jalaali/fp'
   export default setDay
 }
 
-declare module 'date-fns/fp/setDayOfYear' {
-  import { setDayOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDayOfYear' {
+  import { setDayOfYear } from 'date-fns-jalaali/fp'
   export default setDayOfYear
 }
 
-declare module 'date-fns/fp/setDayWithOptions' {
-  import { setDayWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDayWithOptions' {
+  import { setDayWithOptions } from 'date-fns-jalaali/fp'
   export default setDayWithOptions
 }
 
-declare module 'date-fns/fp/setHours' {
-  import { setHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setHours' {
+  import { setHours } from 'date-fns-jalaali/fp'
   export default setHours
 }
 
-declare module 'date-fns/fp/setISODay' {
-  import { setISODay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setISODay' {
+  import { setISODay } from 'date-fns-jalaali/fp'
   export default setISODay
 }
 
-declare module 'date-fns/fp/setISOWeek' {
-  import { setISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setISOWeek' {
+  import { setISOWeek } from 'date-fns-jalaali/fp'
   export default setISOWeek
 }
 
-declare module 'date-fns/fp/setISOWeekYear' {
-  import { setISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setISOWeekYear' {
+  import { setISOWeekYear } from 'date-fns-jalaali/fp'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/fp/setMilliseconds' {
-  import { setMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setMilliseconds' {
+  import { setMilliseconds } from 'date-fns-jalaali/fp'
   export default setMilliseconds
 }
 
-declare module 'date-fns/fp/setMinutes' {
-  import { setMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setMinutes' {
+  import { setMinutes } from 'date-fns-jalaali/fp'
   export default setMinutes
 }
 
-declare module 'date-fns/fp/setMonth' {
-  import { setMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setMonth' {
+  import { setMonth } from 'date-fns-jalaali/fp'
   export default setMonth
 }
 
-declare module 'date-fns/fp/setQuarter' {
-  import { setQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setQuarter' {
+  import { setQuarter } from 'date-fns-jalaali/fp'
   export default setQuarter
 }
 
-declare module 'date-fns/fp/setSeconds' {
-  import { setSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setSeconds' {
+  import { setSeconds } from 'date-fns-jalaali/fp'
   export default setSeconds
 }
 
-declare module 'date-fns/fp/setWeek' {
-  import { setWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeek' {
+  import { setWeek } from 'date-fns-jalaali/fp'
   export default setWeek
 }
 
-declare module 'date-fns/fp/setWeekWithOptions' {
-  import { setWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeekWithOptions' {
+  import { setWeekWithOptions } from 'date-fns-jalaali/fp'
   export default setWeekWithOptions
 }
 
-declare module 'date-fns/fp/setWeekYear' {
-  import { setWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeekYear' {
+  import { setWeekYear } from 'date-fns-jalaali/fp'
   export default setWeekYear
 }
 
-declare module 'date-fns/fp/setWeekYearWithOptions' {
-  import { setWeekYearWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeekYearWithOptions' {
+  import { setWeekYearWithOptions } from 'date-fns-jalaali/fp'
   export default setWeekYearWithOptions
 }
 
-declare module 'date-fns/fp/setYear' {
-  import { setYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setYear' {
+  import { setYear } from 'date-fns-jalaali/fp'
   export default setYear
 }
 
-declare module 'date-fns/fp/startOfDay' {
-  import { startOfDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfDay' {
+  import { startOfDay } from 'date-fns-jalaali/fp'
   export default startOfDay
 }
 
-declare module 'date-fns/fp/startOfDecade' {
-  import { startOfDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfDecade' {
+  import { startOfDecade } from 'date-fns-jalaali/fp'
   export default startOfDecade
 }
 
-declare module 'date-fns/fp/startOfHour' {
-  import { startOfHour } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfHour' {
+  import { startOfHour } from 'date-fns-jalaali/fp'
   export default startOfHour
 }
 
-declare module 'date-fns/fp/startOfISOWeek' {
-  import { startOfISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfISOWeek' {
+  import { startOfISOWeek } from 'date-fns-jalaali/fp'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/fp/startOfISOWeekYear' {
-  import { startOfISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfISOWeekYear' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali/fp'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/fp/startOfMinute' {
-  import { startOfMinute } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfMinute' {
+  import { startOfMinute } from 'date-fns-jalaali/fp'
   export default startOfMinute
 }
 
-declare module 'date-fns/fp/startOfMonth' {
-  import { startOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfMonth' {
+  import { startOfMonth } from 'date-fns-jalaali/fp'
   export default startOfMonth
 }
 
-declare module 'date-fns/fp/startOfQuarter' {
-  import { startOfQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfQuarter' {
+  import { startOfQuarter } from 'date-fns-jalaali/fp'
   export default startOfQuarter
 }
 
-declare module 'date-fns/fp/startOfSecond' {
-  import { startOfSecond } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfSecond' {
+  import { startOfSecond } from 'date-fns-jalaali/fp'
   export default startOfSecond
 }
 
-declare module 'date-fns/fp/startOfWeek' {
-  import { startOfWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeek' {
+  import { startOfWeek } from 'date-fns-jalaali/fp'
   export default startOfWeek
 }
 
-declare module 'date-fns/fp/startOfWeekWithOptions' {
-  import { startOfWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeekWithOptions' {
+  import { startOfWeekWithOptions } from 'date-fns-jalaali/fp'
   export default startOfWeekWithOptions
 }
 
-declare module 'date-fns/fp/startOfWeekYear' {
-  import { startOfWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeekYear' {
+  import { startOfWeekYear } from 'date-fns-jalaali/fp'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/fp/startOfWeekYearWithOptions' {
-  import { startOfWeekYearWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeekYearWithOptions' {
+  import { startOfWeekYearWithOptions } from 'date-fns-jalaali/fp'
   export default startOfWeekYearWithOptions
 }
 
-declare module 'date-fns/fp/startOfYear' {
-  import { startOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfYear' {
+  import { startOfYear } from 'date-fns-jalaali/fp'
   export default startOfYear
 }
 
-declare module 'date-fns/fp/sub' {
-  import { sub } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/sub' {
+  import { sub } from 'date-fns-jalaali/fp'
   export default sub
 }
 
-declare module 'date-fns/fp/subBusinessDays' {
-  import { subBusinessDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subBusinessDays' {
+  import { subBusinessDays } from 'date-fns-jalaali/fp'
   export default subBusinessDays
 }
 
-declare module 'date-fns/fp/subDays' {
-  import { subDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subDays' {
+  import { subDays } from 'date-fns-jalaali/fp'
   export default subDays
 }
 
-declare module 'date-fns/fp/subHours' {
-  import { subHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subHours' {
+  import { subHours } from 'date-fns-jalaali/fp'
   export default subHours
 }
 
-declare module 'date-fns/fp/subISOWeekYears' {
-  import { subISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subISOWeekYears' {
+  import { subISOWeekYears } from 'date-fns-jalaali/fp'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/fp/subMilliseconds' {
-  import { subMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subMilliseconds' {
+  import { subMilliseconds } from 'date-fns-jalaali/fp'
   export default subMilliseconds
 }
 
-declare module 'date-fns/fp/subMinutes' {
-  import { subMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subMinutes' {
+  import { subMinutes } from 'date-fns-jalaali/fp'
   export default subMinutes
 }
 
-declare module 'date-fns/fp/subMonths' {
-  import { subMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subMonths' {
+  import { subMonths } from 'date-fns-jalaali/fp'
   export default subMonths
 }
 
-declare module 'date-fns/fp/subQuarters' {
-  import { subQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subQuarters' {
+  import { subQuarters } from 'date-fns-jalaali/fp'
   export default subQuarters
 }
 
-declare module 'date-fns/fp/subSeconds' {
-  import { subSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subSeconds' {
+  import { subSeconds } from 'date-fns-jalaali/fp'
   export default subSeconds
 }
 
-declare module 'date-fns/fp/subWeeks' {
-  import { subWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subWeeks' {
+  import { subWeeks } from 'date-fns-jalaali/fp'
   export default subWeeks
 }
 
-declare module 'date-fns/fp/subYears' {
-  import { subYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subYears' {
+  import { subYears } from 'date-fns-jalaali/fp'
   export default subYears
 }
 
-declare module 'date-fns/fp/toDate' {
-  import { toDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/toDate' {
+  import { toDate } from 'date-fns-jalaali/fp'
   export default toDate
 }
 
-declare module 'date-fns/fp/add/index' {
-  import { add } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/add/index' {
+  import { add } from 'date-fns-jalaali/fp'
   export default add
 }
 
-declare module 'date-fns/fp/addBusinessDays/index' {
-  import { addBusinessDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addBusinessDays/index' {
+  import { addBusinessDays } from 'date-fns-jalaali/fp'
   export default addBusinessDays
 }
 
-declare module 'date-fns/fp/addDays/index' {
-  import { addDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addDays/index' {
+  import { addDays } from 'date-fns-jalaali/fp'
   export default addDays
 }
 
-declare module 'date-fns/fp/addHours/index' {
-  import { addHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addHours/index' {
+  import { addHours } from 'date-fns-jalaali/fp'
   export default addHours
 }
 
-declare module 'date-fns/fp/addISOWeekYears/index' {
-  import { addISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addISOWeekYears/index' {
+  import { addISOWeekYears } from 'date-fns-jalaali/fp'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/fp/addMilliseconds/index' {
-  import { addMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addMilliseconds/index' {
+  import { addMilliseconds } from 'date-fns-jalaali/fp'
   export default addMilliseconds
 }
 
-declare module 'date-fns/fp/addMinutes/index' {
-  import { addMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addMinutes/index' {
+  import { addMinutes } from 'date-fns-jalaali/fp'
   export default addMinutes
 }
 
-declare module 'date-fns/fp/addMonths/index' {
-  import { addMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addMonths/index' {
+  import { addMonths } from 'date-fns-jalaali/fp'
   export default addMonths
 }
 
-declare module 'date-fns/fp/addQuarters/index' {
-  import { addQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addQuarters/index' {
+  import { addQuarters } from 'date-fns-jalaali/fp'
   export default addQuarters
 }
 
-declare module 'date-fns/fp/addSeconds/index' {
-  import { addSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addSeconds/index' {
+  import { addSeconds } from 'date-fns-jalaali/fp'
   export default addSeconds
 }
 
-declare module 'date-fns/fp/addWeeks/index' {
-  import { addWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addWeeks/index' {
+  import { addWeeks } from 'date-fns-jalaali/fp'
   export default addWeeks
 }
 
-declare module 'date-fns/fp/addYears/index' {
-  import { addYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addYears/index' {
+  import { addYears } from 'date-fns-jalaali/fp'
   export default addYears
 }
 
-declare module 'date-fns/fp/areIntervalsOverlapping/index' {
-  import { areIntervalsOverlapping } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/areIntervalsOverlapping/index' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali/fp'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/fp/areIntervalsOverlappingWithOptions/index' {
-  import { areIntervalsOverlappingWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/areIntervalsOverlappingWithOptions/index' {
+  import { areIntervalsOverlappingWithOptions } from 'date-fns-jalaali/fp'
   export default areIntervalsOverlappingWithOptions
 }
 
-declare module 'date-fns/fp/closestIndexTo/index' {
-  import { closestIndexTo } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/closestIndexTo/index' {
+  import { closestIndexTo } from 'date-fns-jalaali/fp'
   export default closestIndexTo
 }
 
-declare module 'date-fns/fp/closestTo/index' {
-  import { closestTo } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/closestTo/index' {
+  import { closestTo } from 'date-fns-jalaali/fp'
   export default closestTo
 }
 
-declare module 'date-fns/fp/compareAsc/index' {
-  import { compareAsc } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/compareAsc/index' {
+  import { compareAsc } from 'date-fns-jalaali/fp'
   export default compareAsc
 }
 
-declare module 'date-fns/fp/compareDesc/index' {
-  import { compareDesc } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/compareDesc/index' {
+  import { compareDesc } from 'date-fns-jalaali/fp'
   export default compareDesc
 }
 
-declare module 'date-fns/fp/differenceInBusinessDays/index' {
-  import { differenceInBusinessDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInBusinessDays/index' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali/fp'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/fp/differenceInCalendarDays/index' {
-  import { differenceInCalendarDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarDays/index' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali/fp'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/fp/differenceInCalendarISOWeeks/index' {
-  import { differenceInCalendarISOWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarISOWeeks/index' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali/fp'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/fp/differenceInCalendarISOWeekYears/index' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarISOWeekYears/index' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali/fp'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/fp/differenceInCalendarMonths/index' {
-  import { differenceInCalendarMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarMonths/index' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali/fp'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/fp/differenceInCalendarQuarters/index' {
-  import { differenceInCalendarQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarQuarters/index' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali/fp'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/fp/differenceInCalendarWeeks/index' {
-  import { differenceInCalendarWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarWeeks/index' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali/fp'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/fp/differenceInCalendarWeeksWithOptions/index' {
-  import { differenceInCalendarWeeksWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarWeeksWithOptions/index' {
+  import { differenceInCalendarWeeksWithOptions } from 'date-fns-jalaali/fp'
   export default differenceInCalendarWeeksWithOptions
 }
 
-declare module 'date-fns/fp/differenceInCalendarYears/index' {
-  import { differenceInCalendarYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarYears/index' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali/fp'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/fp/differenceInDays/index' {
-  import { differenceInDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInDays/index' {
+  import { differenceInDays } from 'date-fns-jalaali/fp'
   export default differenceInDays
 }
 
-declare module 'date-fns/fp/differenceInHours/index' {
-  import { differenceInHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInHours/index' {
+  import { differenceInHours } from 'date-fns-jalaali/fp'
   export default differenceInHours
 }
 
-declare module 'date-fns/fp/differenceInISOWeekYears/index' {
-  import { differenceInISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInISOWeekYears/index' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali/fp'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/fp/differenceInMilliseconds/index' {
-  import { differenceInMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInMilliseconds/index' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali/fp'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/fp/differenceInMinutes/index' {
-  import { differenceInMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInMinutes/index' {
+  import { differenceInMinutes } from 'date-fns-jalaali/fp'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/fp/differenceInMonths/index' {
-  import { differenceInMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInMonths/index' {
+  import { differenceInMonths } from 'date-fns-jalaali/fp'
   export default differenceInMonths
 }
 
-declare module 'date-fns/fp/differenceInQuarters/index' {
-  import { differenceInQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInQuarters/index' {
+  import { differenceInQuarters } from 'date-fns-jalaali/fp'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/fp/differenceInSeconds/index' {
-  import { differenceInSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInSeconds/index' {
+  import { differenceInSeconds } from 'date-fns-jalaali/fp'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/fp/differenceInWeeks/index' {
-  import { differenceInWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInWeeks/index' {
+  import { differenceInWeeks } from 'date-fns-jalaali/fp'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/fp/differenceInYears/index' {
-  import { differenceInYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInYears/index' {
+  import { differenceInYears } from 'date-fns-jalaali/fp'
   export default differenceInYears
 }
 
-declare module 'date-fns/fp/eachDayOfInterval/index' {
-  import { eachDayOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachDayOfInterval/index' {
+  import { eachDayOfInterval } from 'date-fns-jalaali/fp'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/fp/eachDayOfIntervalWithOptions/index' {
-  import { eachDayOfIntervalWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachDayOfIntervalWithOptions/index' {
+  import { eachDayOfIntervalWithOptions } from 'date-fns-jalaali/fp'
   export default eachDayOfIntervalWithOptions
 }
 
-declare module 'date-fns/fp/eachMonthOfInterval/index' {
-  import { eachMonthOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachMonthOfInterval/index' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali/fp'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/fp/eachWeekendOfInterval/index' {
-  import { eachWeekendOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekendOfInterval/index' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali/fp'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/fp/eachWeekendOfMonth/index' {
-  import { eachWeekendOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekendOfMonth/index' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali/fp'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/fp/eachWeekendOfYear/index' {
-  import { eachWeekendOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekendOfYear/index' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali/fp'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/fp/eachWeekOfInterval/index' {
-  import { eachWeekOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekOfInterval/index' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali/fp'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/fp/eachWeekOfIntervalWithOptions/index' {
-  import { eachWeekOfIntervalWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekOfIntervalWithOptions/index' {
+  import { eachWeekOfIntervalWithOptions } from 'date-fns-jalaali/fp'
   export default eachWeekOfIntervalWithOptions
 }
 
-declare module 'date-fns/fp/eachYearOfInterval/index' {
-  import { eachYearOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachYearOfInterval/index' {
+  import { eachYearOfInterval } from 'date-fns-jalaali/fp'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/fp/endOfDay/index' {
-  import { endOfDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfDay/index' {
+  import { endOfDay } from 'date-fns-jalaali/fp'
   export default endOfDay
 }
 
-declare module 'date-fns/fp/endOfDecade/index' {
-  import { endOfDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfDecade/index' {
+  import { endOfDecade } from 'date-fns-jalaali/fp'
   export default endOfDecade
 }
 
-declare module 'date-fns/fp/endOfDecadeWithOptions/index' {
-  import { endOfDecadeWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfDecadeWithOptions/index' {
+  import { endOfDecadeWithOptions } from 'date-fns-jalaali/fp'
   export default endOfDecadeWithOptions
 }
 
-declare module 'date-fns/fp/endOfHour/index' {
-  import { endOfHour } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfHour/index' {
+  import { endOfHour } from 'date-fns-jalaali/fp'
   export default endOfHour
 }
 
-declare module 'date-fns/fp/endOfISOWeek/index' {
-  import { endOfISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfISOWeek/index' {
+  import { endOfISOWeek } from 'date-fns-jalaali/fp'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/fp/endOfISOWeekYear/index' {
-  import { endOfISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfISOWeekYear/index' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali/fp'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/fp/endOfMinute/index' {
-  import { endOfMinute } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfMinute/index' {
+  import { endOfMinute } from 'date-fns-jalaali/fp'
   export default endOfMinute
 }
 
-declare module 'date-fns/fp/endOfMonth/index' {
-  import { endOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfMonth/index' {
+  import { endOfMonth } from 'date-fns-jalaali/fp'
   export default endOfMonth
 }
 
-declare module 'date-fns/fp/endOfQuarter/index' {
-  import { endOfQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfQuarter/index' {
+  import { endOfQuarter } from 'date-fns-jalaali/fp'
   export default endOfQuarter
 }
 
-declare module 'date-fns/fp/endOfSecond/index' {
-  import { endOfSecond } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfSecond/index' {
+  import { endOfSecond } from 'date-fns-jalaali/fp'
   export default endOfSecond
 }
 
-declare module 'date-fns/fp/endOfWeek/index' {
-  import { endOfWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfWeek/index' {
+  import { endOfWeek } from 'date-fns-jalaali/fp'
   export default endOfWeek
 }
 
-declare module 'date-fns/fp/endOfWeekWithOptions/index' {
-  import { endOfWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfWeekWithOptions/index' {
+  import { endOfWeekWithOptions } from 'date-fns-jalaali/fp'
   export default endOfWeekWithOptions
 }
 
-declare module 'date-fns/fp/endOfYear/index' {
-  import { endOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfYear/index' {
+  import { endOfYear } from 'date-fns-jalaali/fp'
   export default endOfYear
 }
 
-declare module 'date-fns/fp/format/index' {
-  import { format } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/format/index' {
+  import { format } from 'date-fns-jalaali/fp'
   export default format
 }
 
-declare module 'date-fns/fp/formatDistance/index' {
-  import { formatDistance } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistance/index' {
+  import { formatDistance } from 'date-fns-jalaali/fp'
   export default formatDistance
 }
 
-declare module 'date-fns/fp/formatDistanceStrict/index' {
-  import { formatDistanceStrict } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistanceStrict/index' {
+  import { formatDistanceStrict } from 'date-fns-jalaali/fp'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/fp/formatDistanceStrictWithOptions/index' {
-  import { formatDistanceStrictWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistanceStrictWithOptions/index' {
+  import { formatDistanceStrictWithOptions } from 'date-fns-jalaali/fp'
   export default formatDistanceStrictWithOptions
 }
 
-declare module 'date-fns/fp/formatDistanceWithOptions/index' {
-  import { formatDistanceWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistanceWithOptions/index' {
+  import { formatDistanceWithOptions } from 'date-fns-jalaali/fp'
   export default formatDistanceWithOptions
 }
 
-declare module 'date-fns/fp/formatISO/index' {
-  import { formatISO } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISO/index' {
+  import { formatISO } from 'date-fns-jalaali/fp'
   export default formatISO
 }
 
-declare module 'date-fns/fp/formatISO9075/index' {
-  import { formatISO9075 } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISO9075/index' {
+  import { formatISO9075 } from 'date-fns-jalaali/fp'
   export default formatISO9075
 }
 
-declare module 'date-fns/fp/formatISO9075WithOptions/index' {
-  import { formatISO9075WithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISO9075WithOptions/index' {
+  import { formatISO9075WithOptions } from 'date-fns-jalaali/fp'
   export default formatISO9075WithOptions
 }
 
-declare module 'date-fns/fp/formatISODuration/index' {
-  import { formatISODuration } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISODuration/index' {
+  import { formatISODuration } from 'date-fns-jalaali/fp'
   export default formatISODuration
 }
 
-declare module 'date-fns/fp/formatISOWithOptions/index' {
-  import { formatISOWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISOWithOptions/index' {
+  import { formatISOWithOptions } from 'date-fns-jalaali/fp'
   export default formatISOWithOptions
 }
 
-declare module 'date-fns/fp/formatRelative/index' {
-  import { formatRelative } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRelative/index' {
+  import { formatRelative } from 'date-fns-jalaali/fp'
   export default formatRelative
 }
 
-declare module 'date-fns/fp/formatRelativeWithOptions/index' {
-  import { formatRelativeWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRelativeWithOptions/index' {
+  import { formatRelativeWithOptions } from 'date-fns-jalaali/fp'
   export default formatRelativeWithOptions
 }
 
-declare module 'date-fns/fp/formatRFC3339/index' {
-  import { formatRFC3339 } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRFC3339/index' {
+  import { formatRFC3339 } from 'date-fns-jalaali/fp'
   export default formatRFC3339
 }
 
-declare module 'date-fns/fp/formatRFC3339WithOptions/index' {
-  import { formatRFC3339WithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRFC3339WithOptions/index' {
+  import { formatRFC3339WithOptions } from 'date-fns-jalaali/fp'
   export default formatRFC3339WithOptions
 }
 
-declare module 'date-fns/fp/formatRFC7231/index' {
-  import { formatRFC7231 } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRFC7231/index' {
+  import { formatRFC7231 } from 'date-fns-jalaali/fp'
   export default formatRFC7231
 }
 
-declare module 'date-fns/fp/formatWithOptions/index' {
-  import { formatWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatWithOptions/index' {
+  import { formatWithOptions } from 'date-fns-jalaali/fp'
   export default formatWithOptions
 }
 
-declare module 'date-fns/fp/fromUnixTime/index' {
-  import { fromUnixTime } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/fromUnixTime/index' {
+  import { fromUnixTime } from 'date-fns-jalaali/fp'
   export default fromUnixTime
 }
 
-declare module 'date-fns/fp/getDate/index' {
-  import { getDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDate/index' {
+  import { getDate } from 'date-fns-jalaali/fp'
   export default getDate
 }
 
-declare module 'date-fns/fp/getDay/index' {
-  import { getDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDay/index' {
+  import { getDay } from 'date-fns-jalaali/fp'
   export default getDay
 }
 
-declare module 'date-fns/fp/getDayOfYear/index' {
-  import { getDayOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDayOfYear/index' {
+  import { getDayOfYear } from 'date-fns-jalaali/fp'
   export default getDayOfYear
 }
 
-declare module 'date-fns/fp/getDaysInMonth/index' {
-  import { getDaysInMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDaysInMonth/index' {
+  import { getDaysInMonth } from 'date-fns-jalaali/fp'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/fp/getDaysInYear/index' {
-  import { getDaysInYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDaysInYear/index' {
+  import { getDaysInYear } from 'date-fns-jalaali/fp'
   export default getDaysInYear
 }
 
-declare module 'date-fns/fp/getDecade/index' {
-  import { getDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDecade/index' {
+  import { getDecade } from 'date-fns-jalaali/fp'
   export default getDecade
 }
 
-declare module 'date-fns/fp/getHours/index' {
-  import { getHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getHours/index' {
+  import { getHours } from 'date-fns-jalaali/fp'
   export default getHours
 }
 
-declare module 'date-fns/fp/getISODay/index' {
-  import { getISODay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISODay/index' {
+  import { getISODay } from 'date-fns-jalaali/fp'
   export default getISODay
 }
 
-declare module 'date-fns/fp/getISOWeek/index' {
-  import { getISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISOWeek/index' {
+  import { getISOWeek } from 'date-fns-jalaali/fp'
   export default getISOWeek
 }
 
-declare module 'date-fns/fp/getISOWeeksInYear/index' {
-  import { getISOWeeksInYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISOWeeksInYear/index' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali/fp'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/fp/getISOWeekYear/index' {
-  import { getISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISOWeekYear/index' {
+  import { getISOWeekYear } from 'date-fns-jalaali/fp'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/fp/getMilliseconds/index' {
-  import { getMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getMilliseconds/index' {
+  import { getMilliseconds } from 'date-fns-jalaali/fp'
   export default getMilliseconds
 }
 
-declare module 'date-fns/fp/getMinutes/index' {
-  import { getMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getMinutes/index' {
+  import { getMinutes } from 'date-fns-jalaali/fp'
   export default getMinutes
 }
 
-declare module 'date-fns/fp/getMonth/index' {
-  import { getMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getMonth/index' {
+  import { getMonth } from 'date-fns-jalaali/fp'
   export default getMonth
 }
 
-declare module 'date-fns/fp/getOverlappingDaysInIntervals/index' {
-  import { getOverlappingDaysInIntervals } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getOverlappingDaysInIntervals/index' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali/fp'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/fp/getQuarter/index' {
-  import { getQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getQuarter/index' {
+  import { getQuarter } from 'date-fns-jalaali/fp'
   export default getQuarter
 }
 
-declare module 'date-fns/fp/getSeconds/index' {
-  import { getSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getSeconds/index' {
+  import { getSeconds } from 'date-fns-jalaali/fp'
   export default getSeconds
 }
 
-declare module 'date-fns/fp/getTime/index' {
-  import { getTime } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getTime/index' {
+  import { getTime } from 'date-fns-jalaali/fp'
   export default getTime
 }
 
-declare module 'date-fns/fp/getUnixTime/index' {
-  import { getUnixTime } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getUnixTime/index' {
+  import { getUnixTime } from 'date-fns-jalaali/fp'
   export default getUnixTime
 }
 
-declare module 'date-fns/fp/getWeek/index' {
-  import { getWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeek/index' {
+  import { getWeek } from 'date-fns-jalaali/fp'
   export default getWeek
 }
 
-declare module 'date-fns/fp/getWeekOfMonth/index' {
-  import { getWeekOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekOfMonth/index' {
+  import { getWeekOfMonth } from 'date-fns-jalaali/fp'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/fp/getWeekOfMonthWithOptions/index' {
-  import { getWeekOfMonthWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekOfMonthWithOptions/index' {
+  import { getWeekOfMonthWithOptions } from 'date-fns-jalaali/fp'
   export default getWeekOfMonthWithOptions
 }
 
-declare module 'date-fns/fp/getWeeksInMonth/index' {
-  import { getWeeksInMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeeksInMonth/index' {
+  import { getWeeksInMonth } from 'date-fns-jalaali/fp'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/fp/getWeeksInMonthWithOptions/index' {
-  import { getWeeksInMonthWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeeksInMonthWithOptions/index' {
+  import { getWeeksInMonthWithOptions } from 'date-fns-jalaali/fp'
   export default getWeeksInMonthWithOptions
 }
 
-declare module 'date-fns/fp/getWeekWithOptions/index' {
-  import { getWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekWithOptions/index' {
+  import { getWeekWithOptions } from 'date-fns-jalaali/fp'
   export default getWeekWithOptions
 }
 
-declare module 'date-fns/fp/getWeekYear/index' {
-  import { getWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekYear/index' {
+  import { getWeekYear } from 'date-fns-jalaali/fp'
   export default getWeekYear
 }
 
-declare module 'date-fns/fp/getWeekYearWithOptions/index' {
-  import { getWeekYearWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekYearWithOptions/index' {
+  import { getWeekYearWithOptions } from 'date-fns-jalaali/fp'
   export default getWeekYearWithOptions
 }
 
-declare module 'date-fns/fp/getYear/index' {
-  import { getYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getYear/index' {
+  import { getYear } from 'date-fns-jalaali/fp'
   export default getYear
 }
 
-declare module 'date-fns/fp/intervalToDuration/index' {
-  import { intervalToDuration } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/intervalToDuration/index' {
+  import { intervalToDuration } from 'date-fns-jalaali/fp'
   export default intervalToDuration
 }
 
-declare module 'date-fns/fp/isAfter/index' {
-  import { isAfter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isAfter/index' {
+  import { isAfter } from 'date-fns-jalaali/fp'
   export default isAfter
 }
 
-declare module 'date-fns/fp/isBefore/index' {
-  import { isBefore } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isBefore/index' {
+  import { isBefore } from 'date-fns-jalaali/fp'
   export default isBefore
 }
 
-declare module 'date-fns/fp/isDate/index' {
-  import { isDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isDate/index' {
+  import { isDate } from 'date-fns-jalaali/fp'
   export default isDate
 }
 
-declare module 'date-fns/fp/isEqual/index' {
-  import { isEqual } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isEqual/index' {
+  import { isEqual } from 'date-fns-jalaali/fp'
   export default isEqual
 }
 
-declare module 'date-fns/fp/isExists/index' {
-  import { isExists } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isExists/index' {
+  import { isExists } from 'date-fns-jalaali/fp'
   export default isExists
 }
 
-declare module 'date-fns/fp/isFirstDayOfMonth/index' {
-  import { isFirstDayOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isFirstDayOfMonth/index' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali/fp'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/fp/isFriday/index' {
-  import { isFriday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isFriday/index' {
+  import { isFriday } from 'date-fns-jalaali/fp'
   export default isFriday
 }
 
-declare module 'date-fns/fp/isLastDayOfMonth/index' {
-  import { isLastDayOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isLastDayOfMonth/index' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali/fp'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/fp/isLeapYear/index' {
-  import { isLeapYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isLeapYear/index' {
+  import { isLeapYear } from 'date-fns-jalaali/fp'
   export default isLeapYear
 }
 
-declare module 'date-fns/fp/isMonday/index' {
-  import { isMonday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isMonday/index' {
+  import { isMonday } from 'date-fns-jalaali/fp'
   export default isMonday
 }
 
-declare module 'date-fns/fp/isSameDay/index' {
-  import { isSameDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameDay/index' {
+  import { isSameDay } from 'date-fns-jalaali/fp'
   export default isSameDay
 }
 
-declare module 'date-fns/fp/isSameHour/index' {
-  import { isSameHour } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameHour/index' {
+  import { isSameHour } from 'date-fns-jalaali/fp'
   export default isSameHour
 }
 
-declare module 'date-fns/fp/isSameISOWeek/index' {
-  import { isSameISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameISOWeek/index' {
+  import { isSameISOWeek } from 'date-fns-jalaali/fp'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/fp/isSameISOWeekYear/index' {
-  import { isSameISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameISOWeekYear/index' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali/fp'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/fp/isSameMinute/index' {
-  import { isSameMinute } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameMinute/index' {
+  import { isSameMinute } from 'date-fns-jalaali/fp'
   export default isSameMinute
 }
 
-declare module 'date-fns/fp/isSameMonth/index' {
-  import { isSameMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameMonth/index' {
+  import { isSameMonth } from 'date-fns-jalaali/fp'
   export default isSameMonth
 }
 
-declare module 'date-fns/fp/isSameQuarter/index' {
-  import { isSameQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameQuarter/index' {
+  import { isSameQuarter } from 'date-fns-jalaali/fp'
   export default isSameQuarter
 }
 
-declare module 'date-fns/fp/isSameSecond/index' {
-  import { isSameSecond } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameSecond/index' {
+  import { isSameSecond } from 'date-fns-jalaali/fp'
   export default isSameSecond
 }
 
-declare module 'date-fns/fp/isSameWeek/index' {
-  import { isSameWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameWeek/index' {
+  import { isSameWeek } from 'date-fns-jalaali/fp'
   export default isSameWeek
 }
 
-declare module 'date-fns/fp/isSameWeekWithOptions/index' {
-  import { isSameWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameWeekWithOptions/index' {
+  import { isSameWeekWithOptions } from 'date-fns-jalaali/fp'
   export default isSameWeekWithOptions
 }
 
-declare module 'date-fns/fp/isSameYear/index' {
-  import { isSameYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameYear/index' {
+  import { isSameYear } from 'date-fns-jalaali/fp'
   export default isSameYear
 }
 
-declare module 'date-fns/fp/isSaturday/index' {
-  import { isSaturday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSaturday/index' {
+  import { isSaturday } from 'date-fns-jalaali/fp'
   export default isSaturday
 }
 
-declare module 'date-fns/fp/isSunday/index' {
-  import { isSunday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSunday/index' {
+  import { isSunday } from 'date-fns-jalaali/fp'
   export default isSunday
 }
 
-declare module 'date-fns/fp/isThursday/index' {
-  import { isThursday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isThursday/index' {
+  import { isThursday } from 'date-fns-jalaali/fp'
   export default isThursday
 }
 
-declare module 'date-fns/fp/isTuesday/index' {
-  import { isTuesday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isTuesday/index' {
+  import { isTuesday } from 'date-fns-jalaali/fp'
   export default isTuesday
 }
 
-declare module 'date-fns/fp/isValid/index' {
-  import { isValid } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isValid/index' {
+  import { isValid } from 'date-fns-jalaali/fp'
   export default isValid
 }
 
-declare module 'date-fns/fp/isWednesday/index' {
-  import { isWednesday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isWednesday/index' {
+  import { isWednesday } from 'date-fns-jalaali/fp'
   export default isWednesday
 }
 
-declare module 'date-fns/fp/isWeekend/index' {
-  import { isWeekend } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isWeekend/index' {
+  import { isWeekend } from 'date-fns-jalaali/fp'
   export default isWeekend
 }
 
-declare module 'date-fns/fp/isWithinInterval/index' {
-  import { isWithinInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isWithinInterval/index' {
+  import { isWithinInterval } from 'date-fns-jalaali/fp'
   export default isWithinInterval
 }
 
-declare module 'date-fns/fp/lastDayOfDecade/index' {
-  import { lastDayOfDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfDecade/index' {
+  import { lastDayOfDecade } from 'date-fns-jalaali/fp'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/fp/lastDayOfISOWeek/index' {
-  import { lastDayOfISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfISOWeek/index' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali/fp'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/fp/lastDayOfISOWeekYear/index' {
-  import { lastDayOfISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfISOWeekYear/index' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali/fp'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/fp/lastDayOfMonth/index' {
-  import { lastDayOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfMonth/index' {
+  import { lastDayOfMonth } from 'date-fns-jalaali/fp'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/fp/lastDayOfQuarter/index' {
-  import { lastDayOfQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfQuarter/index' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali/fp'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/fp/lastDayOfQuarterWithOptions/index' {
-  import { lastDayOfQuarterWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfQuarterWithOptions/index' {
+  import { lastDayOfQuarterWithOptions } from 'date-fns-jalaali/fp'
   export default lastDayOfQuarterWithOptions
 }
 
-declare module 'date-fns/fp/lastDayOfWeek/index' {
-  import { lastDayOfWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfWeek/index' {
+  import { lastDayOfWeek } from 'date-fns-jalaali/fp'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/fp/lastDayOfWeekWithOptions/index' {
-  import { lastDayOfWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfWeekWithOptions/index' {
+  import { lastDayOfWeekWithOptions } from 'date-fns-jalaali/fp'
   export default lastDayOfWeekWithOptions
 }
 
-declare module 'date-fns/fp/lastDayOfYear/index' {
-  import { lastDayOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfYear/index' {
+  import { lastDayOfYear } from 'date-fns-jalaali/fp'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/fp/lightFormat/index' {
-  import { lightFormat } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lightFormat/index' {
+  import { lightFormat } from 'date-fns-jalaali/fp'
   export default lightFormat
 }
 
-declare module 'date-fns/fp/max/index' {
-  import { max } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/max/index' {
+  import { max } from 'date-fns-jalaali/fp'
   export default max
 }
 
-declare module 'date-fns/fp/min/index' {
-  import { min } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/min/index' {
+  import { min } from 'date-fns-jalaali/fp'
   export default min
 }
 
-declare module 'date-fns/fp/parse/index' {
-  import { parse } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parse/index' {
+  import { parse } from 'date-fns-jalaali/fp'
   export default parse
 }
 
-declare module 'date-fns/fp/parseISO/index' {
-  import { parseISO } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseISO/index' {
+  import { parseISO } from 'date-fns-jalaali/fp'
   export default parseISO
 }
 
-declare module 'date-fns/fp/parseISOWithOptions/index' {
-  import { parseISOWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseISOWithOptions/index' {
+  import { parseISOWithOptions } from 'date-fns-jalaali/fp'
   export default parseISOWithOptions
 }
 
-declare module 'date-fns/fp/parseJSON/index' {
-  import { parseJSON } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseJSON/index' {
+  import { parseJSON } from 'date-fns-jalaali/fp'
   export default parseJSON
 }
 
-declare module 'date-fns/fp/parseWithOptions/index' {
-  import { parseWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseWithOptions/index' {
+  import { parseWithOptions } from 'date-fns-jalaali/fp'
   export default parseWithOptions
 }
 
-declare module 'date-fns/fp/roundToNearestMinutes/index' {
-  import { roundToNearestMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/roundToNearestMinutes/index' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali/fp'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/fp/roundToNearestMinutesWithOptions/index' {
-  import { roundToNearestMinutesWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/roundToNearestMinutesWithOptions/index' {
+  import { roundToNearestMinutesWithOptions } from 'date-fns-jalaali/fp'
   export default roundToNearestMinutesWithOptions
 }
 
-declare module 'date-fns/fp/set/index' {
-  import { set } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/set/index' {
+  import { set } from 'date-fns-jalaali/fp'
   export default set
 }
 
-declare module 'date-fns/fp/setDate/index' {
-  import { setDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDate/index' {
+  import { setDate } from 'date-fns-jalaali/fp'
   export default setDate
 }
 
-declare module 'date-fns/fp/setDay/index' {
-  import { setDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDay/index' {
+  import { setDay } from 'date-fns-jalaali/fp'
   export default setDay
 }
 
-declare module 'date-fns/fp/setDayOfYear/index' {
-  import { setDayOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDayOfYear/index' {
+  import { setDayOfYear } from 'date-fns-jalaali/fp'
   export default setDayOfYear
 }
 
-declare module 'date-fns/fp/setDayWithOptions/index' {
-  import { setDayWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDayWithOptions/index' {
+  import { setDayWithOptions } from 'date-fns-jalaali/fp'
   export default setDayWithOptions
 }
 
-declare module 'date-fns/fp/setHours/index' {
-  import { setHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setHours/index' {
+  import { setHours } from 'date-fns-jalaali/fp'
   export default setHours
 }
 
-declare module 'date-fns/fp/setISODay/index' {
-  import { setISODay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setISODay/index' {
+  import { setISODay } from 'date-fns-jalaali/fp'
   export default setISODay
 }
 
-declare module 'date-fns/fp/setISOWeek/index' {
-  import { setISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setISOWeek/index' {
+  import { setISOWeek } from 'date-fns-jalaali/fp'
   export default setISOWeek
 }
 
-declare module 'date-fns/fp/setISOWeekYear/index' {
-  import { setISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setISOWeekYear/index' {
+  import { setISOWeekYear } from 'date-fns-jalaali/fp'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/fp/setMilliseconds/index' {
-  import { setMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setMilliseconds/index' {
+  import { setMilliseconds } from 'date-fns-jalaali/fp'
   export default setMilliseconds
 }
 
-declare module 'date-fns/fp/setMinutes/index' {
-  import { setMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setMinutes/index' {
+  import { setMinutes } from 'date-fns-jalaali/fp'
   export default setMinutes
 }
 
-declare module 'date-fns/fp/setMonth/index' {
-  import { setMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setMonth/index' {
+  import { setMonth } from 'date-fns-jalaali/fp'
   export default setMonth
 }
 
-declare module 'date-fns/fp/setQuarter/index' {
-  import { setQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setQuarter/index' {
+  import { setQuarter } from 'date-fns-jalaali/fp'
   export default setQuarter
 }
 
-declare module 'date-fns/fp/setSeconds/index' {
-  import { setSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setSeconds/index' {
+  import { setSeconds } from 'date-fns-jalaali/fp'
   export default setSeconds
 }
 
-declare module 'date-fns/fp/setWeek/index' {
-  import { setWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeek/index' {
+  import { setWeek } from 'date-fns-jalaali/fp'
   export default setWeek
 }
 
-declare module 'date-fns/fp/setWeekWithOptions/index' {
-  import { setWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeekWithOptions/index' {
+  import { setWeekWithOptions } from 'date-fns-jalaali/fp'
   export default setWeekWithOptions
 }
 
-declare module 'date-fns/fp/setWeekYear/index' {
-  import { setWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeekYear/index' {
+  import { setWeekYear } from 'date-fns-jalaali/fp'
   export default setWeekYear
 }
 
-declare module 'date-fns/fp/setWeekYearWithOptions/index' {
-  import { setWeekYearWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeekYearWithOptions/index' {
+  import { setWeekYearWithOptions } from 'date-fns-jalaali/fp'
   export default setWeekYearWithOptions
 }
 
-declare module 'date-fns/fp/setYear/index' {
-  import { setYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setYear/index' {
+  import { setYear } from 'date-fns-jalaali/fp'
   export default setYear
 }
 
-declare module 'date-fns/fp/startOfDay/index' {
-  import { startOfDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfDay/index' {
+  import { startOfDay } from 'date-fns-jalaali/fp'
   export default startOfDay
 }
 
-declare module 'date-fns/fp/startOfDecade/index' {
-  import { startOfDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfDecade/index' {
+  import { startOfDecade } from 'date-fns-jalaali/fp'
   export default startOfDecade
 }
 
-declare module 'date-fns/fp/startOfHour/index' {
-  import { startOfHour } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfHour/index' {
+  import { startOfHour } from 'date-fns-jalaali/fp'
   export default startOfHour
 }
 
-declare module 'date-fns/fp/startOfISOWeek/index' {
-  import { startOfISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfISOWeek/index' {
+  import { startOfISOWeek } from 'date-fns-jalaali/fp'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/fp/startOfISOWeekYear/index' {
-  import { startOfISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfISOWeekYear/index' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali/fp'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/fp/startOfMinute/index' {
-  import { startOfMinute } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfMinute/index' {
+  import { startOfMinute } from 'date-fns-jalaali/fp'
   export default startOfMinute
 }
 
-declare module 'date-fns/fp/startOfMonth/index' {
-  import { startOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfMonth/index' {
+  import { startOfMonth } from 'date-fns-jalaali/fp'
   export default startOfMonth
 }
 
-declare module 'date-fns/fp/startOfQuarter/index' {
-  import { startOfQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfQuarter/index' {
+  import { startOfQuarter } from 'date-fns-jalaali/fp'
   export default startOfQuarter
 }
 
-declare module 'date-fns/fp/startOfSecond/index' {
-  import { startOfSecond } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfSecond/index' {
+  import { startOfSecond } from 'date-fns-jalaali/fp'
   export default startOfSecond
 }
 
-declare module 'date-fns/fp/startOfWeek/index' {
-  import { startOfWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeek/index' {
+  import { startOfWeek } from 'date-fns-jalaali/fp'
   export default startOfWeek
 }
 
-declare module 'date-fns/fp/startOfWeekWithOptions/index' {
-  import { startOfWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeekWithOptions/index' {
+  import { startOfWeekWithOptions } from 'date-fns-jalaali/fp'
   export default startOfWeekWithOptions
 }
 
-declare module 'date-fns/fp/startOfWeekYear/index' {
-  import { startOfWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeekYear/index' {
+  import { startOfWeekYear } from 'date-fns-jalaali/fp'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/fp/startOfWeekYearWithOptions/index' {
-  import { startOfWeekYearWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeekYearWithOptions/index' {
+  import { startOfWeekYearWithOptions } from 'date-fns-jalaali/fp'
   export default startOfWeekYearWithOptions
 }
 
-declare module 'date-fns/fp/startOfYear/index' {
-  import { startOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfYear/index' {
+  import { startOfYear } from 'date-fns-jalaali/fp'
   export default startOfYear
 }
 
-declare module 'date-fns/fp/sub/index' {
-  import { sub } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/sub/index' {
+  import { sub } from 'date-fns-jalaali/fp'
   export default sub
 }
 
-declare module 'date-fns/fp/subBusinessDays/index' {
-  import { subBusinessDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subBusinessDays/index' {
+  import { subBusinessDays } from 'date-fns-jalaali/fp'
   export default subBusinessDays
 }
 
-declare module 'date-fns/fp/subDays/index' {
-  import { subDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subDays/index' {
+  import { subDays } from 'date-fns-jalaali/fp'
   export default subDays
 }
 
-declare module 'date-fns/fp/subHours/index' {
-  import { subHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subHours/index' {
+  import { subHours } from 'date-fns-jalaali/fp'
   export default subHours
 }
 
-declare module 'date-fns/fp/subISOWeekYears/index' {
-  import { subISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subISOWeekYears/index' {
+  import { subISOWeekYears } from 'date-fns-jalaali/fp'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/fp/subMilliseconds/index' {
-  import { subMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subMilliseconds/index' {
+  import { subMilliseconds } from 'date-fns-jalaali/fp'
   export default subMilliseconds
 }
 
-declare module 'date-fns/fp/subMinutes/index' {
-  import { subMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subMinutes/index' {
+  import { subMinutes } from 'date-fns-jalaali/fp'
   export default subMinutes
 }
 
-declare module 'date-fns/fp/subMonths/index' {
-  import { subMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subMonths/index' {
+  import { subMonths } from 'date-fns-jalaali/fp'
   export default subMonths
 }
 
-declare module 'date-fns/fp/subQuarters/index' {
-  import { subQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subQuarters/index' {
+  import { subQuarters } from 'date-fns-jalaali/fp'
   export default subQuarters
 }
 
-declare module 'date-fns/fp/subSeconds/index' {
-  import { subSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subSeconds/index' {
+  import { subSeconds } from 'date-fns-jalaali/fp'
   export default subSeconds
 }
 
-declare module 'date-fns/fp/subWeeks/index' {
-  import { subWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subWeeks/index' {
+  import { subWeeks } from 'date-fns-jalaali/fp'
   export default subWeeks
 }
 
-declare module 'date-fns/fp/subYears/index' {
-  import { subYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subYears/index' {
+  import { subYears } from 'date-fns-jalaali/fp'
   export default subYears
 }
 
-declare module 'date-fns/fp/toDate/index' {
-  import { toDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/toDate/index' {
+  import { toDate } from 'date-fns-jalaali/fp'
   export default toDate
 }
 
-declare module 'date-fns/fp/add/index.js' {
-  import { add } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/add/index.js' {
+  import { add } from 'date-fns-jalaali/fp'
   export default add
 }
 
-declare module 'date-fns/fp/addBusinessDays/index.js' {
-  import { addBusinessDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addBusinessDays/index.js' {
+  import { addBusinessDays } from 'date-fns-jalaali/fp'
   export default addBusinessDays
 }
 
-declare module 'date-fns/fp/addDays/index.js' {
-  import { addDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addDays/index.js' {
+  import { addDays } from 'date-fns-jalaali/fp'
   export default addDays
 }
 
-declare module 'date-fns/fp/addHours/index.js' {
-  import { addHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addHours/index.js' {
+  import { addHours } from 'date-fns-jalaali/fp'
   export default addHours
 }
 
-declare module 'date-fns/fp/addISOWeekYears/index.js' {
-  import { addISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addISOWeekYears/index.js' {
+  import { addISOWeekYears } from 'date-fns-jalaali/fp'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/fp/addMilliseconds/index.js' {
-  import { addMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addMilliseconds/index.js' {
+  import { addMilliseconds } from 'date-fns-jalaali/fp'
   export default addMilliseconds
 }
 
-declare module 'date-fns/fp/addMinutes/index.js' {
-  import { addMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addMinutes/index.js' {
+  import { addMinutes } from 'date-fns-jalaali/fp'
   export default addMinutes
 }
 
-declare module 'date-fns/fp/addMonths/index.js' {
-  import { addMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addMonths/index.js' {
+  import { addMonths } from 'date-fns-jalaali/fp'
   export default addMonths
 }
 
-declare module 'date-fns/fp/addQuarters/index.js' {
-  import { addQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addQuarters/index.js' {
+  import { addQuarters } from 'date-fns-jalaali/fp'
   export default addQuarters
 }
 
-declare module 'date-fns/fp/addSeconds/index.js' {
-  import { addSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addSeconds/index.js' {
+  import { addSeconds } from 'date-fns-jalaali/fp'
   export default addSeconds
 }
 
-declare module 'date-fns/fp/addWeeks/index.js' {
-  import { addWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addWeeks/index.js' {
+  import { addWeeks } from 'date-fns-jalaali/fp'
   export default addWeeks
 }
 
-declare module 'date-fns/fp/addYears/index.js' {
-  import { addYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/addYears/index.js' {
+  import { addYears } from 'date-fns-jalaali/fp'
   export default addYears
 }
 
-declare module 'date-fns/fp/areIntervalsOverlapping/index.js' {
-  import { areIntervalsOverlapping } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/areIntervalsOverlapping/index.js' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali/fp'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/fp/areIntervalsOverlappingWithOptions/index.js' {
-  import { areIntervalsOverlappingWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/areIntervalsOverlappingWithOptions/index.js' {
+  import { areIntervalsOverlappingWithOptions } from 'date-fns-jalaali/fp'
   export default areIntervalsOverlappingWithOptions
 }
 
-declare module 'date-fns/fp/closestIndexTo/index.js' {
-  import { closestIndexTo } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/closestIndexTo/index.js' {
+  import { closestIndexTo } from 'date-fns-jalaali/fp'
   export default closestIndexTo
 }
 
-declare module 'date-fns/fp/closestTo/index.js' {
-  import { closestTo } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/closestTo/index.js' {
+  import { closestTo } from 'date-fns-jalaali/fp'
   export default closestTo
 }
 
-declare module 'date-fns/fp/compareAsc/index.js' {
-  import { compareAsc } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/compareAsc/index.js' {
+  import { compareAsc } from 'date-fns-jalaali/fp'
   export default compareAsc
 }
 
-declare module 'date-fns/fp/compareDesc/index.js' {
-  import { compareDesc } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/compareDesc/index.js' {
+  import { compareDesc } from 'date-fns-jalaali/fp'
   export default compareDesc
 }
 
-declare module 'date-fns/fp/differenceInBusinessDays/index.js' {
-  import { differenceInBusinessDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInBusinessDays/index.js' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali/fp'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/fp/differenceInCalendarDays/index.js' {
-  import { differenceInCalendarDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarDays/index.js' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali/fp'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/fp/differenceInCalendarISOWeeks/index.js' {
-  import { differenceInCalendarISOWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarISOWeeks/index.js' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali/fp'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/fp/differenceInCalendarISOWeekYears/index.js' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarISOWeekYears/index.js' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali/fp'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/fp/differenceInCalendarMonths/index.js' {
-  import { differenceInCalendarMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarMonths/index.js' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali/fp'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/fp/differenceInCalendarQuarters/index.js' {
-  import { differenceInCalendarQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarQuarters/index.js' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali/fp'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/fp/differenceInCalendarWeeks/index.js' {
-  import { differenceInCalendarWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarWeeks/index.js' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali/fp'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/fp/differenceInCalendarWeeksWithOptions/index.js' {
-  import { differenceInCalendarWeeksWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarWeeksWithOptions/index.js' {
+  import { differenceInCalendarWeeksWithOptions } from 'date-fns-jalaali/fp'
   export default differenceInCalendarWeeksWithOptions
 }
 
-declare module 'date-fns/fp/differenceInCalendarYears/index.js' {
-  import { differenceInCalendarYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInCalendarYears/index.js' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali/fp'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/fp/differenceInDays/index.js' {
-  import { differenceInDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInDays/index.js' {
+  import { differenceInDays } from 'date-fns-jalaali/fp'
   export default differenceInDays
 }
 
-declare module 'date-fns/fp/differenceInHours/index.js' {
-  import { differenceInHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInHours/index.js' {
+  import { differenceInHours } from 'date-fns-jalaali/fp'
   export default differenceInHours
 }
 
-declare module 'date-fns/fp/differenceInISOWeekYears/index.js' {
-  import { differenceInISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInISOWeekYears/index.js' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali/fp'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/fp/differenceInMilliseconds/index.js' {
-  import { differenceInMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInMilliseconds/index.js' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali/fp'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/fp/differenceInMinutes/index.js' {
-  import { differenceInMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInMinutes/index.js' {
+  import { differenceInMinutes } from 'date-fns-jalaali/fp'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/fp/differenceInMonths/index.js' {
-  import { differenceInMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInMonths/index.js' {
+  import { differenceInMonths } from 'date-fns-jalaali/fp'
   export default differenceInMonths
 }
 
-declare module 'date-fns/fp/differenceInQuarters/index.js' {
-  import { differenceInQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInQuarters/index.js' {
+  import { differenceInQuarters } from 'date-fns-jalaali/fp'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/fp/differenceInSeconds/index.js' {
-  import { differenceInSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInSeconds/index.js' {
+  import { differenceInSeconds } from 'date-fns-jalaali/fp'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/fp/differenceInWeeks/index.js' {
-  import { differenceInWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInWeeks/index.js' {
+  import { differenceInWeeks } from 'date-fns-jalaali/fp'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/fp/differenceInYears/index.js' {
-  import { differenceInYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/differenceInYears/index.js' {
+  import { differenceInYears } from 'date-fns-jalaali/fp'
   export default differenceInYears
 }
 
-declare module 'date-fns/fp/eachDayOfInterval/index.js' {
-  import { eachDayOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachDayOfInterval/index.js' {
+  import { eachDayOfInterval } from 'date-fns-jalaali/fp'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/fp/eachDayOfIntervalWithOptions/index.js' {
-  import { eachDayOfIntervalWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachDayOfIntervalWithOptions/index.js' {
+  import { eachDayOfIntervalWithOptions } from 'date-fns-jalaali/fp'
   export default eachDayOfIntervalWithOptions
 }
 
-declare module 'date-fns/fp/eachMonthOfInterval/index.js' {
-  import { eachMonthOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachMonthOfInterval/index.js' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali/fp'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/fp/eachWeekendOfInterval/index.js' {
-  import { eachWeekendOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekendOfInterval/index.js' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali/fp'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/fp/eachWeekendOfMonth/index.js' {
-  import { eachWeekendOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekendOfMonth/index.js' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali/fp'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/fp/eachWeekendOfYear/index.js' {
-  import { eachWeekendOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekendOfYear/index.js' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali/fp'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/fp/eachWeekOfInterval/index.js' {
-  import { eachWeekOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekOfInterval/index.js' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali/fp'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/fp/eachWeekOfIntervalWithOptions/index.js' {
-  import { eachWeekOfIntervalWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachWeekOfIntervalWithOptions/index.js' {
+  import { eachWeekOfIntervalWithOptions } from 'date-fns-jalaali/fp'
   export default eachWeekOfIntervalWithOptions
 }
 
-declare module 'date-fns/fp/eachYearOfInterval/index.js' {
-  import { eachYearOfInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/eachYearOfInterval/index.js' {
+  import { eachYearOfInterval } from 'date-fns-jalaali/fp'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/fp/endOfDay/index.js' {
-  import { endOfDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfDay/index.js' {
+  import { endOfDay } from 'date-fns-jalaali/fp'
   export default endOfDay
 }
 
-declare module 'date-fns/fp/endOfDecade/index.js' {
-  import { endOfDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfDecade/index.js' {
+  import { endOfDecade } from 'date-fns-jalaali/fp'
   export default endOfDecade
 }
 
-declare module 'date-fns/fp/endOfDecadeWithOptions/index.js' {
-  import { endOfDecadeWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfDecadeWithOptions/index.js' {
+  import { endOfDecadeWithOptions } from 'date-fns-jalaali/fp'
   export default endOfDecadeWithOptions
 }
 
-declare module 'date-fns/fp/endOfHour/index.js' {
-  import { endOfHour } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfHour/index.js' {
+  import { endOfHour } from 'date-fns-jalaali/fp'
   export default endOfHour
 }
 
-declare module 'date-fns/fp/endOfISOWeek/index.js' {
-  import { endOfISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfISOWeek/index.js' {
+  import { endOfISOWeek } from 'date-fns-jalaali/fp'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/fp/endOfISOWeekYear/index.js' {
-  import { endOfISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfISOWeekYear/index.js' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali/fp'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/fp/endOfMinute/index.js' {
-  import { endOfMinute } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfMinute/index.js' {
+  import { endOfMinute } from 'date-fns-jalaali/fp'
   export default endOfMinute
 }
 
-declare module 'date-fns/fp/endOfMonth/index.js' {
-  import { endOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfMonth/index.js' {
+  import { endOfMonth } from 'date-fns-jalaali/fp'
   export default endOfMonth
 }
 
-declare module 'date-fns/fp/endOfQuarter/index.js' {
-  import { endOfQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfQuarter/index.js' {
+  import { endOfQuarter } from 'date-fns-jalaali/fp'
   export default endOfQuarter
 }
 
-declare module 'date-fns/fp/endOfSecond/index.js' {
-  import { endOfSecond } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfSecond/index.js' {
+  import { endOfSecond } from 'date-fns-jalaali/fp'
   export default endOfSecond
 }
 
-declare module 'date-fns/fp/endOfWeek/index.js' {
-  import { endOfWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfWeek/index.js' {
+  import { endOfWeek } from 'date-fns-jalaali/fp'
   export default endOfWeek
 }
 
-declare module 'date-fns/fp/endOfWeekWithOptions/index.js' {
-  import { endOfWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfWeekWithOptions/index.js' {
+  import { endOfWeekWithOptions } from 'date-fns-jalaali/fp'
   export default endOfWeekWithOptions
 }
 
-declare module 'date-fns/fp/endOfYear/index.js' {
-  import { endOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/endOfYear/index.js' {
+  import { endOfYear } from 'date-fns-jalaali/fp'
   export default endOfYear
 }
 
-declare module 'date-fns/fp/format/index.js' {
-  import { format } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/format/index.js' {
+  import { format } from 'date-fns-jalaali/fp'
   export default format
 }
 
-declare module 'date-fns/fp/formatDistance/index.js' {
-  import { formatDistance } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistance/index.js' {
+  import { formatDistance } from 'date-fns-jalaali/fp'
   export default formatDistance
 }
 
-declare module 'date-fns/fp/formatDistanceStrict/index.js' {
-  import { formatDistanceStrict } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistanceStrict/index.js' {
+  import { formatDistanceStrict } from 'date-fns-jalaali/fp'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/fp/formatDistanceStrictWithOptions/index.js' {
-  import { formatDistanceStrictWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistanceStrictWithOptions/index.js' {
+  import { formatDistanceStrictWithOptions } from 'date-fns-jalaali/fp'
   export default formatDistanceStrictWithOptions
 }
 
-declare module 'date-fns/fp/formatDistanceWithOptions/index.js' {
-  import { formatDistanceWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatDistanceWithOptions/index.js' {
+  import { formatDistanceWithOptions } from 'date-fns-jalaali/fp'
   export default formatDistanceWithOptions
 }
 
-declare module 'date-fns/fp/formatISO/index.js' {
-  import { formatISO } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISO/index.js' {
+  import { formatISO } from 'date-fns-jalaali/fp'
   export default formatISO
 }
 
-declare module 'date-fns/fp/formatISO9075/index.js' {
-  import { formatISO9075 } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISO9075/index.js' {
+  import { formatISO9075 } from 'date-fns-jalaali/fp'
   export default formatISO9075
 }
 
-declare module 'date-fns/fp/formatISO9075WithOptions/index.js' {
-  import { formatISO9075WithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISO9075WithOptions/index.js' {
+  import { formatISO9075WithOptions } from 'date-fns-jalaali/fp'
   export default formatISO9075WithOptions
 }
 
-declare module 'date-fns/fp/formatISODuration/index.js' {
-  import { formatISODuration } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISODuration/index.js' {
+  import { formatISODuration } from 'date-fns-jalaali/fp'
   export default formatISODuration
 }
 
-declare module 'date-fns/fp/formatISOWithOptions/index.js' {
-  import { formatISOWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatISOWithOptions/index.js' {
+  import { formatISOWithOptions } from 'date-fns-jalaali/fp'
   export default formatISOWithOptions
 }
 
-declare module 'date-fns/fp/formatRelative/index.js' {
-  import { formatRelative } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRelative/index.js' {
+  import { formatRelative } from 'date-fns-jalaali/fp'
   export default formatRelative
 }
 
-declare module 'date-fns/fp/formatRelativeWithOptions/index.js' {
-  import { formatRelativeWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRelativeWithOptions/index.js' {
+  import { formatRelativeWithOptions } from 'date-fns-jalaali/fp'
   export default formatRelativeWithOptions
 }
 
-declare module 'date-fns/fp/formatRFC3339/index.js' {
-  import { formatRFC3339 } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRFC3339/index.js' {
+  import { formatRFC3339 } from 'date-fns-jalaali/fp'
   export default formatRFC3339
 }
 
-declare module 'date-fns/fp/formatRFC3339WithOptions/index.js' {
-  import { formatRFC3339WithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRFC3339WithOptions/index.js' {
+  import { formatRFC3339WithOptions } from 'date-fns-jalaali/fp'
   export default formatRFC3339WithOptions
 }
 
-declare module 'date-fns/fp/formatRFC7231/index.js' {
-  import { formatRFC7231 } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatRFC7231/index.js' {
+  import { formatRFC7231 } from 'date-fns-jalaali/fp'
   export default formatRFC7231
 }
 
-declare module 'date-fns/fp/formatWithOptions/index.js' {
-  import { formatWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/formatWithOptions/index.js' {
+  import { formatWithOptions } from 'date-fns-jalaali/fp'
   export default formatWithOptions
 }
 
-declare module 'date-fns/fp/fromUnixTime/index.js' {
-  import { fromUnixTime } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/fromUnixTime/index.js' {
+  import { fromUnixTime } from 'date-fns-jalaali/fp'
   export default fromUnixTime
 }
 
-declare module 'date-fns/fp/getDate/index.js' {
-  import { getDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDate/index.js' {
+  import { getDate } from 'date-fns-jalaali/fp'
   export default getDate
 }
 
-declare module 'date-fns/fp/getDay/index.js' {
-  import { getDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDay/index.js' {
+  import { getDay } from 'date-fns-jalaali/fp'
   export default getDay
 }
 
-declare module 'date-fns/fp/getDayOfYear/index.js' {
-  import { getDayOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDayOfYear/index.js' {
+  import { getDayOfYear } from 'date-fns-jalaali/fp'
   export default getDayOfYear
 }
 
-declare module 'date-fns/fp/getDaysInMonth/index.js' {
-  import { getDaysInMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDaysInMonth/index.js' {
+  import { getDaysInMonth } from 'date-fns-jalaali/fp'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/fp/getDaysInYear/index.js' {
-  import { getDaysInYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDaysInYear/index.js' {
+  import { getDaysInYear } from 'date-fns-jalaali/fp'
   export default getDaysInYear
 }
 
-declare module 'date-fns/fp/getDecade/index.js' {
-  import { getDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getDecade/index.js' {
+  import { getDecade } from 'date-fns-jalaali/fp'
   export default getDecade
 }
 
-declare module 'date-fns/fp/getHours/index.js' {
-  import { getHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getHours/index.js' {
+  import { getHours } from 'date-fns-jalaali/fp'
   export default getHours
 }
 
-declare module 'date-fns/fp/getISODay/index.js' {
-  import { getISODay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISODay/index.js' {
+  import { getISODay } from 'date-fns-jalaali/fp'
   export default getISODay
 }
 
-declare module 'date-fns/fp/getISOWeek/index.js' {
-  import { getISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISOWeek/index.js' {
+  import { getISOWeek } from 'date-fns-jalaali/fp'
   export default getISOWeek
 }
 
-declare module 'date-fns/fp/getISOWeeksInYear/index.js' {
-  import { getISOWeeksInYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISOWeeksInYear/index.js' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali/fp'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/fp/getISOWeekYear/index.js' {
-  import { getISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getISOWeekYear/index.js' {
+  import { getISOWeekYear } from 'date-fns-jalaali/fp'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/fp/getMilliseconds/index.js' {
-  import { getMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getMilliseconds/index.js' {
+  import { getMilliseconds } from 'date-fns-jalaali/fp'
   export default getMilliseconds
 }
 
-declare module 'date-fns/fp/getMinutes/index.js' {
-  import { getMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getMinutes/index.js' {
+  import { getMinutes } from 'date-fns-jalaali/fp'
   export default getMinutes
 }
 
-declare module 'date-fns/fp/getMonth/index.js' {
-  import { getMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getMonth/index.js' {
+  import { getMonth } from 'date-fns-jalaali/fp'
   export default getMonth
 }
 
-declare module 'date-fns/fp/getOverlappingDaysInIntervals/index.js' {
-  import { getOverlappingDaysInIntervals } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getOverlappingDaysInIntervals/index.js' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali/fp'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/fp/getQuarter/index.js' {
-  import { getQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getQuarter/index.js' {
+  import { getQuarter } from 'date-fns-jalaali/fp'
   export default getQuarter
 }
 
-declare module 'date-fns/fp/getSeconds/index.js' {
-  import { getSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getSeconds/index.js' {
+  import { getSeconds } from 'date-fns-jalaali/fp'
   export default getSeconds
 }
 
-declare module 'date-fns/fp/getTime/index.js' {
-  import { getTime } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getTime/index.js' {
+  import { getTime } from 'date-fns-jalaali/fp'
   export default getTime
 }
 
-declare module 'date-fns/fp/getUnixTime/index.js' {
-  import { getUnixTime } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getUnixTime/index.js' {
+  import { getUnixTime } from 'date-fns-jalaali/fp'
   export default getUnixTime
 }
 
-declare module 'date-fns/fp/getWeek/index.js' {
-  import { getWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeek/index.js' {
+  import { getWeek } from 'date-fns-jalaali/fp'
   export default getWeek
 }
 
-declare module 'date-fns/fp/getWeekOfMonth/index.js' {
-  import { getWeekOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekOfMonth/index.js' {
+  import { getWeekOfMonth } from 'date-fns-jalaali/fp'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/fp/getWeekOfMonthWithOptions/index.js' {
-  import { getWeekOfMonthWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekOfMonthWithOptions/index.js' {
+  import { getWeekOfMonthWithOptions } from 'date-fns-jalaali/fp'
   export default getWeekOfMonthWithOptions
 }
 
-declare module 'date-fns/fp/getWeeksInMonth/index.js' {
-  import { getWeeksInMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeeksInMonth/index.js' {
+  import { getWeeksInMonth } from 'date-fns-jalaali/fp'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/fp/getWeeksInMonthWithOptions/index.js' {
-  import { getWeeksInMonthWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeeksInMonthWithOptions/index.js' {
+  import { getWeeksInMonthWithOptions } from 'date-fns-jalaali/fp'
   export default getWeeksInMonthWithOptions
 }
 
-declare module 'date-fns/fp/getWeekWithOptions/index.js' {
-  import { getWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekWithOptions/index.js' {
+  import { getWeekWithOptions } from 'date-fns-jalaali/fp'
   export default getWeekWithOptions
 }
 
-declare module 'date-fns/fp/getWeekYear/index.js' {
-  import { getWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekYear/index.js' {
+  import { getWeekYear } from 'date-fns-jalaali/fp'
   export default getWeekYear
 }
 
-declare module 'date-fns/fp/getWeekYearWithOptions/index.js' {
-  import { getWeekYearWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getWeekYearWithOptions/index.js' {
+  import { getWeekYearWithOptions } from 'date-fns-jalaali/fp'
   export default getWeekYearWithOptions
 }
 
-declare module 'date-fns/fp/getYear/index.js' {
-  import { getYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/getYear/index.js' {
+  import { getYear } from 'date-fns-jalaali/fp'
   export default getYear
 }
 
-declare module 'date-fns/fp/intervalToDuration/index.js' {
-  import { intervalToDuration } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/intervalToDuration/index.js' {
+  import { intervalToDuration } from 'date-fns-jalaali/fp'
   export default intervalToDuration
 }
 
-declare module 'date-fns/fp/isAfter/index.js' {
-  import { isAfter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isAfter/index.js' {
+  import { isAfter } from 'date-fns-jalaali/fp'
   export default isAfter
 }
 
-declare module 'date-fns/fp/isBefore/index.js' {
-  import { isBefore } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isBefore/index.js' {
+  import { isBefore } from 'date-fns-jalaali/fp'
   export default isBefore
 }
 
-declare module 'date-fns/fp/isDate/index.js' {
-  import { isDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isDate/index.js' {
+  import { isDate } from 'date-fns-jalaali/fp'
   export default isDate
 }
 
-declare module 'date-fns/fp/isEqual/index.js' {
-  import { isEqual } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isEqual/index.js' {
+  import { isEqual } from 'date-fns-jalaali/fp'
   export default isEqual
 }
 
-declare module 'date-fns/fp/isExists/index.js' {
-  import { isExists } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isExists/index.js' {
+  import { isExists } from 'date-fns-jalaali/fp'
   export default isExists
 }
 
-declare module 'date-fns/fp/isFirstDayOfMonth/index.js' {
-  import { isFirstDayOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isFirstDayOfMonth/index.js' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali/fp'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/fp/isFriday/index.js' {
-  import { isFriday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isFriday/index.js' {
+  import { isFriday } from 'date-fns-jalaali/fp'
   export default isFriday
 }
 
-declare module 'date-fns/fp/isLastDayOfMonth/index.js' {
-  import { isLastDayOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isLastDayOfMonth/index.js' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali/fp'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/fp/isLeapYear/index.js' {
-  import { isLeapYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isLeapYear/index.js' {
+  import { isLeapYear } from 'date-fns-jalaali/fp'
   export default isLeapYear
 }
 
-declare module 'date-fns/fp/isMonday/index.js' {
-  import { isMonday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isMonday/index.js' {
+  import { isMonday } from 'date-fns-jalaali/fp'
   export default isMonday
 }
 
-declare module 'date-fns/fp/isSameDay/index.js' {
-  import { isSameDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameDay/index.js' {
+  import { isSameDay } from 'date-fns-jalaali/fp'
   export default isSameDay
 }
 
-declare module 'date-fns/fp/isSameHour/index.js' {
-  import { isSameHour } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameHour/index.js' {
+  import { isSameHour } from 'date-fns-jalaali/fp'
   export default isSameHour
 }
 
-declare module 'date-fns/fp/isSameISOWeek/index.js' {
-  import { isSameISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameISOWeek/index.js' {
+  import { isSameISOWeek } from 'date-fns-jalaali/fp'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/fp/isSameISOWeekYear/index.js' {
-  import { isSameISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameISOWeekYear/index.js' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali/fp'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/fp/isSameMinute/index.js' {
-  import { isSameMinute } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameMinute/index.js' {
+  import { isSameMinute } from 'date-fns-jalaali/fp'
   export default isSameMinute
 }
 
-declare module 'date-fns/fp/isSameMonth/index.js' {
-  import { isSameMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameMonth/index.js' {
+  import { isSameMonth } from 'date-fns-jalaali/fp'
   export default isSameMonth
 }
 
-declare module 'date-fns/fp/isSameQuarter/index.js' {
-  import { isSameQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameQuarter/index.js' {
+  import { isSameQuarter } from 'date-fns-jalaali/fp'
   export default isSameQuarter
 }
 
-declare module 'date-fns/fp/isSameSecond/index.js' {
-  import { isSameSecond } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameSecond/index.js' {
+  import { isSameSecond } from 'date-fns-jalaali/fp'
   export default isSameSecond
 }
 
-declare module 'date-fns/fp/isSameWeek/index.js' {
-  import { isSameWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameWeek/index.js' {
+  import { isSameWeek } from 'date-fns-jalaali/fp'
   export default isSameWeek
 }
 
-declare module 'date-fns/fp/isSameWeekWithOptions/index.js' {
-  import { isSameWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameWeekWithOptions/index.js' {
+  import { isSameWeekWithOptions } from 'date-fns-jalaali/fp'
   export default isSameWeekWithOptions
 }
 
-declare module 'date-fns/fp/isSameYear/index.js' {
-  import { isSameYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSameYear/index.js' {
+  import { isSameYear } from 'date-fns-jalaali/fp'
   export default isSameYear
 }
 
-declare module 'date-fns/fp/isSaturday/index.js' {
-  import { isSaturday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSaturday/index.js' {
+  import { isSaturday } from 'date-fns-jalaali/fp'
   export default isSaturday
 }
 
-declare module 'date-fns/fp/isSunday/index.js' {
-  import { isSunday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isSunday/index.js' {
+  import { isSunday } from 'date-fns-jalaali/fp'
   export default isSunday
 }
 
-declare module 'date-fns/fp/isThursday/index.js' {
-  import { isThursday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isThursday/index.js' {
+  import { isThursday } from 'date-fns-jalaali/fp'
   export default isThursday
 }
 
-declare module 'date-fns/fp/isTuesday/index.js' {
-  import { isTuesday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isTuesday/index.js' {
+  import { isTuesday } from 'date-fns-jalaali/fp'
   export default isTuesday
 }
 
-declare module 'date-fns/fp/isValid/index.js' {
-  import { isValid } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isValid/index.js' {
+  import { isValid } from 'date-fns-jalaali/fp'
   export default isValid
 }
 
-declare module 'date-fns/fp/isWednesday/index.js' {
-  import { isWednesday } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isWednesday/index.js' {
+  import { isWednesday } from 'date-fns-jalaali/fp'
   export default isWednesday
 }
 
-declare module 'date-fns/fp/isWeekend/index.js' {
-  import { isWeekend } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isWeekend/index.js' {
+  import { isWeekend } from 'date-fns-jalaali/fp'
   export default isWeekend
 }
 
-declare module 'date-fns/fp/isWithinInterval/index.js' {
-  import { isWithinInterval } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/isWithinInterval/index.js' {
+  import { isWithinInterval } from 'date-fns-jalaali/fp'
   export default isWithinInterval
 }
 
-declare module 'date-fns/fp/lastDayOfDecade/index.js' {
-  import { lastDayOfDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfDecade/index.js' {
+  import { lastDayOfDecade } from 'date-fns-jalaali/fp'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/fp/lastDayOfISOWeek/index.js' {
-  import { lastDayOfISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfISOWeek/index.js' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali/fp'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/fp/lastDayOfISOWeekYear/index.js' {
-  import { lastDayOfISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfISOWeekYear/index.js' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali/fp'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/fp/lastDayOfMonth/index.js' {
-  import { lastDayOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfMonth/index.js' {
+  import { lastDayOfMonth } from 'date-fns-jalaali/fp'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/fp/lastDayOfQuarter/index.js' {
-  import { lastDayOfQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfQuarter/index.js' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali/fp'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/fp/lastDayOfQuarterWithOptions/index.js' {
-  import { lastDayOfQuarterWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfQuarterWithOptions/index.js' {
+  import { lastDayOfQuarterWithOptions } from 'date-fns-jalaali/fp'
   export default lastDayOfQuarterWithOptions
 }
 
-declare module 'date-fns/fp/lastDayOfWeek/index.js' {
-  import { lastDayOfWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfWeek/index.js' {
+  import { lastDayOfWeek } from 'date-fns-jalaali/fp'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/fp/lastDayOfWeekWithOptions/index.js' {
-  import { lastDayOfWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfWeekWithOptions/index.js' {
+  import { lastDayOfWeekWithOptions } from 'date-fns-jalaali/fp'
   export default lastDayOfWeekWithOptions
 }
 
-declare module 'date-fns/fp/lastDayOfYear/index.js' {
-  import { lastDayOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lastDayOfYear/index.js' {
+  import { lastDayOfYear } from 'date-fns-jalaali/fp'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/fp/lightFormat/index.js' {
-  import { lightFormat } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/lightFormat/index.js' {
+  import { lightFormat } from 'date-fns-jalaali/fp'
   export default lightFormat
 }
 
-declare module 'date-fns/fp/max/index.js' {
-  import { max } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/max/index.js' {
+  import { max } from 'date-fns-jalaali/fp'
   export default max
 }
 
-declare module 'date-fns/fp/min/index.js' {
-  import { min } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/min/index.js' {
+  import { min } from 'date-fns-jalaali/fp'
   export default min
 }
 
-declare module 'date-fns/fp/parse/index.js' {
-  import { parse } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parse/index.js' {
+  import { parse } from 'date-fns-jalaali/fp'
   export default parse
 }
 
-declare module 'date-fns/fp/parseISO/index.js' {
-  import { parseISO } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseISO/index.js' {
+  import { parseISO } from 'date-fns-jalaali/fp'
   export default parseISO
 }
 
-declare module 'date-fns/fp/parseISOWithOptions/index.js' {
-  import { parseISOWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseISOWithOptions/index.js' {
+  import { parseISOWithOptions } from 'date-fns-jalaali/fp'
   export default parseISOWithOptions
 }
 
-declare module 'date-fns/fp/parseJSON/index.js' {
-  import { parseJSON } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseJSON/index.js' {
+  import { parseJSON } from 'date-fns-jalaali/fp'
   export default parseJSON
 }
 
-declare module 'date-fns/fp/parseWithOptions/index.js' {
-  import { parseWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/parseWithOptions/index.js' {
+  import { parseWithOptions } from 'date-fns-jalaali/fp'
   export default parseWithOptions
 }
 
-declare module 'date-fns/fp/roundToNearestMinutes/index.js' {
-  import { roundToNearestMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/roundToNearestMinutes/index.js' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali/fp'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/fp/roundToNearestMinutesWithOptions/index.js' {
-  import { roundToNearestMinutesWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/roundToNearestMinutesWithOptions/index.js' {
+  import { roundToNearestMinutesWithOptions } from 'date-fns-jalaali/fp'
   export default roundToNearestMinutesWithOptions
 }
 
-declare module 'date-fns/fp/set/index.js' {
-  import { set } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/set/index.js' {
+  import { set } from 'date-fns-jalaali/fp'
   export default set
 }
 
-declare module 'date-fns/fp/setDate/index.js' {
-  import { setDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDate/index.js' {
+  import { setDate } from 'date-fns-jalaali/fp'
   export default setDate
 }
 
-declare module 'date-fns/fp/setDay/index.js' {
-  import { setDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDay/index.js' {
+  import { setDay } from 'date-fns-jalaali/fp'
   export default setDay
 }
 
-declare module 'date-fns/fp/setDayOfYear/index.js' {
-  import { setDayOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDayOfYear/index.js' {
+  import { setDayOfYear } from 'date-fns-jalaali/fp'
   export default setDayOfYear
 }
 
-declare module 'date-fns/fp/setDayWithOptions/index.js' {
-  import { setDayWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setDayWithOptions/index.js' {
+  import { setDayWithOptions } from 'date-fns-jalaali/fp'
   export default setDayWithOptions
 }
 
-declare module 'date-fns/fp/setHours/index.js' {
-  import { setHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setHours/index.js' {
+  import { setHours } from 'date-fns-jalaali/fp'
   export default setHours
 }
 
-declare module 'date-fns/fp/setISODay/index.js' {
-  import { setISODay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setISODay/index.js' {
+  import { setISODay } from 'date-fns-jalaali/fp'
   export default setISODay
 }
 
-declare module 'date-fns/fp/setISOWeek/index.js' {
-  import { setISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setISOWeek/index.js' {
+  import { setISOWeek } from 'date-fns-jalaali/fp'
   export default setISOWeek
 }
 
-declare module 'date-fns/fp/setISOWeekYear/index.js' {
-  import { setISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setISOWeekYear/index.js' {
+  import { setISOWeekYear } from 'date-fns-jalaali/fp'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/fp/setMilliseconds/index.js' {
-  import { setMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setMilliseconds/index.js' {
+  import { setMilliseconds } from 'date-fns-jalaali/fp'
   export default setMilliseconds
 }
 
-declare module 'date-fns/fp/setMinutes/index.js' {
-  import { setMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setMinutes/index.js' {
+  import { setMinutes } from 'date-fns-jalaali/fp'
   export default setMinutes
 }
 
-declare module 'date-fns/fp/setMonth/index.js' {
-  import { setMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setMonth/index.js' {
+  import { setMonth } from 'date-fns-jalaali/fp'
   export default setMonth
 }
 
-declare module 'date-fns/fp/setQuarter/index.js' {
-  import { setQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setQuarter/index.js' {
+  import { setQuarter } from 'date-fns-jalaali/fp'
   export default setQuarter
 }
 
-declare module 'date-fns/fp/setSeconds/index.js' {
-  import { setSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setSeconds/index.js' {
+  import { setSeconds } from 'date-fns-jalaali/fp'
   export default setSeconds
 }
 
-declare module 'date-fns/fp/setWeek/index.js' {
-  import { setWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeek/index.js' {
+  import { setWeek } from 'date-fns-jalaali/fp'
   export default setWeek
 }
 
-declare module 'date-fns/fp/setWeekWithOptions/index.js' {
-  import { setWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeekWithOptions/index.js' {
+  import { setWeekWithOptions } from 'date-fns-jalaali/fp'
   export default setWeekWithOptions
 }
 
-declare module 'date-fns/fp/setWeekYear/index.js' {
-  import { setWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeekYear/index.js' {
+  import { setWeekYear } from 'date-fns-jalaali/fp'
   export default setWeekYear
 }
 
-declare module 'date-fns/fp/setWeekYearWithOptions/index.js' {
-  import { setWeekYearWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setWeekYearWithOptions/index.js' {
+  import { setWeekYearWithOptions } from 'date-fns-jalaali/fp'
   export default setWeekYearWithOptions
 }
 
-declare module 'date-fns/fp/setYear/index.js' {
-  import { setYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/setYear/index.js' {
+  import { setYear } from 'date-fns-jalaali/fp'
   export default setYear
 }
 
-declare module 'date-fns/fp/startOfDay/index.js' {
-  import { startOfDay } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfDay/index.js' {
+  import { startOfDay } from 'date-fns-jalaali/fp'
   export default startOfDay
 }
 
-declare module 'date-fns/fp/startOfDecade/index.js' {
-  import { startOfDecade } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfDecade/index.js' {
+  import { startOfDecade } from 'date-fns-jalaali/fp'
   export default startOfDecade
 }
 
-declare module 'date-fns/fp/startOfHour/index.js' {
-  import { startOfHour } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfHour/index.js' {
+  import { startOfHour } from 'date-fns-jalaali/fp'
   export default startOfHour
 }
 
-declare module 'date-fns/fp/startOfISOWeek/index.js' {
-  import { startOfISOWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfISOWeek/index.js' {
+  import { startOfISOWeek } from 'date-fns-jalaali/fp'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/fp/startOfISOWeekYear/index.js' {
-  import { startOfISOWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfISOWeekYear/index.js' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali/fp'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/fp/startOfMinute/index.js' {
-  import { startOfMinute } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfMinute/index.js' {
+  import { startOfMinute } from 'date-fns-jalaali/fp'
   export default startOfMinute
 }
 
-declare module 'date-fns/fp/startOfMonth/index.js' {
-  import { startOfMonth } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfMonth/index.js' {
+  import { startOfMonth } from 'date-fns-jalaali/fp'
   export default startOfMonth
 }
 
-declare module 'date-fns/fp/startOfQuarter/index.js' {
-  import { startOfQuarter } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfQuarter/index.js' {
+  import { startOfQuarter } from 'date-fns-jalaali/fp'
   export default startOfQuarter
 }
 
-declare module 'date-fns/fp/startOfSecond/index.js' {
-  import { startOfSecond } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfSecond/index.js' {
+  import { startOfSecond } from 'date-fns-jalaali/fp'
   export default startOfSecond
 }
 
-declare module 'date-fns/fp/startOfWeek/index.js' {
-  import { startOfWeek } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeek/index.js' {
+  import { startOfWeek } from 'date-fns-jalaali/fp'
   export default startOfWeek
 }
 
-declare module 'date-fns/fp/startOfWeekWithOptions/index.js' {
-  import { startOfWeekWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeekWithOptions/index.js' {
+  import { startOfWeekWithOptions } from 'date-fns-jalaali/fp'
   export default startOfWeekWithOptions
 }
 
-declare module 'date-fns/fp/startOfWeekYear/index.js' {
-  import { startOfWeekYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeekYear/index.js' {
+  import { startOfWeekYear } from 'date-fns-jalaali/fp'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/fp/startOfWeekYearWithOptions/index.js' {
-  import { startOfWeekYearWithOptions } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfWeekYearWithOptions/index.js' {
+  import { startOfWeekYearWithOptions } from 'date-fns-jalaali/fp'
   export default startOfWeekYearWithOptions
 }
 
-declare module 'date-fns/fp/startOfYear/index.js' {
-  import { startOfYear } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/startOfYear/index.js' {
+  import { startOfYear } from 'date-fns-jalaali/fp'
   export default startOfYear
 }
 
-declare module 'date-fns/fp/sub/index.js' {
-  import { sub } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/sub/index.js' {
+  import { sub } from 'date-fns-jalaali/fp'
   export default sub
 }
 
-declare module 'date-fns/fp/subBusinessDays/index.js' {
-  import { subBusinessDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subBusinessDays/index.js' {
+  import { subBusinessDays } from 'date-fns-jalaali/fp'
   export default subBusinessDays
 }
 
-declare module 'date-fns/fp/subDays/index.js' {
-  import { subDays } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subDays/index.js' {
+  import { subDays } from 'date-fns-jalaali/fp'
   export default subDays
 }
 
-declare module 'date-fns/fp/subHours/index.js' {
-  import { subHours } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subHours/index.js' {
+  import { subHours } from 'date-fns-jalaali/fp'
   export default subHours
 }
 
-declare module 'date-fns/fp/subISOWeekYears/index.js' {
-  import { subISOWeekYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subISOWeekYears/index.js' {
+  import { subISOWeekYears } from 'date-fns-jalaali/fp'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/fp/subMilliseconds/index.js' {
-  import { subMilliseconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subMilliseconds/index.js' {
+  import { subMilliseconds } from 'date-fns-jalaali/fp'
   export default subMilliseconds
 }
 
-declare module 'date-fns/fp/subMinutes/index.js' {
-  import { subMinutes } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subMinutes/index.js' {
+  import { subMinutes } from 'date-fns-jalaali/fp'
   export default subMinutes
 }
 
-declare module 'date-fns/fp/subMonths/index.js' {
-  import { subMonths } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subMonths/index.js' {
+  import { subMonths } from 'date-fns-jalaali/fp'
   export default subMonths
 }
 
-declare module 'date-fns/fp/subQuarters/index.js' {
-  import { subQuarters } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subQuarters/index.js' {
+  import { subQuarters } from 'date-fns-jalaali/fp'
   export default subQuarters
 }
 
-declare module 'date-fns/fp/subSeconds/index.js' {
-  import { subSeconds } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subSeconds/index.js' {
+  import { subSeconds } from 'date-fns-jalaali/fp'
   export default subSeconds
 }
 
-declare module 'date-fns/fp/subWeeks/index.js' {
-  import { subWeeks } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subWeeks/index.js' {
+  import { subWeeks } from 'date-fns-jalaali/fp'
   export default subWeeks
 }
 
-declare module 'date-fns/fp/subYears/index.js' {
-  import { subYears } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/subYears/index.js' {
+  import { subYears } from 'date-fns-jalaali/fp'
   export default subYears
 }
 
-declare module 'date-fns/fp/toDate/index.js' {
-  import { toDate } from 'date-fns/fp'
+declare module 'date-fns-jalaali/fp/toDate/index.js' {
+  import { toDate } from 'date-fns-jalaali/fp'
   export default toDate
 }
 
 // ECMAScript Module Functions
 
-declare module 'date-fns/esm' {
+declare module 'date-fns-jalaali/esm' {
   function add(date: Date | number, duration: Duration): Date
   namespace add {}
 
@@ -8602,2889 +8602,2889 @@ declare module 'date-fns/esm' {
   const minTime: number
 }
 
-declare module 'date-fns/esm/add' {
-  import { add } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/add' {
+  import { add } from 'date-fns-jalaali/esm'
   export default add
 }
 
-declare module 'date-fns/esm/addBusinessDays' {
-  import { addBusinessDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addBusinessDays' {
+  import { addBusinessDays } from 'date-fns-jalaali/esm'
   export default addBusinessDays
 }
 
-declare module 'date-fns/esm/addDays' {
-  import { addDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addDays' {
+  import { addDays } from 'date-fns-jalaali/esm'
   export default addDays
 }
 
-declare module 'date-fns/esm/addHours' {
-  import { addHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addHours' {
+  import { addHours } from 'date-fns-jalaali/esm'
   export default addHours
 }
 
-declare module 'date-fns/esm/addISOWeekYears' {
-  import { addISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addISOWeekYears' {
+  import { addISOWeekYears } from 'date-fns-jalaali/esm'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/esm/addMilliseconds' {
-  import { addMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addMilliseconds' {
+  import { addMilliseconds } from 'date-fns-jalaali/esm'
   export default addMilliseconds
 }
 
-declare module 'date-fns/esm/addMinutes' {
-  import { addMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addMinutes' {
+  import { addMinutes } from 'date-fns-jalaali/esm'
   export default addMinutes
 }
 
-declare module 'date-fns/esm/addMonths' {
-  import { addMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addMonths' {
+  import { addMonths } from 'date-fns-jalaali/esm'
   export default addMonths
 }
 
-declare module 'date-fns/esm/addQuarters' {
-  import { addQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addQuarters' {
+  import { addQuarters } from 'date-fns-jalaali/esm'
   export default addQuarters
 }
 
-declare module 'date-fns/esm/addSeconds' {
-  import { addSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addSeconds' {
+  import { addSeconds } from 'date-fns-jalaali/esm'
   export default addSeconds
 }
 
-declare module 'date-fns/esm/addWeeks' {
-  import { addWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addWeeks' {
+  import { addWeeks } from 'date-fns-jalaali/esm'
   export default addWeeks
 }
 
-declare module 'date-fns/esm/addYears' {
-  import { addYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addYears' {
+  import { addYears } from 'date-fns-jalaali/esm'
   export default addYears
 }
 
-declare module 'date-fns/esm/areIntervalsOverlapping' {
-  import { areIntervalsOverlapping } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/areIntervalsOverlapping' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali/esm'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/esm/closestIndexTo' {
-  import { closestIndexTo } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/closestIndexTo' {
+  import { closestIndexTo } from 'date-fns-jalaali/esm'
   export default closestIndexTo
 }
 
-declare module 'date-fns/esm/closestTo' {
-  import { closestTo } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/closestTo' {
+  import { closestTo } from 'date-fns-jalaali/esm'
   export default closestTo
 }
 
-declare module 'date-fns/esm/compareAsc' {
-  import { compareAsc } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/compareAsc' {
+  import { compareAsc } from 'date-fns-jalaali/esm'
   export default compareAsc
 }
 
-declare module 'date-fns/esm/compareDesc' {
-  import { compareDesc } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/compareDesc' {
+  import { compareDesc } from 'date-fns-jalaali/esm'
   export default compareDesc
 }
 
-declare module 'date-fns/esm/differenceInBusinessDays' {
-  import { differenceInBusinessDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInBusinessDays' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali/esm'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/esm/differenceInCalendarDays' {
-  import { differenceInCalendarDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarDays' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali/esm'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/esm/differenceInCalendarISOWeeks' {
-  import { differenceInCalendarISOWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarISOWeeks' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali/esm'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/esm/differenceInCalendarISOWeekYears' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarISOWeekYears' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali/esm'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/esm/differenceInCalendarMonths' {
-  import { differenceInCalendarMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarMonths' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali/esm'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/esm/differenceInCalendarQuarters' {
-  import { differenceInCalendarQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarQuarters' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali/esm'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/esm/differenceInCalendarWeeks' {
-  import { differenceInCalendarWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarWeeks' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali/esm'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/esm/differenceInCalendarYears' {
-  import { differenceInCalendarYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarYears' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali/esm'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/esm/differenceInDays' {
-  import { differenceInDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInDays' {
+  import { differenceInDays } from 'date-fns-jalaali/esm'
   export default differenceInDays
 }
 
-declare module 'date-fns/esm/differenceInHours' {
-  import { differenceInHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInHours' {
+  import { differenceInHours } from 'date-fns-jalaali/esm'
   export default differenceInHours
 }
 
-declare module 'date-fns/esm/differenceInISOWeekYears' {
-  import { differenceInISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInISOWeekYears' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali/esm'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/esm/differenceInMilliseconds' {
-  import { differenceInMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInMilliseconds' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali/esm'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/esm/differenceInMinutes' {
-  import { differenceInMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInMinutes' {
+  import { differenceInMinutes } from 'date-fns-jalaali/esm'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/esm/differenceInMonths' {
-  import { differenceInMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInMonths' {
+  import { differenceInMonths } from 'date-fns-jalaali/esm'
   export default differenceInMonths
 }
 
-declare module 'date-fns/esm/differenceInQuarters' {
-  import { differenceInQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInQuarters' {
+  import { differenceInQuarters } from 'date-fns-jalaali/esm'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/esm/differenceInSeconds' {
-  import { differenceInSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInSeconds' {
+  import { differenceInSeconds } from 'date-fns-jalaali/esm'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/esm/differenceInWeeks' {
-  import { differenceInWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInWeeks' {
+  import { differenceInWeeks } from 'date-fns-jalaali/esm'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/esm/differenceInYears' {
-  import { differenceInYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInYears' {
+  import { differenceInYears } from 'date-fns-jalaali/esm'
   export default differenceInYears
 }
 
-declare module 'date-fns/esm/eachDayOfInterval' {
-  import { eachDayOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachDayOfInterval' {
+  import { eachDayOfInterval } from 'date-fns-jalaali/esm'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/esm/eachMonthOfInterval' {
-  import { eachMonthOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachMonthOfInterval' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali/esm'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/esm/eachWeekendOfInterval' {
-  import { eachWeekendOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekendOfInterval' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali/esm'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/esm/eachWeekendOfMonth' {
-  import { eachWeekendOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekendOfMonth' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali/esm'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/esm/eachWeekendOfYear' {
-  import { eachWeekendOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekendOfYear' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali/esm'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/esm/eachWeekOfInterval' {
-  import { eachWeekOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekOfInterval' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali/esm'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/esm/eachYearOfInterval' {
-  import { eachYearOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachYearOfInterval' {
+  import { eachYearOfInterval } from 'date-fns-jalaali/esm'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/esm/endOfDay' {
-  import { endOfDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfDay' {
+  import { endOfDay } from 'date-fns-jalaali/esm'
   export default endOfDay
 }
 
-declare module 'date-fns/esm/endOfDecade' {
-  import { endOfDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfDecade' {
+  import { endOfDecade } from 'date-fns-jalaali/esm'
   export default endOfDecade
 }
 
-declare module 'date-fns/esm/endOfHour' {
-  import { endOfHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfHour' {
+  import { endOfHour } from 'date-fns-jalaali/esm'
   export default endOfHour
 }
 
-declare module 'date-fns/esm/endOfISOWeek' {
-  import { endOfISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfISOWeek' {
+  import { endOfISOWeek } from 'date-fns-jalaali/esm'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/esm/endOfISOWeekYear' {
-  import { endOfISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfISOWeekYear' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali/esm'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/esm/endOfMinute' {
-  import { endOfMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfMinute' {
+  import { endOfMinute } from 'date-fns-jalaali/esm'
   export default endOfMinute
 }
 
-declare module 'date-fns/esm/endOfMonth' {
-  import { endOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfMonth' {
+  import { endOfMonth } from 'date-fns-jalaali/esm'
   export default endOfMonth
 }
 
-declare module 'date-fns/esm/endOfQuarter' {
-  import { endOfQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfQuarter' {
+  import { endOfQuarter } from 'date-fns-jalaali/esm'
   export default endOfQuarter
 }
 
-declare module 'date-fns/esm/endOfSecond' {
-  import { endOfSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfSecond' {
+  import { endOfSecond } from 'date-fns-jalaali/esm'
   export default endOfSecond
 }
 
-declare module 'date-fns/esm/endOfToday' {
-  import { endOfToday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfToday' {
+  import { endOfToday } from 'date-fns-jalaali/esm'
   export default endOfToday
 }
 
-declare module 'date-fns/esm/endOfTomorrow' {
-  import { endOfTomorrow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfTomorrow' {
+  import { endOfTomorrow } from 'date-fns-jalaali/esm'
   export default endOfTomorrow
 }
 
-declare module 'date-fns/esm/endOfWeek' {
-  import { endOfWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfWeek' {
+  import { endOfWeek } from 'date-fns-jalaali/esm'
   export default endOfWeek
 }
 
-declare module 'date-fns/esm/endOfYear' {
-  import { endOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfYear' {
+  import { endOfYear } from 'date-fns-jalaali/esm'
   export default endOfYear
 }
 
-declare module 'date-fns/esm/endOfYesterday' {
-  import { endOfYesterday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfYesterday' {
+  import { endOfYesterday } from 'date-fns-jalaali/esm'
   export default endOfYesterday
 }
 
-declare module 'date-fns/esm/format' {
-  import { format } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/format' {
+  import { format } from 'date-fns-jalaali/esm'
   export default format
 }
 
-declare module 'date-fns/esm/formatDistance' {
-  import { formatDistance } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistance' {
+  import { formatDistance } from 'date-fns-jalaali/esm'
   export default formatDistance
 }
 
-declare module 'date-fns/esm/formatDistanceStrict' {
-  import { formatDistanceStrict } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistanceStrict' {
+  import { formatDistanceStrict } from 'date-fns-jalaali/esm'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/esm/formatDistanceToNow' {
-  import { formatDistanceToNow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistanceToNow' {
+  import { formatDistanceToNow } from 'date-fns-jalaali/esm'
   export default formatDistanceToNow
 }
 
-declare module 'date-fns/esm/formatDistanceToNowStrict' {
-  import { formatDistanceToNowStrict } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistanceToNowStrict' {
+  import { formatDistanceToNowStrict } from 'date-fns-jalaali/esm'
   export default formatDistanceToNowStrict
 }
 
-declare module 'date-fns/esm/formatISO' {
-  import { formatISO } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatISO' {
+  import { formatISO } from 'date-fns-jalaali/esm'
   export default formatISO
 }
 
-declare module 'date-fns/esm/formatISO9075' {
-  import { formatISO9075 } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatISO9075' {
+  import { formatISO9075 } from 'date-fns-jalaali/esm'
   export default formatISO9075
 }
 
-declare module 'date-fns/esm/formatISODuration' {
-  import { formatISODuration } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatISODuration' {
+  import { formatISODuration } from 'date-fns-jalaali/esm'
   export default formatISODuration
 }
 
-declare module 'date-fns/esm/formatRelative' {
-  import { formatRelative } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatRelative' {
+  import { formatRelative } from 'date-fns-jalaali/esm'
   export default formatRelative
 }
 
-declare module 'date-fns/esm/formatRFC3339' {
-  import { formatRFC3339 } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatRFC3339' {
+  import { formatRFC3339 } from 'date-fns-jalaali/esm'
   export default formatRFC3339
 }
 
-declare module 'date-fns/esm/formatRFC7231' {
-  import { formatRFC7231 } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatRFC7231' {
+  import { formatRFC7231 } from 'date-fns-jalaali/esm'
   export default formatRFC7231
 }
 
-declare module 'date-fns/esm/fromUnixTime' {
-  import { fromUnixTime } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/fromUnixTime' {
+  import { fromUnixTime } from 'date-fns-jalaali/esm'
   export default fromUnixTime
 }
 
-declare module 'date-fns/esm/getDate' {
-  import { getDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDate' {
+  import { getDate } from 'date-fns-jalaali/esm'
   export default getDate
 }
 
-declare module 'date-fns/esm/getDay' {
-  import { getDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDay' {
+  import { getDay } from 'date-fns-jalaali/esm'
   export default getDay
 }
 
-declare module 'date-fns/esm/getDayOfYear' {
-  import { getDayOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDayOfYear' {
+  import { getDayOfYear } from 'date-fns-jalaali/esm'
   export default getDayOfYear
 }
 
-declare module 'date-fns/esm/getDaysInMonth' {
-  import { getDaysInMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDaysInMonth' {
+  import { getDaysInMonth } from 'date-fns-jalaali/esm'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/esm/getDaysInYear' {
-  import { getDaysInYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDaysInYear' {
+  import { getDaysInYear } from 'date-fns-jalaali/esm'
   export default getDaysInYear
 }
 
-declare module 'date-fns/esm/getDecade' {
-  import { getDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDecade' {
+  import { getDecade } from 'date-fns-jalaali/esm'
   export default getDecade
 }
 
-declare module 'date-fns/esm/getHours' {
-  import { getHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getHours' {
+  import { getHours } from 'date-fns-jalaali/esm'
   export default getHours
 }
 
-declare module 'date-fns/esm/getISODay' {
-  import { getISODay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISODay' {
+  import { getISODay } from 'date-fns-jalaali/esm'
   export default getISODay
 }
 
-declare module 'date-fns/esm/getISOWeek' {
-  import { getISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISOWeek' {
+  import { getISOWeek } from 'date-fns-jalaali/esm'
   export default getISOWeek
 }
 
-declare module 'date-fns/esm/getISOWeeksInYear' {
-  import { getISOWeeksInYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISOWeeksInYear' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali/esm'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/esm/getISOWeekYear' {
-  import { getISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISOWeekYear' {
+  import { getISOWeekYear } from 'date-fns-jalaali/esm'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/esm/getMilliseconds' {
-  import { getMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getMilliseconds' {
+  import { getMilliseconds } from 'date-fns-jalaali/esm'
   export default getMilliseconds
 }
 
-declare module 'date-fns/esm/getMinutes' {
-  import { getMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getMinutes' {
+  import { getMinutes } from 'date-fns-jalaali/esm'
   export default getMinutes
 }
 
-declare module 'date-fns/esm/getMonth' {
-  import { getMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getMonth' {
+  import { getMonth } from 'date-fns-jalaali/esm'
   export default getMonth
 }
 
-declare module 'date-fns/esm/getOverlappingDaysInIntervals' {
-  import { getOverlappingDaysInIntervals } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getOverlappingDaysInIntervals' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali/esm'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/esm/getQuarter' {
-  import { getQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getQuarter' {
+  import { getQuarter } from 'date-fns-jalaali/esm'
   export default getQuarter
 }
 
-declare module 'date-fns/esm/getSeconds' {
-  import { getSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getSeconds' {
+  import { getSeconds } from 'date-fns-jalaali/esm'
   export default getSeconds
 }
 
-declare module 'date-fns/esm/getTime' {
-  import { getTime } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getTime' {
+  import { getTime } from 'date-fns-jalaali/esm'
   export default getTime
 }
 
-declare module 'date-fns/esm/getUnixTime' {
-  import { getUnixTime } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getUnixTime' {
+  import { getUnixTime } from 'date-fns-jalaali/esm'
   export default getUnixTime
 }
 
-declare module 'date-fns/esm/getWeek' {
-  import { getWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeek' {
+  import { getWeek } from 'date-fns-jalaali/esm'
   export default getWeek
 }
 
-declare module 'date-fns/esm/getWeekOfMonth' {
-  import { getWeekOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeekOfMonth' {
+  import { getWeekOfMonth } from 'date-fns-jalaali/esm'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/esm/getWeeksInMonth' {
-  import { getWeeksInMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeeksInMonth' {
+  import { getWeeksInMonth } from 'date-fns-jalaali/esm'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/esm/getWeekYear' {
-  import { getWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeekYear' {
+  import { getWeekYear } from 'date-fns-jalaali/esm'
   export default getWeekYear
 }
 
-declare module 'date-fns/esm/getYear' {
-  import { getYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getYear' {
+  import { getYear } from 'date-fns-jalaali/esm'
   export default getYear
 }
 
-declare module 'date-fns/esm/intervalToDuration' {
-  import { intervalToDuration } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/intervalToDuration' {
+  import { intervalToDuration } from 'date-fns-jalaali/esm'
   export default intervalToDuration
 }
 
-declare module 'date-fns/esm/isAfter' {
-  import { isAfter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isAfter' {
+  import { isAfter } from 'date-fns-jalaali/esm'
   export default isAfter
 }
 
-declare module 'date-fns/esm/isBefore' {
-  import { isBefore } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isBefore' {
+  import { isBefore } from 'date-fns-jalaali/esm'
   export default isBefore
 }
 
-declare module 'date-fns/esm/isDate' {
-  import { isDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isDate' {
+  import { isDate } from 'date-fns-jalaali/esm'
   export default isDate
 }
 
-declare module 'date-fns/esm/isEqual' {
-  import { isEqual } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isEqual' {
+  import { isEqual } from 'date-fns-jalaali/esm'
   export default isEqual
 }
 
-declare module 'date-fns/esm/isExists' {
-  import { isExists } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isExists' {
+  import { isExists } from 'date-fns-jalaali/esm'
   export default isExists
 }
 
-declare module 'date-fns/esm/isFirstDayOfMonth' {
-  import { isFirstDayOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isFirstDayOfMonth' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali/esm'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/esm/isFriday' {
-  import { isFriday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isFriday' {
+  import { isFriday } from 'date-fns-jalaali/esm'
   export default isFriday
 }
 
-declare module 'date-fns/esm/isFuture' {
-  import { isFuture } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isFuture' {
+  import { isFuture } from 'date-fns-jalaali/esm'
   export default isFuture
 }
 
-declare module 'date-fns/esm/isLastDayOfMonth' {
-  import { isLastDayOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isLastDayOfMonth' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali/esm'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/esm/isLeapYear' {
-  import { isLeapYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isLeapYear' {
+  import { isLeapYear } from 'date-fns-jalaali/esm'
   export default isLeapYear
 }
 
-declare module 'date-fns/esm/isMonday' {
-  import { isMonday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isMonday' {
+  import { isMonday } from 'date-fns-jalaali/esm'
   export default isMonday
 }
 
-declare module 'date-fns/esm/isPast' {
-  import { isPast } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isPast' {
+  import { isPast } from 'date-fns-jalaali/esm'
   export default isPast
 }
 
-declare module 'date-fns/esm/isSameDay' {
-  import { isSameDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameDay' {
+  import { isSameDay } from 'date-fns-jalaali/esm'
   export default isSameDay
 }
 
-declare module 'date-fns/esm/isSameHour' {
-  import { isSameHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameHour' {
+  import { isSameHour } from 'date-fns-jalaali/esm'
   export default isSameHour
 }
 
-declare module 'date-fns/esm/isSameISOWeek' {
-  import { isSameISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameISOWeek' {
+  import { isSameISOWeek } from 'date-fns-jalaali/esm'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/esm/isSameISOWeekYear' {
-  import { isSameISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameISOWeekYear' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali/esm'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/esm/isSameMinute' {
-  import { isSameMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameMinute' {
+  import { isSameMinute } from 'date-fns-jalaali/esm'
   export default isSameMinute
 }
 
-declare module 'date-fns/esm/isSameMonth' {
-  import { isSameMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameMonth' {
+  import { isSameMonth } from 'date-fns-jalaali/esm'
   export default isSameMonth
 }
 
-declare module 'date-fns/esm/isSameQuarter' {
-  import { isSameQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameQuarter' {
+  import { isSameQuarter } from 'date-fns-jalaali/esm'
   export default isSameQuarter
 }
 
-declare module 'date-fns/esm/isSameSecond' {
-  import { isSameSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameSecond' {
+  import { isSameSecond } from 'date-fns-jalaali/esm'
   export default isSameSecond
 }
 
-declare module 'date-fns/esm/isSameWeek' {
-  import { isSameWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameWeek' {
+  import { isSameWeek } from 'date-fns-jalaali/esm'
   export default isSameWeek
 }
 
-declare module 'date-fns/esm/isSameYear' {
-  import { isSameYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameYear' {
+  import { isSameYear } from 'date-fns-jalaali/esm'
   export default isSameYear
 }
 
-declare module 'date-fns/esm/isSaturday' {
-  import { isSaturday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSaturday' {
+  import { isSaturday } from 'date-fns-jalaali/esm'
   export default isSaturday
 }
 
-declare module 'date-fns/esm/isSunday' {
-  import { isSunday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSunday' {
+  import { isSunday } from 'date-fns-jalaali/esm'
   export default isSunday
 }
 
-declare module 'date-fns/esm/isThisHour' {
-  import { isThisHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisHour' {
+  import { isThisHour } from 'date-fns-jalaali/esm'
   export default isThisHour
 }
 
-declare module 'date-fns/esm/isThisISOWeek' {
-  import { isThisISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisISOWeek' {
+  import { isThisISOWeek } from 'date-fns-jalaali/esm'
   export default isThisISOWeek
 }
 
-declare module 'date-fns/esm/isThisMinute' {
-  import { isThisMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisMinute' {
+  import { isThisMinute } from 'date-fns-jalaali/esm'
   export default isThisMinute
 }
 
-declare module 'date-fns/esm/isThisMonth' {
-  import { isThisMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisMonth' {
+  import { isThisMonth } from 'date-fns-jalaali/esm'
   export default isThisMonth
 }
 
-declare module 'date-fns/esm/isThisQuarter' {
-  import { isThisQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisQuarter' {
+  import { isThisQuarter } from 'date-fns-jalaali/esm'
   export default isThisQuarter
 }
 
-declare module 'date-fns/esm/isThisSecond' {
-  import { isThisSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisSecond' {
+  import { isThisSecond } from 'date-fns-jalaali/esm'
   export default isThisSecond
 }
 
-declare module 'date-fns/esm/isThisWeek' {
-  import { isThisWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisWeek' {
+  import { isThisWeek } from 'date-fns-jalaali/esm'
   export default isThisWeek
 }
 
-declare module 'date-fns/esm/isThisYear' {
-  import { isThisYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisYear' {
+  import { isThisYear } from 'date-fns-jalaali/esm'
   export default isThisYear
 }
 
-declare module 'date-fns/esm/isThursday' {
-  import { isThursday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThursday' {
+  import { isThursday } from 'date-fns-jalaali/esm'
   export default isThursday
 }
 
-declare module 'date-fns/esm/isToday' {
-  import { isToday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isToday' {
+  import { isToday } from 'date-fns-jalaali/esm'
   export default isToday
 }
 
-declare module 'date-fns/esm/isTomorrow' {
-  import { isTomorrow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isTomorrow' {
+  import { isTomorrow } from 'date-fns-jalaali/esm'
   export default isTomorrow
 }
 
-declare module 'date-fns/esm/isTuesday' {
-  import { isTuesday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isTuesday' {
+  import { isTuesday } from 'date-fns-jalaali/esm'
   export default isTuesday
 }
 
-declare module 'date-fns/esm/isValid' {
-  import { isValid } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isValid' {
+  import { isValid } from 'date-fns-jalaali/esm'
   export default isValid
 }
 
-declare module 'date-fns/esm/isWednesday' {
-  import { isWednesday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isWednesday' {
+  import { isWednesday } from 'date-fns-jalaali/esm'
   export default isWednesday
 }
 
-declare module 'date-fns/esm/isWeekend' {
-  import { isWeekend } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isWeekend' {
+  import { isWeekend } from 'date-fns-jalaali/esm'
   export default isWeekend
 }
 
-declare module 'date-fns/esm/isWithinInterval' {
-  import { isWithinInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isWithinInterval' {
+  import { isWithinInterval } from 'date-fns-jalaali/esm'
   export default isWithinInterval
 }
 
-declare module 'date-fns/esm/isYesterday' {
-  import { isYesterday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isYesterday' {
+  import { isYesterday } from 'date-fns-jalaali/esm'
   export default isYesterday
 }
 
-declare module 'date-fns/esm/lastDayOfDecade' {
-  import { lastDayOfDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfDecade' {
+  import { lastDayOfDecade } from 'date-fns-jalaali/esm'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/esm/lastDayOfISOWeek' {
-  import { lastDayOfISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfISOWeek' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali/esm'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/esm/lastDayOfISOWeekYear' {
-  import { lastDayOfISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfISOWeekYear' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali/esm'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/esm/lastDayOfMonth' {
-  import { lastDayOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfMonth' {
+  import { lastDayOfMonth } from 'date-fns-jalaali/esm'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/esm/lastDayOfQuarter' {
-  import { lastDayOfQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfQuarter' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali/esm'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/esm/lastDayOfWeek' {
-  import { lastDayOfWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfWeek' {
+  import { lastDayOfWeek } from 'date-fns-jalaali/esm'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/esm/lastDayOfYear' {
-  import { lastDayOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfYear' {
+  import { lastDayOfYear } from 'date-fns-jalaali/esm'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/esm/lightFormat' {
-  import { lightFormat } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lightFormat' {
+  import { lightFormat } from 'date-fns-jalaali/esm'
   export default lightFormat
 }
 
-declare module 'date-fns/esm/max' {
-  import { max } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/max' {
+  import { max } from 'date-fns-jalaali/esm'
   export default max
 }
 
-declare module 'date-fns/esm/min' {
-  import { min } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/min' {
+  import { min } from 'date-fns-jalaali/esm'
   export default min
 }
 
-declare module 'date-fns/esm/parse' {
-  import { parse } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/parse' {
+  import { parse } from 'date-fns-jalaali/esm'
   export default parse
 }
 
-declare module 'date-fns/esm/parseISO' {
-  import { parseISO } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/parseISO' {
+  import { parseISO } from 'date-fns-jalaali/esm'
   export default parseISO
 }
 
-declare module 'date-fns/esm/parseJSON' {
-  import { parseJSON } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/parseJSON' {
+  import { parseJSON } from 'date-fns-jalaali/esm'
   export default parseJSON
 }
 
-declare module 'date-fns/esm/roundToNearestMinutes' {
-  import { roundToNearestMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/roundToNearestMinutes' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali/esm'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/esm/set' {
-  import { set } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/set' {
+  import { set } from 'date-fns-jalaali/esm'
   export default set
 }
 
-declare module 'date-fns/esm/setDate' {
-  import { setDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setDate' {
+  import { setDate } from 'date-fns-jalaali/esm'
   export default setDate
 }
 
-declare module 'date-fns/esm/setDay' {
-  import { setDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setDay' {
+  import { setDay } from 'date-fns-jalaali/esm'
   export default setDay
 }
 
-declare module 'date-fns/esm/setDayOfYear' {
-  import { setDayOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setDayOfYear' {
+  import { setDayOfYear } from 'date-fns-jalaali/esm'
   export default setDayOfYear
 }
 
-declare module 'date-fns/esm/setHours' {
-  import { setHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setHours' {
+  import { setHours } from 'date-fns-jalaali/esm'
   export default setHours
 }
 
-declare module 'date-fns/esm/setISODay' {
-  import { setISODay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setISODay' {
+  import { setISODay } from 'date-fns-jalaali/esm'
   export default setISODay
 }
 
-declare module 'date-fns/esm/setISOWeek' {
-  import { setISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setISOWeek' {
+  import { setISOWeek } from 'date-fns-jalaali/esm'
   export default setISOWeek
 }
 
-declare module 'date-fns/esm/setISOWeekYear' {
-  import { setISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setISOWeekYear' {
+  import { setISOWeekYear } from 'date-fns-jalaali/esm'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/esm/setMilliseconds' {
-  import { setMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setMilliseconds' {
+  import { setMilliseconds } from 'date-fns-jalaali/esm'
   export default setMilliseconds
 }
 
-declare module 'date-fns/esm/setMinutes' {
-  import { setMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setMinutes' {
+  import { setMinutes } from 'date-fns-jalaali/esm'
   export default setMinutes
 }
 
-declare module 'date-fns/esm/setMonth' {
-  import { setMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setMonth' {
+  import { setMonth } from 'date-fns-jalaali/esm'
   export default setMonth
 }
 
-declare module 'date-fns/esm/setQuarter' {
-  import { setQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setQuarter' {
+  import { setQuarter } from 'date-fns-jalaali/esm'
   export default setQuarter
 }
 
-declare module 'date-fns/esm/setSeconds' {
-  import { setSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setSeconds' {
+  import { setSeconds } from 'date-fns-jalaali/esm'
   export default setSeconds
 }
 
-declare module 'date-fns/esm/setWeek' {
-  import { setWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setWeek' {
+  import { setWeek } from 'date-fns-jalaali/esm'
   export default setWeek
 }
 
-declare module 'date-fns/esm/setWeekYear' {
-  import { setWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setWeekYear' {
+  import { setWeekYear } from 'date-fns-jalaali/esm'
   export default setWeekYear
 }
 
-declare module 'date-fns/esm/setYear' {
-  import { setYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setYear' {
+  import { setYear } from 'date-fns-jalaali/esm'
   export default setYear
 }
 
-declare module 'date-fns/esm/startOfDay' {
-  import { startOfDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfDay' {
+  import { startOfDay } from 'date-fns-jalaali/esm'
   export default startOfDay
 }
 
-declare module 'date-fns/esm/startOfDecade' {
-  import { startOfDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfDecade' {
+  import { startOfDecade } from 'date-fns-jalaali/esm'
   export default startOfDecade
 }
 
-declare module 'date-fns/esm/startOfHour' {
-  import { startOfHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfHour' {
+  import { startOfHour } from 'date-fns-jalaali/esm'
   export default startOfHour
 }
 
-declare module 'date-fns/esm/startOfISOWeek' {
-  import { startOfISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfISOWeek' {
+  import { startOfISOWeek } from 'date-fns-jalaali/esm'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/esm/startOfISOWeekYear' {
-  import { startOfISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfISOWeekYear' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali/esm'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/esm/startOfMinute' {
-  import { startOfMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfMinute' {
+  import { startOfMinute } from 'date-fns-jalaali/esm'
   export default startOfMinute
 }
 
-declare module 'date-fns/esm/startOfMonth' {
-  import { startOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfMonth' {
+  import { startOfMonth } from 'date-fns-jalaali/esm'
   export default startOfMonth
 }
 
-declare module 'date-fns/esm/startOfQuarter' {
-  import { startOfQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfQuarter' {
+  import { startOfQuarter } from 'date-fns-jalaali/esm'
   export default startOfQuarter
 }
 
-declare module 'date-fns/esm/startOfSecond' {
-  import { startOfSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfSecond' {
+  import { startOfSecond } from 'date-fns-jalaali/esm'
   export default startOfSecond
 }
 
-declare module 'date-fns/esm/startOfToday' {
-  import { startOfToday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfToday' {
+  import { startOfToday } from 'date-fns-jalaali/esm'
   export default startOfToday
 }
 
-declare module 'date-fns/esm/startOfTomorrow' {
-  import { startOfTomorrow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfTomorrow' {
+  import { startOfTomorrow } from 'date-fns-jalaali/esm'
   export default startOfTomorrow
 }
 
-declare module 'date-fns/esm/startOfWeek' {
-  import { startOfWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfWeek' {
+  import { startOfWeek } from 'date-fns-jalaali/esm'
   export default startOfWeek
 }
 
-declare module 'date-fns/esm/startOfWeekYear' {
-  import { startOfWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfWeekYear' {
+  import { startOfWeekYear } from 'date-fns-jalaali/esm'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/esm/startOfYear' {
-  import { startOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfYear' {
+  import { startOfYear } from 'date-fns-jalaali/esm'
   export default startOfYear
 }
 
-declare module 'date-fns/esm/startOfYesterday' {
-  import { startOfYesterday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfYesterday' {
+  import { startOfYesterday } from 'date-fns-jalaali/esm'
   export default startOfYesterday
 }
 
-declare module 'date-fns/esm/sub' {
-  import { sub } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/sub' {
+  import { sub } from 'date-fns-jalaali/esm'
   export default sub
 }
 
-declare module 'date-fns/esm/subBusinessDays' {
-  import { subBusinessDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subBusinessDays' {
+  import { subBusinessDays } from 'date-fns-jalaali/esm'
   export default subBusinessDays
 }
 
-declare module 'date-fns/esm/subDays' {
-  import { subDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subDays' {
+  import { subDays } from 'date-fns-jalaali/esm'
   export default subDays
 }
 
-declare module 'date-fns/esm/subHours' {
-  import { subHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subHours' {
+  import { subHours } from 'date-fns-jalaali/esm'
   export default subHours
 }
 
-declare module 'date-fns/esm/subISOWeekYears' {
-  import { subISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subISOWeekYears' {
+  import { subISOWeekYears } from 'date-fns-jalaali/esm'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/esm/subMilliseconds' {
-  import { subMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subMilliseconds' {
+  import { subMilliseconds } from 'date-fns-jalaali/esm'
   export default subMilliseconds
 }
 
-declare module 'date-fns/esm/subMinutes' {
-  import { subMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subMinutes' {
+  import { subMinutes } from 'date-fns-jalaali/esm'
   export default subMinutes
 }
 
-declare module 'date-fns/esm/subMonths' {
-  import { subMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subMonths' {
+  import { subMonths } from 'date-fns-jalaali/esm'
   export default subMonths
 }
 
-declare module 'date-fns/esm/subQuarters' {
-  import { subQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subQuarters' {
+  import { subQuarters } from 'date-fns-jalaali/esm'
   export default subQuarters
 }
 
-declare module 'date-fns/esm/subSeconds' {
-  import { subSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subSeconds' {
+  import { subSeconds } from 'date-fns-jalaali/esm'
   export default subSeconds
 }
 
-declare module 'date-fns/esm/subWeeks' {
-  import { subWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subWeeks' {
+  import { subWeeks } from 'date-fns-jalaali/esm'
   export default subWeeks
 }
 
-declare module 'date-fns/esm/subYears' {
-  import { subYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subYears' {
+  import { subYears } from 'date-fns-jalaali/esm'
   export default subYears
 }
 
-declare module 'date-fns/esm/toDate' {
-  import { toDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/toDate' {
+  import { toDate } from 'date-fns-jalaali/esm'
   export default toDate
 }
 
-declare module 'date-fns/esm/add/index' {
-  import { add } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/add/index' {
+  import { add } from 'date-fns-jalaali/esm'
   export default add
 }
 
-declare module 'date-fns/esm/addBusinessDays/index' {
-  import { addBusinessDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addBusinessDays/index' {
+  import { addBusinessDays } from 'date-fns-jalaali/esm'
   export default addBusinessDays
 }
 
-declare module 'date-fns/esm/addDays/index' {
-  import { addDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addDays/index' {
+  import { addDays } from 'date-fns-jalaali/esm'
   export default addDays
 }
 
-declare module 'date-fns/esm/addHours/index' {
-  import { addHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addHours/index' {
+  import { addHours } from 'date-fns-jalaali/esm'
   export default addHours
 }
 
-declare module 'date-fns/esm/addISOWeekYears/index' {
-  import { addISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addISOWeekYears/index' {
+  import { addISOWeekYears } from 'date-fns-jalaali/esm'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/esm/addMilliseconds/index' {
-  import { addMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addMilliseconds/index' {
+  import { addMilliseconds } from 'date-fns-jalaali/esm'
   export default addMilliseconds
 }
 
-declare module 'date-fns/esm/addMinutes/index' {
-  import { addMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addMinutes/index' {
+  import { addMinutes } from 'date-fns-jalaali/esm'
   export default addMinutes
 }
 
-declare module 'date-fns/esm/addMonths/index' {
-  import { addMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addMonths/index' {
+  import { addMonths } from 'date-fns-jalaali/esm'
   export default addMonths
 }
 
-declare module 'date-fns/esm/addQuarters/index' {
-  import { addQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addQuarters/index' {
+  import { addQuarters } from 'date-fns-jalaali/esm'
   export default addQuarters
 }
 
-declare module 'date-fns/esm/addSeconds/index' {
-  import { addSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addSeconds/index' {
+  import { addSeconds } from 'date-fns-jalaali/esm'
   export default addSeconds
 }
 
-declare module 'date-fns/esm/addWeeks/index' {
-  import { addWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addWeeks/index' {
+  import { addWeeks } from 'date-fns-jalaali/esm'
   export default addWeeks
 }
 
-declare module 'date-fns/esm/addYears/index' {
-  import { addYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addYears/index' {
+  import { addYears } from 'date-fns-jalaali/esm'
   export default addYears
 }
 
-declare module 'date-fns/esm/areIntervalsOverlapping/index' {
-  import { areIntervalsOverlapping } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/areIntervalsOverlapping/index' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali/esm'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/esm/closestIndexTo/index' {
-  import { closestIndexTo } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/closestIndexTo/index' {
+  import { closestIndexTo } from 'date-fns-jalaali/esm'
   export default closestIndexTo
 }
 
-declare module 'date-fns/esm/closestTo/index' {
-  import { closestTo } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/closestTo/index' {
+  import { closestTo } from 'date-fns-jalaali/esm'
   export default closestTo
 }
 
-declare module 'date-fns/esm/compareAsc/index' {
-  import { compareAsc } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/compareAsc/index' {
+  import { compareAsc } from 'date-fns-jalaali/esm'
   export default compareAsc
 }
 
-declare module 'date-fns/esm/compareDesc/index' {
-  import { compareDesc } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/compareDesc/index' {
+  import { compareDesc } from 'date-fns-jalaali/esm'
   export default compareDesc
 }
 
-declare module 'date-fns/esm/differenceInBusinessDays/index' {
-  import { differenceInBusinessDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInBusinessDays/index' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali/esm'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/esm/differenceInCalendarDays/index' {
-  import { differenceInCalendarDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarDays/index' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali/esm'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/esm/differenceInCalendarISOWeeks/index' {
-  import { differenceInCalendarISOWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarISOWeeks/index' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali/esm'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/esm/differenceInCalendarISOWeekYears/index' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarISOWeekYears/index' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali/esm'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/esm/differenceInCalendarMonths/index' {
-  import { differenceInCalendarMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarMonths/index' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali/esm'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/esm/differenceInCalendarQuarters/index' {
-  import { differenceInCalendarQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarQuarters/index' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali/esm'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/esm/differenceInCalendarWeeks/index' {
-  import { differenceInCalendarWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarWeeks/index' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali/esm'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/esm/differenceInCalendarYears/index' {
-  import { differenceInCalendarYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarYears/index' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali/esm'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/esm/differenceInDays/index' {
-  import { differenceInDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInDays/index' {
+  import { differenceInDays } from 'date-fns-jalaali/esm'
   export default differenceInDays
 }
 
-declare module 'date-fns/esm/differenceInHours/index' {
-  import { differenceInHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInHours/index' {
+  import { differenceInHours } from 'date-fns-jalaali/esm'
   export default differenceInHours
 }
 
-declare module 'date-fns/esm/differenceInISOWeekYears/index' {
-  import { differenceInISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInISOWeekYears/index' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali/esm'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/esm/differenceInMilliseconds/index' {
-  import { differenceInMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInMilliseconds/index' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali/esm'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/esm/differenceInMinutes/index' {
-  import { differenceInMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInMinutes/index' {
+  import { differenceInMinutes } from 'date-fns-jalaali/esm'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/esm/differenceInMonths/index' {
-  import { differenceInMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInMonths/index' {
+  import { differenceInMonths } from 'date-fns-jalaali/esm'
   export default differenceInMonths
 }
 
-declare module 'date-fns/esm/differenceInQuarters/index' {
-  import { differenceInQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInQuarters/index' {
+  import { differenceInQuarters } from 'date-fns-jalaali/esm'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/esm/differenceInSeconds/index' {
-  import { differenceInSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInSeconds/index' {
+  import { differenceInSeconds } from 'date-fns-jalaali/esm'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/esm/differenceInWeeks/index' {
-  import { differenceInWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInWeeks/index' {
+  import { differenceInWeeks } from 'date-fns-jalaali/esm'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/esm/differenceInYears/index' {
-  import { differenceInYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInYears/index' {
+  import { differenceInYears } from 'date-fns-jalaali/esm'
   export default differenceInYears
 }
 
-declare module 'date-fns/esm/eachDayOfInterval/index' {
-  import { eachDayOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachDayOfInterval/index' {
+  import { eachDayOfInterval } from 'date-fns-jalaali/esm'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/esm/eachMonthOfInterval/index' {
-  import { eachMonthOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachMonthOfInterval/index' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali/esm'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/esm/eachWeekendOfInterval/index' {
-  import { eachWeekendOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekendOfInterval/index' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali/esm'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/esm/eachWeekendOfMonth/index' {
-  import { eachWeekendOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekendOfMonth/index' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali/esm'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/esm/eachWeekendOfYear/index' {
-  import { eachWeekendOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekendOfYear/index' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali/esm'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/esm/eachWeekOfInterval/index' {
-  import { eachWeekOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekOfInterval/index' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali/esm'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/esm/eachYearOfInterval/index' {
-  import { eachYearOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachYearOfInterval/index' {
+  import { eachYearOfInterval } from 'date-fns-jalaali/esm'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/esm/endOfDay/index' {
-  import { endOfDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfDay/index' {
+  import { endOfDay } from 'date-fns-jalaali/esm'
   export default endOfDay
 }
 
-declare module 'date-fns/esm/endOfDecade/index' {
-  import { endOfDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfDecade/index' {
+  import { endOfDecade } from 'date-fns-jalaali/esm'
   export default endOfDecade
 }
 
-declare module 'date-fns/esm/endOfHour/index' {
-  import { endOfHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfHour/index' {
+  import { endOfHour } from 'date-fns-jalaali/esm'
   export default endOfHour
 }
 
-declare module 'date-fns/esm/endOfISOWeek/index' {
-  import { endOfISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfISOWeek/index' {
+  import { endOfISOWeek } from 'date-fns-jalaali/esm'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/esm/endOfISOWeekYear/index' {
-  import { endOfISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfISOWeekYear/index' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali/esm'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/esm/endOfMinute/index' {
-  import { endOfMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfMinute/index' {
+  import { endOfMinute } from 'date-fns-jalaali/esm'
   export default endOfMinute
 }
 
-declare module 'date-fns/esm/endOfMonth/index' {
-  import { endOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfMonth/index' {
+  import { endOfMonth } from 'date-fns-jalaali/esm'
   export default endOfMonth
 }
 
-declare module 'date-fns/esm/endOfQuarter/index' {
-  import { endOfQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfQuarter/index' {
+  import { endOfQuarter } from 'date-fns-jalaali/esm'
   export default endOfQuarter
 }
 
-declare module 'date-fns/esm/endOfSecond/index' {
-  import { endOfSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfSecond/index' {
+  import { endOfSecond } from 'date-fns-jalaali/esm'
   export default endOfSecond
 }
 
-declare module 'date-fns/esm/endOfToday/index' {
-  import { endOfToday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfToday/index' {
+  import { endOfToday } from 'date-fns-jalaali/esm'
   export default endOfToday
 }
 
-declare module 'date-fns/esm/endOfTomorrow/index' {
-  import { endOfTomorrow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfTomorrow/index' {
+  import { endOfTomorrow } from 'date-fns-jalaali/esm'
   export default endOfTomorrow
 }
 
-declare module 'date-fns/esm/endOfWeek/index' {
-  import { endOfWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfWeek/index' {
+  import { endOfWeek } from 'date-fns-jalaali/esm'
   export default endOfWeek
 }
 
-declare module 'date-fns/esm/endOfYear/index' {
-  import { endOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfYear/index' {
+  import { endOfYear } from 'date-fns-jalaali/esm'
   export default endOfYear
 }
 
-declare module 'date-fns/esm/endOfYesterday/index' {
-  import { endOfYesterday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfYesterday/index' {
+  import { endOfYesterday } from 'date-fns-jalaali/esm'
   export default endOfYesterday
 }
 
-declare module 'date-fns/esm/format/index' {
-  import { format } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/format/index' {
+  import { format } from 'date-fns-jalaali/esm'
   export default format
 }
 
-declare module 'date-fns/esm/formatDistance/index' {
-  import { formatDistance } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistance/index' {
+  import { formatDistance } from 'date-fns-jalaali/esm'
   export default formatDistance
 }
 
-declare module 'date-fns/esm/formatDistanceStrict/index' {
-  import { formatDistanceStrict } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistanceStrict/index' {
+  import { formatDistanceStrict } from 'date-fns-jalaali/esm'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/esm/formatDistanceToNow/index' {
-  import { formatDistanceToNow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistanceToNow/index' {
+  import { formatDistanceToNow } from 'date-fns-jalaali/esm'
   export default formatDistanceToNow
 }
 
-declare module 'date-fns/esm/formatDistanceToNowStrict/index' {
-  import { formatDistanceToNowStrict } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistanceToNowStrict/index' {
+  import { formatDistanceToNowStrict } from 'date-fns-jalaali/esm'
   export default formatDistanceToNowStrict
 }
 
-declare module 'date-fns/esm/formatISO/index' {
-  import { formatISO } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatISO/index' {
+  import { formatISO } from 'date-fns-jalaali/esm'
   export default formatISO
 }
 
-declare module 'date-fns/esm/formatISO9075/index' {
-  import { formatISO9075 } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatISO9075/index' {
+  import { formatISO9075 } from 'date-fns-jalaali/esm'
   export default formatISO9075
 }
 
-declare module 'date-fns/esm/formatISODuration/index' {
-  import { formatISODuration } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatISODuration/index' {
+  import { formatISODuration } from 'date-fns-jalaali/esm'
   export default formatISODuration
 }
 
-declare module 'date-fns/esm/formatRelative/index' {
-  import { formatRelative } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatRelative/index' {
+  import { formatRelative } from 'date-fns-jalaali/esm'
   export default formatRelative
 }
 
-declare module 'date-fns/esm/formatRFC3339/index' {
-  import { formatRFC3339 } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatRFC3339/index' {
+  import { formatRFC3339 } from 'date-fns-jalaali/esm'
   export default formatRFC3339
 }
 
-declare module 'date-fns/esm/formatRFC7231/index' {
-  import { formatRFC7231 } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatRFC7231/index' {
+  import { formatRFC7231 } from 'date-fns-jalaali/esm'
   export default formatRFC7231
 }
 
-declare module 'date-fns/esm/fromUnixTime/index' {
-  import { fromUnixTime } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/fromUnixTime/index' {
+  import { fromUnixTime } from 'date-fns-jalaali/esm'
   export default fromUnixTime
 }
 
-declare module 'date-fns/esm/getDate/index' {
-  import { getDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDate/index' {
+  import { getDate } from 'date-fns-jalaali/esm'
   export default getDate
 }
 
-declare module 'date-fns/esm/getDay/index' {
-  import { getDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDay/index' {
+  import { getDay } from 'date-fns-jalaali/esm'
   export default getDay
 }
 
-declare module 'date-fns/esm/getDayOfYear/index' {
-  import { getDayOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDayOfYear/index' {
+  import { getDayOfYear } from 'date-fns-jalaali/esm'
   export default getDayOfYear
 }
 
-declare module 'date-fns/esm/getDaysInMonth/index' {
-  import { getDaysInMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDaysInMonth/index' {
+  import { getDaysInMonth } from 'date-fns-jalaali/esm'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/esm/getDaysInYear/index' {
-  import { getDaysInYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDaysInYear/index' {
+  import { getDaysInYear } from 'date-fns-jalaali/esm'
   export default getDaysInYear
 }
 
-declare module 'date-fns/esm/getDecade/index' {
-  import { getDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDecade/index' {
+  import { getDecade } from 'date-fns-jalaali/esm'
   export default getDecade
 }
 
-declare module 'date-fns/esm/getHours/index' {
-  import { getHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getHours/index' {
+  import { getHours } from 'date-fns-jalaali/esm'
   export default getHours
 }
 
-declare module 'date-fns/esm/getISODay/index' {
-  import { getISODay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISODay/index' {
+  import { getISODay } from 'date-fns-jalaali/esm'
   export default getISODay
 }
 
-declare module 'date-fns/esm/getISOWeek/index' {
-  import { getISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISOWeek/index' {
+  import { getISOWeek } from 'date-fns-jalaali/esm'
   export default getISOWeek
 }
 
-declare module 'date-fns/esm/getISOWeeksInYear/index' {
-  import { getISOWeeksInYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISOWeeksInYear/index' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali/esm'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/esm/getISOWeekYear/index' {
-  import { getISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISOWeekYear/index' {
+  import { getISOWeekYear } from 'date-fns-jalaali/esm'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/esm/getMilliseconds/index' {
-  import { getMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getMilliseconds/index' {
+  import { getMilliseconds } from 'date-fns-jalaali/esm'
   export default getMilliseconds
 }
 
-declare module 'date-fns/esm/getMinutes/index' {
-  import { getMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getMinutes/index' {
+  import { getMinutes } from 'date-fns-jalaali/esm'
   export default getMinutes
 }
 
-declare module 'date-fns/esm/getMonth/index' {
-  import { getMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getMonth/index' {
+  import { getMonth } from 'date-fns-jalaali/esm'
   export default getMonth
 }
 
-declare module 'date-fns/esm/getOverlappingDaysInIntervals/index' {
-  import { getOverlappingDaysInIntervals } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getOverlappingDaysInIntervals/index' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali/esm'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/esm/getQuarter/index' {
-  import { getQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getQuarter/index' {
+  import { getQuarter } from 'date-fns-jalaali/esm'
   export default getQuarter
 }
 
-declare module 'date-fns/esm/getSeconds/index' {
-  import { getSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getSeconds/index' {
+  import { getSeconds } from 'date-fns-jalaali/esm'
   export default getSeconds
 }
 
-declare module 'date-fns/esm/getTime/index' {
-  import { getTime } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getTime/index' {
+  import { getTime } from 'date-fns-jalaali/esm'
   export default getTime
 }
 
-declare module 'date-fns/esm/getUnixTime/index' {
-  import { getUnixTime } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getUnixTime/index' {
+  import { getUnixTime } from 'date-fns-jalaali/esm'
   export default getUnixTime
 }
 
-declare module 'date-fns/esm/getWeek/index' {
-  import { getWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeek/index' {
+  import { getWeek } from 'date-fns-jalaali/esm'
   export default getWeek
 }
 
-declare module 'date-fns/esm/getWeekOfMonth/index' {
-  import { getWeekOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeekOfMonth/index' {
+  import { getWeekOfMonth } from 'date-fns-jalaali/esm'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/esm/getWeeksInMonth/index' {
-  import { getWeeksInMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeeksInMonth/index' {
+  import { getWeeksInMonth } from 'date-fns-jalaali/esm'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/esm/getWeekYear/index' {
-  import { getWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeekYear/index' {
+  import { getWeekYear } from 'date-fns-jalaali/esm'
   export default getWeekYear
 }
 
-declare module 'date-fns/esm/getYear/index' {
-  import { getYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getYear/index' {
+  import { getYear } from 'date-fns-jalaali/esm'
   export default getYear
 }
 
-declare module 'date-fns/esm/intervalToDuration/index' {
-  import { intervalToDuration } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/intervalToDuration/index' {
+  import { intervalToDuration } from 'date-fns-jalaali/esm'
   export default intervalToDuration
 }
 
-declare module 'date-fns/esm/isAfter/index' {
-  import { isAfter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isAfter/index' {
+  import { isAfter } from 'date-fns-jalaali/esm'
   export default isAfter
 }
 
-declare module 'date-fns/esm/isBefore/index' {
-  import { isBefore } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isBefore/index' {
+  import { isBefore } from 'date-fns-jalaali/esm'
   export default isBefore
 }
 
-declare module 'date-fns/esm/isDate/index' {
-  import { isDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isDate/index' {
+  import { isDate } from 'date-fns-jalaali/esm'
   export default isDate
 }
 
-declare module 'date-fns/esm/isEqual/index' {
-  import { isEqual } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isEqual/index' {
+  import { isEqual } from 'date-fns-jalaali/esm'
   export default isEqual
 }
 
-declare module 'date-fns/esm/isExists/index' {
-  import { isExists } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isExists/index' {
+  import { isExists } from 'date-fns-jalaali/esm'
   export default isExists
 }
 
-declare module 'date-fns/esm/isFirstDayOfMonth/index' {
-  import { isFirstDayOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isFirstDayOfMonth/index' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali/esm'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/esm/isFriday/index' {
-  import { isFriday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isFriday/index' {
+  import { isFriday } from 'date-fns-jalaali/esm'
   export default isFriday
 }
 
-declare module 'date-fns/esm/isFuture/index' {
-  import { isFuture } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isFuture/index' {
+  import { isFuture } from 'date-fns-jalaali/esm'
   export default isFuture
 }
 
-declare module 'date-fns/esm/isLastDayOfMonth/index' {
-  import { isLastDayOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isLastDayOfMonth/index' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali/esm'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/esm/isLeapYear/index' {
-  import { isLeapYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isLeapYear/index' {
+  import { isLeapYear } from 'date-fns-jalaali/esm'
   export default isLeapYear
 }
 
-declare module 'date-fns/esm/isMonday/index' {
-  import { isMonday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isMonday/index' {
+  import { isMonday } from 'date-fns-jalaali/esm'
   export default isMonday
 }
 
-declare module 'date-fns/esm/isPast/index' {
-  import { isPast } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isPast/index' {
+  import { isPast } from 'date-fns-jalaali/esm'
   export default isPast
 }
 
-declare module 'date-fns/esm/isSameDay/index' {
-  import { isSameDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameDay/index' {
+  import { isSameDay } from 'date-fns-jalaali/esm'
   export default isSameDay
 }
 
-declare module 'date-fns/esm/isSameHour/index' {
-  import { isSameHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameHour/index' {
+  import { isSameHour } from 'date-fns-jalaali/esm'
   export default isSameHour
 }
 
-declare module 'date-fns/esm/isSameISOWeek/index' {
-  import { isSameISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameISOWeek/index' {
+  import { isSameISOWeek } from 'date-fns-jalaali/esm'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/esm/isSameISOWeekYear/index' {
-  import { isSameISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameISOWeekYear/index' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali/esm'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/esm/isSameMinute/index' {
-  import { isSameMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameMinute/index' {
+  import { isSameMinute } from 'date-fns-jalaali/esm'
   export default isSameMinute
 }
 
-declare module 'date-fns/esm/isSameMonth/index' {
-  import { isSameMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameMonth/index' {
+  import { isSameMonth } from 'date-fns-jalaali/esm'
   export default isSameMonth
 }
 
-declare module 'date-fns/esm/isSameQuarter/index' {
-  import { isSameQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameQuarter/index' {
+  import { isSameQuarter } from 'date-fns-jalaali/esm'
   export default isSameQuarter
 }
 
-declare module 'date-fns/esm/isSameSecond/index' {
-  import { isSameSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameSecond/index' {
+  import { isSameSecond } from 'date-fns-jalaali/esm'
   export default isSameSecond
 }
 
-declare module 'date-fns/esm/isSameWeek/index' {
-  import { isSameWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameWeek/index' {
+  import { isSameWeek } from 'date-fns-jalaali/esm'
   export default isSameWeek
 }
 
-declare module 'date-fns/esm/isSameYear/index' {
-  import { isSameYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameYear/index' {
+  import { isSameYear } from 'date-fns-jalaali/esm'
   export default isSameYear
 }
 
-declare module 'date-fns/esm/isSaturday/index' {
-  import { isSaturday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSaturday/index' {
+  import { isSaturday } from 'date-fns-jalaali/esm'
   export default isSaturday
 }
 
-declare module 'date-fns/esm/isSunday/index' {
-  import { isSunday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSunday/index' {
+  import { isSunday } from 'date-fns-jalaali/esm'
   export default isSunday
 }
 
-declare module 'date-fns/esm/isThisHour/index' {
-  import { isThisHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisHour/index' {
+  import { isThisHour } from 'date-fns-jalaali/esm'
   export default isThisHour
 }
 
-declare module 'date-fns/esm/isThisISOWeek/index' {
-  import { isThisISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisISOWeek/index' {
+  import { isThisISOWeek } from 'date-fns-jalaali/esm'
   export default isThisISOWeek
 }
 
-declare module 'date-fns/esm/isThisMinute/index' {
-  import { isThisMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisMinute/index' {
+  import { isThisMinute } from 'date-fns-jalaali/esm'
   export default isThisMinute
 }
 
-declare module 'date-fns/esm/isThisMonth/index' {
-  import { isThisMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisMonth/index' {
+  import { isThisMonth } from 'date-fns-jalaali/esm'
   export default isThisMonth
 }
 
-declare module 'date-fns/esm/isThisQuarter/index' {
-  import { isThisQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisQuarter/index' {
+  import { isThisQuarter } from 'date-fns-jalaali/esm'
   export default isThisQuarter
 }
 
-declare module 'date-fns/esm/isThisSecond/index' {
-  import { isThisSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisSecond/index' {
+  import { isThisSecond } from 'date-fns-jalaali/esm'
   export default isThisSecond
 }
 
-declare module 'date-fns/esm/isThisWeek/index' {
-  import { isThisWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisWeek/index' {
+  import { isThisWeek } from 'date-fns-jalaali/esm'
   export default isThisWeek
 }
 
-declare module 'date-fns/esm/isThisYear/index' {
-  import { isThisYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisYear/index' {
+  import { isThisYear } from 'date-fns-jalaali/esm'
   export default isThisYear
 }
 
-declare module 'date-fns/esm/isThursday/index' {
-  import { isThursday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThursday/index' {
+  import { isThursday } from 'date-fns-jalaali/esm'
   export default isThursday
 }
 
-declare module 'date-fns/esm/isToday/index' {
-  import { isToday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isToday/index' {
+  import { isToday } from 'date-fns-jalaali/esm'
   export default isToday
 }
 
-declare module 'date-fns/esm/isTomorrow/index' {
-  import { isTomorrow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isTomorrow/index' {
+  import { isTomorrow } from 'date-fns-jalaali/esm'
   export default isTomorrow
 }
 
-declare module 'date-fns/esm/isTuesday/index' {
-  import { isTuesday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isTuesday/index' {
+  import { isTuesday } from 'date-fns-jalaali/esm'
   export default isTuesday
 }
 
-declare module 'date-fns/esm/isValid/index' {
-  import { isValid } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isValid/index' {
+  import { isValid } from 'date-fns-jalaali/esm'
   export default isValid
 }
 
-declare module 'date-fns/esm/isWednesday/index' {
-  import { isWednesday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isWednesday/index' {
+  import { isWednesday } from 'date-fns-jalaali/esm'
   export default isWednesday
 }
 
-declare module 'date-fns/esm/isWeekend/index' {
-  import { isWeekend } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isWeekend/index' {
+  import { isWeekend } from 'date-fns-jalaali/esm'
   export default isWeekend
 }
 
-declare module 'date-fns/esm/isWithinInterval/index' {
-  import { isWithinInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isWithinInterval/index' {
+  import { isWithinInterval } from 'date-fns-jalaali/esm'
   export default isWithinInterval
 }
 
-declare module 'date-fns/esm/isYesterday/index' {
-  import { isYesterday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isYesterday/index' {
+  import { isYesterday } from 'date-fns-jalaali/esm'
   export default isYesterday
 }
 
-declare module 'date-fns/esm/lastDayOfDecade/index' {
-  import { lastDayOfDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfDecade/index' {
+  import { lastDayOfDecade } from 'date-fns-jalaali/esm'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/esm/lastDayOfISOWeek/index' {
-  import { lastDayOfISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfISOWeek/index' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali/esm'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/esm/lastDayOfISOWeekYear/index' {
-  import { lastDayOfISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfISOWeekYear/index' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali/esm'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/esm/lastDayOfMonth/index' {
-  import { lastDayOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfMonth/index' {
+  import { lastDayOfMonth } from 'date-fns-jalaali/esm'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/esm/lastDayOfQuarter/index' {
-  import { lastDayOfQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfQuarter/index' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali/esm'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/esm/lastDayOfWeek/index' {
-  import { lastDayOfWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfWeek/index' {
+  import { lastDayOfWeek } from 'date-fns-jalaali/esm'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/esm/lastDayOfYear/index' {
-  import { lastDayOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfYear/index' {
+  import { lastDayOfYear } from 'date-fns-jalaali/esm'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/esm/lightFormat/index' {
-  import { lightFormat } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lightFormat/index' {
+  import { lightFormat } from 'date-fns-jalaali/esm'
   export default lightFormat
 }
 
-declare module 'date-fns/esm/max/index' {
-  import { max } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/max/index' {
+  import { max } from 'date-fns-jalaali/esm'
   export default max
 }
 
-declare module 'date-fns/esm/min/index' {
-  import { min } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/min/index' {
+  import { min } from 'date-fns-jalaali/esm'
   export default min
 }
 
-declare module 'date-fns/esm/parse/index' {
-  import { parse } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/parse/index' {
+  import { parse } from 'date-fns-jalaali/esm'
   export default parse
 }
 
-declare module 'date-fns/esm/parseISO/index' {
-  import { parseISO } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/parseISO/index' {
+  import { parseISO } from 'date-fns-jalaali/esm'
   export default parseISO
 }
 
-declare module 'date-fns/esm/parseJSON/index' {
-  import { parseJSON } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/parseJSON/index' {
+  import { parseJSON } from 'date-fns-jalaali/esm'
   export default parseJSON
 }
 
-declare module 'date-fns/esm/roundToNearestMinutes/index' {
-  import { roundToNearestMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/roundToNearestMinutes/index' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali/esm'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/esm/set/index' {
-  import { set } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/set/index' {
+  import { set } from 'date-fns-jalaali/esm'
   export default set
 }
 
-declare module 'date-fns/esm/setDate/index' {
-  import { setDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setDate/index' {
+  import { setDate } from 'date-fns-jalaali/esm'
   export default setDate
 }
 
-declare module 'date-fns/esm/setDay/index' {
-  import { setDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setDay/index' {
+  import { setDay } from 'date-fns-jalaali/esm'
   export default setDay
 }
 
-declare module 'date-fns/esm/setDayOfYear/index' {
-  import { setDayOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setDayOfYear/index' {
+  import { setDayOfYear } from 'date-fns-jalaali/esm'
   export default setDayOfYear
 }
 
-declare module 'date-fns/esm/setHours/index' {
-  import { setHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setHours/index' {
+  import { setHours } from 'date-fns-jalaali/esm'
   export default setHours
 }
 
-declare module 'date-fns/esm/setISODay/index' {
-  import { setISODay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setISODay/index' {
+  import { setISODay } from 'date-fns-jalaali/esm'
   export default setISODay
 }
 
-declare module 'date-fns/esm/setISOWeek/index' {
-  import { setISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setISOWeek/index' {
+  import { setISOWeek } from 'date-fns-jalaali/esm'
   export default setISOWeek
 }
 
-declare module 'date-fns/esm/setISOWeekYear/index' {
-  import { setISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setISOWeekYear/index' {
+  import { setISOWeekYear } from 'date-fns-jalaali/esm'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/esm/setMilliseconds/index' {
-  import { setMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setMilliseconds/index' {
+  import { setMilliseconds } from 'date-fns-jalaali/esm'
   export default setMilliseconds
 }
 
-declare module 'date-fns/esm/setMinutes/index' {
-  import { setMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setMinutes/index' {
+  import { setMinutes } from 'date-fns-jalaali/esm'
   export default setMinutes
 }
 
-declare module 'date-fns/esm/setMonth/index' {
-  import { setMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setMonth/index' {
+  import { setMonth } from 'date-fns-jalaali/esm'
   export default setMonth
 }
 
-declare module 'date-fns/esm/setQuarter/index' {
-  import { setQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setQuarter/index' {
+  import { setQuarter } from 'date-fns-jalaali/esm'
   export default setQuarter
 }
 
-declare module 'date-fns/esm/setSeconds/index' {
-  import { setSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setSeconds/index' {
+  import { setSeconds } from 'date-fns-jalaali/esm'
   export default setSeconds
 }
 
-declare module 'date-fns/esm/setWeek/index' {
-  import { setWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setWeek/index' {
+  import { setWeek } from 'date-fns-jalaali/esm'
   export default setWeek
 }
 
-declare module 'date-fns/esm/setWeekYear/index' {
-  import { setWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setWeekYear/index' {
+  import { setWeekYear } from 'date-fns-jalaali/esm'
   export default setWeekYear
 }
 
-declare module 'date-fns/esm/setYear/index' {
-  import { setYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setYear/index' {
+  import { setYear } from 'date-fns-jalaali/esm'
   export default setYear
 }
 
-declare module 'date-fns/esm/startOfDay/index' {
-  import { startOfDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfDay/index' {
+  import { startOfDay } from 'date-fns-jalaali/esm'
   export default startOfDay
 }
 
-declare module 'date-fns/esm/startOfDecade/index' {
-  import { startOfDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfDecade/index' {
+  import { startOfDecade } from 'date-fns-jalaali/esm'
   export default startOfDecade
 }
 
-declare module 'date-fns/esm/startOfHour/index' {
-  import { startOfHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfHour/index' {
+  import { startOfHour } from 'date-fns-jalaali/esm'
   export default startOfHour
 }
 
-declare module 'date-fns/esm/startOfISOWeek/index' {
-  import { startOfISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfISOWeek/index' {
+  import { startOfISOWeek } from 'date-fns-jalaali/esm'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/esm/startOfISOWeekYear/index' {
-  import { startOfISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfISOWeekYear/index' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali/esm'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/esm/startOfMinute/index' {
-  import { startOfMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfMinute/index' {
+  import { startOfMinute } from 'date-fns-jalaali/esm'
   export default startOfMinute
 }
 
-declare module 'date-fns/esm/startOfMonth/index' {
-  import { startOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfMonth/index' {
+  import { startOfMonth } from 'date-fns-jalaali/esm'
   export default startOfMonth
 }
 
-declare module 'date-fns/esm/startOfQuarter/index' {
-  import { startOfQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfQuarter/index' {
+  import { startOfQuarter } from 'date-fns-jalaali/esm'
   export default startOfQuarter
 }
 
-declare module 'date-fns/esm/startOfSecond/index' {
-  import { startOfSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfSecond/index' {
+  import { startOfSecond } from 'date-fns-jalaali/esm'
   export default startOfSecond
 }
 
-declare module 'date-fns/esm/startOfToday/index' {
-  import { startOfToday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfToday/index' {
+  import { startOfToday } from 'date-fns-jalaali/esm'
   export default startOfToday
 }
 
-declare module 'date-fns/esm/startOfTomorrow/index' {
-  import { startOfTomorrow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfTomorrow/index' {
+  import { startOfTomorrow } from 'date-fns-jalaali/esm'
   export default startOfTomorrow
 }
 
-declare module 'date-fns/esm/startOfWeek/index' {
-  import { startOfWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfWeek/index' {
+  import { startOfWeek } from 'date-fns-jalaali/esm'
   export default startOfWeek
 }
 
-declare module 'date-fns/esm/startOfWeekYear/index' {
-  import { startOfWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfWeekYear/index' {
+  import { startOfWeekYear } from 'date-fns-jalaali/esm'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/esm/startOfYear/index' {
-  import { startOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfYear/index' {
+  import { startOfYear } from 'date-fns-jalaali/esm'
   export default startOfYear
 }
 
-declare module 'date-fns/esm/startOfYesterday/index' {
-  import { startOfYesterday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfYesterday/index' {
+  import { startOfYesterday } from 'date-fns-jalaali/esm'
   export default startOfYesterday
 }
 
-declare module 'date-fns/esm/sub/index' {
-  import { sub } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/sub/index' {
+  import { sub } from 'date-fns-jalaali/esm'
   export default sub
 }
 
-declare module 'date-fns/esm/subBusinessDays/index' {
-  import { subBusinessDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subBusinessDays/index' {
+  import { subBusinessDays } from 'date-fns-jalaali/esm'
   export default subBusinessDays
 }
 
-declare module 'date-fns/esm/subDays/index' {
-  import { subDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subDays/index' {
+  import { subDays } from 'date-fns-jalaali/esm'
   export default subDays
 }
 
-declare module 'date-fns/esm/subHours/index' {
-  import { subHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subHours/index' {
+  import { subHours } from 'date-fns-jalaali/esm'
   export default subHours
 }
 
-declare module 'date-fns/esm/subISOWeekYears/index' {
-  import { subISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subISOWeekYears/index' {
+  import { subISOWeekYears } from 'date-fns-jalaali/esm'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/esm/subMilliseconds/index' {
-  import { subMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subMilliseconds/index' {
+  import { subMilliseconds } from 'date-fns-jalaali/esm'
   export default subMilliseconds
 }
 
-declare module 'date-fns/esm/subMinutes/index' {
-  import { subMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subMinutes/index' {
+  import { subMinutes } from 'date-fns-jalaali/esm'
   export default subMinutes
 }
 
-declare module 'date-fns/esm/subMonths/index' {
-  import { subMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subMonths/index' {
+  import { subMonths } from 'date-fns-jalaali/esm'
   export default subMonths
 }
 
-declare module 'date-fns/esm/subQuarters/index' {
-  import { subQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subQuarters/index' {
+  import { subQuarters } from 'date-fns-jalaali/esm'
   export default subQuarters
 }
 
-declare module 'date-fns/esm/subSeconds/index' {
-  import { subSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subSeconds/index' {
+  import { subSeconds } from 'date-fns-jalaali/esm'
   export default subSeconds
 }
 
-declare module 'date-fns/esm/subWeeks/index' {
-  import { subWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subWeeks/index' {
+  import { subWeeks } from 'date-fns-jalaali/esm'
   export default subWeeks
 }
 
-declare module 'date-fns/esm/subYears/index' {
-  import { subYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subYears/index' {
+  import { subYears } from 'date-fns-jalaali/esm'
   export default subYears
 }
 
-declare module 'date-fns/esm/toDate/index' {
-  import { toDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/toDate/index' {
+  import { toDate } from 'date-fns-jalaali/esm'
   export default toDate
 }
 
-declare module 'date-fns/esm/add/index.js' {
-  import { add } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/add/index.js' {
+  import { add } from 'date-fns-jalaali/esm'
   export default add
 }
 
-declare module 'date-fns/esm/addBusinessDays/index.js' {
-  import { addBusinessDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addBusinessDays/index.js' {
+  import { addBusinessDays } from 'date-fns-jalaali/esm'
   export default addBusinessDays
 }
 
-declare module 'date-fns/esm/addDays/index.js' {
-  import { addDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addDays/index.js' {
+  import { addDays } from 'date-fns-jalaali/esm'
   export default addDays
 }
 
-declare module 'date-fns/esm/addHours/index.js' {
-  import { addHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addHours/index.js' {
+  import { addHours } from 'date-fns-jalaali/esm'
   export default addHours
 }
 
-declare module 'date-fns/esm/addISOWeekYears/index.js' {
-  import { addISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addISOWeekYears/index.js' {
+  import { addISOWeekYears } from 'date-fns-jalaali/esm'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/esm/addMilliseconds/index.js' {
-  import { addMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addMilliseconds/index.js' {
+  import { addMilliseconds } from 'date-fns-jalaali/esm'
   export default addMilliseconds
 }
 
-declare module 'date-fns/esm/addMinutes/index.js' {
-  import { addMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addMinutes/index.js' {
+  import { addMinutes } from 'date-fns-jalaali/esm'
   export default addMinutes
 }
 
-declare module 'date-fns/esm/addMonths/index.js' {
-  import { addMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addMonths/index.js' {
+  import { addMonths } from 'date-fns-jalaali/esm'
   export default addMonths
 }
 
-declare module 'date-fns/esm/addQuarters/index.js' {
-  import { addQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addQuarters/index.js' {
+  import { addQuarters } from 'date-fns-jalaali/esm'
   export default addQuarters
 }
 
-declare module 'date-fns/esm/addSeconds/index.js' {
-  import { addSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addSeconds/index.js' {
+  import { addSeconds } from 'date-fns-jalaali/esm'
   export default addSeconds
 }
 
-declare module 'date-fns/esm/addWeeks/index.js' {
-  import { addWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addWeeks/index.js' {
+  import { addWeeks } from 'date-fns-jalaali/esm'
   export default addWeeks
 }
 
-declare module 'date-fns/esm/addYears/index.js' {
-  import { addYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/addYears/index.js' {
+  import { addYears } from 'date-fns-jalaali/esm'
   export default addYears
 }
 
-declare module 'date-fns/esm/areIntervalsOverlapping/index.js' {
-  import { areIntervalsOverlapping } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/areIntervalsOverlapping/index.js' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali/esm'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/esm/closestIndexTo/index.js' {
-  import { closestIndexTo } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/closestIndexTo/index.js' {
+  import { closestIndexTo } from 'date-fns-jalaali/esm'
   export default closestIndexTo
 }
 
-declare module 'date-fns/esm/closestTo/index.js' {
-  import { closestTo } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/closestTo/index.js' {
+  import { closestTo } from 'date-fns-jalaali/esm'
   export default closestTo
 }
 
-declare module 'date-fns/esm/compareAsc/index.js' {
-  import { compareAsc } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/compareAsc/index.js' {
+  import { compareAsc } from 'date-fns-jalaali/esm'
   export default compareAsc
 }
 
-declare module 'date-fns/esm/compareDesc/index.js' {
-  import { compareDesc } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/compareDesc/index.js' {
+  import { compareDesc } from 'date-fns-jalaali/esm'
   export default compareDesc
 }
 
-declare module 'date-fns/esm/differenceInBusinessDays/index.js' {
-  import { differenceInBusinessDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInBusinessDays/index.js' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali/esm'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/esm/differenceInCalendarDays/index.js' {
-  import { differenceInCalendarDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarDays/index.js' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali/esm'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/esm/differenceInCalendarISOWeeks/index.js' {
-  import { differenceInCalendarISOWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarISOWeeks/index.js' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali/esm'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/esm/differenceInCalendarISOWeekYears/index.js' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarISOWeekYears/index.js' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali/esm'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/esm/differenceInCalendarMonths/index.js' {
-  import { differenceInCalendarMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarMonths/index.js' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali/esm'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/esm/differenceInCalendarQuarters/index.js' {
-  import { differenceInCalendarQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarQuarters/index.js' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali/esm'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/esm/differenceInCalendarWeeks/index.js' {
-  import { differenceInCalendarWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarWeeks/index.js' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali/esm'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/esm/differenceInCalendarYears/index.js' {
-  import { differenceInCalendarYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInCalendarYears/index.js' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali/esm'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/esm/differenceInDays/index.js' {
-  import { differenceInDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInDays/index.js' {
+  import { differenceInDays } from 'date-fns-jalaali/esm'
   export default differenceInDays
 }
 
-declare module 'date-fns/esm/differenceInHours/index.js' {
-  import { differenceInHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInHours/index.js' {
+  import { differenceInHours } from 'date-fns-jalaali/esm'
   export default differenceInHours
 }
 
-declare module 'date-fns/esm/differenceInISOWeekYears/index.js' {
-  import { differenceInISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInISOWeekYears/index.js' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali/esm'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/esm/differenceInMilliseconds/index.js' {
-  import { differenceInMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInMilliseconds/index.js' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali/esm'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/esm/differenceInMinutes/index.js' {
-  import { differenceInMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInMinutes/index.js' {
+  import { differenceInMinutes } from 'date-fns-jalaali/esm'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/esm/differenceInMonths/index.js' {
-  import { differenceInMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInMonths/index.js' {
+  import { differenceInMonths } from 'date-fns-jalaali/esm'
   export default differenceInMonths
 }
 
-declare module 'date-fns/esm/differenceInQuarters/index.js' {
-  import { differenceInQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInQuarters/index.js' {
+  import { differenceInQuarters } from 'date-fns-jalaali/esm'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/esm/differenceInSeconds/index.js' {
-  import { differenceInSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInSeconds/index.js' {
+  import { differenceInSeconds } from 'date-fns-jalaali/esm'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/esm/differenceInWeeks/index.js' {
-  import { differenceInWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInWeeks/index.js' {
+  import { differenceInWeeks } from 'date-fns-jalaali/esm'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/esm/differenceInYears/index.js' {
-  import { differenceInYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/differenceInYears/index.js' {
+  import { differenceInYears } from 'date-fns-jalaali/esm'
   export default differenceInYears
 }
 
-declare module 'date-fns/esm/eachDayOfInterval/index.js' {
-  import { eachDayOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachDayOfInterval/index.js' {
+  import { eachDayOfInterval } from 'date-fns-jalaali/esm'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/esm/eachMonthOfInterval/index.js' {
-  import { eachMonthOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachMonthOfInterval/index.js' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali/esm'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/esm/eachWeekendOfInterval/index.js' {
-  import { eachWeekendOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekendOfInterval/index.js' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali/esm'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/esm/eachWeekendOfMonth/index.js' {
-  import { eachWeekendOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekendOfMonth/index.js' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali/esm'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/esm/eachWeekendOfYear/index.js' {
-  import { eachWeekendOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekendOfYear/index.js' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali/esm'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/esm/eachWeekOfInterval/index.js' {
-  import { eachWeekOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachWeekOfInterval/index.js' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali/esm'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/esm/eachYearOfInterval/index.js' {
-  import { eachYearOfInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/eachYearOfInterval/index.js' {
+  import { eachYearOfInterval } from 'date-fns-jalaali/esm'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/esm/endOfDay/index.js' {
-  import { endOfDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfDay/index.js' {
+  import { endOfDay } from 'date-fns-jalaali/esm'
   export default endOfDay
 }
 
-declare module 'date-fns/esm/endOfDecade/index.js' {
-  import { endOfDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfDecade/index.js' {
+  import { endOfDecade } from 'date-fns-jalaali/esm'
   export default endOfDecade
 }
 
-declare module 'date-fns/esm/endOfHour/index.js' {
-  import { endOfHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfHour/index.js' {
+  import { endOfHour } from 'date-fns-jalaali/esm'
   export default endOfHour
 }
 
-declare module 'date-fns/esm/endOfISOWeek/index.js' {
-  import { endOfISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfISOWeek/index.js' {
+  import { endOfISOWeek } from 'date-fns-jalaali/esm'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/esm/endOfISOWeekYear/index.js' {
-  import { endOfISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfISOWeekYear/index.js' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali/esm'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/esm/endOfMinute/index.js' {
-  import { endOfMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfMinute/index.js' {
+  import { endOfMinute } from 'date-fns-jalaali/esm'
   export default endOfMinute
 }
 
-declare module 'date-fns/esm/endOfMonth/index.js' {
-  import { endOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfMonth/index.js' {
+  import { endOfMonth } from 'date-fns-jalaali/esm'
   export default endOfMonth
 }
 
-declare module 'date-fns/esm/endOfQuarter/index.js' {
-  import { endOfQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfQuarter/index.js' {
+  import { endOfQuarter } from 'date-fns-jalaali/esm'
   export default endOfQuarter
 }
 
-declare module 'date-fns/esm/endOfSecond/index.js' {
-  import { endOfSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfSecond/index.js' {
+  import { endOfSecond } from 'date-fns-jalaali/esm'
   export default endOfSecond
 }
 
-declare module 'date-fns/esm/endOfToday/index.js' {
-  import { endOfToday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfToday/index.js' {
+  import { endOfToday } from 'date-fns-jalaali/esm'
   export default endOfToday
 }
 
-declare module 'date-fns/esm/endOfTomorrow/index.js' {
-  import { endOfTomorrow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfTomorrow/index.js' {
+  import { endOfTomorrow } from 'date-fns-jalaali/esm'
   export default endOfTomorrow
 }
 
-declare module 'date-fns/esm/endOfWeek/index.js' {
-  import { endOfWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfWeek/index.js' {
+  import { endOfWeek } from 'date-fns-jalaali/esm'
   export default endOfWeek
 }
 
-declare module 'date-fns/esm/endOfYear/index.js' {
-  import { endOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfYear/index.js' {
+  import { endOfYear } from 'date-fns-jalaali/esm'
   export default endOfYear
 }
 
-declare module 'date-fns/esm/endOfYesterday/index.js' {
-  import { endOfYesterday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/endOfYesterday/index.js' {
+  import { endOfYesterday } from 'date-fns-jalaali/esm'
   export default endOfYesterday
 }
 
-declare module 'date-fns/esm/format/index.js' {
-  import { format } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/format/index.js' {
+  import { format } from 'date-fns-jalaali/esm'
   export default format
 }
 
-declare module 'date-fns/esm/formatDistance/index.js' {
-  import { formatDistance } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistance/index.js' {
+  import { formatDistance } from 'date-fns-jalaali/esm'
   export default formatDistance
 }
 
-declare module 'date-fns/esm/formatDistanceStrict/index.js' {
-  import { formatDistanceStrict } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistanceStrict/index.js' {
+  import { formatDistanceStrict } from 'date-fns-jalaali/esm'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/esm/formatDistanceToNow/index.js' {
-  import { formatDistanceToNow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistanceToNow/index.js' {
+  import { formatDistanceToNow } from 'date-fns-jalaali/esm'
   export default formatDistanceToNow
 }
 
-declare module 'date-fns/esm/formatDistanceToNowStrict/index.js' {
-  import { formatDistanceToNowStrict } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatDistanceToNowStrict/index.js' {
+  import { formatDistanceToNowStrict } from 'date-fns-jalaali/esm'
   export default formatDistanceToNowStrict
 }
 
-declare module 'date-fns/esm/formatISO/index.js' {
-  import { formatISO } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatISO/index.js' {
+  import { formatISO } from 'date-fns-jalaali/esm'
   export default formatISO
 }
 
-declare module 'date-fns/esm/formatISO9075/index.js' {
-  import { formatISO9075 } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatISO9075/index.js' {
+  import { formatISO9075 } from 'date-fns-jalaali/esm'
   export default formatISO9075
 }
 
-declare module 'date-fns/esm/formatISODuration/index.js' {
-  import { formatISODuration } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatISODuration/index.js' {
+  import { formatISODuration } from 'date-fns-jalaali/esm'
   export default formatISODuration
 }
 
-declare module 'date-fns/esm/formatRelative/index.js' {
-  import { formatRelative } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatRelative/index.js' {
+  import { formatRelative } from 'date-fns-jalaali/esm'
   export default formatRelative
 }
 
-declare module 'date-fns/esm/formatRFC3339/index.js' {
-  import { formatRFC3339 } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatRFC3339/index.js' {
+  import { formatRFC3339 } from 'date-fns-jalaali/esm'
   export default formatRFC3339
 }
 
-declare module 'date-fns/esm/formatRFC7231/index.js' {
-  import { formatRFC7231 } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/formatRFC7231/index.js' {
+  import { formatRFC7231 } from 'date-fns-jalaali/esm'
   export default formatRFC7231
 }
 
-declare module 'date-fns/esm/fromUnixTime/index.js' {
-  import { fromUnixTime } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/fromUnixTime/index.js' {
+  import { fromUnixTime } from 'date-fns-jalaali/esm'
   export default fromUnixTime
 }
 
-declare module 'date-fns/esm/getDate/index.js' {
-  import { getDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDate/index.js' {
+  import { getDate } from 'date-fns-jalaali/esm'
   export default getDate
 }
 
-declare module 'date-fns/esm/getDay/index.js' {
-  import { getDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDay/index.js' {
+  import { getDay } from 'date-fns-jalaali/esm'
   export default getDay
 }
 
-declare module 'date-fns/esm/getDayOfYear/index.js' {
-  import { getDayOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDayOfYear/index.js' {
+  import { getDayOfYear } from 'date-fns-jalaali/esm'
   export default getDayOfYear
 }
 
-declare module 'date-fns/esm/getDaysInMonth/index.js' {
-  import { getDaysInMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDaysInMonth/index.js' {
+  import { getDaysInMonth } from 'date-fns-jalaali/esm'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/esm/getDaysInYear/index.js' {
-  import { getDaysInYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDaysInYear/index.js' {
+  import { getDaysInYear } from 'date-fns-jalaali/esm'
   export default getDaysInYear
 }
 
-declare module 'date-fns/esm/getDecade/index.js' {
-  import { getDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getDecade/index.js' {
+  import { getDecade } from 'date-fns-jalaali/esm'
   export default getDecade
 }
 
-declare module 'date-fns/esm/getHours/index.js' {
-  import { getHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getHours/index.js' {
+  import { getHours } from 'date-fns-jalaali/esm'
   export default getHours
 }
 
-declare module 'date-fns/esm/getISODay/index.js' {
-  import { getISODay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISODay/index.js' {
+  import { getISODay } from 'date-fns-jalaali/esm'
   export default getISODay
 }
 
-declare module 'date-fns/esm/getISOWeek/index.js' {
-  import { getISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISOWeek/index.js' {
+  import { getISOWeek } from 'date-fns-jalaali/esm'
   export default getISOWeek
 }
 
-declare module 'date-fns/esm/getISOWeeksInYear/index.js' {
-  import { getISOWeeksInYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISOWeeksInYear/index.js' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali/esm'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/esm/getISOWeekYear/index.js' {
-  import { getISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getISOWeekYear/index.js' {
+  import { getISOWeekYear } from 'date-fns-jalaali/esm'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/esm/getMilliseconds/index.js' {
-  import { getMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getMilliseconds/index.js' {
+  import { getMilliseconds } from 'date-fns-jalaali/esm'
   export default getMilliseconds
 }
 
-declare module 'date-fns/esm/getMinutes/index.js' {
-  import { getMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getMinutes/index.js' {
+  import { getMinutes } from 'date-fns-jalaali/esm'
   export default getMinutes
 }
 
-declare module 'date-fns/esm/getMonth/index.js' {
-  import { getMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getMonth/index.js' {
+  import { getMonth } from 'date-fns-jalaali/esm'
   export default getMonth
 }
 
-declare module 'date-fns/esm/getOverlappingDaysInIntervals/index.js' {
-  import { getOverlappingDaysInIntervals } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getOverlappingDaysInIntervals/index.js' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali/esm'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/esm/getQuarter/index.js' {
-  import { getQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getQuarter/index.js' {
+  import { getQuarter } from 'date-fns-jalaali/esm'
   export default getQuarter
 }
 
-declare module 'date-fns/esm/getSeconds/index.js' {
-  import { getSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getSeconds/index.js' {
+  import { getSeconds } from 'date-fns-jalaali/esm'
   export default getSeconds
 }
 
-declare module 'date-fns/esm/getTime/index.js' {
-  import { getTime } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getTime/index.js' {
+  import { getTime } from 'date-fns-jalaali/esm'
   export default getTime
 }
 
-declare module 'date-fns/esm/getUnixTime/index.js' {
-  import { getUnixTime } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getUnixTime/index.js' {
+  import { getUnixTime } from 'date-fns-jalaali/esm'
   export default getUnixTime
 }
 
-declare module 'date-fns/esm/getWeek/index.js' {
-  import { getWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeek/index.js' {
+  import { getWeek } from 'date-fns-jalaali/esm'
   export default getWeek
 }
 
-declare module 'date-fns/esm/getWeekOfMonth/index.js' {
-  import { getWeekOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeekOfMonth/index.js' {
+  import { getWeekOfMonth } from 'date-fns-jalaali/esm'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/esm/getWeeksInMonth/index.js' {
-  import { getWeeksInMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeeksInMonth/index.js' {
+  import { getWeeksInMonth } from 'date-fns-jalaali/esm'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/esm/getWeekYear/index.js' {
-  import { getWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getWeekYear/index.js' {
+  import { getWeekYear } from 'date-fns-jalaali/esm'
   export default getWeekYear
 }
 
-declare module 'date-fns/esm/getYear/index.js' {
-  import { getYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/getYear/index.js' {
+  import { getYear } from 'date-fns-jalaali/esm'
   export default getYear
 }
 
-declare module 'date-fns/esm/intervalToDuration/index.js' {
-  import { intervalToDuration } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/intervalToDuration/index.js' {
+  import { intervalToDuration } from 'date-fns-jalaali/esm'
   export default intervalToDuration
 }
 
-declare module 'date-fns/esm/isAfter/index.js' {
-  import { isAfter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isAfter/index.js' {
+  import { isAfter } from 'date-fns-jalaali/esm'
   export default isAfter
 }
 
-declare module 'date-fns/esm/isBefore/index.js' {
-  import { isBefore } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isBefore/index.js' {
+  import { isBefore } from 'date-fns-jalaali/esm'
   export default isBefore
 }
 
-declare module 'date-fns/esm/isDate/index.js' {
-  import { isDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isDate/index.js' {
+  import { isDate } from 'date-fns-jalaali/esm'
   export default isDate
 }
 
-declare module 'date-fns/esm/isEqual/index.js' {
-  import { isEqual } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isEqual/index.js' {
+  import { isEqual } from 'date-fns-jalaali/esm'
   export default isEqual
 }
 
-declare module 'date-fns/esm/isExists/index.js' {
-  import { isExists } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isExists/index.js' {
+  import { isExists } from 'date-fns-jalaali/esm'
   export default isExists
 }
 
-declare module 'date-fns/esm/isFirstDayOfMonth/index.js' {
-  import { isFirstDayOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isFirstDayOfMonth/index.js' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali/esm'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/esm/isFriday/index.js' {
-  import { isFriday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isFriday/index.js' {
+  import { isFriday } from 'date-fns-jalaali/esm'
   export default isFriday
 }
 
-declare module 'date-fns/esm/isFuture/index.js' {
-  import { isFuture } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isFuture/index.js' {
+  import { isFuture } from 'date-fns-jalaali/esm'
   export default isFuture
 }
 
-declare module 'date-fns/esm/isLastDayOfMonth/index.js' {
-  import { isLastDayOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isLastDayOfMonth/index.js' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali/esm'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/esm/isLeapYear/index.js' {
-  import { isLeapYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isLeapYear/index.js' {
+  import { isLeapYear } from 'date-fns-jalaali/esm'
   export default isLeapYear
 }
 
-declare module 'date-fns/esm/isMonday/index.js' {
-  import { isMonday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isMonday/index.js' {
+  import { isMonday } from 'date-fns-jalaali/esm'
   export default isMonday
 }
 
-declare module 'date-fns/esm/isPast/index.js' {
-  import { isPast } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isPast/index.js' {
+  import { isPast } from 'date-fns-jalaali/esm'
   export default isPast
 }
 
-declare module 'date-fns/esm/isSameDay/index.js' {
-  import { isSameDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameDay/index.js' {
+  import { isSameDay } from 'date-fns-jalaali/esm'
   export default isSameDay
 }
 
-declare module 'date-fns/esm/isSameHour/index.js' {
-  import { isSameHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameHour/index.js' {
+  import { isSameHour } from 'date-fns-jalaali/esm'
   export default isSameHour
 }
 
-declare module 'date-fns/esm/isSameISOWeek/index.js' {
-  import { isSameISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameISOWeek/index.js' {
+  import { isSameISOWeek } from 'date-fns-jalaali/esm'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/esm/isSameISOWeekYear/index.js' {
-  import { isSameISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameISOWeekYear/index.js' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali/esm'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/esm/isSameMinute/index.js' {
-  import { isSameMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameMinute/index.js' {
+  import { isSameMinute } from 'date-fns-jalaali/esm'
   export default isSameMinute
 }
 
-declare module 'date-fns/esm/isSameMonth/index.js' {
-  import { isSameMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameMonth/index.js' {
+  import { isSameMonth } from 'date-fns-jalaali/esm'
   export default isSameMonth
 }
 
-declare module 'date-fns/esm/isSameQuarter/index.js' {
-  import { isSameQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameQuarter/index.js' {
+  import { isSameQuarter } from 'date-fns-jalaali/esm'
   export default isSameQuarter
 }
 
-declare module 'date-fns/esm/isSameSecond/index.js' {
-  import { isSameSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameSecond/index.js' {
+  import { isSameSecond } from 'date-fns-jalaali/esm'
   export default isSameSecond
 }
 
-declare module 'date-fns/esm/isSameWeek/index.js' {
-  import { isSameWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameWeek/index.js' {
+  import { isSameWeek } from 'date-fns-jalaali/esm'
   export default isSameWeek
 }
 
-declare module 'date-fns/esm/isSameYear/index.js' {
-  import { isSameYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSameYear/index.js' {
+  import { isSameYear } from 'date-fns-jalaali/esm'
   export default isSameYear
 }
 
-declare module 'date-fns/esm/isSaturday/index.js' {
-  import { isSaturday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSaturday/index.js' {
+  import { isSaturday } from 'date-fns-jalaali/esm'
   export default isSaturday
 }
 
-declare module 'date-fns/esm/isSunday/index.js' {
-  import { isSunday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isSunday/index.js' {
+  import { isSunday } from 'date-fns-jalaali/esm'
   export default isSunday
 }
 
-declare module 'date-fns/esm/isThisHour/index.js' {
-  import { isThisHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisHour/index.js' {
+  import { isThisHour } from 'date-fns-jalaali/esm'
   export default isThisHour
 }
 
-declare module 'date-fns/esm/isThisISOWeek/index.js' {
-  import { isThisISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisISOWeek/index.js' {
+  import { isThisISOWeek } from 'date-fns-jalaali/esm'
   export default isThisISOWeek
 }
 
-declare module 'date-fns/esm/isThisMinute/index.js' {
-  import { isThisMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisMinute/index.js' {
+  import { isThisMinute } from 'date-fns-jalaali/esm'
   export default isThisMinute
 }
 
-declare module 'date-fns/esm/isThisMonth/index.js' {
-  import { isThisMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisMonth/index.js' {
+  import { isThisMonth } from 'date-fns-jalaali/esm'
   export default isThisMonth
 }
 
-declare module 'date-fns/esm/isThisQuarter/index.js' {
-  import { isThisQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisQuarter/index.js' {
+  import { isThisQuarter } from 'date-fns-jalaali/esm'
   export default isThisQuarter
 }
 
-declare module 'date-fns/esm/isThisSecond/index.js' {
-  import { isThisSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisSecond/index.js' {
+  import { isThisSecond } from 'date-fns-jalaali/esm'
   export default isThisSecond
 }
 
-declare module 'date-fns/esm/isThisWeek/index.js' {
-  import { isThisWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisWeek/index.js' {
+  import { isThisWeek } from 'date-fns-jalaali/esm'
   export default isThisWeek
 }
 
-declare module 'date-fns/esm/isThisYear/index.js' {
-  import { isThisYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThisYear/index.js' {
+  import { isThisYear } from 'date-fns-jalaali/esm'
   export default isThisYear
 }
 
-declare module 'date-fns/esm/isThursday/index.js' {
-  import { isThursday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isThursday/index.js' {
+  import { isThursday } from 'date-fns-jalaali/esm'
   export default isThursday
 }
 
-declare module 'date-fns/esm/isToday/index.js' {
-  import { isToday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isToday/index.js' {
+  import { isToday } from 'date-fns-jalaali/esm'
   export default isToday
 }
 
-declare module 'date-fns/esm/isTomorrow/index.js' {
-  import { isTomorrow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isTomorrow/index.js' {
+  import { isTomorrow } from 'date-fns-jalaali/esm'
   export default isTomorrow
 }
 
-declare module 'date-fns/esm/isTuesday/index.js' {
-  import { isTuesday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isTuesday/index.js' {
+  import { isTuesday } from 'date-fns-jalaali/esm'
   export default isTuesday
 }
 
-declare module 'date-fns/esm/isValid/index.js' {
-  import { isValid } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isValid/index.js' {
+  import { isValid } from 'date-fns-jalaali/esm'
   export default isValid
 }
 
-declare module 'date-fns/esm/isWednesday/index.js' {
-  import { isWednesday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isWednesday/index.js' {
+  import { isWednesday } from 'date-fns-jalaali/esm'
   export default isWednesday
 }
 
-declare module 'date-fns/esm/isWeekend/index.js' {
-  import { isWeekend } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isWeekend/index.js' {
+  import { isWeekend } from 'date-fns-jalaali/esm'
   export default isWeekend
 }
 
-declare module 'date-fns/esm/isWithinInterval/index.js' {
-  import { isWithinInterval } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isWithinInterval/index.js' {
+  import { isWithinInterval } from 'date-fns-jalaali/esm'
   export default isWithinInterval
 }
 
-declare module 'date-fns/esm/isYesterday/index.js' {
-  import { isYesterday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/isYesterday/index.js' {
+  import { isYesterday } from 'date-fns-jalaali/esm'
   export default isYesterday
 }
 
-declare module 'date-fns/esm/lastDayOfDecade/index.js' {
-  import { lastDayOfDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfDecade/index.js' {
+  import { lastDayOfDecade } from 'date-fns-jalaali/esm'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/esm/lastDayOfISOWeek/index.js' {
-  import { lastDayOfISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfISOWeek/index.js' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali/esm'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/esm/lastDayOfISOWeekYear/index.js' {
-  import { lastDayOfISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfISOWeekYear/index.js' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali/esm'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/esm/lastDayOfMonth/index.js' {
-  import { lastDayOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfMonth/index.js' {
+  import { lastDayOfMonth } from 'date-fns-jalaali/esm'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/esm/lastDayOfQuarter/index.js' {
-  import { lastDayOfQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfQuarter/index.js' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali/esm'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/esm/lastDayOfWeek/index.js' {
-  import { lastDayOfWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfWeek/index.js' {
+  import { lastDayOfWeek } from 'date-fns-jalaali/esm'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/esm/lastDayOfYear/index.js' {
-  import { lastDayOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lastDayOfYear/index.js' {
+  import { lastDayOfYear } from 'date-fns-jalaali/esm'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/esm/lightFormat/index.js' {
-  import { lightFormat } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/lightFormat/index.js' {
+  import { lightFormat } from 'date-fns-jalaali/esm'
   export default lightFormat
 }
 
-declare module 'date-fns/esm/max/index.js' {
-  import { max } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/max/index.js' {
+  import { max } from 'date-fns-jalaali/esm'
   export default max
 }
 
-declare module 'date-fns/esm/min/index.js' {
-  import { min } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/min/index.js' {
+  import { min } from 'date-fns-jalaali/esm'
   export default min
 }
 
-declare module 'date-fns/esm/parse/index.js' {
-  import { parse } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/parse/index.js' {
+  import { parse } from 'date-fns-jalaali/esm'
   export default parse
 }
 
-declare module 'date-fns/esm/parseISO/index.js' {
-  import { parseISO } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/parseISO/index.js' {
+  import { parseISO } from 'date-fns-jalaali/esm'
   export default parseISO
 }
 
-declare module 'date-fns/esm/parseJSON/index.js' {
-  import { parseJSON } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/parseJSON/index.js' {
+  import { parseJSON } from 'date-fns-jalaali/esm'
   export default parseJSON
 }
 
-declare module 'date-fns/esm/roundToNearestMinutes/index.js' {
-  import { roundToNearestMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/roundToNearestMinutes/index.js' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali/esm'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/esm/set/index.js' {
-  import { set } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/set/index.js' {
+  import { set } from 'date-fns-jalaali/esm'
   export default set
 }
 
-declare module 'date-fns/esm/setDate/index.js' {
-  import { setDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setDate/index.js' {
+  import { setDate } from 'date-fns-jalaali/esm'
   export default setDate
 }
 
-declare module 'date-fns/esm/setDay/index.js' {
-  import { setDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setDay/index.js' {
+  import { setDay } from 'date-fns-jalaali/esm'
   export default setDay
 }
 
-declare module 'date-fns/esm/setDayOfYear/index.js' {
-  import { setDayOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setDayOfYear/index.js' {
+  import { setDayOfYear } from 'date-fns-jalaali/esm'
   export default setDayOfYear
 }
 
-declare module 'date-fns/esm/setHours/index.js' {
-  import { setHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setHours/index.js' {
+  import { setHours } from 'date-fns-jalaali/esm'
   export default setHours
 }
 
-declare module 'date-fns/esm/setISODay/index.js' {
-  import { setISODay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setISODay/index.js' {
+  import { setISODay } from 'date-fns-jalaali/esm'
   export default setISODay
 }
 
-declare module 'date-fns/esm/setISOWeek/index.js' {
-  import { setISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setISOWeek/index.js' {
+  import { setISOWeek } from 'date-fns-jalaali/esm'
   export default setISOWeek
 }
 
-declare module 'date-fns/esm/setISOWeekYear/index.js' {
-  import { setISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setISOWeekYear/index.js' {
+  import { setISOWeekYear } from 'date-fns-jalaali/esm'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/esm/setMilliseconds/index.js' {
-  import { setMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setMilliseconds/index.js' {
+  import { setMilliseconds } from 'date-fns-jalaali/esm'
   export default setMilliseconds
 }
 
-declare module 'date-fns/esm/setMinutes/index.js' {
-  import { setMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setMinutes/index.js' {
+  import { setMinutes } from 'date-fns-jalaali/esm'
   export default setMinutes
 }
 
-declare module 'date-fns/esm/setMonth/index.js' {
-  import { setMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setMonth/index.js' {
+  import { setMonth } from 'date-fns-jalaali/esm'
   export default setMonth
 }
 
-declare module 'date-fns/esm/setQuarter/index.js' {
-  import { setQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setQuarter/index.js' {
+  import { setQuarter } from 'date-fns-jalaali/esm'
   export default setQuarter
 }
 
-declare module 'date-fns/esm/setSeconds/index.js' {
-  import { setSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setSeconds/index.js' {
+  import { setSeconds } from 'date-fns-jalaali/esm'
   export default setSeconds
 }
 
-declare module 'date-fns/esm/setWeek/index.js' {
-  import { setWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setWeek/index.js' {
+  import { setWeek } from 'date-fns-jalaali/esm'
   export default setWeek
 }
 
-declare module 'date-fns/esm/setWeekYear/index.js' {
-  import { setWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setWeekYear/index.js' {
+  import { setWeekYear } from 'date-fns-jalaali/esm'
   export default setWeekYear
 }
 
-declare module 'date-fns/esm/setYear/index.js' {
-  import { setYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/setYear/index.js' {
+  import { setYear } from 'date-fns-jalaali/esm'
   export default setYear
 }
 
-declare module 'date-fns/esm/startOfDay/index.js' {
-  import { startOfDay } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfDay/index.js' {
+  import { startOfDay } from 'date-fns-jalaali/esm'
   export default startOfDay
 }
 
-declare module 'date-fns/esm/startOfDecade/index.js' {
-  import { startOfDecade } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfDecade/index.js' {
+  import { startOfDecade } from 'date-fns-jalaali/esm'
   export default startOfDecade
 }
 
-declare module 'date-fns/esm/startOfHour/index.js' {
-  import { startOfHour } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfHour/index.js' {
+  import { startOfHour } from 'date-fns-jalaali/esm'
   export default startOfHour
 }
 
-declare module 'date-fns/esm/startOfISOWeek/index.js' {
-  import { startOfISOWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfISOWeek/index.js' {
+  import { startOfISOWeek } from 'date-fns-jalaali/esm'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/esm/startOfISOWeekYear/index.js' {
-  import { startOfISOWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfISOWeekYear/index.js' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali/esm'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/esm/startOfMinute/index.js' {
-  import { startOfMinute } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfMinute/index.js' {
+  import { startOfMinute } from 'date-fns-jalaali/esm'
   export default startOfMinute
 }
 
-declare module 'date-fns/esm/startOfMonth/index.js' {
-  import { startOfMonth } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfMonth/index.js' {
+  import { startOfMonth } from 'date-fns-jalaali/esm'
   export default startOfMonth
 }
 
-declare module 'date-fns/esm/startOfQuarter/index.js' {
-  import { startOfQuarter } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfQuarter/index.js' {
+  import { startOfQuarter } from 'date-fns-jalaali/esm'
   export default startOfQuarter
 }
 
-declare module 'date-fns/esm/startOfSecond/index.js' {
-  import { startOfSecond } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfSecond/index.js' {
+  import { startOfSecond } from 'date-fns-jalaali/esm'
   export default startOfSecond
 }
 
-declare module 'date-fns/esm/startOfToday/index.js' {
-  import { startOfToday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfToday/index.js' {
+  import { startOfToday } from 'date-fns-jalaali/esm'
   export default startOfToday
 }
 
-declare module 'date-fns/esm/startOfTomorrow/index.js' {
-  import { startOfTomorrow } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfTomorrow/index.js' {
+  import { startOfTomorrow } from 'date-fns-jalaali/esm'
   export default startOfTomorrow
 }
 
-declare module 'date-fns/esm/startOfWeek/index.js' {
-  import { startOfWeek } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfWeek/index.js' {
+  import { startOfWeek } from 'date-fns-jalaali/esm'
   export default startOfWeek
 }
 
-declare module 'date-fns/esm/startOfWeekYear/index.js' {
-  import { startOfWeekYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfWeekYear/index.js' {
+  import { startOfWeekYear } from 'date-fns-jalaali/esm'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/esm/startOfYear/index.js' {
-  import { startOfYear } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfYear/index.js' {
+  import { startOfYear } from 'date-fns-jalaali/esm'
   export default startOfYear
 }
 
-declare module 'date-fns/esm/startOfYesterday/index.js' {
-  import { startOfYesterday } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/startOfYesterday/index.js' {
+  import { startOfYesterday } from 'date-fns-jalaali/esm'
   export default startOfYesterday
 }
 
-declare module 'date-fns/esm/sub/index.js' {
-  import { sub } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/sub/index.js' {
+  import { sub } from 'date-fns-jalaali/esm'
   export default sub
 }
 
-declare module 'date-fns/esm/subBusinessDays/index.js' {
-  import { subBusinessDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subBusinessDays/index.js' {
+  import { subBusinessDays } from 'date-fns-jalaali/esm'
   export default subBusinessDays
 }
 
-declare module 'date-fns/esm/subDays/index.js' {
-  import { subDays } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subDays/index.js' {
+  import { subDays } from 'date-fns-jalaali/esm'
   export default subDays
 }
 
-declare module 'date-fns/esm/subHours/index.js' {
-  import { subHours } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subHours/index.js' {
+  import { subHours } from 'date-fns-jalaali/esm'
   export default subHours
 }
 
-declare module 'date-fns/esm/subISOWeekYears/index.js' {
-  import { subISOWeekYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subISOWeekYears/index.js' {
+  import { subISOWeekYears } from 'date-fns-jalaali/esm'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/esm/subMilliseconds/index.js' {
-  import { subMilliseconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subMilliseconds/index.js' {
+  import { subMilliseconds } from 'date-fns-jalaali/esm'
   export default subMilliseconds
 }
 
-declare module 'date-fns/esm/subMinutes/index.js' {
-  import { subMinutes } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subMinutes/index.js' {
+  import { subMinutes } from 'date-fns-jalaali/esm'
   export default subMinutes
 }
 
-declare module 'date-fns/esm/subMonths/index.js' {
-  import { subMonths } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subMonths/index.js' {
+  import { subMonths } from 'date-fns-jalaali/esm'
   export default subMonths
 }
 
-declare module 'date-fns/esm/subQuarters/index.js' {
-  import { subQuarters } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subQuarters/index.js' {
+  import { subQuarters } from 'date-fns-jalaali/esm'
   export default subQuarters
 }
 
-declare module 'date-fns/esm/subSeconds/index.js' {
-  import { subSeconds } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subSeconds/index.js' {
+  import { subSeconds } from 'date-fns-jalaali/esm'
   export default subSeconds
 }
 
-declare module 'date-fns/esm/subWeeks/index.js' {
-  import { subWeeks } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subWeeks/index.js' {
+  import { subWeeks } from 'date-fns-jalaali/esm'
   export default subWeeks
 }
 
-declare module 'date-fns/esm/subYears/index.js' {
-  import { subYears } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/subYears/index.js' {
+  import { subYears } from 'date-fns-jalaali/esm'
   export default subYears
 }
 
-declare module 'date-fns/esm/toDate/index.js' {
-  import { toDate } from 'date-fns/esm'
+declare module 'date-fns-jalaali/esm/toDate/index.js' {
+  import { toDate } from 'date-fns-jalaali/esm'
   export default toDate
 }
 
 // ECMAScript Module FP Functions
 
-declare module 'date-fns/esm/fp' {
+declare module 'date-fns-jalaali/esm/fp' {
   const add: CurriedFn2<Duration, Date | number, Date>
   namespace add {}
 
@@ -12354,2994 +12354,2994 @@ declare module 'date-fns/esm/fp' {
   const minTime: number
 }
 
-declare module 'date-fns/esm/fp/add' {
-  import { add } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/add' {
+  import { add } from 'date-fns-jalaali/esm/fp'
   export default add
 }
 
-declare module 'date-fns/esm/fp/addBusinessDays' {
-  import { addBusinessDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addBusinessDays' {
+  import { addBusinessDays } from 'date-fns-jalaali/esm/fp'
   export default addBusinessDays
 }
 
-declare module 'date-fns/esm/fp/addDays' {
-  import { addDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addDays' {
+  import { addDays } from 'date-fns-jalaali/esm/fp'
   export default addDays
 }
 
-declare module 'date-fns/esm/fp/addHours' {
-  import { addHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addHours' {
+  import { addHours } from 'date-fns-jalaali/esm/fp'
   export default addHours
 }
 
-declare module 'date-fns/esm/fp/addISOWeekYears' {
-  import { addISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addISOWeekYears' {
+  import { addISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/addMilliseconds' {
-  import { addMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addMilliseconds' {
+  import { addMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default addMilliseconds
 }
 
-declare module 'date-fns/esm/fp/addMinutes' {
-  import { addMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addMinutes' {
+  import { addMinutes } from 'date-fns-jalaali/esm/fp'
   export default addMinutes
 }
 
-declare module 'date-fns/esm/fp/addMonths' {
-  import { addMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addMonths' {
+  import { addMonths } from 'date-fns-jalaali/esm/fp'
   export default addMonths
 }
 
-declare module 'date-fns/esm/fp/addQuarters' {
-  import { addQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addQuarters' {
+  import { addQuarters } from 'date-fns-jalaali/esm/fp'
   export default addQuarters
 }
 
-declare module 'date-fns/esm/fp/addSeconds' {
-  import { addSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addSeconds' {
+  import { addSeconds } from 'date-fns-jalaali/esm/fp'
   export default addSeconds
 }
 
-declare module 'date-fns/esm/fp/addWeeks' {
-  import { addWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addWeeks' {
+  import { addWeeks } from 'date-fns-jalaali/esm/fp'
   export default addWeeks
 }
 
-declare module 'date-fns/esm/fp/addYears' {
-  import { addYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addYears' {
+  import { addYears } from 'date-fns-jalaali/esm/fp'
   export default addYears
 }
 
-declare module 'date-fns/esm/fp/areIntervalsOverlapping' {
-  import { areIntervalsOverlapping } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/areIntervalsOverlapping' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali/esm/fp'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/esm/fp/areIntervalsOverlappingWithOptions' {
-  import { areIntervalsOverlappingWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/areIntervalsOverlappingWithOptions' {
+  import { areIntervalsOverlappingWithOptions } from 'date-fns-jalaali/esm/fp'
   export default areIntervalsOverlappingWithOptions
 }
 
-declare module 'date-fns/esm/fp/closestIndexTo' {
-  import { closestIndexTo } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/closestIndexTo' {
+  import { closestIndexTo } from 'date-fns-jalaali/esm/fp'
   export default closestIndexTo
 }
 
-declare module 'date-fns/esm/fp/closestTo' {
-  import { closestTo } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/closestTo' {
+  import { closestTo } from 'date-fns-jalaali/esm/fp'
   export default closestTo
 }
 
-declare module 'date-fns/esm/fp/compareAsc' {
-  import { compareAsc } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/compareAsc' {
+  import { compareAsc } from 'date-fns-jalaali/esm/fp'
   export default compareAsc
 }
 
-declare module 'date-fns/esm/fp/compareDesc' {
-  import { compareDesc } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/compareDesc' {
+  import { compareDesc } from 'date-fns-jalaali/esm/fp'
   export default compareDesc
 }
 
-declare module 'date-fns/esm/fp/differenceInBusinessDays' {
-  import { differenceInBusinessDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInBusinessDays' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali/esm/fp'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarDays' {
-  import { differenceInCalendarDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarDays' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarISOWeeks' {
-  import { differenceInCalendarISOWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarISOWeeks' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarISOWeekYears' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarISOWeekYears' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarMonths' {
-  import { differenceInCalendarMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarMonths' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarQuarters' {
-  import { differenceInCalendarQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarQuarters' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarWeeks' {
-  import { differenceInCalendarWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarWeeks' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarWeeksWithOptions' {
-  import { differenceInCalendarWeeksWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarWeeksWithOptions' {
+  import { differenceInCalendarWeeksWithOptions } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarWeeksWithOptions
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarYears' {
-  import { differenceInCalendarYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarYears' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/esm/fp/differenceInDays' {
-  import { differenceInDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInDays' {
+  import { differenceInDays } from 'date-fns-jalaali/esm/fp'
   export default differenceInDays
 }
 
-declare module 'date-fns/esm/fp/differenceInHours' {
-  import { differenceInHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInHours' {
+  import { differenceInHours } from 'date-fns-jalaali/esm/fp'
   export default differenceInHours
 }
 
-declare module 'date-fns/esm/fp/differenceInISOWeekYears' {
-  import { differenceInISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInISOWeekYears' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/differenceInMilliseconds' {
-  import { differenceInMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInMilliseconds' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/esm/fp/differenceInMinutes' {
-  import { differenceInMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInMinutes' {
+  import { differenceInMinutes } from 'date-fns-jalaali/esm/fp'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/esm/fp/differenceInMonths' {
-  import { differenceInMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInMonths' {
+  import { differenceInMonths } from 'date-fns-jalaali/esm/fp'
   export default differenceInMonths
 }
 
-declare module 'date-fns/esm/fp/differenceInQuarters' {
-  import { differenceInQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInQuarters' {
+  import { differenceInQuarters } from 'date-fns-jalaali/esm/fp'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/esm/fp/differenceInSeconds' {
-  import { differenceInSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInSeconds' {
+  import { differenceInSeconds } from 'date-fns-jalaali/esm/fp'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/esm/fp/differenceInWeeks' {
-  import { differenceInWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInWeeks' {
+  import { differenceInWeeks } from 'date-fns-jalaali/esm/fp'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/esm/fp/differenceInYears' {
-  import { differenceInYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInYears' {
+  import { differenceInYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInYears
 }
 
-declare module 'date-fns/esm/fp/eachDayOfInterval' {
-  import { eachDayOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachDayOfInterval' {
+  import { eachDayOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachDayOfIntervalWithOptions' {
-  import { eachDayOfIntervalWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachDayOfIntervalWithOptions' {
+  import { eachDayOfIntervalWithOptions } from 'date-fns-jalaali/esm/fp'
   export default eachDayOfIntervalWithOptions
 }
 
-declare module 'date-fns/esm/fp/eachMonthOfInterval' {
-  import { eachMonthOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachMonthOfInterval' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachWeekendOfInterval' {
-  import { eachWeekendOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekendOfInterval' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachWeekendOfMonth' {
-  import { eachWeekendOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekendOfMonth' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali/esm/fp'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/esm/fp/eachWeekendOfYear' {
-  import { eachWeekendOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekendOfYear' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali/esm/fp'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/esm/fp/eachWeekOfInterval' {
-  import { eachWeekOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekOfInterval' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachWeekOfIntervalWithOptions' {
-  import { eachWeekOfIntervalWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekOfIntervalWithOptions' {
+  import { eachWeekOfIntervalWithOptions } from 'date-fns-jalaali/esm/fp'
   export default eachWeekOfIntervalWithOptions
 }
 
-declare module 'date-fns/esm/fp/eachYearOfInterval' {
-  import { eachYearOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachYearOfInterval' {
+  import { eachYearOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/esm/fp/endOfDay' {
-  import { endOfDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfDay' {
+  import { endOfDay } from 'date-fns-jalaali/esm/fp'
   export default endOfDay
 }
 
-declare module 'date-fns/esm/fp/endOfDecade' {
-  import { endOfDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfDecade' {
+  import { endOfDecade } from 'date-fns-jalaali/esm/fp'
   export default endOfDecade
 }
 
-declare module 'date-fns/esm/fp/endOfDecadeWithOptions' {
-  import { endOfDecadeWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfDecadeWithOptions' {
+  import { endOfDecadeWithOptions } from 'date-fns-jalaali/esm/fp'
   export default endOfDecadeWithOptions
 }
 
-declare module 'date-fns/esm/fp/endOfHour' {
-  import { endOfHour } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfHour' {
+  import { endOfHour } from 'date-fns-jalaali/esm/fp'
   export default endOfHour
 }
 
-declare module 'date-fns/esm/fp/endOfISOWeek' {
-  import { endOfISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfISOWeek' {
+  import { endOfISOWeek } from 'date-fns-jalaali/esm/fp'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/esm/fp/endOfISOWeekYear' {
-  import { endOfISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfISOWeekYear' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/endOfMinute' {
-  import { endOfMinute } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfMinute' {
+  import { endOfMinute } from 'date-fns-jalaali/esm/fp'
   export default endOfMinute
 }
 
-declare module 'date-fns/esm/fp/endOfMonth' {
-  import { endOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfMonth' {
+  import { endOfMonth } from 'date-fns-jalaali/esm/fp'
   export default endOfMonth
 }
 
-declare module 'date-fns/esm/fp/endOfQuarter' {
-  import { endOfQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfQuarter' {
+  import { endOfQuarter } from 'date-fns-jalaali/esm/fp'
   export default endOfQuarter
 }
 
-declare module 'date-fns/esm/fp/endOfSecond' {
-  import { endOfSecond } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfSecond' {
+  import { endOfSecond } from 'date-fns-jalaali/esm/fp'
   export default endOfSecond
 }
 
-declare module 'date-fns/esm/fp/endOfWeek' {
-  import { endOfWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfWeek' {
+  import { endOfWeek } from 'date-fns-jalaali/esm/fp'
   export default endOfWeek
 }
 
-declare module 'date-fns/esm/fp/endOfWeekWithOptions' {
-  import { endOfWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfWeekWithOptions' {
+  import { endOfWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default endOfWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/endOfYear' {
-  import { endOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfYear' {
+  import { endOfYear } from 'date-fns-jalaali/esm/fp'
   export default endOfYear
 }
 
-declare module 'date-fns/esm/fp/format' {
-  import { format } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/format' {
+  import { format } from 'date-fns-jalaali/esm/fp'
   export default format
 }
 
-declare module 'date-fns/esm/fp/formatDistance' {
-  import { formatDistance } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistance' {
+  import { formatDistance } from 'date-fns-jalaali/esm/fp'
   export default formatDistance
 }
 
-declare module 'date-fns/esm/fp/formatDistanceStrict' {
-  import { formatDistanceStrict } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistanceStrict' {
+  import { formatDistanceStrict } from 'date-fns-jalaali/esm/fp'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/esm/fp/formatDistanceStrictWithOptions' {
-  import { formatDistanceStrictWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistanceStrictWithOptions' {
+  import { formatDistanceStrictWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatDistanceStrictWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatDistanceWithOptions' {
-  import { formatDistanceWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistanceWithOptions' {
+  import { formatDistanceWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatDistanceWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatISO' {
-  import { formatISO } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISO' {
+  import { formatISO } from 'date-fns-jalaali/esm/fp'
   export default formatISO
 }
 
-declare module 'date-fns/esm/fp/formatISO9075' {
-  import { formatISO9075 } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISO9075' {
+  import { formatISO9075 } from 'date-fns-jalaali/esm/fp'
   export default formatISO9075
 }
 
-declare module 'date-fns/esm/fp/formatISO9075WithOptions' {
-  import { formatISO9075WithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISO9075WithOptions' {
+  import { formatISO9075WithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatISO9075WithOptions
 }
 
-declare module 'date-fns/esm/fp/formatISODuration' {
-  import { formatISODuration } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISODuration' {
+  import { formatISODuration } from 'date-fns-jalaali/esm/fp'
   export default formatISODuration
 }
 
-declare module 'date-fns/esm/fp/formatISOWithOptions' {
-  import { formatISOWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISOWithOptions' {
+  import { formatISOWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatISOWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatRelative' {
-  import { formatRelative } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRelative' {
+  import { formatRelative } from 'date-fns-jalaali/esm/fp'
   export default formatRelative
 }
 
-declare module 'date-fns/esm/fp/formatRelativeWithOptions' {
-  import { formatRelativeWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRelativeWithOptions' {
+  import { formatRelativeWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatRelativeWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatRFC3339' {
-  import { formatRFC3339 } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRFC3339' {
+  import { formatRFC3339 } from 'date-fns-jalaali/esm/fp'
   export default formatRFC3339
 }
 
-declare module 'date-fns/esm/fp/formatRFC3339WithOptions' {
-  import { formatRFC3339WithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRFC3339WithOptions' {
+  import { formatRFC3339WithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatRFC3339WithOptions
 }
 
-declare module 'date-fns/esm/fp/formatRFC7231' {
-  import { formatRFC7231 } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRFC7231' {
+  import { formatRFC7231 } from 'date-fns-jalaali/esm/fp'
   export default formatRFC7231
 }
 
-declare module 'date-fns/esm/fp/formatWithOptions' {
-  import { formatWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatWithOptions' {
+  import { formatWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatWithOptions
 }
 
-declare module 'date-fns/esm/fp/fromUnixTime' {
-  import { fromUnixTime } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/fromUnixTime' {
+  import { fromUnixTime } from 'date-fns-jalaali/esm/fp'
   export default fromUnixTime
 }
 
-declare module 'date-fns/esm/fp/getDate' {
-  import { getDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDate' {
+  import { getDate } from 'date-fns-jalaali/esm/fp'
   export default getDate
 }
 
-declare module 'date-fns/esm/fp/getDay' {
-  import { getDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDay' {
+  import { getDay } from 'date-fns-jalaali/esm/fp'
   export default getDay
 }
 
-declare module 'date-fns/esm/fp/getDayOfYear' {
-  import { getDayOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDayOfYear' {
+  import { getDayOfYear } from 'date-fns-jalaali/esm/fp'
   export default getDayOfYear
 }
 
-declare module 'date-fns/esm/fp/getDaysInMonth' {
-  import { getDaysInMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDaysInMonth' {
+  import { getDaysInMonth } from 'date-fns-jalaali/esm/fp'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/esm/fp/getDaysInYear' {
-  import { getDaysInYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDaysInYear' {
+  import { getDaysInYear } from 'date-fns-jalaali/esm/fp'
   export default getDaysInYear
 }
 
-declare module 'date-fns/esm/fp/getDecade' {
-  import { getDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDecade' {
+  import { getDecade } from 'date-fns-jalaali/esm/fp'
   export default getDecade
 }
 
-declare module 'date-fns/esm/fp/getHours' {
-  import { getHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getHours' {
+  import { getHours } from 'date-fns-jalaali/esm/fp'
   export default getHours
 }
 
-declare module 'date-fns/esm/fp/getISODay' {
-  import { getISODay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISODay' {
+  import { getISODay } from 'date-fns-jalaali/esm/fp'
   export default getISODay
 }
 
-declare module 'date-fns/esm/fp/getISOWeek' {
-  import { getISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISOWeek' {
+  import { getISOWeek } from 'date-fns-jalaali/esm/fp'
   export default getISOWeek
 }
 
-declare module 'date-fns/esm/fp/getISOWeeksInYear' {
-  import { getISOWeeksInYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISOWeeksInYear' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali/esm/fp'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/esm/fp/getISOWeekYear' {
-  import { getISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISOWeekYear' {
+  import { getISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/getMilliseconds' {
-  import { getMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getMilliseconds' {
+  import { getMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default getMilliseconds
 }
 
-declare module 'date-fns/esm/fp/getMinutes' {
-  import { getMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getMinutes' {
+  import { getMinutes } from 'date-fns-jalaali/esm/fp'
   export default getMinutes
 }
 
-declare module 'date-fns/esm/fp/getMonth' {
-  import { getMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getMonth' {
+  import { getMonth } from 'date-fns-jalaali/esm/fp'
   export default getMonth
 }
 
-declare module 'date-fns/esm/fp/getOverlappingDaysInIntervals' {
-  import { getOverlappingDaysInIntervals } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getOverlappingDaysInIntervals' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali/esm/fp'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/esm/fp/getQuarter' {
-  import { getQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getQuarter' {
+  import { getQuarter } from 'date-fns-jalaali/esm/fp'
   export default getQuarter
 }
 
-declare module 'date-fns/esm/fp/getSeconds' {
-  import { getSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getSeconds' {
+  import { getSeconds } from 'date-fns-jalaali/esm/fp'
   export default getSeconds
 }
 
-declare module 'date-fns/esm/fp/getTime' {
-  import { getTime } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getTime' {
+  import { getTime } from 'date-fns-jalaali/esm/fp'
   export default getTime
 }
 
-declare module 'date-fns/esm/fp/getUnixTime' {
-  import { getUnixTime } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getUnixTime' {
+  import { getUnixTime } from 'date-fns-jalaali/esm/fp'
   export default getUnixTime
 }
 
-declare module 'date-fns/esm/fp/getWeek' {
-  import { getWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeek' {
+  import { getWeek } from 'date-fns-jalaali/esm/fp'
   export default getWeek
 }
 
-declare module 'date-fns/esm/fp/getWeekOfMonth' {
-  import { getWeekOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekOfMonth' {
+  import { getWeekOfMonth } from 'date-fns-jalaali/esm/fp'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/esm/fp/getWeekOfMonthWithOptions' {
-  import { getWeekOfMonthWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekOfMonthWithOptions' {
+  import { getWeekOfMonthWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeekOfMonthWithOptions
 }
 
-declare module 'date-fns/esm/fp/getWeeksInMonth' {
-  import { getWeeksInMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeeksInMonth' {
+  import { getWeeksInMonth } from 'date-fns-jalaali/esm/fp'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/esm/fp/getWeeksInMonthWithOptions' {
-  import { getWeeksInMonthWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeeksInMonthWithOptions' {
+  import { getWeeksInMonthWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeeksInMonthWithOptions
 }
 
-declare module 'date-fns/esm/fp/getWeekWithOptions' {
-  import { getWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekWithOptions' {
+  import { getWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/getWeekYear' {
-  import { getWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekYear' {
+  import { getWeekYear } from 'date-fns-jalaali/esm/fp'
   export default getWeekYear
 }
 
-declare module 'date-fns/esm/fp/getWeekYearWithOptions' {
-  import { getWeekYearWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekYearWithOptions' {
+  import { getWeekYearWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeekYearWithOptions
 }
 
-declare module 'date-fns/esm/fp/getYear' {
-  import { getYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getYear' {
+  import { getYear } from 'date-fns-jalaali/esm/fp'
   export default getYear
 }
 
-declare module 'date-fns/esm/fp/intervalToDuration' {
-  import { intervalToDuration } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/intervalToDuration' {
+  import { intervalToDuration } from 'date-fns-jalaali/esm/fp'
   export default intervalToDuration
 }
 
-declare module 'date-fns/esm/fp/isAfter' {
-  import { isAfter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isAfter' {
+  import { isAfter } from 'date-fns-jalaali/esm/fp'
   export default isAfter
 }
 
-declare module 'date-fns/esm/fp/isBefore' {
-  import { isBefore } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isBefore' {
+  import { isBefore } from 'date-fns-jalaali/esm/fp'
   export default isBefore
 }
 
-declare module 'date-fns/esm/fp/isDate' {
-  import { isDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isDate' {
+  import { isDate } from 'date-fns-jalaali/esm/fp'
   export default isDate
 }
 
-declare module 'date-fns/esm/fp/isEqual' {
-  import { isEqual } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isEqual' {
+  import { isEqual } from 'date-fns-jalaali/esm/fp'
   export default isEqual
 }
 
-declare module 'date-fns/esm/fp/isExists' {
-  import { isExists } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isExists' {
+  import { isExists } from 'date-fns-jalaali/esm/fp'
   export default isExists
 }
 
-declare module 'date-fns/esm/fp/isFirstDayOfMonth' {
-  import { isFirstDayOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isFirstDayOfMonth' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali/esm/fp'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/esm/fp/isFriday' {
-  import { isFriday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isFriday' {
+  import { isFriday } from 'date-fns-jalaali/esm/fp'
   export default isFriday
 }
 
-declare module 'date-fns/esm/fp/isLastDayOfMonth' {
-  import { isLastDayOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isLastDayOfMonth' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali/esm/fp'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/esm/fp/isLeapYear' {
-  import { isLeapYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isLeapYear' {
+  import { isLeapYear } from 'date-fns-jalaali/esm/fp'
   export default isLeapYear
 }
 
-declare module 'date-fns/esm/fp/isMonday' {
-  import { isMonday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isMonday' {
+  import { isMonday } from 'date-fns-jalaali/esm/fp'
   export default isMonday
 }
 
-declare module 'date-fns/esm/fp/isSameDay' {
-  import { isSameDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameDay' {
+  import { isSameDay } from 'date-fns-jalaali/esm/fp'
   export default isSameDay
 }
 
-declare module 'date-fns/esm/fp/isSameHour' {
-  import { isSameHour } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameHour' {
+  import { isSameHour } from 'date-fns-jalaali/esm/fp'
   export default isSameHour
 }
 
-declare module 'date-fns/esm/fp/isSameISOWeek' {
-  import { isSameISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameISOWeek' {
+  import { isSameISOWeek } from 'date-fns-jalaali/esm/fp'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/esm/fp/isSameISOWeekYear' {
-  import { isSameISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameISOWeekYear' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/isSameMinute' {
-  import { isSameMinute } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameMinute' {
+  import { isSameMinute } from 'date-fns-jalaali/esm/fp'
   export default isSameMinute
 }
 
-declare module 'date-fns/esm/fp/isSameMonth' {
-  import { isSameMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameMonth' {
+  import { isSameMonth } from 'date-fns-jalaali/esm/fp'
   export default isSameMonth
 }
 
-declare module 'date-fns/esm/fp/isSameQuarter' {
-  import { isSameQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameQuarter' {
+  import { isSameQuarter } from 'date-fns-jalaali/esm/fp'
   export default isSameQuarter
 }
 
-declare module 'date-fns/esm/fp/isSameSecond' {
-  import { isSameSecond } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameSecond' {
+  import { isSameSecond } from 'date-fns-jalaali/esm/fp'
   export default isSameSecond
 }
 
-declare module 'date-fns/esm/fp/isSameWeek' {
-  import { isSameWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameWeek' {
+  import { isSameWeek } from 'date-fns-jalaali/esm/fp'
   export default isSameWeek
 }
 
-declare module 'date-fns/esm/fp/isSameWeekWithOptions' {
-  import { isSameWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameWeekWithOptions' {
+  import { isSameWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default isSameWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/isSameYear' {
-  import { isSameYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameYear' {
+  import { isSameYear } from 'date-fns-jalaali/esm/fp'
   export default isSameYear
 }
 
-declare module 'date-fns/esm/fp/isSaturday' {
-  import { isSaturday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSaturday' {
+  import { isSaturday } from 'date-fns-jalaali/esm/fp'
   export default isSaturday
 }
 
-declare module 'date-fns/esm/fp/isSunday' {
-  import { isSunday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSunday' {
+  import { isSunday } from 'date-fns-jalaali/esm/fp'
   export default isSunday
 }
 
-declare module 'date-fns/esm/fp/isThursday' {
-  import { isThursday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isThursday' {
+  import { isThursday } from 'date-fns-jalaali/esm/fp'
   export default isThursday
 }
 
-declare module 'date-fns/esm/fp/isTuesday' {
-  import { isTuesday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isTuesday' {
+  import { isTuesday } from 'date-fns-jalaali/esm/fp'
   export default isTuesday
 }
 
-declare module 'date-fns/esm/fp/isValid' {
-  import { isValid } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isValid' {
+  import { isValid } from 'date-fns-jalaali/esm/fp'
   export default isValid
 }
 
-declare module 'date-fns/esm/fp/isWednesday' {
-  import { isWednesday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isWednesday' {
+  import { isWednesday } from 'date-fns-jalaali/esm/fp'
   export default isWednesday
 }
 
-declare module 'date-fns/esm/fp/isWeekend' {
-  import { isWeekend } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isWeekend' {
+  import { isWeekend } from 'date-fns-jalaali/esm/fp'
   export default isWeekend
 }
 
-declare module 'date-fns/esm/fp/isWithinInterval' {
-  import { isWithinInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isWithinInterval' {
+  import { isWithinInterval } from 'date-fns-jalaali/esm/fp'
   export default isWithinInterval
 }
 
-declare module 'date-fns/esm/fp/lastDayOfDecade' {
-  import { lastDayOfDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfDecade' {
+  import { lastDayOfDecade } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/esm/fp/lastDayOfISOWeek' {
-  import { lastDayOfISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfISOWeek' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/esm/fp/lastDayOfISOWeekYear' {
-  import { lastDayOfISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfISOWeekYear' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/lastDayOfMonth' {
-  import { lastDayOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfMonth' {
+  import { lastDayOfMonth } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/esm/fp/lastDayOfQuarter' {
-  import { lastDayOfQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfQuarter' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/esm/fp/lastDayOfQuarterWithOptions' {
-  import { lastDayOfQuarterWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfQuarterWithOptions' {
+  import { lastDayOfQuarterWithOptions } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfQuarterWithOptions
 }
 
-declare module 'date-fns/esm/fp/lastDayOfWeek' {
-  import { lastDayOfWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfWeek' {
+  import { lastDayOfWeek } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/esm/fp/lastDayOfWeekWithOptions' {
-  import { lastDayOfWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfWeekWithOptions' {
+  import { lastDayOfWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/lastDayOfYear' {
-  import { lastDayOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfYear' {
+  import { lastDayOfYear } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/esm/fp/lightFormat' {
-  import { lightFormat } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lightFormat' {
+  import { lightFormat } from 'date-fns-jalaali/esm/fp'
   export default lightFormat
 }
 
-declare module 'date-fns/esm/fp/max' {
-  import { max } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/max' {
+  import { max } from 'date-fns-jalaali/esm/fp'
   export default max
 }
 
-declare module 'date-fns/esm/fp/min' {
-  import { min } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/min' {
+  import { min } from 'date-fns-jalaali/esm/fp'
   export default min
 }
 
-declare module 'date-fns/esm/fp/parse' {
-  import { parse } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parse' {
+  import { parse } from 'date-fns-jalaali/esm/fp'
   export default parse
 }
 
-declare module 'date-fns/esm/fp/parseISO' {
-  import { parseISO } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseISO' {
+  import { parseISO } from 'date-fns-jalaali/esm/fp'
   export default parseISO
 }
 
-declare module 'date-fns/esm/fp/parseISOWithOptions' {
-  import { parseISOWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseISOWithOptions' {
+  import { parseISOWithOptions } from 'date-fns-jalaali/esm/fp'
   export default parseISOWithOptions
 }
 
-declare module 'date-fns/esm/fp/parseJSON' {
-  import { parseJSON } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseJSON' {
+  import { parseJSON } from 'date-fns-jalaali/esm/fp'
   export default parseJSON
 }
 
-declare module 'date-fns/esm/fp/parseWithOptions' {
-  import { parseWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseWithOptions' {
+  import { parseWithOptions } from 'date-fns-jalaali/esm/fp'
   export default parseWithOptions
 }
 
-declare module 'date-fns/esm/fp/roundToNearestMinutes' {
-  import { roundToNearestMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/roundToNearestMinutes' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali/esm/fp'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/esm/fp/roundToNearestMinutesWithOptions' {
-  import { roundToNearestMinutesWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/roundToNearestMinutesWithOptions' {
+  import { roundToNearestMinutesWithOptions } from 'date-fns-jalaali/esm/fp'
   export default roundToNearestMinutesWithOptions
 }
 
-declare module 'date-fns/esm/fp/set' {
-  import { set } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/set' {
+  import { set } from 'date-fns-jalaali/esm/fp'
   export default set
 }
 
-declare module 'date-fns/esm/fp/setDate' {
-  import { setDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDate' {
+  import { setDate } from 'date-fns-jalaali/esm/fp'
   export default setDate
 }
 
-declare module 'date-fns/esm/fp/setDay' {
-  import { setDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDay' {
+  import { setDay } from 'date-fns-jalaali/esm/fp'
   export default setDay
 }
 
-declare module 'date-fns/esm/fp/setDayOfYear' {
-  import { setDayOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDayOfYear' {
+  import { setDayOfYear } from 'date-fns-jalaali/esm/fp'
   export default setDayOfYear
 }
 
-declare module 'date-fns/esm/fp/setDayWithOptions' {
-  import { setDayWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDayWithOptions' {
+  import { setDayWithOptions } from 'date-fns-jalaali/esm/fp'
   export default setDayWithOptions
 }
 
-declare module 'date-fns/esm/fp/setHours' {
-  import { setHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setHours' {
+  import { setHours } from 'date-fns-jalaali/esm/fp'
   export default setHours
 }
 
-declare module 'date-fns/esm/fp/setISODay' {
-  import { setISODay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setISODay' {
+  import { setISODay } from 'date-fns-jalaali/esm/fp'
   export default setISODay
 }
 
-declare module 'date-fns/esm/fp/setISOWeek' {
-  import { setISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setISOWeek' {
+  import { setISOWeek } from 'date-fns-jalaali/esm/fp'
   export default setISOWeek
 }
 
-declare module 'date-fns/esm/fp/setISOWeekYear' {
-  import { setISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setISOWeekYear' {
+  import { setISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/setMilliseconds' {
-  import { setMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setMilliseconds' {
+  import { setMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default setMilliseconds
 }
 
-declare module 'date-fns/esm/fp/setMinutes' {
-  import { setMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setMinutes' {
+  import { setMinutes } from 'date-fns-jalaali/esm/fp'
   export default setMinutes
 }
 
-declare module 'date-fns/esm/fp/setMonth' {
-  import { setMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setMonth' {
+  import { setMonth } from 'date-fns-jalaali/esm/fp'
   export default setMonth
 }
 
-declare module 'date-fns/esm/fp/setQuarter' {
-  import { setQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setQuarter' {
+  import { setQuarter } from 'date-fns-jalaali/esm/fp'
   export default setQuarter
 }
 
-declare module 'date-fns/esm/fp/setSeconds' {
-  import { setSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setSeconds' {
+  import { setSeconds } from 'date-fns-jalaali/esm/fp'
   export default setSeconds
 }
 
-declare module 'date-fns/esm/fp/setWeek' {
-  import { setWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeek' {
+  import { setWeek } from 'date-fns-jalaali/esm/fp'
   export default setWeek
 }
 
-declare module 'date-fns/esm/fp/setWeekWithOptions' {
-  import { setWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeekWithOptions' {
+  import { setWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default setWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/setWeekYear' {
-  import { setWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeekYear' {
+  import { setWeekYear } from 'date-fns-jalaali/esm/fp'
   export default setWeekYear
 }
 
-declare module 'date-fns/esm/fp/setWeekYearWithOptions' {
-  import { setWeekYearWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeekYearWithOptions' {
+  import { setWeekYearWithOptions } from 'date-fns-jalaali/esm/fp'
   export default setWeekYearWithOptions
 }
 
-declare module 'date-fns/esm/fp/setYear' {
-  import { setYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setYear' {
+  import { setYear } from 'date-fns-jalaali/esm/fp'
   export default setYear
 }
 
-declare module 'date-fns/esm/fp/startOfDay' {
-  import { startOfDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfDay' {
+  import { startOfDay } from 'date-fns-jalaali/esm/fp'
   export default startOfDay
 }
 
-declare module 'date-fns/esm/fp/startOfDecade' {
-  import { startOfDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfDecade' {
+  import { startOfDecade } from 'date-fns-jalaali/esm/fp'
   export default startOfDecade
 }
 
-declare module 'date-fns/esm/fp/startOfHour' {
-  import { startOfHour } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfHour' {
+  import { startOfHour } from 'date-fns-jalaali/esm/fp'
   export default startOfHour
 }
 
-declare module 'date-fns/esm/fp/startOfISOWeek' {
-  import { startOfISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfISOWeek' {
+  import { startOfISOWeek } from 'date-fns-jalaali/esm/fp'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/esm/fp/startOfISOWeekYear' {
-  import { startOfISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfISOWeekYear' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/startOfMinute' {
-  import { startOfMinute } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfMinute' {
+  import { startOfMinute } from 'date-fns-jalaali/esm/fp'
   export default startOfMinute
 }
 
-declare module 'date-fns/esm/fp/startOfMonth' {
-  import { startOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfMonth' {
+  import { startOfMonth } from 'date-fns-jalaali/esm/fp'
   export default startOfMonth
 }
 
-declare module 'date-fns/esm/fp/startOfQuarter' {
-  import { startOfQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfQuarter' {
+  import { startOfQuarter } from 'date-fns-jalaali/esm/fp'
   export default startOfQuarter
 }
 
-declare module 'date-fns/esm/fp/startOfSecond' {
-  import { startOfSecond } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfSecond' {
+  import { startOfSecond } from 'date-fns-jalaali/esm/fp'
   export default startOfSecond
 }
 
-declare module 'date-fns/esm/fp/startOfWeek' {
-  import { startOfWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeek' {
+  import { startOfWeek } from 'date-fns-jalaali/esm/fp'
   export default startOfWeek
 }
 
-declare module 'date-fns/esm/fp/startOfWeekWithOptions' {
-  import { startOfWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeekWithOptions' {
+  import { startOfWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default startOfWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/startOfWeekYear' {
-  import { startOfWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeekYear' {
+  import { startOfWeekYear } from 'date-fns-jalaali/esm/fp'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/esm/fp/startOfWeekYearWithOptions' {
-  import { startOfWeekYearWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeekYearWithOptions' {
+  import { startOfWeekYearWithOptions } from 'date-fns-jalaali/esm/fp'
   export default startOfWeekYearWithOptions
 }
 
-declare module 'date-fns/esm/fp/startOfYear' {
-  import { startOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfYear' {
+  import { startOfYear } from 'date-fns-jalaali/esm/fp'
   export default startOfYear
 }
 
-declare module 'date-fns/esm/fp/sub' {
-  import { sub } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/sub' {
+  import { sub } from 'date-fns-jalaali/esm/fp'
   export default sub
 }
 
-declare module 'date-fns/esm/fp/subBusinessDays' {
-  import { subBusinessDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subBusinessDays' {
+  import { subBusinessDays } from 'date-fns-jalaali/esm/fp'
   export default subBusinessDays
 }
 
-declare module 'date-fns/esm/fp/subDays' {
-  import { subDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subDays' {
+  import { subDays } from 'date-fns-jalaali/esm/fp'
   export default subDays
 }
 
-declare module 'date-fns/esm/fp/subHours' {
-  import { subHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subHours' {
+  import { subHours } from 'date-fns-jalaali/esm/fp'
   export default subHours
 }
 
-declare module 'date-fns/esm/fp/subISOWeekYears' {
-  import { subISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subISOWeekYears' {
+  import { subISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/subMilliseconds' {
-  import { subMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subMilliseconds' {
+  import { subMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default subMilliseconds
 }
 
-declare module 'date-fns/esm/fp/subMinutes' {
-  import { subMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subMinutes' {
+  import { subMinutes } from 'date-fns-jalaali/esm/fp'
   export default subMinutes
 }
 
-declare module 'date-fns/esm/fp/subMonths' {
-  import { subMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subMonths' {
+  import { subMonths } from 'date-fns-jalaali/esm/fp'
   export default subMonths
 }
 
-declare module 'date-fns/esm/fp/subQuarters' {
-  import { subQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subQuarters' {
+  import { subQuarters } from 'date-fns-jalaali/esm/fp'
   export default subQuarters
 }
 
-declare module 'date-fns/esm/fp/subSeconds' {
-  import { subSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subSeconds' {
+  import { subSeconds } from 'date-fns-jalaali/esm/fp'
   export default subSeconds
 }
 
-declare module 'date-fns/esm/fp/subWeeks' {
-  import { subWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subWeeks' {
+  import { subWeeks } from 'date-fns-jalaali/esm/fp'
   export default subWeeks
 }
 
-declare module 'date-fns/esm/fp/subYears' {
-  import { subYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subYears' {
+  import { subYears } from 'date-fns-jalaali/esm/fp'
   export default subYears
 }
 
-declare module 'date-fns/esm/fp/toDate' {
-  import { toDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/toDate' {
+  import { toDate } from 'date-fns-jalaali/esm/fp'
   export default toDate
 }
 
-declare module 'date-fns/esm/fp/add/index' {
-  import { add } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/add/index' {
+  import { add } from 'date-fns-jalaali/esm/fp'
   export default add
 }
 
-declare module 'date-fns/esm/fp/addBusinessDays/index' {
-  import { addBusinessDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addBusinessDays/index' {
+  import { addBusinessDays } from 'date-fns-jalaali/esm/fp'
   export default addBusinessDays
 }
 
-declare module 'date-fns/esm/fp/addDays/index' {
-  import { addDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addDays/index' {
+  import { addDays } from 'date-fns-jalaali/esm/fp'
   export default addDays
 }
 
-declare module 'date-fns/esm/fp/addHours/index' {
-  import { addHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addHours/index' {
+  import { addHours } from 'date-fns-jalaali/esm/fp'
   export default addHours
 }
 
-declare module 'date-fns/esm/fp/addISOWeekYears/index' {
-  import { addISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addISOWeekYears/index' {
+  import { addISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/addMilliseconds/index' {
-  import { addMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addMilliseconds/index' {
+  import { addMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default addMilliseconds
 }
 
-declare module 'date-fns/esm/fp/addMinutes/index' {
-  import { addMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addMinutes/index' {
+  import { addMinutes } from 'date-fns-jalaali/esm/fp'
   export default addMinutes
 }
 
-declare module 'date-fns/esm/fp/addMonths/index' {
-  import { addMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addMonths/index' {
+  import { addMonths } from 'date-fns-jalaali/esm/fp'
   export default addMonths
 }
 
-declare module 'date-fns/esm/fp/addQuarters/index' {
-  import { addQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addQuarters/index' {
+  import { addQuarters } from 'date-fns-jalaali/esm/fp'
   export default addQuarters
 }
 
-declare module 'date-fns/esm/fp/addSeconds/index' {
-  import { addSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addSeconds/index' {
+  import { addSeconds } from 'date-fns-jalaali/esm/fp'
   export default addSeconds
 }
 
-declare module 'date-fns/esm/fp/addWeeks/index' {
-  import { addWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addWeeks/index' {
+  import { addWeeks } from 'date-fns-jalaali/esm/fp'
   export default addWeeks
 }
 
-declare module 'date-fns/esm/fp/addYears/index' {
-  import { addYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addYears/index' {
+  import { addYears } from 'date-fns-jalaali/esm/fp'
   export default addYears
 }
 
-declare module 'date-fns/esm/fp/areIntervalsOverlapping/index' {
-  import { areIntervalsOverlapping } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/areIntervalsOverlapping/index' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali/esm/fp'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/esm/fp/areIntervalsOverlappingWithOptions/index' {
-  import { areIntervalsOverlappingWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/areIntervalsOverlappingWithOptions/index' {
+  import { areIntervalsOverlappingWithOptions } from 'date-fns-jalaali/esm/fp'
   export default areIntervalsOverlappingWithOptions
 }
 
-declare module 'date-fns/esm/fp/closestIndexTo/index' {
-  import { closestIndexTo } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/closestIndexTo/index' {
+  import { closestIndexTo } from 'date-fns-jalaali/esm/fp'
   export default closestIndexTo
 }
 
-declare module 'date-fns/esm/fp/closestTo/index' {
-  import { closestTo } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/closestTo/index' {
+  import { closestTo } from 'date-fns-jalaali/esm/fp'
   export default closestTo
 }
 
-declare module 'date-fns/esm/fp/compareAsc/index' {
-  import { compareAsc } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/compareAsc/index' {
+  import { compareAsc } from 'date-fns-jalaali/esm/fp'
   export default compareAsc
 }
 
-declare module 'date-fns/esm/fp/compareDesc/index' {
-  import { compareDesc } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/compareDesc/index' {
+  import { compareDesc } from 'date-fns-jalaali/esm/fp'
   export default compareDesc
 }
 
-declare module 'date-fns/esm/fp/differenceInBusinessDays/index' {
-  import { differenceInBusinessDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInBusinessDays/index' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali/esm/fp'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarDays/index' {
-  import { differenceInCalendarDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarDays/index' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarISOWeeks/index' {
-  import { differenceInCalendarISOWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarISOWeeks/index' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarISOWeekYears/index' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarISOWeekYears/index' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarMonths/index' {
-  import { differenceInCalendarMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarMonths/index' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarQuarters/index' {
-  import { differenceInCalendarQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarQuarters/index' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarWeeks/index' {
-  import { differenceInCalendarWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarWeeks/index' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarWeeksWithOptions/index' {
-  import { differenceInCalendarWeeksWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarWeeksWithOptions/index' {
+  import { differenceInCalendarWeeksWithOptions } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarWeeksWithOptions
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarYears/index' {
-  import { differenceInCalendarYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarYears/index' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/esm/fp/differenceInDays/index' {
-  import { differenceInDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInDays/index' {
+  import { differenceInDays } from 'date-fns-jalaali/esm/fp'
   export default differenceInDays
 }
 
-declare module 'date-fns/esm/fp/differenceInHours/index' {
-  import { differenceInHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInHours/index' {
+  import { differenceInHours } from 'date-fns-jalaali/esm/fp'
   export default differenceInHours
 }
 
-declare module 'date-fns/esm/fp/differenceInISOWeekYears/index' {
-  import { differenceInISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInISOWeekYears/index' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/differenceInMilliseconds/index' {
-  import { differenceInMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInMilliseconds/index' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/esm/fp/differenceInMinutes/index' {
-  import { differenceInMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInMinutes/index' {
+  import { differenceInMinutes } from 'date-fns-jalaali/esm/fp'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/esm/fp/differenceInMonths/index' {
-  import { differenceInMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInMonths/index' {
+  import { differenceInMonths } from 'date-fns-jalaali/esm/fp'
   export default differenceInMonths
 }
 
-declare module 'date-fns/esm/fp/differenceInQuarters/index' {
-  import { differenceInQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInQuarters/index' {
+  import { differenceInQuarters } from 'date-fns-jalaali/esm/fp'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/esm/fp/differenceInSeconds/index' {
-  import { differenceInSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInSeconds/index' {
+  import { differenceInSeconds } from 'date-fns-jalaali/esm/fp'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/esm/fp/differenceInWeeks/index' {
-  import { differenceInWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInWeeks/index' {
+  import { differenceInWeeks } from 'date-fns-jalaali/esm/fp'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/esm/fp/differenceInYears/index' {
-  import { differenceInYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInYears/index' {
+  import { differenceInYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInYears
 }
 
-declare module 'date-fns/esm/fp/eachDayOfInterval/index' {
-  import { eachDayOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachDayOfInterval/index' {
+  import { eachDayOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachDayOfIntervalWithOptions/index' {
-  import { eachDayOfIntervalWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachDayOfIntervalWithOptions/index' {
+  import { eachDayOfIntervalWithOptions } from 'date-fns-jalaali/esm/fp'
   export default eachDayOfIntervalWithOptions
 }
 
-declare module 'date-fns/esm/fp/eachMonthOfInterval/index' {
-  import { eachMonthOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachMonthOfInterval/index' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachWeekendOfInterval/index' {
-  import { eachWeekendOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekendOfInterval/index' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachWeekendOfMonth/index' {
-  import { eachWeekendOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekendOfMonth/index' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali/esm/fp'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/esm/fp/eachWeekendOfYear/index' {
-  import { eachWeekendOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekendOfYear/index' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali/esm/fp'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/esm/fp/eachWeekOfInterval/index' {
-  import { eachWeekOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekOfInterval/index' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachWeekOfIntervalWithOptions/index' {
-  import { eachWeekOfIntervalWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekOfIntervalWithOptions/index' {
+  import { eachWeekOfIntervalWithOptions } from 'date-fns-jalaali/esm/fp'
   export default eachWeekOfIntervalWithOptions
 }
 
-declare module 'date-fns/esm/fp/eachYearOfInterval/index' {
-  import { eachYearOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachYearOfInterval/index' {
+  import { eachYearOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/esm/fp/endOfDay/index' {
-  import { endOfDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfDay/index' {
+  import { endOfDay } from 'date-fns-jalaali/esm/fp'
   export default endOfDay
 }
 
-declare module 'date-fns/esm/fp/endOfDecade/index' {
-  import { endOfDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfDecade/index' {
+  import { endOfDecade } from 'date-fns-jalaali/esm/fp'
   export default endOfDecade
 }
 
-declare module 'date-fns/esm/fp/endOfDecadeWithOptions/index' {
-  import { endOfDecadeWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfDecadeWithOptions/index' {
+  import { endOfDecadeWithOptions } from 'date-fns-jalaali/esm/fp'
   export default endOfDecadeWithOptions
 }
 
-declare module 'date-fns/esm/fp/endOfHour/index' {
-  import { endOfHour } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfHour/index' {
+  import { endOfHour } from 'date-fns-jalaali/esm/fp'
   export default endOfHour
 }
 
-declare module 'date-fns/esm/fp/endOfISOWeek/index' {
-  import { endOfISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfISOWeek/index' {
+  import { endOfISOWeek } from 'date-fns-jalaali/esm/fp'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/esm/fp/endOfISOWeekYear/index' {
-  import { endOfISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfISOWeekYear/index' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/endOfMinute/index' {
-  import { endOfMinute } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfMinute/index' {
+  import { endOfMinute } from 'date-fns-jalaali/esm/fp'
   export default endOfMinute
 }
 
-declare module 'date-fns/esm/fp/endOfMonth/index' {
-  import { endOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfMonth/index' {
+  import { endOfMonth } from 'date-fns-jalaali/esm/fp'
   export default endOfMonth
 }
 
-declare module 'date-fns/esm/fp/endOfQuarter/index' {
-  import { endOfQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfQuarter/index' {
+  import { endOfQuarter } from 'date-fns-jalaali/esm/fp'
   export default endOfQuarter
 }
 
-declare module 'date-fns/esm/fp/endOfSecond/index' {
-  import { endOfSecond } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfSecond/index' {
+  import { endOfSecond } from 'date-fns-jalaali/esm/fp'
   export default endOfSecond
 }
 
-declare module 'date-fns/esm/fp/endOfWeek/index' {
-  import { endOfWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfWeek/index' {
+  import { endOfWeek } from 'date-fns-jalaali/esm/fp'
   export default endOfWeek
 }
 
-declare module 'date-fns/esm/fp/endOfWeekWithOptions/index' {
-  import { endOfWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfWeekWithOptions/index' {
+  import { endOfWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default endOfWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/endOfYear/index' {
-  import { endOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfYear/index' {
+  import { endOfYear } from 'date-fns-jalaali/esm/fp'
   export default endOfYear
 }
 
-declare module 'date-fns/esm/fp/format/index' {
-  import { format } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/format/index' {
+  import { format } from 'date-fns-jalaali/esm/fp'
   export default format
 }
 
-declare module 'date-fns/esm/fp/formatDistance/index' {
-  import { formatDistance } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistance/index' {
+  import { formatDistance } from 'date-fns-jalaali/esm/fp'
   export default formatDistance
 }
 
-declare module 'date-fns/esm/fp/formatDistanceStrict/index' {
-  import { formatDistanceStrict } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistanceStrict/index' {
+  import { formatDistanceStrict } from 'date-fns-jalaali/esm/fp'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/esm/fp/formatDistanceStrictWithOptions/index' {
-  import { formatDistanceStrictWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistanceStrictWithOptions/index' {
+  import { formatDistanceStrictWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatDistanceStrictWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatDistanceWithOptions/index' {
-  import { formatDistanceWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistanceWithOptions/index' {
+  import { formatDistanceWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatDistanceWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatISO/index' {
-  import { formatISO } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISO/index' {
+  import { formatISO } from 'date-fns-jalaali/esm/fp'
   export default formatISO
 }
 
-declare module 'date-fns/esm/fp/formatISO9075/index' {
-  import { formatISO9075 } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISO9075/index' {
+  import { formatISO9075 } from 'date-fns-jalaali/esm/fp'
   export default formatISO9075
 }
 
-declare module 'date-fns/esm/fp/formatISO9075WithOptions/index' {
-  import { formatISO9075WithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISO9075WithOptions/index' {
+  import { formatISO9075WithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatISO9075WithOptions
 }
 
-declare module 'date-fns/esm/fp/formatISODuration/index' {
-  import { formatISODuration } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISODuration/index' {
+  import { formatISODuration } from 'date-fns-jalaali/esm/fp'
   export default formatISODuration
 }
 
-declare module 'date-fns/esm/fp/formatISOWithOptions/index' {
-  import { formatISOWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISOWithOptions/index' {
+  import { formatISOWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatISOWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatRelative/index' {
-  import { formatRelative } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRelative/index' {
+  import { formatRelative } from 'date-fns-jalaali/esm/fp'
   export default formatRelative
 }
 
-declare module 'date-fns/esm/fp/formatRelativeWithOptions/index' {
-  import { formatRelativeWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRelativeWithOptions/index' {
+  import { formatRelativeWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatRelativeWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatRFC3339/index' {
-  import { formatRFC3339 } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRFC3339/index' {
+  import { formatRFC3339 } from 'date-fns-jalaali/esm/fp'
   export default formatRFC3339
 }
 
-declare module 'date-fns/esm/fp/formatRFC3339WithOptions/index' {
-  import { formatRFC3339WithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRFC3339WithOptions/index' {
+  import { formatRFC3339WithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatRFC3339WithOptions
 }
 
-declare module 'date-fns/esm/fp/formatRFC7231/index' {
-  import { formatRFC7231 } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRFC7231/index' {
+  import { formatRFC7231 } from 'date-fns-jalaali/esm/fp'
   export default formatRFC7231
 }
 
-declare module 'date-fns/esm/fp/formatWithOptions/index' {
-  import { formatWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatWithOptions/index' {
+  import { formatWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatWithOptions
 }
 
-declare module 'date-fns/esm/fp/fromUnixTime/index' {
-  import { fromUnixTime } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/fromUnixTime/index' {
+  import { fromUnixTime } from 'date-fns-jalaali/esm/fp'
   export default fromUnixTime
 }
 
-declare module 'date-fns/esm/fp/getDate/index' {
-  import { getDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDate/index' {
+  import { getDate } from 'date-fns-jalaali/esm/fp'
   export default getDate
 }
 
-declare module 'date-fns/esm/fp/getDay/index' {
-  import { getDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDay/index' {
+  import { getDay } from 'date-fns-jalaali/esm/fp'
   export default getDay
 }
 
-declare module 'date-fns/esm/fp/getDayOfYear/index' {
-  import { getDayOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDayOfYear/index' {
+  import { getDayOfYear } from 'date-fns-jalaali/esm/fp'
   export default getDayOfYear
 }
 
-declare module 'date-fns/esm/fp/getDaysInMonth/index' {
-  import { getDaysInMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDaysInMonth/index' {
+  import { getDaysInMonth } from 'date-fns-jalaali/esm/fp'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/esm/fp/getDaysInYear/index' {
-  import { getDaysInYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDaysInYear/index' {
+  import { getDaysInYear } from 'date-fns-jalaali/esm/fp'
   export default getDaysInYear
 }
 
-declare module 'date-fns/esm/fp/getDecade/index' {
-  import { getDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDecade/index' {
+  import { getDecade } from 'date-fns-jalaali/esm/fp'
   export default getDecade
 }
 
-declare module 'date-fns/esm/fp/getHours/index' {
-  import { getHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getHours/index' {
+  import { getHours } from 'date-fns-jalaali/esm/fp'
   export default getHours
 }
 
-declare module 'date-fns/esm/fp/getISODay/index' {
-  import { getISODay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISODay/index' {
+  import { getISODay } from 'date-fns-jalaali/esm/fp'
   export default getISODay
 }
 
-declare module 'date-fns/esm/fp/getISOWeek/index' {
-  import { getISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISOWeek/index' {
+  import { getISOWeek } from 'date-fns-jalaali/esm/fp'
   export default getISOWeek
 }
 
-declare module 'date-fns/esm/fp/getISOWeeksInYear/index' {
-  import { getISOWeeksInYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISOWeeksInYear/index' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali/esm/fp'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/esm/fp/getISOWeekYear/index' {
-  import { getISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISOWeekYear/index' {
+  import { getISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/getMilliseconds/index' {
-  import { getMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getMilliseconds/index' {
+  import { getMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default getMilliseconds
 }
 
-declare module 'date-fns/esm/fp/getMinutes/index' {
-  import { getMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getMinutes/index' {
+  import { getMinutes } from 'date-fns-jalaali/esm/fp'
   export default getMinutes
 }
 
-declare module 'date-fns/esm/fp/getMonth/index' {
-  import { getMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getMonth/index' {
+  import { getMonth } from 'date-fns-jalaali/esm/fp'
   export default getMonth
 }
 
-declare module 'date-fns/esm/fp/getOverlappingDaysInIntervals/index' {
-  import { getOverlappingDaysInIntervals } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getOverlappingDaysInIntervals/index' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali/esm/fp'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/esm/fp/getQuarter/index' {
-  import { getQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getQuarter/index' {
+  import { getQuarter } from 'date-fns-jalaali/esm/fp'
   export default getQuarter
 }
 
-declare module 'date-fns/esm/fp/getSeconds/index' {
-  import { getSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getSeconds/index' {
+  import { getSeconds } from 'date-fns-jalaali/esm/fp'
   export default getSeconds
 }
 
-declare module 'date-fns/esm/fp/getTime/index' {
-  import { getTime } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getTime/index' {
+  import { getTime } from 'date-fns-jalaali/esm/fp'
   export default getTime
 }
 
-declare module 'date-fns/esm/fp/getUnixTime/index' {
-  import { getUnixTime } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getUnixTime/index' {
+  import { getUnixTime } from 'date-fns-jalaali/esm/fp'
   export default getUnixTime
 }
 
-declare module 'date-fns/esm/fp/getWeek/index' {
-  import { getWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeek/index' {
+  import { getWeek } from 'date-fns-jalaali/esm/fp'
   export default getWeek
 }
 
-declare module 'date-fns/esm/fp/getWeekOfMonth/index' {
-  import { getWeekOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekOfMonth/index' {
+  import { getWeekOfMonth } from 'date-fns-jalaali/esm/fp'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/esm/fp/getWeekOfMonthWithOptions/index' {
-  import { getWeekOfMonthWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekOfMonthWithOptions/index' {
+  import { getWeekOfMonthWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeekOfMonthWithOptions
 }
 
-declare module 'date-fns/esm/fp/getWeeksInMonth/index' {
-  import { getWeeksInMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeeksInMonth/index' {
+  import { getWeeksInMonth } from 'date-fns-jalaali/esm/fp'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/esm/fp/getWeeksInMonthWithOptions/index' {
-  import { getWeeksInMonthWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeeksInMonthWithOptions/index' {
+  import { getWeeksInMonthWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeeksInMonthWithOptions
 }
 
-declare module 'date-fns/esm/fp/getWeekWithOptions/index' {
-  import { getWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekWithOptions/index' {
+  import { getWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/getWeekYear/index' {
-  import { getWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekYear/index' {
+  import { getWeekYear } from 'date-fns-jalaali/esm/fp'
   export default getWeekYear
 }
 
-declare module 'date-fns/esm/fp/getWeekYearWithOptions/index' {
-  import { getWeekYearWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekYearWithOptions/index' {
+  import { getWeekYearWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeekYearWithOptions
 }
 
-declare module 'date-fns/esm/fp/getYear/index' {
-  import { getYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getYear/index' {
+  import { getYear } from 'date-fns-jalaali/esm/fp'
   export default getYear
 }
 
-declare module 'date-fns/esm/fp/intervalToDuration/index' {
-  import { intervalToDuration } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/intervalToDuration/index' {
+  import { intervalToDuration } from 'date-fns-jalaali/esm/fp'
   export default intervalToDuration
 }
 
-declare module 'date-fns/esm/fp/isAfter/index' {
-  import { isAfter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isAfter/index' {
+  import { isAfter } from 'date-fns-jalaali/esm/fp'
   export default isAfter
 }
 
-declare module 'date-fns/esm/fp/isBefore/index' {
-  import { isBefore } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isBefore/index' {
+  import { isBefore } from 'date-fns-jalaali/esm/fp'
   export default isBefore
 }
 
-declare module 'date-fns/esm/fp/isDate/index' {
-  import { isDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isDate/index' {
+  import { isDate } from 'date-fns-jalaali/esm/fp'
   export default isDate
 }
 
-declare module 'date-fns/esm/fp/isEqual/index' {
-  import { isEqual } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isEqual/index' {
+  import { isEqual } from 'date-fns-jalaali/esm/fp'
   export default isEqual
 }
 
-declare module 'date-fns/esm/fp/isExists/index' {
-  import { isExists } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isExists/index' {
+  import { isExists } from 'date-fns-jalaali/esm/fp'
   export default isExists
 }
 
-declare module 'date-fns/esm/fp/isFirstDayOfMonth/index' {
-  import { isFirstDayOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isFirstDayOfMonth/index' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali/esm/fp'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/esm/fp/isFriday/index' {
-  import { isFriday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isFriday/index' {
+  import { isFriday } from 'date-fns-jalaali/esm/fp'
   export default isFriday
 }
 
-declare module 'date-fns/esm/fp/isLastDayOfMonth/index' {
-  import { isLastDayOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isLastDayOfMonth/index' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali/esm/fp'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/esm/fp/isLeapYear/index' {
-  import { isLeapYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isLeapYear/index' {
+  import { isLeapYear } from 'date-fns-jalaali/esm/fp'
   export default isLeapYear
 }
 
-declare module 'date-fns/esm/fp/isMonday/index' {
-  import { isMonday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isMonday/index' {
+  import { isMonday } from 'date-fns-jalaali/esm/fp'
   export default isMonday
 }
 
-declare module 'date-fns/esm/fp/isSameDay/index' {
-  import { isSameDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameDay/index' {
+  import { isSameDay } from 'date-fns-jalaali/esm/fp'
   export default isSameDay
 }
 
-declare module 'date-fns/esm/fp/isSameHour/index' {
-  import { isSameHour } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameHour/index' {
+  import { isSameHour } from 'date-fns-jalaali/esm/fp'
   export default isSameHour
 }
 
-declare module 'date-fns/esm/fp/isSameISOWeek/index' {
-  import { isSameISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameISOWeek/index' {
+  import { isSameISOWeek } from 'date-fns-jalaali/esm/fp'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/esm/fp/isSameISOWeekYear/index' {
-  import { isSameISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameISOWeekYear/index' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/isSameMinute/index' {
-  import { isSameMinute } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameMinute/index' {
+  import { isSameMinute } from 'date-fns-jalaali/esm/fp'
   export default isSameMinute
 }
 
-declare module 'date-fns/esm/fp/isSameMonth/index' {
-  import { isSameMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameMonth/index' {
+  import { isSameMonth } from 'date-fns-jalaali/esm/fp'
   export default isSameMonth
 }
 
-declare module 'date-fns/esm/fp/isSameQuarter/index' {
-  import { isSameQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameQuarter/index' {
+  import { isSameQuarter } from 'date-fns-jalaali/esm/fp'
   export default isSameQuarter
 }
 
-declare module 'date-fns/esm/fp/isSameSecond/index' {
-  import { isSameSecond } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameSecond/index' {
+  import { isSameSecond } from 'date-fns-jalaali/esm/fp'
   export default isSameSecond
 }
 
-declare module 'date-fns/esm/fp/isSameWeek/index' {
-  import { isSameWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameWeek/index' {
+  import { isSameWeek } from 'date-fns-jalaali/esm/fp'
   export default isSameWeek
 }
 
-declare module 'date-fns/esm/fp/isSameWeekWithOptions/index' {
-  import { isSameWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameWeekWithOptions/index' {
+  import { isSameWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default isSameWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/isSameYear/index' {
-  import { isSameYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameYear/index' {
+  import { isSameYear } from 'date-fns-jalaali/esm/fp'
   export default isSameYear
 }
 
-declare module 'date-fns/esm/fp/isSaturday/index' {
-  import { isSaturday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSaturday/index' {
+  import { isSaturday } from 'date-fns-jalaali/esm/fp'
   export default isSaturday
 }
 
-declare module 'date-fns/esm/fp/isSunday/index' {
-  import { isSunday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSunday/index' {
+  import { isSunday } from 'date-fns-jalaali/esm/fp'
   export default isSunday
 }
 
-declare module 'date-fns/esm/fp/isThursday/index' {
-  import { isThursday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isThursday/index' {
+  import { isThursday } from 'date-fns-jalaali/esm/fp'
   export default isThursday
 }
 
-declare module 'date-fns/esm/fp/isTuesday/index' {
-  import { isTuesday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isTuesday/index' {
+  import { isTuesday } from 'date-fns-jalaali/esm/fp'
   export default isTuesday
 }
 
-declare module 'date-fns/esm/fp/isValid/index' {
-  import { isValid } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isValid/index' {
+  import { isValid } from 'date-fns-jalaali/esm/fp'
   export default isValid
 }
 
-declare module 'date-fns/esm/fp/isWednesday/index' {
-  import { isWednesday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isWednesday/index' {
+  import { isWednesday } from 'date-fns-jalaali/esm/fp'
   export default isWednesday
 }
 
-declare module 'date-fns/esm/fp/isWeekend/index' {
-  import { isWeekend } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isWeekend/index' {
+  import { isWeekend } from 'date-fns-jalaali/esm/fp'
   export default isWeekend
 }
 
-declare module 'date-fns/esm/fp/isWithinInterval/index' {
-  import { isWithinInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isWithinInterval/index' {
+  import { isWithinInterval } from 'date-fns-jalaali/esm/fp'
   export default isWithinInterval
 }
 
-declare module 'date-fns/esm/fp/lastDayOfDecade/index' {
-  import { lastDayOfDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfDecade/index' {
+  import { lastDayOfDecade } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/esm/fp/lastDayOfISOWeek/index' {
-  import { lastDayOfISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfISOWeek/index' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/esm/fp/lastDayOfISOWeekYear/index' {
-  import { lastDayOfISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfISOWeekYear/index' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/lastDayOfMonth/index' {
-  import { lastDayOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfMonth/index' {
+  import { lastDayOfMonth } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/esm/fp/lastDayOfQuarter/index' {
-  import { lastDayOfQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfQuarter/index' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/esm/fp/lastDayOfQuarterWithOptions/index' {
-  import { lastDayOfQuarterWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfQuarterWithOptions/index' {
+  import { lastDayOfQuarterWithOptions } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfQuarterWithOptions
 }
 
-declare module 'date-fns/esm/fp/lastDayOfWeek/index' {
-  import { lastDayOfWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfWeek/index' {
+  import { lastDayOfWeek } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/esm/fp/lastDayOfWeekWithOptions/index' {
-  import { lastDayOfWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfWeekWithOptions/index' {
+  import { lastDayOfWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/lastDayOfYear/index' {
-  import { lastDayOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfYear/index' {
+  import { lastDayOfYear } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/esm/fp/lightFormat/index' {
-  import { lightFormat } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lightFormat/index' {
+  import { lightFormat } from 'date-fns-jalaali/esm/fp'
   export default lightFormat
 }
 
-declare module 'date-fns/esm/fp/max/index' {
-  import { max } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/max/index' {
+  import { max } from 'date-fns-jalaali/esm/fp'
   export default max
 }
 
-declare module 'date-fns/esm/fp/min/index' {
-  import { min } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/min/index' {
+  import { min } from 'date-fns-jalaali/esm/fp'
   export default min
 }
 
-declare module 'date-fns/esm/fp/parse/index' {
-  import { parse } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parse/index' {
+  import { parse } from 'date-fns-jalaali/esm/fp'
   export default parse
 }
 
-declare module 'date-fns/esm/fp/parseISO/index' {
-  import { parseISO } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseISO/index' {
+  import { parseISO } from 'date-fns-jalaali/esm/fp'
   export default parseISO
 }
 
-declare module 'date-fns/esm/fp/parseISOWithOptions/index' {
-  import { parseISOWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseISOWithOptions/index' {
+  import { parseISOWithOptions } from 'date-fns-jalaali/esm/fp'
   export default parseISOWithOptions
 }
 
-declare module 'date-fns/esm/fp/parseJSON/index' {
-  import { parseJSON } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseJSON/index' {
+  import { parseJSON } from 'date-fns-jalaali/esm/fp'
   export default parseJSON
 }
 
-declare module 'date-fns/esm/fp/parseWithOptions/index' {
-  import { parseWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseWithOptions/index' {
+  import { parseWithOptions } from 'date-fns-jalaali/esm/fp'
   export default parseWithOptions
 }
 
-declare module 'date-fns/esm/fp/roundToNearestMinutes/index' {
-  import { roundToNearestMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/roundToNearestMinutes/index' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali/esm/fp'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/esm/fp/roundToNearestMinutesWithOptions/index' {
-  import { roundToNearestMinutesWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/roundToNearestMinutesWithOptions/index' {
+  import { roundToNearestMinutesWithOptions } from 'date-fns-jalaali/esm/fp'
   export default roundToNearestMinutesWithOptions
 }
 
-declare module 'date-fns/esm/fp/set/index' {
-  import { set } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/set/index' {
+  import { set } from 'date-fns-jalaali/esm/fp'
   export default set
 }
 
-declare module 'date-fns/esm/fp/setDate/index' {
-  import { setDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDate/index' {
+  import { setDate } from 'date-fns-jalaali/esm/fp'
   export default setDate
 }
 
-declare module 'date-fns/esm/fp/setDay/index' {
-  import { setDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDay/index' {
+  import { setDay } from 'date-fns-jalaali/esm/fp'
   export default setDay
 }
 
-declare module 'date-fns/esm/fp/setDayOfYear/index' {
-  import { setDayOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDayOfYear/index' {
+  import { setDayOfYear } from 'date-fns-jalaali/esm/fp'
   export default setDayOfYear
 }
 
-declare module 'date-fns/esm/fp/setDayWithOptions/index' {
-  import { setDayWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDayWithOptions/index' {
+  import { setDayWithOptions } from 'date-fns-jalaali/esm/fp'
   export default setDayWithOptions
 }
 
-declare module 'date-fns/esm/fp/setHours/index' {
-  import { setHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setHours/index' {
+  import { setHours } from 'date-fns-jalaali/esm/fp'
   export default setHours
 }
 
-declare module 'date-fns/esm/fp/setISODay/index' {
-  import { setISODay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setISODay/index' {
+  import { setISODay } from 'date-fns-jalaali/esm/fp'
   export default setISODay
 }
 
-declare module 'date-fns/esm/fp/setISOWeek/index' {
-  import { setISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setISOWeek/index' {
+  import { setISOWeek } from 'date-fns-jalaali/esm/fp'
   export default setISOWeek
 }
 
-declare module 'date-fns/esm/fp/setISOWeekYear/index' {
-  import { setISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setISOWeekYear/index' {
+  import { setISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/setMilliseconds/index' {
-  import { setMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setMilliseconds/index' {
+  import { setMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default setMilliseconds
 }
 
-declare module 'date-fns/esm/fp/setMinutes/index' {
-  import { setMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setMinutes/index' {
+  import { setMinutes } from 'date-fns-jalaali/esm/fp'
   export default setMinutes
 }
 
-declare module 'date-fns/esm/fp/setMonth/index' {
-  import { setMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setMonth/index' {
+  import { setMonth } from 'date-fns-jalaali/esm/fp'
   export default setMonth
 }
 
-declare module 'date-fns/esm/fp/setQuarter/index' {
-  import { setQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setQuarter/index' {
+  import { setQuarter } from 'date-fns-jalaali/esm/fp'
   export default setQuarter
 }
 
-declare module 'date-fns/esm/fp/setSeconds/index' {
-  import { setSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setSeconds/index' {
+  import { setSeconds } from 'date-fns-jalaali/esm/fp'
   export default setSeconds
 }
 
-declare module 'date-fns/esm/fp/setWeek/index' {
-  import { setWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeek/index' {
+  import { setWeek } from 'date-fns-jalaali/esm/fp'
   export default setWeek
 }
 
-declare module 'date-fns/esm/fp/setWeekWithOptions/index' {
-  import { setWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeekWithOptions/index' {
+  import { setWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default setWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/setWeekYear/index' {
-  import { setWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeekYear/index' {
+  import { setWeekYear } from 'date-fns-jalaali/esm/fp'
   export default setWeekYear
 }
 
-declare module 'date-fns/esm/fp/setWeekYearWithOptions/index' {
-  import { setWeekYearWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeekYearWithOptions/index' {
+  import { setWeekYearWithOptions } from 'date-fns-jalaali/esm/fp'
   export default setWeekYearWithOptions
 }
 
-declare module 'date-fns/esm/fp/setYear/index' {
-  import { setYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setYear/index' {
+  import { setYear } from 'date-fns-jalaali/esm/fp'
   export default setYear
 }
 
-declare module 'date-fns/esm/fp/startOfDay/index' {
-  import { startOfDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfDay/index' {
+  import { startOfDay } from 'date-fns-jalaali/esm/fp'
   export default startOfDay
 }
 
-declare module 'date-fns/esm/fp/startOfDecade/index' {
-  import { startOfDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfDecade/index' {
+  import { startOfDecade } from 'date-fns-jalaali/esm/fp'
   export default startOfDecade
 }
 
-declare module 'date-fns/esm/fp/startOfHour/index' {
-  import { startOfHour } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfHour/index' {
+  import { startOfHour } from 'date-fns-jalaali/esm/fp'
   export default startOfHour
 }
 
-declare module 'date-fns/esm/fp/startOfISOWeek/index' {
-  import { startOfISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfISOWeek/index' {
+  import { startOfISOWeek } from 'date-fns-jalaali/esm/fp'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/esm/fp/startOfISOWeekYear/index' {
-  import { startOfISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfISOWeekYear/index' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/startOfMinute/index' {
-  import { startOfMinute } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfMinute/index' {
+  import { startOfMinute } from 'date-fns-jalaali/esm/fp'
   export default startOfMinute
 }
 
-declare module 'date-fns/esm/fp/startOfMonth/index' {
-  import { startOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfMonth/index' {
+  import { startOfMonth } from 'date-fns-jalaali/esm/fp'
   export default startOfMonth
 }
 
-declare module 'date-fns/esm/fp/startOfQuarter/index' {
-  import { startOfQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfQuarter/index' {
+  import { startOfQuarter } from 'date-fns-jalaali/esm/fp'
   export default startOfQuarter
 }
 
-declare module 'date-fns/esm/fp/startOfSecond/index' {
-  import { startOfSecond } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfSecond/index' {
+  import { startOfSecond } from 'date-fns-jalaali/esm/fp'
   export default startOfSecond
 }
 
-declare module 'date-fns/esm/fp/startOfWeek/index' {
-  import { startOfWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeek/index' {
+  import { startOfWeek } from 'date-fns-jalaali/esm/fp'
   export default startOfWeek
 }
 
-declare module 'date-fns/esm/fp/startOfWeekWithOptions/index' {
-  import { startOfWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeekWithOptions/index' {
+  import { startOfWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default startOfWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/startOfWeekYear/index' {
-  import { startOfWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeekYear/index' {
+  import { startOfWeekYear } from 'date-fns-jalaali/esm/fp'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/esm/fp/startOfWeekYearWithOptions/index' {
-  import { startOfWeekYearWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeekYearWithOptions/index' {
+  import { startOfWeekYearWithOptions } from 'date-fns-jalaali/esm/fp'
   export default startOfWeekYearWithOptions
 }
 
-declare module 'date-fns/esm/fp/startOfYear/index' {
-  import { startOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfYear/index' {
+  import { startOfYear } from 'date-fns-jalaali/esm/fp'
   export default startOfYear
 }
 
-declare module 'date-fns/esm/fp/sub/index' {
-  import { sub } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/sub/index' {
+  import { sub } from 'date-fns-jalaali/esm/fp'
   export default sub
 }
 
-declare module 'date-fns/esm/fp/subBusinessDays/index' {
-  import { subBusinessDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subBusinessDays/index' {
+  import { subBusinessDays } from 'date-fns-jalaali/esm/fp'
   export default subBusinessDays
 }
 
-declare module 'date-fns/esm/fp/subDays/index' {
-  import { subDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subDays/index' {
+  import { subDays } from 'date-fns-jalaali/esm/fp'
   export default subDays
 }
 
-declare module 'date-fns/esm/fp/subHours/index' {
-  import { subHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subHours/index' {
+  import { subHours } from 'date-fns-jalaali/esm/fp'
   export default subHours
 }
 
-declare module 'date-fns/esm/fp/subISOWeekYears/index' {
-  import { subISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subISOWeekYears/index' {
+  import { subISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/subMilliseconds/index' {
-  import { subMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subMilliseconds/index' {
+  import { subMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default subMilliseconds
 }
 
-declare module 'date-fns/esm/fp/subMinutes/index' {
-  import { subMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subMinutes/index' {
+  import { subMinutes } from 'date-fns-jalaali/esm/fp'
   export default subMinutes
 }
 
-declare module 'date-fns/esm/fp/subMonths/index' {
-  import { subMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subMonths/index' {
+  import { subMonths } from 'date-fns-jalaali/esm/fp'
   export default subMonths
 }
 
-declare module 'date-fns/esm/fp/subQuarters/index' {
-  import { subQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subQuarters/index' {
+  import { subQuarters } from 'date-fns-jalaali/esm/fp'
   export default subQuarters
 }
 
-declare module 'date-fns/esm/fp/subSeconds/index' {
-  import { subSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subSeconds/index' {
+  import { subSeconds } from 'date-fns-jalaali/esm/fp'
   export default subSeconds
 }
 
-declare module 'date-fns/esm/fp/subWeeks/index' {
-  import { subWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subWeeks/index' {
+  import { subWeeks } from 'date-fns-jalaali/esm/fp'
   export default subWeeks
 }
 
-declare module 'date-fns/esm/fp/subYears/index' {
-  import { subYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subYears/index' {
+  import { subYears } from 'date-fns-jalaali/esm/fp'
   export default subYears
 }
 
-declare module 'date-fns/esm/fp/toDate/index' {
-  import { toDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/toDate/index' {
+  import { toDate } from 'date-fns-jalaali/esm/fp'
   export default toDate
 }
 
-declare module 'date-fns/esm/fp/add/index.js' {
-  import { add } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/add/index.js' {
+  import { add } from 'date-fns-jalaali/esm/fp'
   export default add
 }
 
-declare module 'date-fns/esm/fp/addBusinessDays/index.js' {
-  import { addBusinessDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addBusinessDays/index.js' {
+  import { addBusinessDays } from 'date-fns-jalaali/esm/fp'
   export default addBusinessDays
 }
 
-declare module 'date-fns/esm/fp/addDays/index.js' {
-  import { addDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addDays/index.js' {
+  import { addDays } from 'date-fns-jalaali/esm/fp'
   export default addDays
 }
 
-declare module 'date-fns/esm/fp/addHours/index.js' {
-  import { addHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addHours/index.js' {
+  import { addHours } from 'date-fns-jalaali/esm/fp'
   export default addHours
 }
 
-declare module 'date-fns/esm/fp/addISOWeekYears/index.js' {
-  import { addISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addISOWeekYears/index.js' {
+  import { addISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default addISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/addMilliseconds/index.js' {
-  import { addMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addMilliseconds/index.js' {
+  import { addMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default addMilliseconds
 }
 
-declare module 'date-fns/esm/fp/addMinutes/index.js' {
-  import { addMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addMinutes/index.js' {
+  import { addMinutes } from 'date-fns-jalaali/esm/fp'
   export default addMinutes
 }
 
-declare module 'date-fns/esm/fp/addMonths/index.js' {
-  import { addMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addMonths/index.js' {
+  import { addMonths } from 'date-fns-jalaali/esm/fp'
   export default addMonths
 }
 
-declare module 'date-fns/esm/fp/addQuarters/index.js' {
-  import { addQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addQuarters/index.js' {
+  import { addQuarters } from 'date-fns-jalaali/esm/fp'
   export default addQuarters
 }
 
-declare module 'date-fns/esm/fp/addSeconds/index.js' {
-  import { addSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addSeconds/index.js' {
+  import { addSeconds } from 'date-fns-jalaali/esm/fp'
   export default addSeconds
 }
 
-declare module 'date-fns/esm/fp/addWeeks/index.js' {
-  import { addWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addWeeks/index.js' {
+  import { addWeeks } from 'date-fns-jalaali/esm/fp'
   export default addWeeks
 }
 
-declare module 'date-fns/esm/fp/addYears/index.js' {
-  import { addYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/addYears/index.js' {
+  import { addYears } from 'date-fns-jalaali/esm/fp'
   export default addYears
 }
 
-declare module 'date-fns/esm/fp/areIntervalsOverlapping/index.js' {
-  import { areIntervalsOverlapping } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/areIntervalsOverlapping/index.js' {
+  import { areIntervalsOverlapping } from 'date-fns-jalaali/esm/fp'
   export default areIntervalsOverlapping
 }
 
-declare module 'date-fns/esm/fp/areIntervalsOverlappingWithOptions/index.js' {
-  import { areIntervalsOverlappingWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/areIntervalsOverlappingWithOptions/index.js' {
+  import { areIntervalsOverlappingWithOptions } from 'date-fns-jalaali/esm/fp'
   export default areIntervalsOverlappingWithOptions
 }
 
-declare module 'date-fns/esm/fp/closestIndexTo/index.js' {
-  import { closestIndexTo } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/closestIndexTo/index.js' {
+  import { closestIndexTo } from 'date-fns-jalaali/esm/fp'
   export default closestIndexTo
 }
 
-declare module 'date-fns/esm/fp/closestTo/index.js' {
-  import { closestTo } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/closestTo/index.js' {
+  import { closestTo } from 'date-fns-jalaali/esm/fp'
   export default closestTo
 }
 
-declare module 'date-fns/esm/fp/compareAsc/index.js' {
-  import { compareAsc } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/compareAsc/index.js' {
+  import { compareAsc } from 'date-fns-jalaali/esm/fp'
   export default compareAsc
 }
 
-declare module 'date-fns/esm/fp/compareDesc/index.js' {
-  import { compareDesc } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/compareDesc/index.js' {
+  import { compareDesc } from 'date-fns-jalaali/esm/fp'
   export default compareDesc
 }
 
-declare module 'date-fns/esm/fp/differenceInBusinessDays/index.js' {
-  import { differenceInBusinessDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInBusinessDays/index.js' {
+  import { differenceInBusinessDays } from 'date-fns-jalaali/esm/fp'
   export default differenceInBusinessDays
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarDays/index.js' {
-  import { differenceInCalendarDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarDays/index.js' {
+  import { differenceInCalendarDays } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarDays
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarISOWeeks/index.js' {
-  import { differenceInCalendarISOWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarISOWeeks/index.js' {
+  import { differenceInCalendarISOWeeks } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarISOWeeks
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarISOWeekYears/index.js' {
-  import { differenceInCalendarISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarISOWeekYears/index.js' {
+  import { differenceInCalendarISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarMonths/index.js' {
-  import { differenceInCalendarMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarMonths/index.js' {
+  import { differenceInCalendarMonths } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarMonths
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarQuarters/index.js' {
-  import { differenceInCalendarQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarQuarters/index.js' {
+  import { differenceInCalendarQuarters } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarQuarters
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarWeeks/index.js' {
-  import { differenceInCalendarWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarWeeks/index.js' {
+  import { differenceInCalendarWeeks } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarWeeks
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarWeeksWithOptions/index.js' {
-  import { differenceInCalendarWeeksWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarWeeksWithOptions/index.js' {
+  import { differenceInCalendarWeeksWithOptions } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarWeeksWithOptions
 }
 
-declare module 'date-fns/esm/fp/differenceInCalendarYears/index.js' {
-  import { differenceInCalendarYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInCalendarYears/index.js' {
+  import { differenceInCalendarYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInCalendarYears
 }
 
-declare module 'date-fns/esm/fp/differenceInDays/index.js' {
-  import { differenceInDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInDays/index.js' {
+  import { differenceInDays } from 'date-fns-jalaali/esm/fp'
   export default differenceInDays
 }
 
-declare module 'date-fns/esm/fp/differenceInHours/index.js' {
-  import { differenceInHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInHours/index.js' {
+  import { differenceInHours } from 'date-fns-jalaali/esm/fp'
   export default differenceInHours
 }
 
-declare module 'date-fns/esm/fp/differenceInISOWeekYears/index.js' {
-  import { differenceInISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInISOWeekYears/index.js' {
+  import { differenceInISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/differenceInMilliseconds/index.js' {
-  import { differenceInMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInMilliseconds/index.js' {
+  import { differenceInMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default differenceInMilliseconds
 }
 
-declare module 'date-fns/esm/fp/differenceInMinutes/index.js' {
-  import { differenceInMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInMinutes/index.js' {
+  import { differenceInMinutes } from 'date-fns-jalaali/esm/fp'
   export default differenceInMinutes
 }
 
-declare module 'date-fns/esm/fp/differenceInMonths/index.js' {
-  import { differenceInMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInMonths/index.js' {
+  import { differenceInMonths } from 'date-fns-jalaali/esm/fp'
   export default differenceInMonths
 }
 
-declare module 'date-fns/esm/fp/differenceInQuarters/index.js' {
-  import { differenceInQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInQuarters/index.js' {
+  import { differenceInQuarters } from 'date-fns-jalaali/esm/fp'
   export default differenceInQuarters
 }
 
-declare module 'date-fns/esm/fp/differenceInSeconds/index.js' {
-  import { differenceInSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInSeconds/index.js' {
+  import { differenceInSeconds } from 'date-fns-jalaali/esm/fp'
   export default differenceInSeconds
 }
 
-declare module 'date-fns/esm/fp/differenceInWeeks/index.js' {
-  import { differenceInWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInWeeks/index.js' {
+  import { differenceInWeeks } from 'date-fns-jalaali/esm/fp'
   export default differenceInWeeks
 }
 
-declare module 'date-fns/esm/fp/differenceInYears/index.js' {
-  import { differenceInYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/differenceInYears/index.js' {
+  import { differenceInYears } from 'date-fns-jalaali/esm/fp'
   export default differenceInYears
 }
 
-declare module 'date-fns/esm/fp/eachDayOfInterval/index.js' {
-  import { eachDayOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachDayOfInterval/index.js' {
+  import { eachDayOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachDayOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachDayOfIntervalWithOptions/index.js' {
-  import { eachDayOfIntervalWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachDayOfIntervalWithOptions/index.js' {
+  import { eachDayOfIntervalWithOptions } from 'date-fns-jalaali/esm/fp'
   export default eachDayOfIntervalWithOptions
 }
 
-declare module 'date-fns/esm/fp/eachMonthOfInterval/index.js' {
-  import { eachMonthOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachMonthOfInterval/index.js' {
+  import { eachMonthOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachMonthOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachWeekendOfInterval/index.js' {
-  import { eachWeekendOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekendOfInterval/index.js' {
+  import { eachWeekendOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachWeekendOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachWeekendOfMonth/index.js' {
-  import { eachWeekendOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekendOfMonth/index.js' {
+  import { eachWeekendOfMonth } from 'date-fns-jalaali/esm/fp'
   export default eachWeekendOfMonth
 }
 
-declare module 'date-fns/esm/fp/eachWeekendOfYear/index.js' {
-  import { eachWeekendOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekendOfYear/index.js' {
+  import { eachWeekendOfYear } from 'date-fns-jalaali/esm/fp'
   export default eachWeekendOfYear
 }
 
-declare module 'date-fns/esm/fp/eachWeekOfInterval/index.js' {
-  import { eachWeekOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekOfInterval/index.js' {
+  import { eachWeekOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachWeekOfInterval
 }
 
-declare module 'date-fns/esm/fp/eachWeekOfIntervalWithOptions/index.js' {
-  import { eachWeekOfIntervalWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachWeekOfIntervalWithOptions/index.js' {
+  import { eachWeekOfIntervalWithOptions } from 'date-fns-jalaali/esm/fp'
   export default eachWeekOfIntervalWithOptions
 }
 
-declare module 'date-fns/esm/fp/eachYearOfInterval/index.js' {
-  import { eachYearOfInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/eachYearOfInterval/index.js' {
+  import { eachYearOfInterval } from 'date-fns-jalaali/esm/fp'
   export default eachYearOfInterval
 }
 
-declare module 'date-fns/esm/fp/endOfDay/index.js' {
-  import { endOfDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfDay/index.js' {
+  import { endOfDay } from 'date-fns-jalaali/esm/fp'
   export default endOfDay
 }
 
-declare module 'date-fns/esm/fp/endOfDecade/index.js' {
-  import { endOfDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfDecade/index.js' {
+  import { endOfDecade } from 'date-fns-jalaali/esm/fp'
   export default endOfDecade
 }
 
-declare module 'date-fns/esm/fp/endOfDecadeWithOptions/index.js' {
-  import { endOfDecadeWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfDecadeWithOptions/index.js' {
+  import { endOfDecadeWithOptions } from 'date-fns-jalaali/esm/fp'
   export default endOfDecadeWithOptions
 }
 
-declare module 'date-fns/esm/fp/endOfHour/index.js' {
-  import { endOfHour } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfHour/index.js' {
+  import { endOfHour } from 'date-fns-jalaali/esm/fp'
   export default endOfHour
 }
 
-declare module 'date-fns/esm/fp/endOfISOWeek/index.js' {
-  import { endOfISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfISOWeek/index.js' {
+  import { endOfISOWeek } from 'date-fns-jalaali/esm/fp'
   export default endOfISOWeek
 }
 
-declare module 'date-fns/esm/fp/endOfISOWeekYear/index.js' {
-  import { endOfISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfISOWeekYear/index.js' {
+  import { endOfISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default endOfISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/endOfMinute/index.js' {
-  import { endOfMinute } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfMinute/index.js' {
+  import { endOfMinute } from 'date-fns-jalaali/esm/fp'
   export default endOfMinute
 }
 
-declare module 'date-fns/esm/fp/endOfMonth/index.js' {
-  import { endOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfMonth/index.js' {
+  import { endOfMonth } from 'date-fns-jalaali/esm/fp'
   export default endOfMonth
 }
 
-declare module 'date-fns/esm/fp/endOfQuarter/index.js' {
-  import { endOfQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfQuarter/index.js' {
+  import { endOfQuarter } from 'date-fns-jalaali/esm/fp'
   export default endOfQuarter
 }
 
-declare module 'date-fns/esm/fp/endOfSecond/index.js' {
-  import { endOfSecond } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfSecond/index.js' {
+  import { endOfSecond } from 'date-fns-jalaali/esm/fp'
   export default endOfSecond
 }
 
-declare module 'date-fns/esm/fp/endOfWeek/index.js' {
-  import { endOfWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfWeek/index.js' {
+  import { endOfWeek } from 'date-fns-jalaali/esm/fp'
   export default endOfWeek
 }
 
-declare module 'date-fns/esm/fp/endOfWeekWithOptions/index.js' {
-  import { endOfWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfWeekWithOptions/index.js' {
+  import { endOfWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default endOfWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/endOfYear/index.js' {
-  import { endOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/endOfYear/index.js' {
+  import { endOfYear } from 'date-fns-jalaali/esm/fp'
   export default endOfYear
 }
 
-declare module 'date-fns/esm/fp/format/index.js' {
-  import { format } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/format/index.js' {
+  import { format } from 'date-fns-jalaali/esm/fp'
   export default format
 }
 
-declare module 'date-fns/esm/fp/formatDistance/index.js' {
-  import { formatDistance } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistance/index.js' {
+  import { formatDistance } from 'date-fns-jalaali/esm/fp'
   export default formatDistance
 }
 
-declare module 'date-fns/esm/fp/formatDistanceStrict/index.js' {
-  import { formatDistanceStrict } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistanceStrict/index.js' {
+  import { formatDistanceStrict } from 'date-fns-jalaali/esm/fp'
   export default formatDistanceStrict
 }
 
-declare module 'date-fns/esm/fp/formatDistanceStrictWithOptions/index.js' {
-  import { formatDistanceStrictWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistanceStrictWithOptions/index.js' {
+  import { formatDistanceStrictWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatDistanceStrictWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatDistanceWithOptions/index.js' {
-  import { formatDistanceWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatDistanceWithOptions/index.js' {
+  import { formatDistanceWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatDistanceWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatISO/index.js' {
-  import { formatISO } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISO/index.js' {
+  import { formatISO } from 'date-fns-jalaali/esm/fp'
   export default formatISO
 }
 
-declare module 'date-fns/esm/fp/formatISO9075/index.js' {
-  import { formatISO9075 } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISO9075/index.js' {
+  import { formatISO9075 } from 'date-fns-jalaali/esm/fp'
   export default formatISO9075
 }
 
-declare module 'date-fns/esm/fp/formatISO9075WithOptions/index.js' {
-  import { formatISO9075WithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISO9075WithOptions/index.js' {
+  import { formatISO9075WithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatISO9075WithOptions
 }
 
-declare module 'date-fns/esm/fp/formatISODuration/index.js' {
-  import { formatISODuration } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISODuration/index.js' {
+  import { formatISODuration } from 'date-fns-jalaali/esm/fp'
   export default formatISODuration
 }
 
-declare module 'date-fns/esm/fp/formatISOWithOptions/index.js' {
-  import { formatISOWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatISOWithOptions/index.js' {
+  import { formatISOWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatISOWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatRelative/index.js' {
-  import { formatRelative } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRelative/index.js' {
+  import { formatRelative } from 'date-fns-jalaali/esm/fp'
   export default formatRelative
 }
 
-declare module 'date-fns/esm/fp/formatRelativeWithOptions/index.js' {
-  import { formatRelativeWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRelativeWithOptions/index.js' {
+  import { formatRelativeWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatRelativeWithOptions
 }
 
-declare module 'date-fns/esm/fp/formatRFC3339/index.js' {
-  import { formatRFC3339 } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRFC3339/index.js' {
+  import { formatRFC3339 } from 'date-fns-jalaali/esm/fp'
   export default formatRFC3339
 }
 
-declare module 'date-fns/esm/fp/formatRFC3339WithOptions/index.js' {
-  import { formatRFC3339WithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRFC3339WithOptions/index.js' {
+  import { formatRFC3339WithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatRFC3339WithOptions
 }
 
-declare module 'date-fns/esm/fp/formatRFC7231/index.js' {
-  import { formatRFC7231 } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatRFC7231/index.js' {
+  import { formatRFC7231 } from 'date-fns-jalaali/esm/fp'
   export default formatRFC7231
 }
 
-declare module 'date-fns/esm/fp/formatWithOptions/index.js' {
-  import { formatWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/formatWithOptions/index.js' {
+  import { formatWithOptions } from 'date-fns-jalaali/esm/fp'
   export default formatWithOptions
 }
 
-declare module 'date-fns/esm/fp/fromUnixTime/index.js' {
-  import { fromUnixTime } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/fromUnixTime/index.js' {
+  import { fromUnixTime } from 'date-fns-jalaali/esm/fp'
   export default fromUnixTime
 }
 
-declare module 'date-fns/esm/fp/getDate/index.js' {
-  import { getDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDate/index.js' {
+  import { getDate } from 'date-fns-jalaali/esm/fp'
   export default getDate
 }
 
-declare module 'date-fns/esm/fp/getDay/index.js' {
-  import { getDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDay/index.js' {
+  import { getDay } from 'date-fns-jalaali/esm/fp'
   export default getDay
 }
 
-declare module 'date-fns/esm/fp/getDayOfYear/index.js' {
-  import { getDayOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDayOfYear/index.js' {
+  import { getDayOfYear } from 'date-fns-jalaali/esm/fp'
   export default getDayOfYear
 }
 
-declare module 'date-fns/esm/fp/getDaysInMonth/index.js' {
-  import { getDaysInMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDaysInMonth/index.js' {
+  import { getDaysInMonth } from 'date-fns-jalaali/esm/fp'
   export default getDaysInMonth
 }
 
-declare module 'date-fns/esm/fp/getDaysInYear/index.js' {
-  import { getDaysInYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDaysInYear/index.js' {
+  import { getDaysInYear } from 'date-fns-jalaali/esm/fp'
   export default getDaysInYear
 }
 
-declare module 'date-fns/esm/fp/getDecade/index.js' {
-  import { getDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getDecade/index.js' {
+  import { getDecade } from 'date-fns-jalaali/esm/fp'
   export default getDecade
 }
 
-declare module 'date-fns/esm/fp/getHours/index.js' {
-  import { getHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getHours/index.js' {
+  import { getHours } from 'date-fns-jalaali/esm/fp'
   export default getHours
 }
 
-declare module 'date-fns/esm/fp/getISODay/index.js' {
-  import { getISODay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISODay/index.js' {
+  import { getISODay } from 'date-fns-jalaali/esm/fp'
   export default getISODay
 }
 
-declare module 'date-fns/esm/fp/getISOWeek/index.js' {
-  import { getISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISOWeek/index.js' {
+  import { getISOWeek } from 'date-fns-jalaali/esm/fp'
   export default getISOWeek
 }
 
-declare module 'date-fns/esm/fp/getISOWeeksInYear/index.js' {
-  import { getISOWeeksInYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISOWeeksInYear/index.js' {
+  import { getISOWeeksInYear } from 'date-fns-jalaali/esm/fp'
   export default getISOWeeksInYear
 }
 
-declare module 'date-fns/esm/fp/getISOWeekYear/index.js' {
-  import { getISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getISOWeekYear/index.js' {
+  import { getISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default getISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/getMilliseconds/index.js' {
-  import { getMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getMilliseconds/index.js' {
+  import { getMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default getMilliseconds
 }
 
-declare module 'date-fns/esm/fp/getMinutes/index.js' {
-  import { getMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getMinutes/index.js' {
+  import { getMinutes } from 'date-fns-jalaali/esm/fp'
   export default getMinutes
 }
 
-declare module 'date-fns/esm/fp/getMonth/index.js' {
-  import { getMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getMonth/index.js' {
+  import { getMonth } from 'date-fns-jalaali/esm/fp'
   export default getMonth
 }
 
-declare module 'date-fns/esm/fp/getOverlappingDaysInIntervals/index.js' {
-  import { getOverlappingDaysInIntervals } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getOverlappingDaysInIntervals/index.js' {
+  import { getOverlappingDaysInIntervals } from 'date-fns-jalaali/esm/fp'
   export default getOverlappingDaysInIntervals
 }
 
-declare module 'date-fns/esm/fp/getQuarter/index.js' {
-  import { getQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getQuarter/index.js' {
+  import { getQuarter } from 'date-fns-jalaali/esm/fp'
   export default getQuarter
 }
 
-declare module 'date-fns/esm/fp/getSeconds/index.js' {
-  import { getSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getSeconds/index.js' {
+  import { getSeconds } from 'date-fns-jalaali/esm/fp'
   export default getSeconds
 }
 
-declare module 'date-fns/esm/fp/getTime/index.js' {
-  import { getTime } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getTime/index.js' {
+  import { getTime } from 'date-fns-jalaali/esm/fp'
   export default getTime
 }
 
-declare module 'date-fns/esm/fp/getUnixTime/index.js' {
-  import { getUnixTime } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getUnixTime/index.js' {
+  import { getUnixTime } from 'date-fns-jalaali/esm/fp'
   export default getUnixTime
 }
 
-declare module 'date-fns/esm/fp/getWeek/index.js' {
-  import { getWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeek/index.js' {
+  import { getWeek } from 'date-fns-jalaali/esm/fp'
   export default getWeek
 }
 
-declare module 'date-fns/esm/fp/getWeekOfMonth/index.js' {
-  import { getWeekOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekOfMonth/index.js' {
+  import { getWeekOfMonth } from 'date-fns-jalaali/esm/fp'
   export default getWeekOfMonth
 }
 
-declare module 'date-fns/esm/fp/getWeekOfMonthWithOptions/index.js' {
-  import { getWeekOfMonthWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekOfMonthWithOptions/index.js' {
+  import { getWeekOfMonthWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeekOfMonthWithOptions
 }
 
-declare module 'date-fns/esm/fp/getWeeksInMonth/index.js' {
-  import { getWeeksInMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeeksInMonth/index.js' {
+  import { getWeeksInMonth } from 'date-fns-jalaali/esm/fp'
   export default getWeeksInMonth
 }
 
-declare module 'date-fns/esm/fp/getWeeksInMonthWithOptions/index.js' {
-  import { getWeeksInMonthWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeeksInMonthWithOptions/index.js' {
+  import { getWeeksInMonthWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeeksInMonthWithOptions
 }
 
-declare module 'date-fns/esm/fp/getWeekWithOptions/index.js' {
-  import { getWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekWithOptions/index.js' {
+  import { getWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/getWeekYear/index.js' {
-  import { getWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekYear/index.js' {
+  import { getWeekYear } from 'date-fns-jalaali/esm/fp'
   export default getWeekYear
 }
 
-declare module 'date-fns/esm/fp/getWeekYearWithOptions/index.js' {
-  import { getWeekYearWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getWeekYearWithOptions/index.js' {
+  import { getWeekYearWithOptions } from 'date-fns-jalaali/esm/fp'
   export default getWeekYearWithOptions
 }
 
-declare module 'date-fns/esm/fp/getYear/index.js' {
-  import { getYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/getYear/index.js' {
+  import { getYear } from 'date-fns-jalaali/esm/fp'
   export default getYear
 }
 
-declare module 'date-fns/esm/fp/intervalToDuration/index.js' {
-  import { intervalToDuration } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/intervalToDuration/index.js' {
+  import { intervalToDuration } from 'date-fns-jalaali/esm/fp'
   export default intervalToDuration
 }
 
-declare module 'date-fns/esm/fp/isAfter/index.js' {
-  import { isAfter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isAfter/index.js' {
+  import { isAfter } from 'date-fns-jalaali/esm/fp'
   export default isAfter
 }
 
-declare module 'date-fns/esm/fp/isBefore/index.js' {
-  import { isBefore } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isBefore/index.js' {
+  import { isBefore } from 'date-fns-jalaali/esm/fp'
   export default isBefore
 }
 
-declare module 'date-fns/esm/fp/isDate/index.js' {
-  import { isDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isDate/index.js' {
+  import { isDate } from 'date-fns-jalaali/esm/fp'
   export default isDate
 }
 
-declare module 'date-fns/esm/fp/isEqual/index.js' {
-  import { isEqual } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isEqual/index.js' {
+  import { isEqual } from 'date-fns-jalaali/esm/fp'
   export default isEqual
 }
 
-declare module 'date-fns/esm/fp/isExists/index.js' {
-  import { isExists } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isExists/index.js' {
+  import { isExists } from 'date-fns-jalaali/esm/fp'
   export default isExists
 }
 
-declare module 'date-fns/esm/fp/isFirstDayOfMonth/index.js' {
-  import { isFirstDayOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isFirstDayOfMonth/index.js' {
+  import { isFirstDayOfMonth } from 'date-fns-jalaali/esm/fp'
   export default isFirstDayOfMonth
 }
 
-declare module 'date-fns/esm/fp/isFriday/index.js' {
-  import { isFriday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isFriday/index.js' {
+  import { isFriday } from 'date-fns-jalaali/esm/fp'
   export default isFriday
 }
 
-declare module 'date-fns/esm/fp/isLastDayOfMonth/index.js' {
-  import { isLastDayOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isLastDayOfMonth/index.js' {
+  import { isLastDayOfMonth } from 'date-fns-jalaali/esm/fp'
   export default isLastDayOfMonth
 }
 
-declare module 'date-fns/esm/fp/isLeapYear/index.js' {
-  import { isLeapYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isLeapYear/index.js' {
+  import { isLeapYear } from 'date-fns-jalaali/esm/fp'
   export default isLeapYear
 }
 
-declare module 'date-fns/esm/fp/isMonday/index.js' {
-  import { isMonday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isMonday/index.js' {
+  import { isMonday } from 'date-fns-jalaali/esm/fp'
   export default isMonday
 }
 
-declare module 'date-fns/esm/fp/isSameDay/index.js' {
-  import { isSameDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameDay/index.js' {
+  import { isSameDay } from 'date-fns-jalaali/esm/fp'
   export default isSameDay
 }
 
-declare module 'date-fns/esm/fp/isSameHour/index.js' {
-  import { isSameHour } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameHour/index.js' {
+  import { isSameHour } from 'date-fns-jalaali/esm/fp'
   export default isSameHour
 }
 
-declare module 'date-fns/esm/fp/isSameISOWeek/index.js' {
-  import { isSameISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameISOWeek/index.js' {
+  import { isSameISOWeek } from 'date-fns-jalaali/esm/fp'
   export default isSameISOWeek
 }
 
-declare module 'date-fns/esm/fp/isSameISOWeekYear/index.js' {
-  import { isSameISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameISOWeekYear/index.js' {
+  import { isSameISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default isSameISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/isSameMinute/index.js' {
-  import { isSameMinute } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameMinute/index.js' {
+  import { isSameMinute } from 'date-fns-jalaali/esm/fp'
   export default isSameMinute
 }
 
-declare module 'date-fns/esm/fp/isSameMonth/index.js' {
-  import { isSameMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameMonth/index.js' {
+  import { isSameMonth } from 'date-fns-jalaali/esm/fp'
   export default isSameMonth
 }
 
-declare module 'date-fns/esm/fp/isSameQuarter/index.js' {
-  import { isSameQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameQuarter/index.js' {
+  import { isSameQuarter } from 'date-fns-jalaali/esm/fp'
   export default isSameQuarter
 }
 
-declare module 'date-fns/esm/fp/isSameSecond/index.js' {
-  import { isSameSecond } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameSecond/index.js' {
+  import { isSameSecond } from 'date-fns-jalaali/esm/fp'
   export default isSameSecond
 }
 
-declare module 'date-fns/esm/fp/isSameWeek/index.js' {
-  import { isSameWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameWeek/index.js' {
+  import { isSameWeek } from 'date-fns-jalaali/esm/fp'
   export default isSameWeek
 }
 
-declare module 'date-fns/esm/fp/isSameWeekWithOptions/index.js' {
-  import { isSameWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameWeekWithOptions/index.js' {
+  import { isSameWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default isSameWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/isSameYear/index.js' {
-  import { isSameYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSameYear/index.js' {
+  import { isSameYear } from 'date-fns-jalaali/esm/fp'
   export default isSameYear
 }
 
-declare module 'date-fns/esm/fp/isSaturday/index.js' {
-  import { isSaturday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSaturday/index.js' {
+  import { isSaturday } from 'date-fns-jalaali/esm/fp'
   export default isSaturday
 }
 
-declare module 'date-fns/esm/fp/isSunday/index.js' {
-  import { isSunday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isSunday/index.js' {
+  import { isSunday } from 'date-fns-jalaali/esm/fp'
   export default isSunday
 }
 
-declare module 'date-fns/esm/fp/isThursday/index.js' {
-  import { isThursday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isThursday/index.js' {
+  import { isThursday } from 'date-fns-jalaali/esm/fp'
   export default isThursday
 }
 
-declare module 'date-fns/esm/fp/isTuesday/index.js' {
-  import { isTuesday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isTuesday/index.js' {
+  import { isTuesday } from 'date-fns-jalaali/esm/fp'
   export default isTuesday
 }
 
-declare module 'date-fns/esm/fp/isValid/index.js' {
-  import { isValid } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isValid/index.js' {
+  import { isValid } from 'date-fns-jalaali/esm/fp'
   export default isValid
 }
 
-declare module 'date-fns/esm/fp/isWednesday/index.js' {
-  import { isWednesday } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isWednesday/index.js' {
+  import { isWednesday } from 'date-fns-jalaali/esm/fp'
   export default isWednesday
 }
 
-declare module 'date-fns/esm/fp/isWeekend/index.js' {
-  import { isWeekend } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isWeekend/index.js' {
+  import { isWeekend } from 'date-fns-jalaali/esm/fp'
   export default isWeekend
 }
 
-declare module 'date-fns/esm/fp/isWithinInterval/index.js' {
-  import { isWithinInterval } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/isWithinInterval/index.js' {
+  import { isWithinInterval } from 'date-fns-jalaali/esm/fp'
   export default isWithinInterval
 }
 
-declare module 'date-fns/esm/fp/lastDayOfDecade/index.js' {
-  import { lastDayOfDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfDecade/index.js' {
+  import { lastDayOfDecade } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfDecade
 }
 
-declare module 'date-fns/esm/fp/lastDayOfISOWeek/index.js' {
-  import { lastDayOfISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfISOWeek/index.js' {
+  import { lastDayOfISOWeek } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfISOWeek
 }
 
-declare module 'date-fns/esm/fp/lastDayOfISOWeekYear/index.js' {
-  import { lastDayOfISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfISOWeekYear/index.js' {
+  import { lastDayOfISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/lastDayOfMonth/index.js' {
-  import { lastDayOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfMonth/index.js' {
+  import { lastDayOfMonth } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfMonth
 }
 
-declare module 'date-fns/esm/fp/lastDayOfQuarter/index.js' {
-  import { lastDayOfQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfQuarter/index.js' {
+  import { lastDayOfQuarter } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfQuarter
 }
 
-declare module 'date-fns/esm/fp/lastDayOfQuarterWithOptions/index.js' {
-  import { lastDayOfQuarterWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfQuarterWithOptions/index.js' {
+  import { lastDayOfQuarterWithOptions } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfQuarterWithOptions
 }
 
-declare module 'date-fns/esm/fp/lastDayOfWeek/index.js' {
-  import { lastDayOfWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfWeek/index.js' {
+  import { lastDayOfWeek } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfWeek
 }
 
-declare module 'date-fns/esm/fp/lastDayOfWeekWithOptions/index.js' {
-  import { lastDayOfWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfWeekWithOptions/index.js' {
+  import { lastDayOfWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/lastDayOfYear/index.js' {
-  import { lastDayOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lastDayOfYear/index.js' {
+  import { lastDayOfYear } from 'date-fns-jalaali/esm/fp'
   export default lastDayOfYear
 }
 
-declare module 'date-fns/esm/fp/lightFormat/index.js' {
-  import { lightFormat } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/lightFormat/index.js' {
+  import { lightFormat } from 'date-fns-jalaali/esm/fp'
   export default lightFormat
 }
 
-declare module 'date-fns/esm/fp/max/index.js' {
-  import { max } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/max/index.js' {
+  import { max } from 'date-fns-jalaali/esm/fp'
   export default max
 }
 
-declare module 'date-fns/esm/fp/min/index.js' {
-  import { min } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/min/index.js' {
+  import { min } from 'date-fns-jalaali/esm/fp'
   export default min
 }
 
-declare module 'date-fns/esm/fp/parse/index.js' {
-  import { parse } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parse/index.js' {
+  import { parse } from 'date-fns-jalaali/esm/fp'
   export default parse
 }
 
-declare module 'date-fns/esm/fp/parseISO/index.js' {
-  import { parseISO } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseISO/index.js' {
+  import { parseISO } from 'date-fns-jalaali/esm/fp'
   export default parseISO
 }
 
-declare module 'date-fns/esm/fp/parseISOWithOptions/index.js' {
-  import { parseISOWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseISOWithOptions/index.js' {
+  import { parseISOWithOptions } from 'date-fns-jalaali/esm/fp'
   export default parseISOWithOptions
 }
 
-declare module 'date-fns/esm/fp/parseJSON/index.js' {
-  import { parseJSON } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseJSON/index.js' {
+  import { parseJSON } from 'date-fns-jalaali/esm/fp'
   export default parseJSON
 }
 
-declare module 'date-fns/esm/fp/parseWithOptions/index.js' {
-  import { parseWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/parseWithOptions/index.js' {
+  import { parseWithOptions } from 'date-fns-jalaali/esm/fp'
   export default parseWithOptions
 }
 
-declare module 'date-fns/esm/fp/roundToNearestMinutes/index.js' {
-  import { roundToNearestMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/roundToNearestMinutes/index.js' {
+  import { roundToNearestMinutes } from 'date-fns-jalaali/esm/fp'
   export default roundToNearestMinutes
 }
 
-declare module 'date-fns/esm/fp/roundToNearestMinutesWithOptions/index.js' {
-  import { roundToNearestMinutesWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/roundToNearestMinutesWithOptions/index.js' {
+  import { roundToNearestMinutesWithOptions } from 'date-fns-jalaali/esm/fp'
   export default roundToNearestMinutesWithOptions
 }
 
-declare module 'date-fns/esm/fp/set/index.js' {
-  import { set } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/set/index.js' {
+  import { set } from 'date-fns-jalaali/esm/fp'
   export default set
 }
 
-declare module 'date-fns/esm/fp/setDate/index.js' {
-  import { setDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDate/index.js' {
+  import { setDate } from 'date-fns-jalaali/esm/fp'
   export default setDate
 }
 
-declare module 'date-fns/esm/fp/setDay/index.js' {
-  import { setDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDay/index.js' {
+  import { setDay } from 'date-fns-jalaali/esm/fp'
   export default setDay
 }
 
-declare module 'date-fns/esm/fp/setDayOfYear/index.js' {
-  import { setDayOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDayOfYear/index.js' {
+  import { setDayOfYear } from 'date-fns-jalaali/esm/fp'
   export default setDayOfYear
 }
 
-declare module 'date-fns/esm/fp/setDayWithOptions/index.js' {
-  import { setDayWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setDayWithOptions/index.js' {
+  import { setDayWithOptions } from 'date-fns-jalaali/esm/fp'
   export default setDayWithOptions
 }
 
-declare module 'date-fns/esm/fp/setHours/index.js' {
-  import { setHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setHours/index.js' {
+  import { setHours } from 'date-fns-jalaali/esm/fp'
   export default setHours
 }
 
-declare module 'date-fns/esm/fp/setISODay/index.js' {
-  import { setISODay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setISODay/index.js' {
+  import { setISODay } from 'date-fns-jalaali/esm/fp'
   export default setISODay
 }
 
-declare module 'date-fns/esm/fp/setISOWeek/index.js' {
-  import { setISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setISOWeek/index.js' {
+  import { setISOWeek } from 'date-fns-jalaali/esm/fp'
   export default setISOWeek
 }
 
-declare module 'date-fns/esm/fp/setISOWeekYear/index.js' {
-  import { setISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setISOWeekYear/index.js' {
+  import { setISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default setISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/setMilliseconds/index.js' {
-  import { setMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setMilliseconds/index.js' {
+  import { setMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default setMilliseconds
 }
 
-declare module 'date-fns/esm/fp/setMinutes/index.js' {
-  import { setMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setMinutes/index.js' {
+  import { setMinutes } from 'date-fns-jalaali/esm/fp'
   export default setMinutes
 }
 
-declare module 'date-fns/esm/fp/setMonth/index.js' {
-  import { setMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setMonth/index.js' {
+  import { setMonth } from 'date-fns-jalaali/esm/fp'
   export default setMonth
 }
 
-declare module 'date-fns/esm/fp/setQuarter/index.js' {
-  import { setQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setQuarter/index.js' {
+  import { setQuarter } from 'date-fns-jalaali/esm/fp'
   export default setQuarter
 }
 
-declare module 'date-fns/esm/fp/setSeconds/index.js' {
-  import { setSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setSeconds/index.js' {
+  import { setSeconds } from 'date-fns-jalaali/esm/fp'
   export default setSeconds
 }
 
-declare module 'date-fns/esm/fp/setWeek/index.js' {
-  import { setWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeek/index.js' {
+  import { setWeek } from 'date-fns-jalaali/esm/fp'
   export default setWeek
 }
 
-declare module 'date-fns/esm/fp/setWeekWithOptions/index.js' {
-  import { setWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeekWithOptions/index.js' {
+  import { setWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default setWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/setWeekYear/index.js' {
-  import { setWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeekYear/index.js' {
+  import { setWeekYear } from 'date-fns-jalaali/esm/fp'
   export default setWeekYear
 }
 
-declare module 'date-fns/esm/fp/setWeekYearWithOptions/index.js' {
-  import { setWeekYearWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setWeekYearWithOptions/index.js' {
+  import { setWeekYearWithOptions } from 'date-fns-jalaali/esm/fp'
   export default setWeekYearWithOptions
 }
 
-declare module 'date-fns/esm/fp/setYear/index.js' {
-  import { setYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/setYear/index.js' {
+  import { setYear } from 'date-fns-jalaali/esm/fp'
   export default setYear
 }
 
-declare module 'date-fns/esm/fp/startOfDay/index.js' {
-  import { startOfDay } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfDay/index.js' {
+  import { startOfDay } from 'date-fns-jalaali/esm/fp'
   export default startOfDay
 }
 
-declare module 'date-fns/esm/fp/startOfDecade/index.js' {
-  import { startOfDecade } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfDecade/index.js' {
+  import { startOfDecade } from 'date-fns-jalaali/esm/fp'
   export default startOfDecade
 }
 
-declare module 'date-fns/esm/fp/startOfHour/index.js' {
-  import { startOfHour } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfHour/index.js' {
+  import { startOfHour } from 'date-fns-jalaali/esm/fp'
   export default startOfHour
 }
 
-declare module 'date-fns/esm/fp/startOfISOWeek/index.js' {
-  import { startOfISOWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfISOWeek/index.js' {
+  import { startOfISOWeek } from 'date-fns-jalaali/esm/fp'
   export default startOfISOWeek
 }
 
-declare module 'date-fns/esm/fp/startOfISOWeekYear/index.js' {
-  import { startOfISOWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfISOWeekYear/index.js' {
+  import { startOfISOWeekYear } from 'date-fns-jalaali/esm/fp'
   export default startOfISOWeekYear
 }
 
-declare module 'date-fns/esm/fp/startOfMinute/index.js' {
-  import { startOfMinute } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfMinute/index.js' {
+  import { startOfMinute } from 'date-fns-jalaali/esm/fp'
   export default startOfMinute
 }
 
-declare module 'date-fns/esm/fp/startOfMonth/index.js' {
-  import { startOfMonth } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfMonth/index.js' {
+  import { startOfMonth } from 'date-fns-jalaali/esm/fp'
   export default startOfMonth
 }
 
-declare module 'date-fns/esm/fp/startOfQuarter/index.js' {
-  import { startOfQuarter } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfQuarter/index.js' {
+  import { startOfQuarter } from 'date-fns-jalaali/esm/fp'
   export default startOfQuarter
 }
 
-declare module 'date-fns/esm/fp/startOfSecond/index.js' {
-  import { startOfSecond } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfSecond/index.js' {
+  import { startOfSecond } from 'date-fns-jalaali/esm/fp'
   export default startOfSecond
 }
 
-declare module 'date-fns/esm/fp/startOfWeek/index.js' {
-  import { startOfWeek } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeek/index.js' {
+  import { startOfWeek } from 'date-fns-jalaali/esm/fp'
   export default startOfWeek
 }
 
-declare module 'date-fns/esm/fp/startOfWeekWithOptions/index.js' {
-  import { startOfWeekWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeekWithOptions/index.js' {
+  import { startOfWeekWithOptions } from 'date-fns-jalaali/esm/fp'
   export default startOfWeekWithOptions
 }
 
-declare module 'date-fns/esm/fp/startOfWeekYear/index.js' {
-  import { startOfWeekYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeekYear/index.js' {
+  import { startOfWeekYear } from 'date-fns-jalaali/esm/fp'
   export default startOfWeekYear
 }
 
-declare module 'date-fns/esm/fp/startOfWeekYearWithOptions/index.js' {
-  import { startOfWeekYearWithOptions } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfWeekYearWithOptions/index.js' {
+  import { startOfWeekYearWithOptions } from 'date-fns-jalaali/esm/fp'
   export default startOfWeekYearWithOptions
 }
 
-declare module 'date-fns/esm/fp/startOfYear/index.js' {
-  import { startOfYear } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/startOfYear/index.js' {
+  import { startOfYear } from 'date-fns-jalaali/esm/fp'
   export default startOfYear
 }
 
-declare module 'date-fns/esm/fp/sub/index.js' {
-  import { sub } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/sub/index.js' {
+  import { sub } from 'date-fns-jalaali/esm/fp'
   export default sub
 }
 
-declare module 'date-fns/esm/fp/subBusinessDays/index.js' {
-  import { subBusinessDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subBusinessDays/index.js' {
+  import { subBusinessDays } from 'date-fns-jalaali/esm/fp'
   export default subBusinessDays
 }
 
-declare module 'date-fns/esm/fp/subDays/index.js' {
-  import { subDays } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subDays/index.js' {
+  import { subDays } from 'date-fns-jalaali/esm/fp'
   export default subDays
 }
 
-declare module 'date-fns/esm/fp/subHours/index.js' {
-  import { subHours } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subHours/index.js' {
+  import { subHours } from 'date-fns-jalaali/esm/fp'
   export default subHours
 }
 
-declare module 'date-fns/esm/fp/subISOWeekYears/index.js' {
-  import { subISOWeekYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subISOWeekYears/index.js' {
+  import { subISOWeekYears } from 'date-fns-jalaali/esm/fp'
   export default subISOWeekYears
 }
 
-declare module 'date-fns/esm/fp/subMilliseconds/index.js' {
-  import { subMilliseconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subMilliseconds/index.js' {
+  import { subMilliseconds } from 'date-fns-jalaali/esm/fp'
   export default subMilliseconds
 }
 
-declare module 'date-fns/esm/fp/subMinutes/index.js' {
-  import { subMinutes } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subMinutes/index.js' {
+  import { subMinutes } from 'date-fns-jalaali/esm/fp'
   export default subMinutes
 }
 
-declare module 'date-fns/esm/fp/subMonths/index.js' {
-  import { subMonths } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subMonths/index.js' {
+  import { subMonths } from 'date-fns-jalaali/esm/fp'
   export default subMonths
 }
 
-declare module 'date-fns/esm/fp/subQuarters/index.js' {
-  import { subQuarters } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subQuarters/index.js' {
+  import { subQuarters } from 'date-fns-jalaali/esm/fp'
   export default subQuarters
 }
 
-declare module 'date-fns/esm/fp/subSeconds/index.js' {
-  import { subSeconds } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subSeconds/index.js' {
+  import { subSeconds } from 'date-fns-jalaali/esm/fp'
   export default subSeconds
 }
 
-declare module 'date-fns/esm/fp/subWeeks/index.js' {
-  import { subWeeks } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subWeeks/index.js' {
+  import { subWeeks } from 'date-fns-jalaali/esm/fp'
   export default subWeeks
 }
 
-declare module 'date-fns/esm/fp/subYears/index.js' {
-  import { subYears } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/subYears/index.js' {
+  import { subYears } from 'date-fns-jalaali/esm/fp'
   export default subYears
 }
 
-declare module 'date-fns/esm/fp/toDate/index.js' {
-  import { toDate } from 'date-fns/esm/fp'
+declare module 'date-fns-jalaali/esm/fp/toDate/index.js' {
+  import { toDate } from 'date-fns-jalaali/esm/fp'
   export default toDate
 }
 
 // Regular Locales
 
-declare module 'date-fns/locale' {
+declare module 'date-fns-jalaali/locale' {
   const af: Locale
   namespace af {}
 
@@ -15562,1104 +15562,1104 @@ declare module 'date-fns/locale' {
   namespace zhTW {}
 }
 
-declare module 'date-fns/locale/af' {
-  import { af } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/af' {
+  import { af } from 'date-fns-jalaali/locale'
   export default af
 }
 
-declare module 'date-fns/locale/ar' {
-  import { ar } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar' {
+  import { ar } from 'date-fns-jalaali/locale'
   export default ar
 }
 
-declare module 'date-fns/locale/ar-DZ' {
-  import { arDZ } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar-DZ' {
+  import { arDZ } from 'date-fns-jalaali/locale'
   export default arDZ
 }
 
-declare module 'date-fns/locale/ar-MA' {
-  import { arMA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar-MA' {
+  import { arMA } from 'date-fns-jalaali/locale'
   export default arMA
 }
 
-declare module 'date-fns/locale/ar-SA' {
-  import { arSA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar-SA' {
+  import { arSA } from 'date-fns-jalaali/locale'
   export default arSA
 }
 
-declare module 'date-fns/locale/az' {
-  import { az } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/az' {
+  import { az } from 'date-fns-jalaali/locale'
   export default az
 }
 
-declare module 'date-fns/locale/be' {
-  import { be } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/be' {
+  import { be } from 'date-fns-jalaali/locale'
   export default be
 }
 
-declare module 'date-fns/locale/bg' {
-  import { bg } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/bg' {
+  import { bg } from 'date-fns-jalaali/locale'
   export default bg
 }
 
-declare module 'date-fns/locale/bn' {
-  import { bn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/bn' {
+  import { bn } from 'date-fns-jalaali/locale'
   export default bn
 }
 
-declare module 'date-fns/locale/ca' {
-  import { ca } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ca' {
+  import { ca } from 'date-fns-jalaali/locale'
   export default ca
 }
 
-declare module 'date-fns/locale/cs' {
-  import { cs } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/cs' {
+  import { cs } from 'date-fns-jalaali/locale'
   export default cs
 }
 
-declare module 'date-fns/locale/cy' {
-  import { cy } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/cy' {
+  import { cy } from 'date-fns-jalaali/locale'
   export default cy
 }
 
-declare module 'date-fns/locale/da' {
-  import { da } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/da' {
+  import { da } from 'date-fns-jalaali/locale'
   export default da
 }
 
-declare module 'date-fns/locale/de' {
-  import { de } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/de' {
+  import { de } from 'date-fns-jalaali/locale'
   export default de
 }
 
-declare module 'date-fns/locale/el' {
-  import { el } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/el' {
+  import { el } from 'date-fns-jalaali/locale'
   export default el
 }
 
-declare module 'date-fns/locale/en-AU' {
-  import { enAU } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-AU' {
+  import { enAU } from 'date-fns-jalaali/locale'
   export default enAU
 }
 
-declare module 'date-fns/locale/en-CA' {
-  import { enCA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-CA' {
+  import { enCA } from 'date-fns-jalaali/locale'
   export default enCA
 }
 
-declare module 'date-fns/locale/en-GB' {
-  import { enGB } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-GB' {
+  import { enGB } from 'date-fns-jalaali/locale'
   export default enGB
 }
 
-declare module 'date-fns/locale/en-US' {
-  import { enUS } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-US' {
+  import { enUS } from 'date-fns-jalaali/locale'
   export default enUS
 }
 
-declare module 'date-fns/locale/eo' {
-  import { eo } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/eo' {
+  import { eo } from 'date-fns-jalaali/locale'
   export default eo
 }
 
-declare module 'date-fns/locale/es' {
-  import { es } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/es' {
+  import { es } from 'date-fns-jalaali/locale'
   export default es
 }
 
-declare module 'date-fns/locale/et' {
-  import { et } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/et' {
+  import { et } from 'date-fns-jalaali/locale'
   export default et
 }
 
-declare module 'date-fns/locale/fa-IR' {
-  import { faIR } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fa-IR' {
+  import { faIR } from 'date-fns-jalaali/locale'
   export default faIR
 }
 
-declare module 'date-fns/locale/fa-jalaali-IR' {
-  import { fajalaaliIR } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fa-jalaali-IR' {
+  import { fajalaaliIR } from 'date-fns-jalaali/locale'
   export default fajalaaliIR
 }
 
-declare module 'date-fns/locale/fi' {
-  import { fi } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fi' {
+  import { fi } from 'date-fns-jalaali/locale'
   export default fi
 }
 
-declare module 'date-fns/locale/fil' {
-  import { fil } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fil' {
+  import { fil } from 'date-fns-jalaali/locale'
   export default fil
 }
 
-declare module 'date-fns/locale/fr' {
-  import { fr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fr' {
+  import { fr } from 'date-fns-jalaali/locale'
   export default fr
 }
 
-declare module 'date-fns/locale/fr-CA' {
-  import { frCA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fr-CA' {
+  import { frCA } from 'date-fns-jalaali/locale'
   export default frCA
 }
 
-declare module 'date-fns/locale/fr-CH' {
-  import { frCH } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fr-CH' {
+  import { frCH } from 'date-fns-jalaali/locale'
   export default frCH
 }
 
-declare module 'date-fns/locale/gl' {
-  import { gl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/gl' {
+  import { gl } from 'date-fns-jalaali/locale'
   export default gl
 }
 
-declare module 'date-fns/locale/gu' {
-  import { gu } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/gu' {
+  import { gu } from 'date-fns-jalaali/locale'
   export default gu
 }
 
-declare module 'date-fns/locale/he' {
-  import { he } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/he' {
+  import { he } from 'date-fns-jalaali/locale'
   export default he
 }
 
-declare module 'date-fns/locale/hi' {
-  import { hi } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hi' {
+  import { hi } from 'date-fns-jalaali/locale'
   export default hi
 }
 
-declare module 'date-fns/locale/hr' {
-  import { hr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hr' {
+  import { hr } from 'date-fns-jalaali/locale'
   export default hr
 }
 
-declare module 'date-fns/locale/hu' {
-  import { hu } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hu' {
+  import { hu } from 'date-fns-jalaali/locale'
   export default hu
 }
 
-declare module 'date-fns/locale/hy' {
-  import { hy } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hy' {
+  import { hy } from 'date-fns-jalaali/locale'
   export default hy
 }
 
-declare module 'date-fns/locale/id' {
-  import { id } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/id' {
+  import { id } from 'date-fns-jalaali/locale'
   export default id
 }
 
-declare module 'date-fns/locale/is' {
-  import { is } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/is' {
+  import { is } from 'date-fns-jalaali/locale'
   export default is
 }
 
-declare module 'date-fns/locale/it' {
-  import { it } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/it' {
+  import { it } from 'date-fns-jalaali/locale'
   export default it
 }
 
-declare module 'date-fns/locale/ja' {
-  import { ja } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ja' {
+  import { ja } from 'date-fns-jalaali/locale'
   export default ja
 }
 
-declare module 'date-fns/locale/ka' {
-  import { ka } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ka' {
+  import { ka } from 'date-fns-jalaali/locale'
   export default ka
 }
 
-declare module 'date-fns/locale/kk' {
-  import { kk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/kk' {
+  import { kk } from 'date-fns-jalaali/locale'
   export default kk
 }
 
-declare module 'date-fns/locale/kn' {
-  import { kn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/kn' {
+  import { kn } from 'date-fns-jalaali/locale'
   export default kn
 }
 
-declare module 'date-fns/locale/ko' {
-  import { ko } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ko' {
+  import { ko } from 'date-fns-jalaali/locale'
   export default ko
 }
 
-declare module 'date-fns/locale/lt' {
-  import { lt } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/lt' {
+  import { lt } from 'date-fns-jalaali/locale'
   export default lt
 }
 
-declare module 'date-fns/locale/lv' {
-  import { lv } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/lv' {
+  import { lv } from 'date-fns-jalaali/locale'
   export default lv
 }
 
-declare module 'date-fns/locale/mk' {
-  import { mk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/mk' {
+  import { mk } from 'date-fns-jalaali/locale'
   export default mk
 }
 
-declare module 'date-fns/locale/ms' {
-  import { ms } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ms' {
+  import { ms } from 'date-fns-jalaali/locale'
   export default ms
 }
 
-declare module 'date-fns/locale/mt' {
-  import { mt } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/mt' {
+  import { mt } from 'date-fns-jalaali/locale'
   export default mt
 }
 
-declare module 'date-fns/locale/nb' {
-  import { nb } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nb' {
+  import { nb } from 'date-fns-jalaali/locale'
   export default nb
 }
 
-declare module 'date-fns/locale/nl' {
-  import { nl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nl' {
+  import { nl } from 'date-fns-jalaali/locale'
   export default nl
 }
 
-declare module 'date-fns/locale/nl-BE' {
-  import { nlBE } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nl-BE' {
+  import { nlBE } from 'date-fns-jalaali/locale'
   export default nlBE
 }
 
-declare module 'date-fns/locale/nn' {
-  import { nn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nn' {
+  import { nn } from 'date-fns-jalaali/locale'
   export default nn
 }
 
-declare module 'date-fns/locale/pl' {
-  import { pl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/pl' {
+  import { pl } from 'date-fns-jalaali/locale'
   export default pl
 }
 
-declare module 'date-fns/locale/pt' {
-  import { pt } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/pt' {
+  import { pt } from 'date-fns-jalaali/locale'
   export default pt
 }
 
-declare module 'date-fns/locale/pt-BR' {
-  import { ptBR } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/pt-BR' {
+  import { ptBR } from 'date-fns-jalaali/locale'
   export default ptBR
 }
 
-declare module 'date-fns/locale/ro' {
-  import { ro } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ro' {
+  import { ro } from 'date-fns-jalaali/locale'
   export default ro
 }
 
-declare module 'date-fns/locale/ru' {
-  import { ru } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ru' {
+  import { ru } from 'date-fns-jalaali/locale'
   export default ru
 }
 
-declare module 'date-fns/locale/sk' {
-  import { sk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sk' {
+  import { sk } from 'date-fns-jalaali/locale'
   export default sk
 }
 
-declare module 'date-fns/locale/sl' {
-  import { sl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sl' {
+  import { sl } from 'date-fns-jalaali/locale'
   export default sl
 }
 
-declare module 'date-fns/locale/sr' {
-  import { sr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sr' {
+  import { sr } from 'date-fns-jalaali/locale'
   export default sr
 }
 
-declare module 'date-fns/locale/sr-Latn' {
-  import { srLatn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sr-Latn' {
+  import { srLatn } from 'date-fns-jalaali/locale'
   export default srLatn
 }
 
-declare module 'date-fns/locale/sv' {
-  import { sv } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sv' {
+  import { sv } from 'date-fns-jalaali/locale'
   export default sv
 }
 
-declare module 'date-fns/locale/ta' {
-  import { ta } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ta' {
+  import { ta } from 'date-fns-jalaali/locale'
   export default ta
 }
 
-declare module 'date-fns/locale/te' {
-  import { te } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/te' {
+  import { te } from 'date-fns-jalaali/locale'
   export default te
 }
 
-declare module 'date-fns/locale/th' {
-  import { th } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/th' {
+  import { th } from 'date-fns-jalaali/locale'
   export default th
 }
 
-declare module 'date-fns/locale/tr' {
-  import { tr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/tr' {
+  import { tr } from 'date-fns-jalaali/locale'
   export default tr
 }
 
-declare module 'date-fns/locale/ug' {
-  import { ug } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ug' {
+  import { ug } from 'date-fns-jalaali/locale'
   export default ug
 }
 
-declare module 'date-fns/locale/uk' {
-  import { uk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/uk' {
+  import { uk } from 'date-fns-jalaali/locale'
   export default uk
 }
 
-declare module 'date-fns/locale/uz' {
-  import { uz } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/uz' {
+  import { uz } from 'date-fns-jalaali/locale'
   export default uz
 }
 
-declare module 'date-fns/locale/vi' {
-  import { vi } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/vi' {
+  import { vi } from 'date-fns-jalaali/locale'
   export default vi
 }
 
-declare module 'date-fns/locale/zh-CN' {
-  import { zhCN } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/zh-CN' {
+  import { zhCN } from 'date-fns-jalaali/locale'
   export default zhCN
 }
 
-declare module 'date-fns/locale/zh-TW' {
-  import { zhTW } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/zh-TW' {
+  import { zhTW } from 'date-fns-jalaali/locale'
   export default zhTW
 }
 
-declare module 'date-fns/locale/af/index' {
-  import { af } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/af/index' {
+  import { af } from 'date-fns-jalaali/locale'
   export default af
 }
 
-declare module 'date-fns/locale/ar/index' {
-  import { ar } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar/index' {
+  import { ar } from 'date-fns-jalaali/locale'
   export default ar
 }
 
-declare module 'date-fns/locale/ar-DZ/index' {
-  import { arDZ } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar-DZ/index' {
+  import { arDZ } from 'date-fns-jalaali/locale'
   export default arDZ
 }
 
-declare module 'date-fns/locale/ar-MA/index' {
-  import { arMA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar-MA/index' {
+  import { arMA } from 'date-fns-jalaali/locale'
   export default arMA
 }
 
-declare module 'date-fns/locale/ar-SA/index' {
-  import { arSA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar-SA/index' {
+  import { arSA } from 'date-fns-jalaali/locale'
   export default arSA
 }
 
-declare module 'date-fns/locale/az/index' {
-  import { az } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/az/index' {
+  import { az } from 'date-fns-jalaali/locale'
   export default az
 }
 
-declare module 'date-fns/locale/be/index' {
-  import { be } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/be/index' {
+  import { be } from 'date-fns-jalaali/locale'
   export default be
 }
 
-declare module 'date-fns/locale/bg/index' {
-  import { bg } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/bg/index' {
+  import { bg } from 'date-fns-jalaali/locale'
   export default bg
 }
 
-declare module 'date-fns/locale/bn/index' {
-  import { bn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/bn/index' {
+  import { bn } from 'date-fns-jalaali/locale'
   export default bn
 }
 
-declare module 'date-fns/locale/ca/index' {
-  import { ca } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ca/index' {
+  import { ca } from 'date-fns-jalaali/locale'
   export default ca
 }
 
-declare module 'date-fns/locale/cs/index' {
-  import { cs } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/cs/index' {
+  import { cs } from 'date-fns-jalaali/locale'
   export default cs
 }
 
-declare module 'date-fns/locale/cy/index' {
-  import { cy } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/cy/index' {
+  import { cy } from 'date-fns-jalaali/locale'
   export default cy
 }
 
-declare module 'date-fns/locale/da/index' {
-  import { da } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/da/index' {
+  import { da } from 'date-fns-jalaali/locale'
   export default da
 }
 
-declare module 'date-fns/locale/de/index' {
-  import { de } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/de/index' {
+  import { de } from 'date-fns-jalaali/locale'
   export default de
 }
 
-declare module 'date-fns/locale/el/index' {
-  import { el } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/el/index' {
+  import { el } from 'date-fns-jalaali/locale'
   export default el
 }
 
-declare module 'date-fns/locale/en-AU/index' {
-  import { enAU } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-AU/index' {
+  import { enAU } from 'date-fns-jalaali/locale'
   export default enAU
 }
 
-declare module 'date-fns/locale/en-CA/index' {
-  import { enCA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-CA/index' {
+  import { enCA } from 'date-fns-jalaali/locale'
   export default enCA
 }
 
-declare module 'date-fns/locale/en-GB/index' {
-  import { enGB } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-GB/index' {
+  import { enGB } from 'date-fns-jalaali/locale'
   export default enGB
 }
 
-declare module 'date-fns/locale/en-US/index' {
-  import { enUS } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-US/index' {
+  import { enUS } from 'date-fns-jalaali/locale'
   export default enUS
 }
 
-declare module 'date-fns/locale/eo/index' {
-  import { eo } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/eo/index' {
+  import { eo } from 'date-fns-jalaali/locale'
   export default eo
 }
 
-declare module 'date-fns/locale/es/index' {
-  import { es } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/es/index' {
+  import { es } from 'date-fns-jalaali/locale'
   export default es
 }
 
-declare module 'date-fns/locale/et/index' {
-  import { et } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/et/index' {
+  import { et } from 'date-fns-jalaali/locale'
   export default et
 }
 
-declare module 'date-fns/locale/fa-IR/index' {
-  import { faIR } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fa-IR/index' {
+  import { faIR } from 'date-fns-jalaali/locale'
   export default faIR
 }
 
-declare module 'date-fns/locale/fa-jalaali-IR/index' {
-  import { fajalaaliIR } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fa-jalaali-IR/index' {
+  import { fajalaaliIR } from 'date-fns-jalaali/locale'
   export default fajalaaliIR
 }
 
-declare module 'date-fns/locale/fi/index' {
-  import { fi } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fi/index' {
+  import { fi } from 'date-fns-jalaali/locale'
   export default fi
 }
 
-declare module 'date-fns/locale/fil/index' {
-  import { fil } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fil/index' {
+  import { fil } from 'date-fns-jalaali/locale'
   export default fil
 }
 
-declare module 'date-fns/locale/fr/index' {
-  import { fr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fr/index' {
+  import { fr } from 'date-fns-jalaali/locale'
   export default fr
 }
 
-declare module 'date-fns/locale/fr-CA/index' {
-  import { frCA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fr-CA/index' {
+  import { frCA } from 'date-fns-jalaali/locale'
   export default frCA
 }
 
-declare module 'date-fns/locale/fr-CH/index' {
-  import { frCH } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fr-CH/index' {
+  import { frCH } from 'date-fns-jalaali/locale'
   export default frCH
 }
 
-declare module 'date-fns/locale/gl/index' {
-  import { gl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/gl/index' {
+  import { gl } from 'date-fns-jalaali/locale'
   export default gl
 }
 
-declare module 'date-fns/locale/gu/index' {
-  import { gu } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/gu/index' {
+  import { gu } from 'date-fns-jalaali/locale'
   export default gu
 }
 
-declare module 'date-fns/locale/he/index' {
-  import { he } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/he/index' {
+  import { he } from 'date-fns-jalaali/locale'
   export default he
 }
 
-declare module 'date-fns/locale/hi/index' {
-  import { hi } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hi/index' {
+  import { hi } from 'date-fns-jalaali/locale'
   export default hi
 }
 
-declare module 'date-fns/locale/hr/index' {
-  import { hr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hr/index' {
+  import { hr } from 'date-fns-jalaali/locale'
   export default hr
 }
 
-declare module 'date-fns/locale/hu/index' {
-  import { hu } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hu/index' {
+  import { hu } from 'date-fns-jalaali/locale'
   export default hu
 }
 
-declare module 'date-fns/locale/hy/index' {
-  import { hy } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hy/index' {
+  import { hy } from 'date-fns-jalaali/locale'
   export default hy
 }
 
-declare module 'date-fns/locale/id/index' {
-  import { id } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/id/index' {
+  import { id } from 'date-fns-jalaali/locale'
   export default id
 }
 
-declare module 'date-fns/locale/is/index' {
-  import { is } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/is/index' {
+  import { is } from 'date-fns-jalaali/locale'
   export default is
 }
 
-declare module 'date-fns/locale/it/index' {
-  import { it } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/it/index' {
+  import { it } from 'date-fns-jalaali/locale'
   export default it
 }
 
-declare module 'date-fns/locale/ja/index' {
-  import { ja } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ja/index' {
+  import { ja } from 'date-fns-jalaali/locale'
   export default ja
 }
 
-declare module 'date-fns/locale/ka/index' {
-  import { ka } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ka/index' {
+  import { ka } from 'date-fns-jalaali/locale'
   export default ka
 }
 
-declare module 'date-fns/locale/kk/index' {
-  import { kk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/kk/index' {
+  import { kk } from 'date-fns-jalaali/locale'
   export default kk
 }
 
-declare module 'date-fns/locale/kn/index' {
-  import { kn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/kn/index' {
+  import { kn } from 'date-fns-jalaali/locale'
   export default kn
 }
 
-declare module 'date-fns/locale/ko/index' {
-  import { ko } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ko/index' {
+  import { ko } from 'date-fns-jalaali/locale'
   export default ko
 }
 
-declare module 'date-fns/locale/lt/index' {
-  import { lt } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/lt/index' {
+  import { lt } from 'date-fns-jalaali/locale'
   export default lt
 }
 
-declare module 'date-fns/locale/lv/index' {
-  import { lv } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/lv/index' {
+  import { lv } from 'date-fns-jalaali/locale'
   export default lv
 }
 
-declare module 'date-fns/locale/mk/index' {
-  import { mk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/mk/index' {
+  import { mk } from 'date-fns-jalaali/locale'
   export default mk
 }
 
-declare module 'date-fns/locale/ms/index' {
-  import { ms } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ms/index' {
+  import { ms } from 'date-fns-jalaali/locale'
   export default ms
 }
 
-declare module 'date-fns/locale/mt/index' {
-  import { mt } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/mt/index' {
+  import { mt } from 'date-fns-jalaali/locale'
   export default mt
 }
 
-declare module 'date-fns/locale/nb/index' {
-  import { nb } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nb/index' {
+  import { nb } from 'date-fns-jalaali/locale'
   export default nb
 }
 
-declare module 'date-fns/locale/nl/index' {
-  import { nl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nl/index' {
+  import { nl } from 'date-fns-jalaali/locale'
   export default nl
 }
 
-declare module 'date-fns/locale/nl-BE/index' {
-  import { nlBE } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nl-BE/index' {
+  import { nlBE } from 'date-fns-jalaali/locale'
   export default nlBE
 }
 
-declare module 'date-fns/locale/nn/index' {
-  import { nn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nn/index' {
+  import { nn } from 'date-fns-jalaali/locale'
   export default nn
 }
 
-declare module 'date-fns/locale/pl/index' {
-  import { pl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/pl/index' {
+  import { pl } from 'date-fns-jalaali/locale'
   export default pl
 }
 
-declare module 'date-fns/locale/pt/index' {
-  import { pt } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/pt/index' {
+  import { pt } from 'date-fns-jalaali/locale'
   export default pt
 }
 
-declare module 'date-fns/locale/pt-BR/index' {
-  import { ptBR } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/pt-BR/index' {
+  import { ptBR } from 'date-fns-jalaali/locale'
   export default ptBR
 }
 
-declare module 'date-fns/locale/ro/index' {
-  import { ro } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ro/index' {
+  import { ro } from 'date-fns-jalaali/locale'
   export default ro
 }
 
-declare module 'date-fns/locale/ru/index' {
-  import { ru } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ru/index' {
+  import { ru } from 'date-fns-jalaali/locale'
   export default ru
 }
 
-declare module 'date-fns/locale/sk/index' {
-  import { sk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sk/index' {
+  import { sk } from 'date-fns-jalaali/locale'
   export default sk
 }
 
-declare module 'date-fns/locale/sl/index' {
-  import { sl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sl/index' {
+  import { sl } from 'date-fns-jalaali/locale'
   export default sl
 }
 
-declare module 'date-fns/locale/sr/index' {
-  import { sr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sr/index' {
+  import { sr } from 'date-fns-jalaali/locale'
   export default sr
 }
 
-declare module 'date-fns/locale/sr-Latn/index' {
-  import { srLatn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sr-Latn/index' {
+  import { srLatn } from 'date-fns-jalaali/locale'
   export default srLatn
 }
 
-declare module 'date-fns/locale/sv/index' {
-  import { sv } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sv/index' {
+  import { sv } from 'date-fns-jalaali/locale'
   export default sv
 }
 
-declare module 'date-fns/locale/ta/index' {
-  import { ta } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ta/index' {
+  import { ta } from 'date-fns-jalaali/locale'
   export default ta
 }
 
-declare module 'date-fns/locale/te/index' {
-  import { te } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/te/index' {
+  import { te } from 'date-fns-jalaali/locale'
   export default te
 }
 
-declare module 'date-fns/locale/th/index' {
-  import { th } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/th/index' {
+  import { th } from 'date-fns-jalaali/locale'
   export default th
 }
 
-declare module 'date-fns/locale/tr/index' {
-  import { tr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/tr/index' {
+  import { tr } from 'date-fns-jalaali/locale'
   export default tr
 }
 
-declare module 'date-fns/locale/ug/index' {
-  import { ug } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ug/index' {
+  import { ug } from 'date-fns-jalaali/locale'
   export default ug
 }
 
-declare module 'date-fns/locale/uk/index' {
-  import { uk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/uk/index' {
+  import { uk } from 'date-fns-jalaali/locale'
   export default uk
 }
 
-declare module 'date-fns/locale/uz/index' {
-  import { uz } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/uz/index' {
+  import { uz } from 'date-fns-jalaali/locale'
   export default uz
 }
 
-declare module 'date-fns/locale/vi/index' {
-  import { vi } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/vi/index' {
+  import { vi } from 'date-fns-jalaali/locale'
   export default vi
 }
 
-declare module 'date-fns/locale/zh-CN/index' {
-  import { zhCN } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/zh-CN/index' {
+  import { zhCN } from 'date-fns-jalaali/locale'
   export default zhCN
 }
 
-declare module 'date-fns/locale/zh-TW/index' {
-  import { zhTW } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/zh-TW/index' {
+  import { zhTW } from 'date-fns-jalaali/locale'
   export default zhTW
 }
 
-declare module 'date-fns/locale/af/index.js' {
-  import { af } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/af/index.js' {
+  import { af } from 'date-fns-jalaali/locale'
   export default af
 }
 
-declare module 'date-fns/locale/ar/index.js' {
-  import { ar } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar/index.js' {
+  import { ar } from 'date-fns-jalaali/locale'
   export default ar
 }
 
-declare module 'date-fns/locale/ar-DZ/index.js' {
-  import { arDZ } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar-DZ/index.js' {
+  import { arDZ } from 'date-fns-jalaali/locale'
   export default arDZ
 }
 
-declare module 'date-fns/locale/ar-MA/index.js' {
-  import { arMA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar-MA/index.js' {
+  import { arMA } from 'date-fns-jalaali/locale'
   export default arMA
 }
 
-declare module 'date-fns/locale/ar-SA/index.js' {
-  import { arSA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ar-SA/index.js' {
+  import { arSA } from 'date-fns-jalaali/locale'
   export default arSA
 }
 
-declare module 'date-fns/locale/az/index.js' {
-  import { az } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/az/index.js' {
+  import { az } from 'date-fns-jalaali/locale'
   export default az
 }
 
-declare module 'date-fns/locale/be/index.js' {
-  import { be } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/be/index.js' {
+  import { be } from 'date-fns-jalaali/locale'
   export default be
 }
 
-declare module 'date-fns/locale/bg/index.js' {
-  import { bg } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/bg/index.js' {
+  import { bg } from 'date-fns-jalaali/locale'
   export default bg
 }
 
-declare module 'date-fns/locale/bn/index.js' {
-  import { bn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/bn/index.js' {
+  import { bn } from 'date-fns-jalaali/locale'
   export default bn
 }
 
-declare module 'date-fns/locale/ca/index.js' {
-  import { ca } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ca/index.js' {
+  import { ca } from 'date-fns-jalaali/locale'
   export default ca
 }
 
-declare module 'date-fns/locale/cs/index.js' {
-  import { cs } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/cs/index.js' {
+  import { cs } from 'date-fns-jalaali/locale'
   export default cs
 }
 
-declare module 'date-fns/locale/cy/index.js' {
-  import { cy } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/cy/index.js' {
+  import { cy } from 'date-fns-jalaali/locale'
   export default cy
 }
 
-declare module 'date-fns/locale/da/index.js' {
-  import { da } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/da/index.js' {
+  import { da } from 'date-fns-jalaali/locale'
   export default da
 }
 
-declare module 'date-fns/locale/de/index.js' {
-  import { de } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/de/index.js' {
+  import { de } from 'date-fns-jalaali/locale'
   export default de
 }
 
-declare module 'date-fns/locale/el/index.js' {
-  import { el } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/el/index.js' {
+  import { el } from 'date-fns-jalaali/locale'
   export default el
 }
 
-declare module 'date-fns/locale/en-AU/index.js' {
-  import { enAU } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-AU/index.js' {
+  import { enAU } from 'date-fns-jalaali/locale'
   export default enAU
 }
 
-declare module 'date-fns/locale/en-CA/index.js' {
-  import { enCA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-CA/index.js' {
+  import { enCA } from 'date-fns-jalaali/locale'
   export default enCA
 }
 
-declare module 'date-fns/locale/en-GB/index.js' {
-  import { enGB } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-GB/index.js' {
+  import { enGB } from 'date-fns-jalaali/locale'
   export default enGB
 }
 
-declare module 'date-fns/locale/en-US/index.js' {
-  import { enUS } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/en-US/index.js' {
+  import { enUS } from 'date-fns-jalaali/locale'
   export default enUS
 }
 
-declare module 'date-fns/locale/eo/index.js' {
-  import { eo } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/eo/index.js' {
+  import { eo } from 'date-fns-jalaali/locale'
   export default eo
 }
 
-declare module 'date-fns/locale/es/index.js' {
-  import { es } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/es/index.js' {
+  import { es } from 'date-fns-jalaali/locale'
   export default es
 }
 
-declare module 'date-fns/locale/et/index.js' {
-  import { et } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/et/index.js' {
+  import { et } from 'date-fns-jalaali/locale'
   export default et
 }
 
-declare module 'date-fns/locale/fa-IR/index.js' {
-  import { faIR } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fa-IR/index.js' {
+  import { faIR } from 'date-fns-jalaali/locale'
   export default faIR
 }
 
-declare module 'date-fns/locale/fa-jalaali-IR/index.js' {
-  import { fajalaaliIR } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fa-jalaali-IR/index.js' {
+  import { fajalaaliIR } from 'date-fns-jalaali/locale'
   export default fajalaaliIR
 }
 
-declare module 'date-fns/locale/fi/index.js' {
-  import { fi } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fi/index.js' {
+  import { fi } from 'date-fns-jalaali/locale'
   export default fi
 }
 
-declare module 'date-fns/locale/fil/index.js' {
-  import { fil } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fil/index.js' {
+  import { fil } from 'date-fns-jalaali/locale'
   export default fil
 }
 
-declare module 'date-fns/locale/fr/index.js' {
-  import { fr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fr/index.js' {
+  import { fr } from 'date-fns-jalaali/locale'
   export default fr
 }
 
-declare module 'date-fns/locale/fr-CA/index.js' {
-  import { frCA } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fr-CA/index.js' {
+  import { frCA } from 'date-fns-jalaali/locale'
   export default frCA
 }
 
-declare module 'date-fns/locale/fr-CH/index.js' {
-  import { frCH } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/fr-CH/index.js' {
+  import { frCH } from 'date-fns-jalaali/locale'
   export default frCH
 }
 
-declare module 'date-fns/locale/gl/index.js' {
-  import { gl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/gl/index.js' {
+  import { gl } from 'date-fns-jalaali/locale'
   export default gl
 }
 
-declare module 'date-fns/locale/gu/index.js' {
-  import { gu } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/gu/index.js' {
+  import { gu } from 'date-fns-jalaali/locale'
   export default gu
 }
 
-declare module 'date-fns/locale/he/index.js' {
-  import { he } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/he/index.js' {
+  import { he } from 'date-fns-jalaali/locale'
   export default he
 }
 
-declare module 'date-fns/locale/hi/index.js' {
-  import { hi } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hi/index.js' {
+  import { hi } from 'date-fns-jalaali/locale'
   export default hi
 }
 
-declare module 'date-fns/locale/hr/index.js' {
-  import { hr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hr/index.js' {
+  import { hr } from 'date-fns-jalaali/locale'
   export default hr
 }
 
-declare module 'date-fns/locale/hu/index.js' {
-  import { hu } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hu/index.js' {
+  import { hu } from 'date-fns-jalaali/locale'
   export default hu
 }
 
-declare module 'date-fns/locale/hy/index.js' {
-  import { hy } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/hy/index.js' {
+  import { hy } from 'date-fns-jalaali/locale'
   export default hy
 }
 
-declare module 'date-fns/locale/id/index.js' {
-  import { id } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/id/index.js' {
+  import { id } from 'date-fns-jalaali/locale'
   export default id
 }
 
-declare module 'date-fns/locale/is/index.js' {
-  import { is } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/is/index.js' {
+  import { is } from 'date-fns-jalaali/locale'
   export default is
 }
 
-declare module 'date-fns/locale/it/index.js' {
-  import { it } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/it/index.js' {
+  import { it } from 'date-fns-jalaali/locale'
   export default it
 }
 
-declare module 'date-fns/locale/ja/index.js' {
-  import { ja } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ja/index.js' {
+  import { ja } from 'date-fns-jalaali/locale'
   export default ja
 }
 
-declare module 'date-fns/locale/ka/index.js' {
-  import { ka } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ka/index.js' {
+  import { ka } from 'date-fns-jalaali/locale'
   export default ka
 }
 
-declare module 'date-fns/locale/kk/index.js' {
-  import { kk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/kk/index.js' {
+  import { kk } from 'date-fns-jalaali/locale'
   export default kk
 }
 
-declare module 'date-fns/locale/kn/index.js' {
-  import { kn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/kn/index.js' {
+  import { kn } from 'date-fns-jalaali/locale'
   export default kn
 }
 
-declare module 'date-fns/locale/ko/index.js' {
-  import { ko } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ko/index.js' {
+  import { ko } from 'date-fns-jalaali/locale'
   export default ko
 }
 
-declare module 'date-fns/locale/lt/index.js' {
-  import { lt } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/lt/index.js' {
+  import { lt } from 'date-fns-jalaali/locale'
   export default lt
 }
 
-declare module 'date-fns/locale/lv/index.js' {
-  import { lv } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/lv/index.js' {
+  import { lv } from 'date-fns-jalaali/locale'
   export default lv
 }
 
-declare module 'date-fns/locale/mk/index.js' {
-  import { mk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/mk/index.js' {
+  import { mk } from 'date-fns-jalaali/locale'
   export default mk
 }
 
-declare module 'date-fns/locale/ms/index.js' {
-  import { ms } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ms/index.js' {
+  import { ms } from 'date-fns-jalaali/locale'
   export default ms
 }
 
-declare module 'date-fns/locale/mt/index.js' {
-  import { mt } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/mt/index.js' {
+  import { mt } from 'date-fns-jalaali/locale'
   export default mt
 }
 
-declare module 'date-fns/locale/nb/index.js' {
-  import { nb } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nb/index.js' {
+  import { nb } from 'date-fns-jalaali/locale'
   export default nb
 }
 
-declare module 'date-fns/locale/nl/index.js' {
-  import { nl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nl/index.js' {
+  import { nl } from 'date-fns-jalaali/locale'
   export default nl
 }
 
-declare module 'date-fns/locale/nl-BE/index.js' {
-  import { nlBE } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nl-BE/index.js' {
+  import { nlBE } from 'date-fns-jalaali/locale'
   export default nlBE
 }
 
-declare module 'date-fns/locale/nn/index.js' {
-  import { nn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/nn/index.js' {
+  import { nn } from 'date-fns-jalaali/locale'
   export default nn
 }
 
-declare module 'date-fns/locale/pl/index.js' {
-  import { pl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/pl/index.js' {
+  import { pl } from 'date-fns-jalaali/locale'
   export default pl
 }
 
-declare module 'date-fns/locale/pt/index.js' {
-  import { pt } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/pt/index.js' {
+  import { pt } from 'date-fns-jalaali/locale'
   export default pt
 }
 
-declare module 'date-fns/locale/pt-BR/index.js' {
-  import { ptBR } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/pt-BR/index.js' {
+  import { ptBR } from 'date-fns-jalaali/locale'
   export default ptBR
 }
 
-declare module 'date-fns/locale/ro/index.js' {
-  import { ro } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ro/index.js' {
+  import { ro } from 'date-fns-jalaali/locale'
   export default ro
 }
 
-declare module 'date-fns/locale/ru/index.js' {
-  import { ru } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ru/index.js' {
+  import { ru } from 'date-fns-jalaali/locale'
   export default ru
 }
 
-declare module 'date-fns/locale/sk/index.js' {
-  import { sk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sk/index.js' {
+  import { sk } from 'date-fns-jalaali/locale'
   export default sk
 }
 
-declare module 'date-fns/locale/sl/index.js' {
-  import { sl } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sl/index.js' {
+  import { sl } from 'date-fns-jalaali/locale'
   export default sl
 }
 
-declare module 'date-fns/locale/sr/index.js' {
-  import { sr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sr/index.js' {
+  import { sr } from 'date-fns-jalaali/locale'
   export default sr
 }
 
-declare module 'date-fns/locale/sr-Latn/index.js' {
-  import { srLatn } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sr-Latn/index.js' {
+  import { srLatn } from 'date-fns-jalaali/locale'
   export default srLatn
 }
 
-declare module 'date-fns/locale/sv/index.js' {
-  import { sv } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/sv/index.js' {
+  import { sv } from 'date-fns-jalaali/locale'
   export default sv
 }
 
-declare module 'date-fns/locale/ta/index.js' {
-  import { ta } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ta/index.js' {
+  import { ta } from 'date-fns-jalaali/locale'
   export default ta
 }
 
-declare module 'date-fns/locale/te/index.js' {
-  import { te } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/te/index.js' {
+  import { te } from 'date-fns-jalaali/locale'
   export default te
 }
 
-declare module 'date-fns/locale/th/index.js' {
-  import { th } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/th/index.js' {
+  import { th } from 'date-fns-jalaali/locale'
   export default th
 }
 
-declare module 'date-fns/locale/tr/index.js' {
-  import { tr } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/tr/index.js' {
+  import { tr } from 'date-fns-jalaali/locale'
   export default tr
 }
 
-declare module 'date-fns/locale/ug/index.js' {
-  import { ug } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/ug/index.js' {
+  import { ug } from 'date-fns-jalaali/locale'
   export default ug
 }
 
-declare module 'date-fns/locale/uk/index.js' {
-  import { uk } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/uk/index.js' {
+  import { uk } from 'date-fns-jalaali/locale'
   export default uk
 }
 
-declare module 'date-fns/locale/uz/index.js' {
-  import { uz } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/uz/index.js' {
+  import { uz } from 'date-fns-jalaali/locale'
   export default uz
 }
 
-declare module 'date-fns/locale/vi/index.js' {
-  import { vi } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/vi/index.js' {
+  import { vi } from 'date-fns-jalaali/locale'
   export default vi
 }
 
-declare module 'date-fns/locale/zh-CN/index.js' {
-  import { zhCN } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/zh-CN/index.js' {
+  import { zhCN } from 'date-fns-jalaali/locale'
   export default zhCN
 }
 
-declare module 'date-fns/locale/zh-TW/index.js' {
-  import { zhTW } from 'date-fns/locale'
+declare module 'date-fns-jalaali/locale/zh-TW/index.js' {
+  import { zhTW } from 'date-fns-jalaali/locale'
   export default zhTW
 }
 
 // ECMAScript Module Locales
 
-declare module 'date-fns/esm/locale' {
+declare module 'date-fns-jalaali/esm/locale' {
   const af: Locale
   namespace af {}
 
@@ -16880,1098 +16880,1098 @@ declare module 'date-fns/esm/locale' {
   namespace zhTW {}
 }
 
-declare module 'date-fns/esm/locale/af' {
-  import { af } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/af' {
+  import { af } from 'date-fns-jalaali/esm/locale'
   export default af
 }
 
-declare module 'date-fns/esm/locale/ar' {
-  import { ar } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar' {
+  import { ar } from 'date-fns-jalaali/esm/locale'
   export default ar
 }
 
-declare module 'date-fns/esm/locale/ar-DZ' {
-  import { arDZ } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar-DZ' {
+  import { arDZ } from 'date-fns-jalaali/esm/locale'
   export default arDZ
 }
 
-declare module 'date-fns/esm/locale/ar-MA' {
-  import { arMA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar-MA' {
+  import { arMA } from 'date-fns-jalaali/esm/locale'
   export default arMA
 }
 
-declare module 'date-fns/esm/locale/ar-SA' {
-  import { arSA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar-SA' {
+  import { arSA } from 'date-fns-jalaali/esm/locale'
   export default arSA
 }
 
-declare module 'date-fns/esm/locale/az' {
-  import { az } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/az' {
+  import { az } from 'date-fns-jalaali/esm/locale'
   export default az
 }
 
-declare module 'date-fns/esm/locale/be' {
-  import { be } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/be' {
+  import { be } from 'date-fns-jalaali/esm/locale'
   export default be
 }
 
-declare module 'date-fns/esm/locale/bg' {
-  import { bg } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/bg' {
+  import { bg } from 'date-fns-jalaali/esm/locale'
   export default bg
 }
 
-declare module 'date-fns/esm/locale/bn' {
-  import { bn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/bn' {
+  import { bn } from 'date-fns-jalaali/esm/locale'
   export default bn
 }
 
-declare module 'date-fns/esm/locale/ca' {
-  import { ca } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ca' {
+  import { ca } from 'date-fns-jalaali/esm/locale'
   export default ca
 }
 
-declare module 'date-fns/esm/locale/cs' {
-  import { cs } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/cs' {
+  import { cs } from 'date-fns-jalaali/esm/locale'
   export default cs
 }
 
-declare module 'date-fns/esm/locale/cy' {
-  import { cy } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/cy' {
+  import { cy } from 'date-fns-jalaali/esm/locale'
   export default cy
 }
 
-declare module 'date-fns/esm/locale/da' {
-  import { da } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/da' {
+  import { da } from 'date-fns-jalaali/esm/locale'
   export default da
 }
 
-declare module 'date-fns/esm/locale/de' {
-  import { de } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/de' {
+  import { de } from 'date-fns-jalaali/esm/locale'
   export default de
 }
 
-declare module 'date-fns/esm/locale/el' {
-  import { el } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/el' {
+  import { el } from 'date-fns-jalaali/esm/locale'
   export default el
 }
 
-declare module 'date-fns/esm/locale/en-AU' {
-  import { enAU } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-AU' {
+  import { enAU } from 'date-fns-jalaali/esm/locale'
   export default enAU
 }
 
-declare module 'date-fns/esm/locale/en-CA' {
-  import { enCA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-CA' {
+  import { enCA } from 'date-fns-jalaali/esm/locale'
   export default enCA
 }
 
-declare module 'date-fns/esm/locale/en-GB' {
-  import { enGB } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-GB' {
+  import { enGB } from 'date-fns-jalaali/esm/locale'
   export default enGB
 }
 
-declare module 'date-fns/esm/locale/en-US' {
-  import { enUS } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-US' {
+  import { enUS } from 'date-fns-jalaali/esm/locale'
   export default enUS
 }
 
-declare module 'date-fns/esm/locale/eo' {
-  import { eo } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/eo' {
+  import { eo } from 'date-fns-jalaali/esm/locale'
   export default eo
 }
 
-declare module 'date-fns/esm/locale/es' {
-  import { es } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/es' {
+  import { es } from 'date-fns-jalaali/esm/locale'
   export default es
 }
 
-declare module 'date-fns/esm/locale/et' {
-  import { et } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/et' {
+  import { et } from 'date-fns-jalaali/esm/locale'
   export default et
 }
 
-declare module 'date-fns/esm/locale/fa-IR' {
-  import { faIR } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fa-IR' {
+  import { faIR } from 'date-fns-jalaali/esm/locale'
   export default faIR
 }
 
-declare module 'date-fns/esm/locale/fa-jalaali-IR' {
-  import { fajalaaliIR } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fa-jalaali-IR' {
+  import { fajalaaliIR } from 'date-fns-jalaali/esm/locale'
   export default fajalaaliIR
 }
 
-declare module 'date-fns/esm/locale/fi' {
-  import { fi } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fi' {
+  import { fi } from 'date-fns-jalaali/esm/locale'
   export default fi
 }
 
-declare module 'date-fns/esm/locale/fil' {
-  import { fil } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fil' {
+  import { fil } from 'date-fns-jalaali/esm/locale'
   export default fil
 }
 
-declare module 'date-fns/esm/locale/fr' {
-  import { fr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fr' {
+  import { fr } from 'date-fns-jalaali/esm/locale'
   export default fr
 }
 
-declare module 'date-fns/esm/locale/fr-CA' {
-  import { frCA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fr-CA' {
+  import { frCA } from 'date-fns-jalaali/esm/locale'
   export default frCA
 }
 
-declare module 'date-fns/esm/locale/fr-CH' {
-  import { frCH } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fr-CH' {
+  import { frCH } from 'date-fns-jalaali/esm/locale'
   export default frCH
 }
 
-declare module 'date-fns/esm/locale/gl' {
-  import { gl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/gl' {
+  import { gl } from 'date-fns-jalaali/esm/locale'
   export default gl
 }
 
-declare module 'date-fns/esm/locale/gu' {
-  import { gu } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/gu' {
+  import { gu } from 'date-fns-jalaali/esm/locale'
   export default gu
 }
 
-declare module 'date-fns/esm/locale/he' {
-  import { he } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/he' {
+  import { he } from 'date-fns-jalaali/esm/locale'
   export default he
 }
 
-declare module 'date-fns/esm/locale/hi' {
-  import { hi } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hi' {
+  import { hi } from 'date-fns-jalaali/esm/locale'
   export default hi
 }
 
-declare module 'date-fns/esm/locale/hr' {
-  import { hr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hr' {
+  import { hr } from 'date-fns-jalaali/esm/locale'
   export default hr
 }
 
-declare module 'date-fns/esm/locale/hu' {
-  import { hu } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hu' {
+  import { hu } from 'date-fns-jalaali/esm/locale'
   export default hu
 }
 
-declare module 'date-fns/esm/locale/hy' {
-  import { hy } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hy' {
+  import { hy } from 'date-fns-jalaali/esm/locale'
   export default hy
 }
 
-declare module 'date-fns/esm/locale/id' {
-  import { id } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/id' {
+  import { id } from 'date-fns-jalaali/esm/locale'
   export default id
 }
 
-declare module 'date-fns/esm/locale/is' {
-  import { is } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/is' {
+  import { is } from 'date-fns-jalaali/esm/locale'
   export default is
 }
 
-declare module 'date-fns/esm/locale/it' {
-  import { it } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/it' {
+  import { it } from 'date-fns-jalaali/esm/locale'
   export default it
 }
 
-declare module 'date-fns/esm/locale/ja' {
-  import { ja } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ja' {
+  import { ja } from 'date-fns-jalaali/esm/locale'
   export default ja
 }
 
-declare module 'date-fns/esm/locale/ka' {
-  import { ka } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ka' {
+  import { ka } from 'date-fns-jalaali/esm/locale'
   export default ka
 }
 
-declare module 'date-fns/esm/locale/kk' {
-  import { kk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/kk' {
+  import { kk } from 'date-fns-jalaali/esm/locale'
   export default kk
 }
 
-declare module 'date-fns/esm/locale/kn' {
-  import { kn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/kn' {
+  import { kn } from 'date-fns-jalaali/esm/locale'
   export default kn
 }
 
-declare module 'date-fns/esm/locale/ko' {
-  import { ko } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ko' {
+  import { ko } from 'date-fns-jalaali/esm/locale'
   export default ko
 }
 
-declare module 'date-fns/esm/locale/lt' {
-  import { lt } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/lt' {
+  import { lt } from 'date-fns-jalaali/esm/locale'
   export default lt
 }
 
-declare module 'date-fns/esm/locale/lv' {
-  import { lv } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/lv' {
+  import { lv } from 'date-fns-jalaali/esm/locale'
   export default lv
 }
 
-declare module 'date-fns/esm/locale/mk' {
-  import { mk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/mk' {
+  import { mk } from 'date-fns-jalaali/esm/locale'
   export default mk
 }
 
-declare module 'date-fns/esm/locale/ms' {
-  import { ms } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ms' {
+  import { ms } from 'date-fns-jalaali/esm/locale'
   export default ms
 }
 
-declare module 'date-fns/esm/locale/mt' {
-  import { mt } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/mt' {
+  import { mt } from 'date-fns-jalaali/esm/locale'
   export default mt
 }
 
-declare module 'date-fns/esm/locale/nb' {
-  import { nb } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nb' {
+  import { nb } from 'date-fns-jalaali/esm/locale'
   export default nb
 }
 
-declare module 'date-fns/esm/locale/nl' {
-  import { nl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nl' {
+  import { nl } from 'date-fns-jalaali/esm/locale'
   export default nl
 }
 
-declare module 'date-fns/esm/locale/nl-BE' {
-  import { nlBE } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nl-BE' {
+  import { nlBE } from 'date-fns-jalaali/esm/locale'
   export default nlBE
 }
 
-declare module 'date-fns/esm/locale/nn' {
-  import { nn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nn' {
+  import { nn } from 'date-fns-jalaali/esm/locale'
   export default nn
 }
 
-declare module 'date-fns/esm/locale/pl' {
-  import { pl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/pl' {
+  import { pl } from 'date-fns-jalaali/esm/locale'
   export default pl
 }
 
-declare module 'date-fns/esm/locale/pt' {
-  import { pt } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/pt' {
+  import { pt } from 'date-fns-jalaali/esm/locale'
   export default pt
 }
 
-declare module 'date-fns/esm/locale/pt-BR' {
-  import { ptBR } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/pt-BR' {
+  import { ptBR } from 'date-fns-jalaali/esm/locale'
   export default ptBR
 }
 
-declare module 'date-fns/esm/locale/ro' {
-  import { ro } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ro' {
+  import { ro } from 'date-fns-jalaali/esm/locale'
   export default ro
 }
 
-declare module 'date-fns/esm/locale/ru' {
-  import { ru } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ru' {
+  import { ru } from 'date-fns-jalaali/esm/locale'
   export default ru
 }
 
-declare module 'date-fns/esm/locale/sk' {
-  import { sk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sk' {
+  import { sk } from 'date-fns-jalaali/esm/locale'
   export default sk
 }
 
-declare module 'date-fns/esm/locale/sl' {
-  import { sl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sl' {
+  import { sl } from 'date-fns-jalaali/esm/locale'
   export default sl
 }
 
-declare module 'date-fns/esm/locale/sr' {
-  import { sr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sr' {
+  import { sr } from 'date-fns-jalaali/esm/locale'
   export default sr
 }
 
-declare module 'date-fns/esm/locale/sr-Latn' {
-  import { srLatn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sr-Latn' {
+  import { srLatn } from 'date-fns-jalaali/esm/locale'
   export default srLatn
 }
 
-declare module 'date-fns/esm/locale/sv' {
-  import { sv } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sv' {
+  import { sv } from 'date-fns-jalaali/esm/locale'
   export default sv
 }
 
-declare module 'date-fns/esm/locale/ta' {
-  import { ta } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ta' {
+  import { ta } from 'date-fns-jalaali/esm/locale'
   export default ta
 }
 
-declare module 'date-fns/esm/locale/te' {
-  import { te } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/te' {
+  import { te } from 'date-fns-jalaali/esm/locale'
   export default te
 }
 
-declare module 'date-fns/esm/locale/th' {
-  import { th } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/th' {
+  import { th } from 'date-fns-jalaali/esm/locale'
   export default th
 }
 
-declare module 'date-fns/esm/locale/tr' {
-  import { tr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/tr' {
+  import { tr } from 'date-fns-jalaali/esm/locale'
   export default tr
 }
 
-declare module 'date-fns/esm/locale/ug' {
-  import { ug } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ug' {
+  import { ug } from 'date-fns-jalaali/esm/locale'
   export default ug
 }
 
-declare module 'date-fns/esm/locale/uk' {
-  import { uk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/uk' {
+  import { uk } from 'date-fns-jalaali/esm/locale'
   export default uk
 }
 
-declare module 'date-fns/esm/locale/uz' {
-  import { uz } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/uz' {
+  import { uz } from 'date-fns-jalaali/esm/locale'
   export default uz
 }
 
-declare module 'date-fns/esm/locale/vi' {
-  import { vi } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/vi' {
+  import { vi } from 'date-fns-jalaali/esm/locale'
   export default vi
 }
 
-declare module 'date-fns/esm/locale/zh-CN' {
-  import { zhCN } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/zh-CN' {
+  import { zhCN } from 'date-fns-jalaali/esm/locale'
   export default zhCN
 }
 
-declare module 'date-fns/esm/locale/zh-TW' {
-  import { zhTW } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/zh-TW' {
+  import { zhTW } from 'date-fns-jalaali/esm/locale'
   export default zhTW
 }
 
-declare module 'date-fns/esm/locale/af/index' {
-  import { af } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/af/index' {
+  import { af } from 'date-fns-jalaali/esm/locale'
   export default af
 }
 
-declare module 'date-fns/esm/locale/ar/index' {
-  import { ar } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar/index' {
+  import { ar } from 'date-fns-jalaali/esm/locale'
   export default ar
 }
 
-declare module 'date-fns/esm/locale/ar-DZ/index' {
-  import { arDZ } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar-DZ/index' {
+  import { arDZ } from 'date-fns-jalaali/esm/locale'
   export default arDZ
 }
 
-declare module 'date-fns/esm/locale/ar-MA/index' {
-  import { arMA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar-MA/index' {
+  import { arMA } from 'date-fns-jalaali/esm/locale'
   export default arMA
 }
 
-declare module 'date-fns/esm/locale/ar-SA/index' {
-  import { arSA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar-SA/index' {
+  import { arSA } from 'date-fns-jalaali/esm/locale'
   export default arSA
 }
 
-declare module 'date-fns/esm/locale/az/index' {
-  import { az } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/az/index' {
+  import { az } from 'date-fns-jalaali/esm/locale'
   export default az
 }
 
-declare module 'date-fns/esm/locale/be/index' {
-  import { be } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/be/index' {
+  import { be } from 'date-fns-jalaali/esm/locale'
   export default be
 }
 
-declare module 'date-fns/esm/locale/bg/index' {
-  import { bg } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/bg/index' {
+  import { bg } from 'date-fns-jalaali/esm/locale'
   export default bg
 }
 
-declare module 'date-fns/esm/locale/bn/index' {
-  import { bn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/bn/index' {
+  import { bn } from 'date-fns-jalaali/esm/locale'
   export default bn
 }
 
-declare module 'date-fns/esm/locale/ca/index' {
-  import { ca } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ca/index' {
+  import { ca } from 'date-fns-jalaali/esm/locale'
   export default ca
 }
 
-declare module 'date-fns/esm/locale/cs/index' {
-  import { cs } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/cs/index' {
+  import { cs } from 'date-fns-jalaali/esm/locale'
   export default cs
 }
 
-declare module 'date-fns/esm/locale/cy/index' {
-  import { cy } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/cy/index' {
+  import { cy } from 'date-fns-jalaali/esm/locale'
   export default cy
 }
 
-declare module 'date-fns/esm/locale/da/index' {
-  import { da } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/da/index' {
+  import { da } from 'date-fns-jalaali/esm/locale'
   export default da
 }
 
-declare module 'date-fns/esm/locale/de/index' {
-  import { de } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/de/index' {
+  import { de } from 'date-fns-jalaali/esm/locale'
   export default de
 }
 
-declare module 'date-fns/esm/locale/el/index' {
-  import { el } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/el/index' {
+  import { el } from 'date-fns-jalaali/esm/locale'
   export default el
 }
 
-declare module 'date-fns/esm/locale/en-AU/index' {
-  import { enAU } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-AU/index' {
+  import { enAU } from 'date-fns-jalaali/esm/locale'
   export default enAU
 }
 
-declare module 'date-fns/esm/locale/en-CA/index' {
-  import { enCA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-CA/index' {
+  import { enCA } from 'date-fns-jalaali/esm/locale'
   export default enCA
 }
 
-declare module 'date-fns/esm/locale/en-GB/index' {
-  import { enGB } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-GB/index' {
+  import { enGB } from 'date-fns-jalaali/esm/locale'
   export default enGB
 }
 
-declare module 'date-fns/esm/locale/en-US/index' {
-  import { enUS } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-US/index' {
+  import { enUS } from 'date-fns-jalaali/esm/locale'
   export default enUS
 }
 
-declare module 'date-fns/esm/locale/eo/index' {
-  import { eo } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/eo/index' {
+  import { eo } from 'date-fns-jalaali/esm/locale'
   export default eo
 }
 
-declare module 'date-fns/esm/locale/es/index' {
-  import { es } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/es/index' {
+  import { es } from 'date-fns-jalaali/esm/locale'
   export default es
 }
 
-declare module 'date-fns/esm/locale/et/index' {
-  import { et } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/et/index' {
+  import { et } from 'date-fns-jalaali/esm/locale'
   export default et
 }
 
-declare module 'date-fns/esm/locale/fa-IR/index' {
-  import { faIR } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fa-IR/index' {
+  import { faIR } from 'date-fns-jalaali/esm/locale'
   export default faIR
 }
 
-declare module 'date-fns/esm/locale/fa-jalaali-IR/index' {
-  import { fajalaaliIR } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fa-jalaali-IR/index' {
+  import { fajalaaliIR } from 'date-fns-jalaali/esm/locale'
   export default fajalaaliIR
 }
 
-declare module 'date-fns/esm/locale/fi/index' {
-  import { fi } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fi/index' {
+  import { fi } from 'date-fns-jalaali/esm/locale'
   export default fi
 }
 
-declare module 'date-fns/esm/locale/fil/index' {
-  import { fil } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fil/index' {
+  import { fil } from 'date-fns-jalaali/esm/locale'
   export default fil
 }
 
-declare module 'date-fns/esm/locale/fr/index' {
-  import { fr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fr/index' {
+  import { fr } from 'date-fns-jalaali/esm/locale'
   export default fr
 }
 
-declare module 'date-fns/esm/locale/fr-CA/index' {
-  import { frCA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fr-CA/index' {
+  import { frCA } from 'date-fns-jalaali/esm/locale'
   export default frCA
 }
 
-declare module 'date-fns/esm/locale/fr-CH/index' {
-  import { frCH } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fr-CH/index' {
+  import { frCH } from 'date-fns-jalaali/esm/locale'
   export default frCH
 }
 
-declare module 'date-fns/esm/locale/gl/index' {
-  import { gl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/gl/index' {
+  import { gl } from 'date-fns-jalaali/esm/locale'
   export default gl
 }
 
-declare module 'date-fns/esm/locale/gu/index' {
-  import { gu } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/gu/index' {
+  import { gu } from 'date-fns-jalaali/esm/locale'
   export default gu
 }
 
-declare module 'date-fns/esm/locale/he/index' {
-  import { he } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/he/index' {
+  import { he } from 'date-fns-jalaali/esm/locale'
   export default he
 }
 
-declare module 'date-fns/esm/locale/hi/index' {
-  import { hi } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hi/index' {
+  import { hi } from 'date-fns-jalaali/esm/locale'
   export default hi
 }
 
-declare module 'date-fns/esm/locale/hr/index' {
-  import { hr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hr/index' {
+  import { hr } from 'date-fns-jalaali/esm/locale'
   export default hr
 }
 
-declare module 'date-fns/esm/locale/hu/index' {
-  import { hu } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hu/index' {
+  import { hu } from 'date-fns-jalaali/esm/locale'
   export default hu
 }
 
-declare module 'date-fns/esm/locale/hy/index' {
-  import { hy } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hy/index' {
+  import { hy } from 'date-fns-jalaali/esm/locale'
   export default hy
 }
 
-declare module 'date-fns/esm/locale/id/index' {
-  import { id } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/id/index' {
+  import { id } from 'date-fns-jalaali/esm/locale'
   export default id
 }
 
-declare module 'date-fns/esm/locale/is/index' {
-  import { is } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/is/index' {
+  import { is } from 'date-fns-jalaali/esm/locale'
   export default is
 }
 
-declare module 'date-fns/esm/locale/it/index' {
-  import { it } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/it/index' {
+  import { it } from 'date-fns-jalaali/esm/locale'
   export default it
 }
 
-declare module 'date-fns/esm/locale/ja/index' {
-  import { ja } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ja/index' {
+  import { ja } from 'date-fns-jalaali/esm/locale'
   export default ja
 }
 
-declare module 'date-fns/esm/locale/ka/index' {
-  import { ka } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ka/index' {
+  import { ka } from 'date-fns-jalaali/esm/locale'
   export default ka
 }
 
-declare module 'date-fns/esm/locale/kk/index' {
-  import { kk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/kk/index' {
+  import { kk } from 'date-fns-jalaali/esm/locale'
   export default kk
 }
 
-declare module 'date-fns/esm/locale/kn/index' {
-  import { kn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/kn/index' {
+  import { kn } from 'date-fns-jalaali/esm/locale'
   export default kn
 }
 
-declare module 'date-fns/esm/locale/ko/index' {
-  import { ko } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ko/index' {
+  import { ko } from 'date-fns-jalaali/esm/locale'
   export default ko
 }
 
-declare module 'date-fns/esm/locale/lt/index' {
-  import { lt } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/lt/index' {
+  import { lt } from 'date-fns-jalaali/esm/locale'
   export default lt
 }
 
-declare module 'date-fns/esm/locale/lv/index' {
-  import { lv } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/lv/index' {
+  import { lv } from 'date-fns-jalaali/esm/locale'
   export default lv
 }
 
-declare module 'date-fns/esm/locale/mk/index' {
-  import { mk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/mk/index' {
+  import { mk } from 'date-fns-jalaali/esm/locale'
   export default mk
 }
 
-declare module 'date-fns/esm/locale/ms/index' {
-  import { ms } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ms/index' {
+  import { ms } from 'date-fns-jalaali/esm/locale'
   export default ms
 }
 
-declare module 'date-fns/esm/locale/mt/index' {
-  import { mt } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/mt/index' {
+  import { mt } from 'date-fns-jalaali/esm/locale'
   export default mt
 }
 
-declare module 'date-fns/esm/locale/nb/index' {
-  import { nb } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nb/index' {
+  import { nb } from 'date-fns-jalaali/esm/locale'
   export default nb
 }
 
-declare module 'date-fns/esm/locale/nl/index' {
-  import { nl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nl/index' {
+  import { nl } from 'date-fns-jalaali/esm/locale'
   export default nl
 }
 
-declare module 'date-fns/esm/locale/nl-BE/index' {
-  import { nlBE } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nl-BE/index' {
+  import { nlBE } from 'date-fns-jalaali/esm/locale'
   export default nlBE
 }
 
-declare module 'date-fns/esm/locale/nn/index' {
-  import { nn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nn/index' {
+  import { nn } from 'date-fns-jalaali/esm/locale'
   export default nn
 }
 
-declare module 'date-fns/esm/locale/pl/index' {
-  import { pl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/pl/index' {
+  import { pl } from 'date-fns-jalaali/esm/locale'
   export default pl
 }
 
-declare module 'date-fns/esm/locale/pt/index' {
-  import { pt } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/pt/index' {
+  import { pt } from 'date-fns-jalaali/esm/locale'
   export default pt
 }
 
-declare module 'date-fns/esm/locale/pt-BR/index' {
-  import { ptBR } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/pt-BR/index' {
+  import { ptBR } from 'date-fns-jalaali/esm/locale'
   export default ptBR
 }
 
-declare module 'date-fns/esm/locale/ro/index' {
-  import { ro } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ro/index' {
+  import { ro } from 'date-fns-jalaali/esm/locale'
   export default ro
 }
 
-declare module 'date-fns/esm/locale/ru/index' {
-  import { ru } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ru/index' {
+  import { ru } from 'date-fns-jalaali/esm/locale'
   export default ru
 }
 
-declare module 'date-fns/esm/locale/sk/index' {
-  import { sk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sk/index' {
+  import { sk } from 'date-fns-jalaali/esm/locale'
   export default sk
 }
 
-declare module 'date-fns/esm/locale/sl/index' {
-  import { sl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sl/index' {
+  import { sl } from 'date-fns-jalaali/esm/locale'
   export default sl
 }
 
-declare module 'date-fns/esm/locale/sr/index' {
-  import { sr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sr/index' {
+  import { sr } from 'date-fns-jalaali/esm/locale'
   export default sr
 }
 
-declare module 'date-fns/esm/locale/sr-Latn/index' {
-  import { srLatn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sr-Latn/index' {
+  import { srLatn } from 'date-fns-jalaali/esm/locale'
   export default srLatn
 }
 
-declare module 'date-fns/esm/locale/sv/index' {
-  import { sv } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sv/index' {
+  import { sv } from 'date-fns-jalaali/esm/locale'
   export default sv
 }
 
-declare module 'date-fns/esm/locale/ta/index' {
-  import { ta } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ta/index' {
+  import { ta } from 'date-fns-jalaali/esm/locale'
   export default ta
 }
 
-declare module 'date-fns/esm/locale/te/index' {
-  import { te } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/te/index' {
+  import { te } from 'date-fns-jalaali/esm/locale'
   export default te
 }
 
-declare module 'date-fns/esm/locale/th/index' {
-  import { th } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/th/index' {
+  import { th } from 'date-fns-jalaali/esm/locale'
   export default th
 }
 
-declare module 'date-fns/esm/locale/tr/index' {
-  import { tr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/tr/index' {
+  import { tr } from 'date-fns-jalaali/esm/locale'
   export default tr
 }
 
-declare module 'date-fns/esm/locale/ug/index' {
-  import { ug } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ug/index' {
+  import { ug } from 'date-fns-jalaali/esm/locale'
   export default ug
 }
 
-declare module 'date-fns/esm/locale/uk/index' {
-  import { uk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/uk/index' {
+  import { uk } from 'date-fns-jalaali/esm/locale'
   export default uk
 }
 
-declare module 'date-fns/esm/locale/uz/index' {
-  import { uz } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/uz/index' {
+  import { uz } from 'date-fns-jalaali/esm/locale'
   export default uz
 }
 
-declare module 'date-fns/esm/locale/vi/index' {
-  import { vi } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/vi/index' {
+  import { vi } from 'date-fns-jalaali/esm/locale'
   export default vi
 }
 
-declare module 'date-fns/esm/locale/zh-CN/index' {
-  import { zhCN } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/zh-CN/index' {
+  import { zhCN } from 'date-fns-jalaali/esm/locale'
   export default zhCN
 }
 
-declare module 'date-fns/esm/locale/zh-TW/index' {
-  import { zhTW } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/zh-TW/index' {
+  import { zhTW } from 'date-fns-jalaali/esm/locale'
   export default zhTW
 }
 
-declare module 'date-fns/esm/locale/af/index.js' {
-  import { af } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/af/index.js' {
+  import { af } from 'date-fns-jalaali/esm/locale'
   export default af
 }
 
-declare module 'date-fns/esm/locale/ar/index.js' {
-  import { ar } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar/index.js' {
+  import { ar } from 'date-fns-jalaali/esm/locale'
   export default ar
 }
 
-declare module 'date-fns/esm/locale/ar-DZ/index.js' {
-  import { arDZ } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar-DZ/index.js' {
+  import { arDZ } from 'date-fns-jalaali/esm/locale'
   export default arDZ
 }
 
-declare module 'date-fns/esm/locale/ar-MA/index.js' {
-  import { arMA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar-MA/index.js' {
+  import { arMA } from 'date-fns-jalaali/esm/locale'
   export default arMA
 }
 
-declare module 'date-fns/esm/locale/ar-SA/index.js' {
-  import { arSA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ar-SA/index.js' {
+  import { arSA } from 'date-fns-jalaali/esm/locale'
   export default arSA
 }
 
-declare module 'date-fns/esm/locale/az/index.js' {
-  import { az } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/az/index.js' {
+  import { az } from 'date-fns-jalaali/esm/locale'
   export default az
 }
 
-declare module 'date-fns/esm/locale/be/index.js' {
-  import { be } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/be/index.js' {
+  import { be } from 'date-fns-jalaali/esm/locale'
   export default be
 }
 
-declare module 'date-fns/esm/locale/bg/index.js' {
-  import { bg } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/bg/index.js' {
+  import { bg } from 'date-fns-jalaali/esm/locale'
   export default bg
 }
 
-declare module 'date-fns/esm/locale/bn/index.js' {
-  import { bn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/bn/index.js' {
+  import { bn } from 'date-fns-jalaali/esm/locale'
   export default bn
 }
 
-declare module 'date-fns/esm/locale/ca/index.js' {
-  import { ca } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ca/index.js' {
+  import { ca } from 'date-fns-jalaali/esm/locale'
   export default ca
 }
 
-declare module 'date-fns/esm/locale/cs/index.js' {
-  import { cs } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/cs/index.js' {
+  import { cs } from 'date-fns-jalaali/esm/locale'
   export default cs
 }
 
-declare module 'date-fns/esm/locale/cy/index.js' {
-  import { cy } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/cy/index.js' {
+  import { cy } from 'date-fns-jalaali/esm/locale'
   export default cy
 }
 
-declare module 'date-fns/esm/locale/da/index.js' {
-  import { da } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/da/index.js' {
+  import { da } from 'date-fns-jalaali/esm/locale'
   export default da
 }
 
-declare module 'date-fns/esm/locale/de/index.js' {
-  import { de } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/de/index.js' {
+  import { de } from 'date-fns-jalaali/esm/locale'
   export default de
 }
 
-declare module 'date-fns/esm/locale/el/index.js' {
-  import { el } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/el/index.js' {
+  import { el } from 'date-fns-jalaali/esm/locale'
   export default el
 }
 
-declare module 'date-fns/esm/locale/en-AU/index.js' {
-  import { enAU } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-AU/index.js' {
+  import { enAU } from 'date-fns-jalaali/esm/locale'
   export default enAU
 }
 
-declare module 'date-fns/esm/locale/en-CA/index.js' {
-  import { enCA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-CA/index.js' {
+  import { enCA } from 'date-fns-jalaali/esm/locale'
   export default enCA
 }
 
-declare module 'date-fns/esm/locale/en-GB/index.js' {
-  import { enGB } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-GB/index.js' {
+  import { enGB } from 'date-fns-jalaali/esm/locale'
   export default enGB
 }
 
-declare module 'date-fns/esm/locale/en-US/index.js' {
-  import { enUS } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/en-US/index.js' {
+  import { enUS } from 'date-fns-jalaali/esm/locale'
   export default enUS
 }
 
-declare module 'date-fns/esm/locale/eo/index.js' {
-  import { eo } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/eo/index.js' {
+  import { eo } from 'date-fns-jalaali/esm/locale'
   export default eo
 }
 
-declare module 'date-fns/esm/locale/es/index.js' {
-  import { es } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/es/index.js' {
+  import { es } from 'date-fns-jalaali/esm/locale'
   export default es
 }
 
-declare module 'date-fns/esm/locale/et/index.js' {
-  import { et } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/et/index.js' {
+  import { et } from 'date-fns-jalaali/esm/locale'
   export default et
 }
 
-declare module 'date-fns/esm/locale/fa-IR/index.js' {
-  import { faIR } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fa-IR/index.js' {
+  import { faIR } from 'date-fns-jalaali/esm/locale'
   export default faIR
 }
 
-declare module 'date-fns/esm/locale/fa-jalaali-IR/index.js' {
-  import { fajalaaliIR } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fa-jalaali-IR/index.js' {
+  import { fajalaaliIR } from 'date-fns-jalaali/esm/locale'
   export default fajalaaliIR
 }
 
-declare module 'date-fns/esm/locale/fi/index.js' {
-  import { fi } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fi/index.js' {
+  import { fi } from 'date-fns-jalaali/esm/locale'
   export default fi
 }
 
-declare module 'date-fns/esm/locale/fil/index.js' {
-  import { fil } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fil/index.js' {
+  import { fil } from 'date-fns-jalaali/esm/locale'
   export default fil
 }
 
-declare module 'date-fns/esm/locale/fr/index.js' {
-  import { fr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fr/index.js' {
+  import { fr } from 'date-fns-jalaali/esm/locale'
   export default fr
 }
 
-declare module 'date-fns/esm/locale/fr-CA/index.js' {
-  import { frCA } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fr-CA/index.js' {
+  import { frCA } from 'date-fns-jalaali/esm/locale'
   export default frCA
 }
 
-declare module 'date-fns/esm/locale/fr-CH/index.js' {
-  import { frCH } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/fr-CH/index.js' {
+  import { frCH } from 'date-fns-jalaali/esm/locale'
   export default frCH
 }
 
-declare module 'date-fns/esm/locale/gl/index.js' {
-  import { gl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/gl/index.js' {
+  import { gl } from 'date-fns-jalaali/esm/locale'
   export default gl
 }
 
-declare module 'date-fns/esm/locale/gu/index.js' {
-  import { gu } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/gu/index.js' {
+  import { gu } from 'date-fns-jalaali/esm/locale'
   export default gu
 }
 
-declare module 'date-fns/esm/locale/he/index.js' {
-  import { he } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/he/index.js' {
+  import { he } from 'date-fns-jalaali/esm/locale'
   export default he
 }
 
-declare module 'date-fns/esm/locale/hi/index.js' {
-  import { hi } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hi/index.js' {
+  import { hi } from 'date-fns-jalaali/esm/locale'
   export default hi
 }
 
-declare module 'date-fns/esm/locale/hr/index.js' {
-  import { hr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hr/index.js' {
+  import { hr } from 'date-fns-jalaali/esm/locale'
   export default hr
 }
 
-declare module 'date-fns/esm/locale/hu/index.js' {
-  import { hu } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hu/index.js' {
+  import { hu } from 'date-fns-jalaali/esm/locale'
   export default hu
 }
 
-declare module 'date-fns/esm/locale/hy/index.js' {
-  import { hy } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/hy/index.js' {
+  import { hy } from 'date-fns-jalaali/esm/locale'
   export default hy
 }
 
-declare module 'date-fns/esm/locale/id/index.js' {
-  import { id } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/id/index.js' {
+  import { id } from 'date-fns-jalaali/esm/locale'
   export default id
 }
 
-declare module 'date-fns/esm/locale/is/index.js' {
-  import { is } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/is/index.js' {
+  import { is } from 'date-fns-jalaali/esm/locale'
   export default is
 }
 
-declare module 'date-fns/esm/locale/it/index.js' {
-  import { it } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/it/index.js' {
+  import { it } from 'date-fns-jalaali/esm/locale'
   export default it
 }
 
-declare module 'date-fns/esm/locale/ja/index.js' {
-  import { ja } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ja/index.js' {
+  import { ja } from 'date-fns-jalaali/esm/locale'
   export default ja
 }
 
-declare module 'date-fns/esm/locale/ka/index.js' {
-  import { ka } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ka/index.js' {
+  import { ka } from 'date-fns-jalaali/esm/locale'
   export default ka
 }
 
-declare module 'date-fns/esm/locale/kk/index.js' {
-  import { kk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/kk/index.js' {
+  import { kk } from 'date-fns-jalaali/esm/locale'
   export default kk
 }
 
-declare module 'date-fns/esm/locale/kn/index.js' {
-  import { kn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/kn/index.js' {
+  import { kn } from 'date-fns-jalaali/esm/locale'
   export default kn
 }
 
-declare module 'date-fns/esm/locale/ko/index.js' {
-  import { ko } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ko/index.js' {
+  import { ko } from 'date-fns-jalaali/esm/locale'
   export default ko
 }
 
-declare module 'date-fns/esm/locale/lt/index.js' {
-  import { lt } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/lt/index.js' {
+  import { lt } from 'date-fns-jalaali/esm/locale'
   export default lt
 }
 
-declare module 'date-fns/esm/locale/lv/index.js' {
-  import { lv } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/lv/index.js' {
+  import { lv } from 'date-fns-jalaali/esm/locale'
   export default lv
 }
 
-declare module 'date-fns/esm/locale/mk/index.js' {
-  import { mk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/mk/index.js' {
+  import { mk } from 'date-fns-jalaali/esm/locale'
   export default mk
 }
 
-declare module 'date-fns/esm/locale/ms/index.js' {
-  import { ms } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ms/index.js' {
+  import { ms } from 'date-fns-jalaali/esm/locale'
   export default ms
 }
 
-declare module 'date-fns/esm/locale/mt/index.js' {
-  import { mt } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/mt/index.js' {
+  import { mt } from 'date-fns-jalaali/esm/locale'
   export default mt
 }
 
-declare module 'date-fns/esm/locale/nb/index.js' {
-  import { nb } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nb/index.js' {
+  import { nb } from 'date-fns-jalaali/esm/locale'
   export default nb
 }
 
-declare module 'date-fns/esm/locale/nl/index.js' {
-  import { nl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nl/index.js' {
+  import { nl } from 'date-fns-jalaali/esm/locale'
   export default nl
 }
 
-declare module 'date-fns/esm/locale/nl-BE/index.js' {
-  import { nlBE } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nl-BE/index.js' {
+  import { nlBE } from 'date-fns-jalaali/esm/locale'
   export default nlBE
 }
 
-declare module 'date-fns/esm/locale/nn/index.js' {
-  import { nn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/nn/index.js' {
+  import { nn } from 'date-fns-jalaali/esm/locale'
   export default nn
 }
 
-declare module 'date-fns/esm/locale/pl/index.js' {
-  import { pl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/pl/index.js' {
+  import { pl } from 'date-fns-jalaali/esm/locale'
   export default pl
 }
 
-declare module 'date-fns/esm/locale/pt/index.js' {
-  import { pt } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/pt/index.js' {
+  import { pt } from 'date-fns-jalaali/esm/locale'
   export default pt
 }
 
-declare module 'date-fns/esm/locale/pt-BR/index.js' {
-  import { ptBR } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/pt-BR/index.js' {
+  import { ptBR } from 'date-fns-jalaali/esm/locale'
   export default ptBR
 }
 
-declare module 'date-fns/esm/locale/ro/index.js' {
-  import { ro } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ro/index.js' {
+  import { ro } from 'date-fns-jalaali/esm/locale'
   export default ro
 }
 
-declare module 'date-fns/esm/locale/ru/index.js' {
-  import { ru } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ru/index.js' {
+  import { ru } from 'date-fns-jalaali/esm/locale'
   export default ru
 }
 
-declare module 'date-fns/esm/locale/sk/index.js' {
-  import { sk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sk/index.js' {
+  import { sk } from 'date-fns-jalaali/esm/locale'
   export default sk
 }
 
-declare module 'date-fns/esm/locale/sl/index.js' {
-  import { sl } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sl/index.js' {
+  import { sl } from 'date-fns-jalaali/esm/locale'
   export default sl
 }
 
-declare module 'date-fns/esm/locale/sr/index.js' {
-  import { sr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sr/index.js' {
+  import { sr } from 'date-fns-jalaali/esm/locale'
   export default sr
 }
 
-declare module 'date-fns/esm/locale/sr-Latn/index.js' {
-  import { srLatn } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sr-Latn/index.js' {
+  import { srLatn } from 'date-fns-jalaali/esm/locale'
   export default srLatn
 }
 
-declare module 'date-fns/esm/locale/sv/index.js' {
-  import { sv } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/sv/index.js' {
+  import { sv } from 'date-fns-jalaali/esm/locale'
   export default sv
 }
 
-declare module 'date-fns/esm/locale/ta/index.js' {
-  import { ta } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ta/index.js' {
+  import { ta } from 'date-fns-jalaali/esm/locale'
   export default ta
 }
 
-declare module 'date-fns/esm/locale/te/index.js' {
-  import { te } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/te/index.js' {
+  import { te } from 'date-fns-jalaali/esm/locale'
   export default te
 }
 
-declare module 'date-fns/esm/locale/th/index.js' {
-  import { th } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/th/index.js' {
+  import { th } from 'date-fns-jalaali/esm/locale'
   export default th
 }
 
-declare module 'date-fns/esm/locale/tr/index.js' {
-  import { tr } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/tr/index.js' {
+  import { tr } from 'date-fns-jalaali/esm/locale'
   export default tr
 }
 
-declare module 'date-fns/esm/locale/ug/index.js' {
-  import { ug } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/ug/index.js' {
+  import { ug } from 'date-fns-jalaali/esm/locale'
   export default ug
 }
 
-declare module 'date-fns/esm/locale/uk/index.js' {
-  import { uk } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/uk/index.js' {
+  import { uk } from 'date-fns-jalaali/esm/locale'
   export default uk
 }
 
-declare module 'date-fns/esm/locale/uz/index.js' {
-  import { uz } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/uz/index.js' {
+  import { uz } from 'date-fns-jalaali/esm/locale'
   export default uz
 }
 
-declare module 'date-fns/esm/locale/vi/index.js' {
-  import { vi } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/vi/index.js' {
+  import { vi } from 'date-fns-jalaali/esm/locale'
   export default vi
 }
 
-declare module 'date-fns/esm/locale/zh-CN/index.js' {
-  import { zhCN } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/zh-CN/index.js' {
+  import { zhCN } from 'date-fns-jalaali/esm/locale'
   export default zhCN
 }
 
-declare module 'date-fns/esm/locale/zh-TW/index.js' {
-  import { zhTW } from 'date-fns/esm/locale'
+declare module 'date-fns-jalaali/esm/locale/zh-TW/index.js' {
+  import { zhTW } from 'date-fns-jalaali/esm/locale'
   export default zhTW
 }
 
