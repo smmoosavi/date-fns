@@ -142,7 +142,8 @@ var formattingDayPeriodValues = {
 }
 
 function ordinalNumber(dirtyNumber) {
-  return String(dirtyNumber)
+  var number = Number(dirtyNumber)
+  return number + '-ام'
 }
 
 var localize = {
